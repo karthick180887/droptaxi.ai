@@ -1,0 +1,1312 @@
+﻿{
+    "summary":  {
+                    "mapped_urls":  216,
+                    "missing_files":  0,
+                    "local_html_count":  232,
+                    "route_pages":  95,
+                    "city_pages":  85,
+                    "airport_pages":  9,
+                    "service_pages":  26
+                },
+    "missing":  [
+
+                ],
+    "map":  [
+                {
+                    "url":  "https://go2onewaytaxi.com/",
+                    "slug":  "home",
+                    "filename":  "index.html",
+                    "type":  "home"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/about-us/",
+                    "slug":  "about-us",
+                    "filename":  "about-us.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/airport-taxi-hosur/",
+                    "slug":  "airport-taxi-hosur",
+                    "filename":  "airport-taxi-hosur.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/airport-taxi-in-bangalore/",
+                    "slug":  "airport-taxi-in-bangalore",
+                    "filename":  "airport-taxi-in-bangalore.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/airport-taxi-in-chennai/",
+                    "slug":  "airport-taxi-in-chennai",
+                    "filename":  "airport-taxi-in-chennai.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/airport-taxi-mangalore/",
+                    "slug":  "airport-taxi-mangalore",
+                    "filename":  "airport-taxi-mangalore.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/ambur-call-taxi/",
+                    "slug":  "ambur-call-taxi",
+                    "filename":  "ambur-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/arani-call-taxi/",
+                    "slug":  "arani-call-taxi",
+                    "filename":  "arani-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/ariyalur-call-taxi/",
+                    "slug":  "ariyalur-call-taxi",
+                    "filename":  "ariyalur-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/avinashi-call-taxi/",
+                    "slug":  "avinashi-call-taxi",
+                    "filename":  "avinashi-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-chikmagalur-taxi/",
+                    "slug":  "bangalore-to-chikmagalur-taxi",
+                    "filename":  "bangalore-to-chikmagalur-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-coimbatore-taxi/",
+                    "slug":  "bangalore-to-coimbatore-taxi",
+                    "filename":  "bangalore-to-coimbatore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-coorg-taxi/",
+                    "slug":  "bangalore-to-coorg-taxi",
+                    "filename":  "bangalore-to-coorg-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-hampi-taxi/",
+                    "slug":  "bangalore-to-hampi-taxi",
+                    "filename":  "bangalore-to-hampi-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-hosur-taxi/",
+                    "slug":  "bangalore-to-hosur-taxi",
+                    "filename":  "bangalore-to-hosur-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-hyderabad-taxi/",
+                    "slug":  "bangalore-to-hyderabad-taxi",
+                    "filename":  "bangalore-to-hyderabad-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-kodaikanal-taxi/",
+                    "slug":  "bangalore-to-kodaikanal-taxi",
+                    "filename":  "bangalore-to-kodaikanal-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-madurai-taxi/",
+                    "slug":  "bangalore-to-madurai-taxi",
+                    "filename":  "bangalore-to-madurai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-mangalore-taxi/",
+                    "slug":  "bangalore-to-mangalore-taxi",
+                    "filename":  "bangalore-to-mangalore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-munnar-cab/",
+                    "slug":  "bangalore-to-munnar-cab",
+                    "filename":  "bangalore-to-munnar-cab.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+                    "slug":  "bangalore-to-mysore-taxi",
+                    "filename":  "bangalore-to-mysore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-rameshwaram-taxi/",
+                    "slug":  "bangalore-to-rameshwaram-taxi",
+                    "filename":  "bangalore-to-rameshwaram-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-tirupati-taxi/",
+                    "slug":  "bangalore-to-tirupati-taxi",
+                    "filename":  "bangalore-to-tirupati-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-tiruvannamalai-taxi/",
+                    "slug":  "bangalore-to-tiruvannamalai-taxi",
+                    "filename":  "bangalore-to-tiruvannamalai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-trichy-taxi/",
+                    "slug":  "bangalore-to-trichy-taxi",
+                    "filename":  "bangalore-to-trichy-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-vellore-taxi/",
+                    "slug":  "bangalore-to-vellore-taxi",
+                    "filename":  "bangalore-to-vellore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/bangalore-to-wayanad-taxi/",
+                    "slug":  "bangalore-to-wayanad-taxi",
+                    "filename":  "bangalore-to-wayanad-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/blogs/",
+                    "slug":  "blogs",
+                    "filename":  "blogs.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/book-now/",
+                    "slug":  "book-now",
+                    "filename":  "book-now.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-ambattur/",
+                    "slug":  "call-taxi-ambattur",
+                    "filename":  "call-taxi-ambattur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-bhavani/",
+                    "slug":  "call-taxi-bhavani",
+                    "filename":  "call-taxi-bhavani.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-chidambaram/",
+                    "slug":  "call-taxi-chidambaram",
+                    "filename":  "call-taxi-chidambaram.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-gobichettipalayam/",
+                    "slug":  "call-taxi-gobichettipalayam",
+                    "filename":  "call-taxi-gobichettipalayam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-adyar/",
+                    "slug":  "call-taxi-in-adyar",
+                    "filename":  "call-taxi-in-adyar.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-erode/",
+                    "slug":  "call-taxi-in-erode",
+                    "filename":  "call-taxi-in-erode.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-kanchipuram/",
+                    "slug":  "call-taxi-in-kanchipuram",
+                    "filename":  "call-taxi-in-kanchipuram.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-karur/",
+                    "slug":  "call-taxi-in-karur",
+                    "filename":  "call-taxi-in-karur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-kodaikanal/",
+                    "slug":  "call-taxi-in-kodaikanal",
+                    "filename":  "call-taxi-in-kodaikanal.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-medavakkam/",
+                    "slug":  "call-taxi-in-medavakkam",
+                    "filename":  "call-taxi-in-medavakkam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-mettupalayam/",
+                    "slug":  "call-taxi-in-mettupalayam",
+                    "filename":  "call-taxi-in-mettupalayam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-mylapore/",
+                    "slug":  "call-taxi-in-mylapore",
+                    "filename":  "call-taxi-in-mylapore.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-ooty/",
+                    "slug":  "call-taxi-in-ooty",
+                    "filename":  "call-taxi-in-ooty.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-palakkad/",
+                    "slug":  "call-taxi-in-palakkad",
+                    "filename":  "call-taxi-in-palakkad.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-palladam/",
+                    "slug":  "call-taxi-in-palladam",
+                    "filename":  "call-taxi-in-palladam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-paramakudi/",
+                    "slug":  "call-taxi-in-paramakudi",
+                    "filename":  "call-taxi-in-paramakudi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-pollachi/",
+                    "slug":  "call-taxi-in-pollachi",
+                    "filename":  "call-taxi-in-pollachi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-tambaram/",
+                    "slug":  "call-taxi-in-tambaram",
+                    "filename":  "call-taxi-in-tambaram.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+                    "slug":  "call-taxi-in-tirupur",
+                    "filename":  "call-taxi-in-tirupur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-tiruvannamalai/",
+                    "slug":  "call-taxi-in-tiruvannamalai",
+                    "filename":  "call-taxi-in-tiruvannamalai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-tuticorin/",
+                    "slug":  "call-taxi-in-tuticorin",
+                    "filename":  "call-taxi-in-tuticorin.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-udumalpet/",
+                    "slug":  "call-taxi-in-udumalpet",
+                    "filename":  "call-taxi-in-udumalpet.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-in-vellore/",
+                    "slug":  "call-taxi-in-vellore",
+                    "filename":  "call-taxi-in-vellore.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-kanyakumari/",
+                    "slug":  "call-taxi-kanyakumari",
+                    "filename":  "call-taxi-kanyakumari.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-karaikal/",
+                    "slug":  "call-taxi-karaikal",
+                    "filename":  "call-taxi-karaikal.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-karaikudi/",
+                    "slug":  "call-taxi-karaikudi",
+                    "filename":  "call-taxi-karaikudi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-katpadi/",
+                    "slug":  "call-taxi-katpadi",
+                    "filename":  "call-taxi-katpadi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-mayiladuthurai/",
+                    "slug":  "call-taxi-mayiladuthurai",
+                    "filename":  "call-taxi-mayiladuthurai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-nagercoil/",
+                    "slug":  "call-taxi-nagercoil",
+                    "filename":  "call-taxi-nagercoil.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-perambalur/",
+                    "slug":  "call-taxi-perambalur",
+                    "filename":  "call-taxi-perambalur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-perambur/",
+                    "slug":  "call-taxi-perambur",
+                    "filename":  "call-taxi-perambur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-perundurai/",
+                    "slug":  "call-taxi-perundurai",
+                    "filename":  "call-taxi-perundurai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-porur/",
+                    "slug":  "call-taxi-porur",
+                    "filename":  "call-taxi-porur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-salem/",
+                    "slug":  "call-taxi-salem",
+                    "filename":  "call-taxi-salem.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-sriperumbudur/",
+                    "slug":  "call-taxi-sriperumbudur",
+                    "filename":  "call-taxi-sriperumbudur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-tindivanam/",
+                    "slug":  "call-taxi-tindivanam",
+                    "filename":  "call-taxi-tindivanam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-tiruchengode/",
+                    "slug":  "call-taxi-tiruchengode",
+                    "filename":  "call-taxi-tiruchengode.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-virudhachalam/",
+                    "slug":  "call-taxi-virudhachalam",
+                    "filename":  "call-taxi-virudhachalam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/call-taxi-virudhunagar/",
+                    "slug":  "call-taxi-virudhunagar",
+                    "filename":  "call-taxi-virudhunagar.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/category/uncategorized/",
+                    "slug":  "category/uncategorized",
+                    "filename":  "category-uncategorized.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-airport-to-cmc-vellore-taxi/",
+                    "slug":  "chennai-airport-to-cmc-vellore-taxi",
+                    "filename":  "chennai-airport-to-cmc-vellore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-bangalore-taxi/",
+                    "slug":  "chennai-to-bangalore-taxi",
+                    "filename":  "chennai-to-bangalore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-coimbatore-taxi/",
+                    "slug":  "chennai-to-coimbatore-taxi",
+                    "filename":  "chennai-to-coimbatore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-cuddalore-taxi/",
+                    "slug":  "chennai-to-cuddalore-taxi",
+                    "filename":  "chennai-to-cuddalore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-kanchipuram-taxi/",
+                    "slug":  "chennai-to-kanchipuram-taxi",
+                    "filename":  "chennai-to-kanchipuram-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-karaikudi-taxi/",
+                    "slug":  "chennai-to-karaikudi-taxi",
+                    "filename":  "chennai-to-karaikudi-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-kodaikanal-taxi/",
+                    "slug":  "chennai-to-kodaikanal-taxi",
+                    "filename":  "chennai-to-kodaikanal-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-kumbakonam-taxi/",
+                    "slug":  "chennai-to-kumbakonam-taxi",
+                    "filename":  "chennai-to-kumbakonam-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-madurai-taxi/",
+                    "slug":  "chennai-to-madurai-taxi",
+                    "filename":  "chennai-to-madurai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-mahabalipuram-taxi/",
+                    "slug":  "chennai-to-mahabalipuram-taxi",
+                    "filename":  "chennai-to-mahabalipuram-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-neyveli-taxi/",
+                    "slug":  "chennai-to-neyveli-taxi",
+                    "filename":  "chennai-to-neyveli-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+                    "slug":  "chennai-to-pondicherry-taxi",
+                    "filename":  "chennai-to-pondicherry-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-rameshwaram-taxi/",
+                    "slug":  "chennai-to-rameshwaram-taxi",
+                    "filename":  "chennai-to-rameshwaram-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-ranipet-taxi/",
+                    "slug":  "chennai-to-ranipet-taxi",
+                    "filename":  "chennai-to-ranipet-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-salem-taxi/",
+                    "slug":  "chennai-to-salem-taxi",
+                    "filename":  "chennai-to-salem-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-tirunelveli-taxi/",
+                    "slug":  "chennai-to-tirunelveli-taxi",
+                    "filename":  "chennai-to-tirunelveli-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-tirupati-taxi/",
+                    "slug":  "chennai-to-tirupati-taxi",
+                    "filename":  "chennai-to-tirupati-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-tiruvannamalai-taxi/",
+                    "slug":  "chennai-to-tiruvannamalai-taxi",
+                    "filename":  "chennai-to-tiruvannamalai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-trichy-taxi/",
+                    "slug":  "chennai-to-trichy-taxi",
+                    "filename":  "chennai-to-trichy-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-velankanni-taxi/",
+                    "slug":  "chennai-to-velankanni-taxi",
+                    "filename":  "chennai-to-velankanni-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/chennai-to-vellore-taxi/",
+                    "slug":  "chennai-to-vellore-taxi",
+                    "filename":  "chennai-to-vellore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+                    "slug":  "cochin-airport-taxi",
+                    "filename":  "cochin-airport-taxi.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+                    "slug":  "cochin-to-munnar-taxi",
+                    "filename":  "cochin-to-munnar-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/cochin-to-sabarimala-taxi/",
+                    "slug":  "cochin-to-sabarimala-taxi",
+                    "filename":  "cochin-to-sabarimala-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-airport-taxi/",
+                    "slug":  "coimbatore-airport-taxi",
+                    "filename":  "coimbatore-airport-taxi.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-chennai-taxi/",
+                    "slug":  "coimbatore-to-chennai-taxi",
+                    "filename":  "coimbatore-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-coonoor-taxi/",
+                    "slug":  "coimbatore-to-coonoor-taxi",
+                    "filename":  "coimbatore-to-coonoor-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-kodaikanal-cab/",
+                    "slug":  "coimbatore-to-kodaikanal-cab",
+                    "filename":  "coimbatore-to-kodaikanal-cab.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-madurai-taxi/",
+                    "slug":  "coimbatore-to-madurai-taxi",
+                    "filename":  "coimbatore-to-madurai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-munnar-taxi/",
+                    "slug":  "coimbatore-to-munnar-taxi",
+                    "filename":  "coimbatore-to-munnar-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+                    "slug":  "coimbatore-to-ooty-taxi",
+                    "filename":  "coimbatore-to-ooty-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-palakkad-taxi/",
+                    "slug":  "coimbatore-to-palakkad-taxi",
+                    "filename":  "coimbatore-to-palakkad-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/coimbatore-to-salem-taxi/",
+                    "slug":  "coimbatore-to-salem-taxi",
+                    "filename":  "coimbatore-to-salem-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/contact-us/",
+                    "slug":  "contact-us",
+                    "filename":  "contact-us.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/dindigul-to-kodaikanal-taxi/",
+                    "slug":  "dindigul-to-kodaikanal-taxi",
+                    "filename":  "dindigul-to-kodaikanal-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi/",
+                    "slug":  "drop-taxi",
+                    "filename":  "drop-taxi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-cuddalore/",
+                    "slug":  "drop-taxi-cuddalore",
+                    "filename":  "drop-taxi-cuddalore.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+                    "slug":  "drop-taxi-erode",
+                    "filename":  "drop-taxi-erode.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-hyderabad/",
+                    "slug":  "drop-taxi-hyderabad",
+                    "filename":  "drop-taxi-hyderabad.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-bangalore/",
+                    "slug":  "drop-taxi-in-bangalore",
+                    "filename":  "drop-taxi-in-bangalore.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-chengalpattu/",
+                    "slug":  "drop-taxi-in-chengalpattu",
+                    "filename":  "drop-taxi-in-chengalpattu.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-chennai/",
+                    "slug":  "drop-taxi-in-chennai",
+                    "filename":  "drop-taxi-in-chennai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-chidambaram/",
+                    "slug":  "drop-taxi-in-chidambaram",
+                    "filename":  "drop-taxi-in-chidambaram.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-chrompet/",
+                    "slug":  "drop-taxi-in-chrompet",
+                    "filename":  "drop-taxi-in-chrompet.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+                    "slug":  "drop-taxi-in-coimbatore",
+                    "filename":  "drop-taxi-in-coimbatore.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-dharmapuri/",
+                    "slug":  "drop-taxi-in-dharmapuri",
+                    "filename":  "drop-taxi-in-dharmapuri.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-dindigul/",
+                    "slug":  "drop-taxi-in-dindigul",
+                    "filename":  "drop-taxi-in-dindigul.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-hosur/",
+                    "slug":  "drop-taxi-in-hosur",
+                    "filename":  "drop-taxi-in-hosur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-kanchipuram/",
+                    "slug":  "drop-taxi-in-kanchipuram",
+                    "filename":  "drop-taxi-in-kanchipuram.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-karaikudi/",
+                    "slug":  "drop-taxi-in-karaikudi",
+                    "filename":  "drop-taxi-in-karaikudi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-karur/",
+                    "slug":  "drop-taxi-in-karur",
+                    "filename":  "drop-taxi-in-karur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-koomapatti/",
+                    "slug":  "drop-taxi-in-koomapatti",
+                    "filename":  "drop-taxi-in-koomapatti.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-krishnagiri/",
+                    "slug":  "drop-taxi-in-krishnagiri",
+                    "filename":  "drop-taxi-in-krishnagiri.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-kumbakonam/",
+                    "slug":  "drop-taxi-in-kumbakonam",
+                    "filename":  "drop-taxi-in-kumbakonam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-mayiladuthurai/",
+                    "slug":  "drop-taxi-in-mayiladuthurai",
+                    "filename":  "drop-taxi-in-mayiladuthurai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-namakkal/",
+                    "slug":  "drop-taxi-in-namakkal",
+                    "filename":  "drop-taxi-in-namakkal.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-palani/",
+                    "slug":  "drop-taxi-in-palani",
+                    "filename":  "drop-taxi-in-palani.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+                    "slug":  "drop-taxi-in-pondicherry",
+                    "filename":  "drop-taxi-in-pondicherry.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-pudukkottai/",
+                    "slug":  "drop-taxi-in-pudukkottai",
+                    "filename":  "drop-taxi-in-pudukkottai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-ramanathapuram/",
+                    "slug":  "drop-taxi-in-ramanathapuram",
+                    "filename":  "drop-taxi-in-ramanathapuram.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-ranipet/",
+                    "slug":  "drop-taxi-in-ranipet",
+                    "filename":  "drop-taxi-in-ranipet.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+                    "slug":  "drop-taxi-in-salem",
+                    "filename":  "drop-taxi-in-salem.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-sivakasi/",
+                    "slug":  "drop-taxi-in-sivakasi",
+                    "filename":  "drop-taxi-in-sivakasi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-tenkasi/",
+                    "slug":  "drop-taxi-in-tenkasi",
+                    "filename":  "drop-taxi-in-tenkasi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-theni/",
+                    "slug":  "drop-taxi-in-theni",
+                    "filename":  "drop-taxi-in-theni.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-thoothukudi/",
+                    "slug":  "drop-taxi-in-thoothukudi",
+                    "filename":  "drop-taxi-in-thoothukudi.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-tiruchendur/",
+                    "slug":  "drop-taxi-in-tiruchendur",
+                    "filename":  "drop-taxi-in-tiruchendur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+                    "slug":  "drop-taxi-in-trichy",
+                    "filename":  "drop-taxi-in-trichy.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-trivandrum/",
+                    "slug":  "drop-taxi-in-trivandrum",
+                    "filename":  "drop-taxi-in-trivandrum.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-vellore/",
+                    "slug":  "drop-taxi-in-vellore",
+                    "filename":  "drop-taxi-in-vellore.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-in-virudhunagar/",
+                    "slug":  "drop-taxi-in-virudhunagar",
+                    "filename":  "drop-taxi-in-virudhunagar.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-madurai/",
+                    "slug":  "drop-taxi-madurai",
+                    "filename":  "drop-taxi-madurai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-munnar/",
+                    "slug":  "drop-taxi-munnar",
+                    "filename":  "drop-taxi-munnar.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-neyveli/",
+                    "slug":  "drop-taxi-neyveli",
+                    "filename":  "drop-taxi-neyveli.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-srirangam/",
+                    "slug":  "drop-taxi-srirangam",
+                    "filename":  "drop-taxi-srirangam.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-thanjavur/",
+                    "slug":  "drop-taxi-thanjavur",
+                    "filename":  "drop-taxi-thanjavur.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-tirunelveli/",
+                    "slug":  "drop-taxi-tirunelveli",
+                    "filename":  "drop-taxi-tirunelveli.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/drop-taxi-villupuram/",
+                    "slug":  "drop-taxi-villupuram",
+                    "filename":  "drop-taxi-villupuram.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/elementor-hf/footer/",
+                    "slug":  "elementor-hf/footer",
+                    "filename":  "elementor-hf-footer.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/elementor-hf/header/",
+                    "slug":  "elementor-hf/header",
+                    "filename":  "elementor-hf-header.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/ernakulam-to-munnar-taxi/",
+                    "slug":  "ernakulam-to-munnar-taxi",
+                    "filename":  "ernakulam-to-munnar-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/explore-local-trips-with-the-convenience-of-a-one-way-taxi/",
+                    "slug":  "explore-local-trips-with-the-convenience-of-a-one-way-taxi",
+                    "filename":  "explore-local-trips-with-the-convenience-of-a-one-way-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/faq/",
+                    "slug":  "faq",
+                    "filename":  "faq.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/kochi-to-alleppey-taxi/",
+                    "slug":  "kochi-to-alleppey-taxi",
+                    "filename":  "kochi-to-alleppey-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/kozhikode-to-wayanad-taxi/",
+                    "slug":  "kozhikode-to-wayanad-taxi",
+                    "filename":  "kozhikode-to-wayanad-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-airport-taxi/",
+                    "slug":  "madurai-airport-taxi",
+                    "filename":  "madurai-airport-taxi.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-bangalore-taxi/",
+                    "slug":  "madurai-to-bangalore-taxi",
+                    "filename":  "madurai-to-bangalore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-chennai-taxi/",
+                    "slug":  "madurai-to-chennai-taxi",
+                    "filename":  "madurai-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-coimbatore-taxi/",
+                    "slug":  "madurai-to-coimbatore-taxi",
+                    "filename":  "madurai-to-coimbatore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-kodaikanal-taxi/",
+                    "slug":  "madurai-to-kodaikanal-taxi",
+                    "filename":  "madurai-to-kodaikanal-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-pondicherry-taxi/",
+                    "slug":  "madurai-to-pondicherry-taxi",
+                    "filename":  "madurai-to-pondicherry-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+                    "slug":  "madurai-to-rameswaram-taxi",
+                    "filename":  "madurai-to-rameswaram-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-salem-taxi/",
+                    "slug":  "madurai-to-salem-taxi",
+                    "filename":  "madurai-to-salem-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-tiruvannamalai-taxi/",
+                    "slug":  "madurai-to-tiruvannamalai-taxi",
+                    "filename":  "madurai-to-tiruvannamalai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-trichy-taxi/",
+                    "slug":  "madurai-to-trichy-taxi",
+                    "filename":  "madurai-to-trichy-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/madurai-to-vellore-taxi/",
+                    "slug":  "madurai-to-vellore-taxi",
+                    "filename":  "madurai-to-vellore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/mangalore-to-coorg-taxi/",
+                    "slug":  "mangalore-to-coorg-taxi",
+                    "filename":  "mangalore-to-coorg-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/mannargudi-call-taxi/",
+                    "slug":  "mannargudi-call-taxi",
+                    "filename":  "mannargudi-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/munnar-to-alleppey-taxi/",
+                    "slug":  "munnar-to-alleppey-taxi",
+                    "filename":  "munnar-to-alleppey-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+                    "slug":  "munnar-to-thekkady-taxi",
+                    "filename":  "munnar-to-thekkady-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/mysore-to-coorg-cab/",
+                    "slug":  "mysore-to-coorg-cab",
+                    "filename":  "mysore-to-coorg-cab.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/mysore-to-ooty-taxi/",
+                    "slug":  "mysore-to-ooty-taxi",
+                    "filename":  "mysore-to-ooty-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+                    "slug":  "one-way-taxi-in-coimbatore",
+                    "filename":  "one-way-taxi-in-coimbatore.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+                    "slug":  "one-way-taxi-in-madurai",
+                    "filename":  "one-way-taxi-in-madurai.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/one-way-taxi-in-trichy/",
+                    "slug":  "one-way-taxi-in-trichy",
+                    "filename":  "one-way-taxi-in-trichy.html",
+                    "type":  "city"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/ooty-to-coimbatore-taxi/",
+                    "slug":  "ooty-to-coimbatore-taxi",
+                    "filename":  "ooty-to-coimbatore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/outstation-cabs/",
+                    "slug":  "outstation-cabs",
+                    "filename":  "outstation-cabs.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/pondicherry-to-bangalore-taxi/",
+                    "slug":  "pondicherry-to-bangalore-taxi",
+                    "filename":  "pondicherry-to-bangalore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/pondicherry-to-chennai-taxi/",
+                    "slug":  "pondicherry-to-chennai-taxi",
+                    "filename":  "pondicherry-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/pondicherry-to-coimbatore-taxi/",
+                    "slug":  "pondicherry-to-coimbatore-taxi",
+                    "filename":  "pondicherry-to-coimbatore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/pondicherry-to-madurai-taxi/",
+                    "slug":  "pondicherry-to-madurai-taxi",
+                    "filename":  "pondicherry-to-madurai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/pondicherry-to-mahabalipuram-taxi/",
+                    "slug":  "pondicherry-to-mahabalipuram-taxi",
+                    "filename":  "pondicherry-to-mahabalipuram-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/pondicherry-to-salem-taxi/",
+                    "slug":  "pondicherry-to-salem-taxi",
+                    "filename":  "pondicherry-to-salem-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/privacy-policy-2/",
+                    "slug":  "privacy-policy-2",
+                    "filename":  "privacy-policy-2.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/rameshwaram-taxi-service/",
+                    "slug":  "rameshwaram-taxi-service",
+                    "filename":  "rameshwaram-taxi-service.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/rameshwaram-to-kanyakumari-taxi/",
+                    "slug":  "rameshwaram-to-kanyakumari-taxi",
+                    "filename":  "rameshwaram-to-kanyakumari-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/reviews/",
+                    "slug":  "reviews",
+                    "filename":  "reviews.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/salem-to-chennai-taxi/",
+                    "slug":  "salem-to-chennai-taxi",
+                    "filename":  "salem-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/salem-to-coimbatore-taxi/",
+                    "slug":  "salem-to-coimbatore-taxi",
+                    "filename":  "salem-to-coimbatore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/salem-to-madurai-taxi/",
+                    "slug":  "salem-to-madurai-taxi",
+                    "filename":  "salem-to-madurai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/salem-to-trichy-taxi/",
+                    "slug":  "salem-to-trichy-taxi",
+                    "filename":  "salem-to-trichy-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/salem-to-vellore-taxi/",
+                    "slug":  "salem-to-vellore-taxi",
+                    "filename":  "salem-to-vellore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+                    "slug":  "salem-to-yercaud-taxi",
+                    "filename":  "salem-to-yercaud-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/sivagangai-call-taxi/",
+                    "slug":  "sivagangai-call-taxi",
+                    "filename":  "sivagangai-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/tariff/",
+                    "slug":  "tariff",
+                    "filename":  "tariff.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/terms-and-conditions/",
+                    "slug":  "terms-and-conditions",
+                    "filename":  "terms-and-conditions.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/the-benefits-of-booking-a-one-way-taxi-for-airport-pickup-drop/",
+                    "slug":  "the-benefits-of-booking-a-one-way-taxi-for-airport-pickup-drop",
+                    "filename":  "the-benefits-of-booking-a-one-way-taxi-for-airport-pickup-drop.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/thiruvarur-call-taxi/",
+                    "slug":  "thiruvarur-call-taxi",
+                    "filename":  "thiruvarur-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/thuraiyur-call-taxi/",
+                    "slug":  "thuraiyur-call-taxi",
+                    "filename":  "thuraiyur-call-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/tirupati-to-arunachalam-cab/",
+                    "slug":  "tirupati-to-arunachalam-cab",
+                    "filename":  "tirupati-to-arunachalam-cab.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/tiruvannamalai-drop-taxi/",
+                    "slug":  "tiruvannamalai-drop-taxi",
+                    "filename":  "tiruvannamalai-drop-taxi.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/tiruvannamalai-to-chennai-taxi/",
+                    "slug":  "tiruvannamalai-to-chennai-taxi",
+                    "filename":  "tiruvannamalai-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/trichy-airport-taxi/",
+                    "slug":  "trichy-airport-taxi",
+                    "filename":  "trichy-airport-taxi.html",
+                    "type":  "airport"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/trichy-to-chennai-taxi/",
+                    "slug":  "trichy-to-chennai-taxi",
+                    "filename":  "trichy-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/trichy-to-coimbatore-taxi/",
+                    "slug":  "trichy-to-coimbatore-taxi",
+                    "filename":  "trichy-to-coimbatore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/trichy-to-madurai-taxi/",
+                    "slug":  "trichy-to-madurai-taxi",
+                    "filename":  "trichy-to-madurai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/trichy-to-salem-taxi/",
+                    "slug":  "trichy-to-salem-taxi",
+                    "filename":  "trichy-to-salem-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/trichy-to-velankanni-cab/",
+                    "slug":  "trichy-to-velankanni-cab",
+                    "filename":  "trichy-to-velankanni-cab.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/trivandrum-to-kanyakumari-taxi/",
+                    "slug":  "trivandrum-to-kanyakumari-taxi",
+                    "filename":  "trivandrum-to-kanyakumari-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/velankanni-to-pondicherry-cab/",
+                    "slug":  "velankanni-to-pondicherry-cab",
+                    "filename":  "velankanni-to-pondicherry-cab.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/vellore-to-bangalore-taxi/",
+                    "slug":  "vellore-to-bangalore-taxi",
+                    "filename":  "vellore-to-bangalore-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+                    "slug":  "vellore-to-chennai-taxi",
+                    "filename":  "vellore-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/vellore-to-pondicherry-taxi/",
+                    "slug":  "vellore-to-pondicherry-taxi",
+                    "filename":  "vellore-to-pondicherry-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/vellore-to-tiruvannamalai-cab/",
+                    "slug":  "vellore-to-tiruvannamalai-cab",
+                    "filename":  "vellore-to-tiruvannamalai-cab.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/villupuram-to-chennai-taxi/",
+                    "slug":  "villupuram-to-chennai-taxi",
+                    "filename":  "villupuram-to-chennai-taxi.html",
+                    "type":  "route"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/why-choose-a-one-way-taxi-for-your-outstation-trip/",
+                    "slug":  "why-choose-a-one-way-taxi-for-your-outstation-trip",
+                    "filename":  "why-choose-a-one-way-taxi-for-your-outstation-trip.html",
+                    "type":  "service"
+                },
+                {
+                    "url":  "https://go2onewaytaxi.com/why-round-trip-taxi-services-can-be-a-cost-effective-option-for-your-journey/",
+                    "slug":  "why-round-trip-taxi-services-can-be-a-cost-effective-option-for-your-journey",
+                    "filename":  "why-round-trip-taxi-services-can-be-a-cost-effective-option-for-your-journey.html",
+                    "type":  "service"
+                }
+            ]
+}

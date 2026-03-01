@@ -1,0 +1,92 @@
+﻿[
+    {
+        "keyword":  "call taxi in tirupur",
+        "slug":  "call-taxi-in-tirupur.html",
+        "search_volume":  4400,
+        "type":  "city"
+    },
+    {
+        "keyword":  "madurai to rameswaram taxi",
+        "slug":  "madurai-to-rameswaram-taxi.html",
+        "search_volume":  1900,
+        "type":  "route"
+    },
+    {
+        "keyword":  "cochin to munnar taxi",
+        "slug":  "cochin-to-munnar-taxi.html",
+        "search_volume":  1300,
+        "type":  "route"
+    },
+    {
+        "keyword":  "cochin airport taxi",
+        "slug":  "cochin-airport-taxi.html",
+        "search_volume":  1000,
+        "type":  "airport"
+    },
+    {
+        "keyword":  "drop taxi in salem",
+        "slug":  "drop-taxi-in-salem.html",
+        "search_volume":  90,
+        "type":  "city"
+    },
+    {
+        "keyword":  "drop taxi in vellore",
+        "slug":  "drop-taxi-in-vellore.html",
+        "search_volume":  880,
+        "type":  "city"
+    },
+    {
+        "keyword":  "mysore to ooty taxi",
+        "slug":  "mysore-to-ooty-taxi.html",
+        "search_volume":  720,
+        "type":  "route"
+    },
+    {
+        "keyword":  "salem to yercaud taxi",
+        "slug":  "salem-to-yercaud-taxi.html",
+        "search_volume":  480,
+        "type":  "route"
+    },
+    {
+        "keyword":  "rameswaram to madurai taxi",
+        "slug":  "rameswaram-to-madurai-taxi.html",
+        "search_volume":  480,
+        "type":  "route"
+    },
+    {
+        "keyword":  "drop taxi in pondicherry",
+        "slug":  "drop-taxi-in-pondicherry.html",
+        "search_volume":  20,
+        "type":  "city"
+    },
+    {
+        "keyword":  "vellore to chennai taxi",
+        "slug":  "vellore-to-chennai-taxi.html",
+        "search_volume":  260,
+        "type":  "route"
+    },
+    {
+        "keyword":  "drop taxi in erode",
+        "slug":  "drop-taxi-in-erode.html",
+        "search_volume":  0,
+        "type":  "city"
+    },
+    {
+        "keyword":  "kozhikode to wayanad taxi",
+        "slug":  "kozhikode-to-wayanad-taxi.html",
+        "search_volume":  210,
+        "type":  "route"
+    },
+    {
+        "keyword":  "coimbatore to munnar taxi",
+        "slug":  "coimbatore-to-munnar-taxi.html",
+        "search_volume":  170,
+        "type":  "route"
+    },
+    {
+        "keyword":  "chennai airport to vellore taxi",
+        "slug":  "chennai-airport-to-vellore-taxi.html",
+        "search_volume":  90,
+        "type":  "airport"
+    }
+]

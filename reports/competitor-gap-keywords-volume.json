@@ -1,0 +1,170 @@
+﻿[
+    {
+        "keyword":  "call taxi tirupur",
+        "search_volume":  4400,
+        "competition":  "LOW",
+        "cpc":  0.17
+    },
+    {
+        "keyword":  "call taxi in tirupur",
+        "search_volume":  4400,
+        "competition":  "LOW",
+        "cpc":  0.17
+    },
+    {
+        "keyword":  "madurai to rameswaram taxi",
+        "search_volume":  1900,
+        "competition":  "MEDIUM",
+        "cpc":  0.39
+    },
+    {
+        "keyword":  "cochin to munnar taxi",
+        "search_volume":  1300,
+        "competition":  "MEDIUM",
+        "cpc":  0.35
+    },
+    {
+        "keyword":  "cochin airport taxi",
+        "search_volume":  1000,
+        "competition":  "MEDIUM",
+        "cpc":  0.36
+    },
+    {
+        "keyword":  "drop taxi salem",
+        "search_volume":  880,
+        "competition":  "MEDIUM",
+        "cpc":  0.33
+    },
+    {
+        "keyword":  "drop taxi vellore",
+        "search_volume":  880,
+        "competition":  "MEDIUM",
+        "cpc":  0.37
+    },
+    {
+        "keyword":  "drop taxi in vellore",
+        "search_volume":  880,
+        "competition":  "MEDIUM",
+        "cpc":  0.37
+    },
+    {
+        "keyword":  "mysore to ooty taxi",
+        "search_volume":  720,
+        "competition":  "MEDIUM",
+        "cpc":  0.27
+    },
+    {
+        "keyword":  "chennai to vellore taxi",
+        "search_volume":  480,
+        "competition":  "MEDIUM",
+        "cpc":  0.42
+    },
+    {
+        "keyword":  "salem to yercaud taxi",
+        "search_volume":  480,
+        "competition":  "MEDIUM",
+        "cpc":  0.2
+    },
+    {
+        "keyword":  "rameswaram to madurai taxi",
+        "search_volume":  480,
+        "competition":  "HIGH",
+        "cpc":  0.35
+    },
+    {
+        "keyword":  "drop taxi pondicherry",
+        "search_volume":  320,
+        "competition":  "HIGH",
+        "cpc":  0.37
+    },
+    {
+        "keyword":  "vellore to chennai taxi",
+        "search_volume":  260,
+        "competition":  "HIGH",
+        "cpc":  0.36
+    },
+    {
+        "keyword":  "drop taxi erode",
+        "search_volume":  210,
+        "competition":  "HIGH",
+        "cpc":  0.38
+    },
+    {
+        "keyword":  "kozhikode to wayanad taxi",
+        "search_volume":  210,
+        "competition":  "MEDIUM",
+        "cpc":  0.23
+    },
+    {
+        "keyword":  "coimbatore to munnar taxi",
+        "search_volume":  170,
+        "competition":  "MEDIUM",
+        "cpc":  0.23
+    },
+    {
+        "keyword":  "drop taxi in salem",
+        "search_volume":  90,
+        "competition":  "MEDIUM",
+        "cpc":  0.4
+    },
+    {
+        "keyword":  "chennai airport to vellore taxi",
+        "search_volume":  90,
+        "competition":  "HIGH",
+        "cpc":  0.49
+    },
+    {
+        "keyword":  "munnar to thekkady taxi",
+        "search_volume":  70,
+        "competition":  "HIGH",
+        "cpc":  0.28
+    },
+    {
+        "keyword":  "ooty to mysore taxi",
+        "search_volume":  50,
+        "competition":  "MEDIUM",
+        "cpc":  0.27
+    },
+    {
+        "keyword":  "yercaud to salem taxi",
+        "search_volume":  30,
+        "competition":  "HIGH",
+        "cpc":  0.12
+    },
+    {
+        "keyword":  "drop taxi in pondicherry",
+        "search_volume":  20,
+        "competition":  "MEDIUM",
+        "cpc":  0.42
+    },
+    {
+        "keyword":  "wayanad to kozhikode taxi",
+        "search_volume":  10,
+        "competition":  "HIGH",
+        "cpc":  null
+    },
+    {
+        "keyword":  "drop taxi in erode",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "bangalore to trichy taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "trichy to bangalore taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "thekkady to munnar taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    }
+]

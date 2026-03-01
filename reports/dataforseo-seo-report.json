@@ -1,0 +1,1489 @@
+﻿{
+    "generated_at":  "2026-03-01T14:40:15",
+    "location":  "India",
+    "language":  "English",
+    "search_volume":  [
+                          {
+                              "keyword":  "one way taxi",
+                              "search_volume":  9900,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.32,
+                              "low_top_of_page_bid":  0.09,
+                              "high_top_of_page_bid":  0.36
+                          },
+                          {
+                              "keyword":  "drop taxi",
+                              "search_volume":  33100,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.34,
+                              "low_top_of_page_bid":  0.14,
+                              "high_top_of_page_bid":  0.32
+                          },
+                          {
+                              "keyword":  "one way cab",
+                              "search_volume":  12100,
+                              "competition":  "HIGH",
+                              "cpc":  0.22,
+                              "low_top_of_page_bid":  0.08,
+                              "high_top_of_page_bid":  0.27
+                          },
+                          {
+                              "keyword":  "outstation taxi",
+                              "search_volume":  12100,
+                              "competition":  "HIGH",
+                              "cpc":  0.3,
+                              "low_top_of_page_bid":  0.07,
+                              "high_top_of_page_bid":  0.3
+                          },
+                          {
+                              "keyword":  "chennai to bangalore taxi",
+                              "search_volume":  720,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.58,
+                              "low_top_of_page_bid":  0.18,
+                              "high_top_of_page_bid":  0.49
+                          },
+                          {
+                              "keyword":  "bangalore to chennai taxi",
+                              "search_volume":  1000,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.56,
+                              "low_top_of_page_bid":  0.16,
+                              "high_top_of_page_bid":  0.51
+                          },
+                          {
+                              "keyword":  "chennai to pondicherry taxi",
+                              "search_volume":  2400,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.49,
+                              "low_top_of_page_bid":  0.16,
+                              "high_top_of_page_bid":  0.49
+                          },
+                          {
+                              "keyword":  "hyderabad to vijayawada taxi",
+                              "search_volume":  880,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.48,
+                              "low_top_of_page_bid":  0.15,
+                              "high_top_of_page_bid":  0.52
+                          },
+                          {
+                              "keyword":  "kochi to trivandrum taxi",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.5,
+                              "low_top_of_page_bid":  0.12,
+                              "high_top_of_page_bid":  0.41
+                          },
+                          {
+                              "keyword":  "coimbatore to chennai taxi",
+                              "search_volume":  210,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.51,
+                              "low_top_of_page_bid":  0.2,
+                              "high_top_of_page_bid":  0.49
+                          }
+                      ],
+    "keyword_ideas":  [
+                          {
+                              "keyword":  "one way cab",
+                              "search_volume":  12100,
+                              "competition":  "HIGH",
+                              "cpc":  0.22
+                          },
+                          {
+                              "keyword":  "one way cab taxi",
+                              "search_volume":  12100,
+                              "competition":  "HIGH",
+                              "cpc":  0.22
+                          },
+                          {
+                              "keyword":  "one way taxi",
+                              "search_volume":  9900,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.32
+                          },
+                          {
+                              "keyword":  "onewaytaxi",
+                              "search_volume":  9900,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.32
+                          },
+                          {
+                              "keyword":  "oneway cab",
+                              "search_volume":  5400,
+                              "competition":  "HIGH",
+                              "cpc":  0.2
+                          },
+                          {
+                              "keyword":  "one way taxi service",
+                              "search_volume":  2400,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.3
+                          },
+                          {
+                              "keyword":  "onedrop taxi",
+                              "search_volume":  2400,
+                              "competition":  "HIGH",
+                              "cpc":  0.36
+                          },
+                          {
+                              "keyword":  "one way cab booking",
+                              "search_volume":  1600,
+                              "competition":  "HIGH",
+                              "cpc":  0.3
+                          },
+                          {
+                              "keyword":  "one side taxi",
+                              "search_volume":  880,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.32
+                          },
+                          {
+                              "keyword":  "one way call taxi",
+                              "search_volume":  720,
+                              "competition":  "HIGH",
+                              "cpc":  0.35
+                          },
+                          {
+                              "keyword":  "one way trip taxi",
+                              "search_volume":  590,
+                              "competition":  "HIGH",
+                              "cpc":  0.38
+                          },
+                          {
+                              "keyword":  "one way taxi service near me",
+                              "search_volume":  590,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.31
+                          },
+                          {
+                              "keyword":  "one way trip cab",
+                              "search_volume":  590,
+                              "competition":  "HIGH",
+                              "cpc":  0.38
+                          },
+                          {
+                              "keyword":  "one way cab service",
+                              "search_volume":  480,
+                              "competition":  "LOW",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "one trip taxi",
+                              "search_volume":  390,
+                              "competition":  "HIGH",
+                              "cpc":  0.37
+                          },
+                          {
+                              "keyword":  "one way outstation taxi",
+                              "search_volume":  320,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.31
+                          },
+                          {
+                              "keyword":  "one side taxi service",
+                              "search_volume":  320,
+                              "competition":  "HIGH",
+                              "cpc":  0.29
+                          },
+                          {
+                              "keyword":  "outstation cabs one way",
+                              "search_volume":  320,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.31
+                          },
+                          {
+                              "keyword":  "best one way taxi",
+                              "search_volume":  320,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.42
+                          },
+                          {
+                              "keyword":  "bestonewaytaxi",
+                              "search_volume":  260,
+                              "competition":  "LOW",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "one way taxi tariff",
+                              "search_volume":  260,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.3
+                          },
+                          {
+                              "keyword":  "one side drop taxi",
+                              "search_volume":  210,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.37
+                          },
+                          {
+                              "keyword":  "round trip taxi",
+                              "search_volume":  210,
+                              "competition":  "HIGH",
+                              "cpc":  0.33
+                          },
+                          {
+                              "keyword":  "success drop taxi",
+                              "search_volume":  210,
+                              "competition":  "LOW",
+                              "cpc":  0.12
+                          },
+                          {
+                              "keyword":  "drop taxi services",
+                              "search_volume":  210,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.42
+                          },
+                          {
+                              "keyword":  "drop taxi tariff",
+                              "search_volume":  210,
+                              "competition":  "HIGH",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "one way taxi near me",
+                              "search_volume":  170,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.37
+                          },
+                          {
+                              "keyword":  "best one way cab booking",
+                              "search_volume":  170,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.26
+                          },
+                          {
+                              "keyword":  "one way taxi booking",
+                              "search_volume":  170,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.32
+                          },
+                          {
+                              "keyword":  "one side taxi booking",
+                              "search_volume":  140,
+                              "competition":  "HIGH",
+                              "cpc":  0.26
+                          },
+                          {
+                              "keyword":  "one way drop cab",
+                              "search_volume":  140,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.43
+                          },
+                          {
+                              "keyword":  "only drop taxi",
+                              "search_volume":  110,
+                              "competition":  "HIGH",
+                              "cpc":  0.45
+                          },
+                          {
+                              "keyword":  "oneway cab service",
+                              "search_volume":  110,
+                              "competition":  "HIGH",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "taxi one way drop",
+                              "search_volume":  110,
+                              "competition":  "HIGH",
+                              "cpc":  0.36
+                          },
+                          {
+                              "keyword":  "best way cab",
+                              "search_volume":  90,
+                              "competition":  "LOW",
+                              "cpc":  0.18
+                          },
+                          {
+                              "keyword":  "one drop call taxi",
+                              "search_volume":  90,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.39
+                          },
+                          {
+                              "keyword":  "taxi for one day",
+                              "search_volume":  90,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "two way cab booking",
+                              "search_volume":  70,
+                              "competition":  "HIGH",
+                              "cpc":  0.33
+                          },
+                          {
+                              "keyword":  "outstation drop taxi",
+                              "search_volume":  70,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.4
+                          },
+                          {
+                              "keyword":  "on way cab",
+                              "search_volume":  70,
+                              "competition":  "HIGH",
+                              "cpc":  0.24
+                          },
+                          {
+                              "keyword":  "one way fare taxi",
+                              "search_volume":  70,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.3
+                          },
+                          {
+                              "keyword":  "best one way drop taxi",
+                              "search_volume":  70,
+                              "competition":  "HIGH",
+                              "cpc":  0.4
+                          },
+                          {
+                              "keyword":  "way cab",
+                              "search_volume":  50,
+                              "competition":  "LOW",
+                              "cpc":  0.64
+                          },
+                          {
+                              "keyword":  "cheapest one way taxi",
+                              "search_volume":  50,
+                              "competition":  "HIGH",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "on the way cab service",
+                              "search_volume":  50,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.32
+                          },
+                          {
+                              "keyword":  "onewaydrop",
+                              "search_volume":  50,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.18
+                          },
+                          {
+                              "keyword":  "one taxi service",
+                              "search_volume":  50,
+                              "competition":  "HIGH",
+                              "cpc":  0.22
+                          },
+                          {
+                              "keyword":  "onedroptaxi",
+                              "search_volume":  50,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.24
+                          },
+                          {
+                              "keyword":  "1 way taxi",
+                              "search_volume":  50,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.42
+                          },
+                          {
+                              "keyword":  "cab one way trip",
+                              "search_volume":  50,
+                              "competition":  "HIGH",
+                              "cpc":  0.35
+                          },
+                          {
+                              "keyword":  "one way cab offers",
+                              "search_volume":  50,
+                              "competition":  "HIGH",
+                              "cpc":  0.36
+                          },
+                          {
+                              "keyword":  "cheapest one way cab",
+                              "search_volume":  40,
+                              "competition":  "HIGH",
+                              "cpc":  0.29
+                          },
+                          {
+                              "keyword":  "one way drop taxi fare",
+                              "search_volume":  40,
+                              "competition":  "HIGH",
+                              "cpc":  0.33
+                          },
+                          {
+                              "keyword":  "one way trip call taxi",
+                              "search_volume":  40,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.46
+                          },
+                          {
+                              "keyword":  "statue of unity taxi service",
+                              "search_volume":  40,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.23
+                          },
+                          {
+                              "keyword":  "one way intercity cab",
+                              "search_volume":  40,
+                              "competition":  "HIGH",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "dropme one way taxi",
+                              "search_volume":  40,
+                              "competition":  "HIGH",
+                              "cpc":  0.3
+                          },
+                          {
+                              "keyword":  "one way drop taxi service",
+                              "search_volume":  40,
+                              "competition":  "LOW",
+                              "cpc":  0.37
+                          },
+                          {
+                              "keyword":  "cab booking one way",
+                              "search_volume":  40,
+                              "competition":  "HIGH",
+                              "cpc":  0.23
+                          },
+                          {
+                              "keyword":  "drop one way taxi",
+                              "search_volume":  40,
+                              "competition":  "HIGH",
+                              "cpc":  0.44
+                          },
+                          {
+                              "keyword":  "one cab taxi",
+                              "search_volume":  30,
+                              "competition":  "HIGH",
+                              "cpc":  0.19
+                          },
+                          {
+                              "keyword":  "one way cab rental",
+                              "search_volume":  30,
+                              "competition":  "HIGH",
+                              "cpc":  0.25
+                          },
+                          {
+                              "keyword":  "red taxi one way trip",
+                              "search_volume":  30,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.25
+                          },
+                          {
+                              "keyword":  "one way drop call taxi",
+                              "search_volume":  30,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.4
+                          },
+                          {
+                              "keyword":  "onewaydrop taxi",
+                              "search_volume":  30,
+                              "competition":  "HIGH",
+                              "cpc":  0.36
+                          },
+                          {
+                              "keyword":  "one way sharing cab",
+                              "search_volume":  30,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.18
+                          },
+                          {
+                              "keyword":  "one way taxi cab",
+                              "search_volume":  30,
+                              "competition":  "HIGH",
+                              "cpc":  0.2
+                          },
+                          {
+                              "keyword":  "one way travel cab",
+                              "search_volume":  30,
+                              "competition":  "HIGH",
+                              "cpc":  0.32
+                          },
+                          {
+                              "keyword":  "online one way taxi booking",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.22
+                          },
+                          {
+                              "keyword":  "outstation one way drop taxi",
+                              "search_volume":  20,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.37
+                          },
+                          {
+                              "keyword":  "taxi service one way drop",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.74
+                          },
+                          {
+                              "keyword":  "one way outstation cab booking",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.26
+                          },
+                          {
+                              "keyword":  "dropmeoneway",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.33
+                          },
+                          {
+                              "keyword":  "one side fare taxi",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.13
+                          },
+                          {
+                              "keyword":  "fastrack one way taxi",
+                              "search_volume":  20,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.07
+                          },
+                          {
+                              "keyword":  "drop taxi outstation",
+                              "search_volume":  20,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.47
+                          },
+                          {
+                              "keyword":  "1 way cab",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.22
+                          },
+                          {
+                              "keyword":  "intercity one way cab",
+                              "search_volume":  20,
+                              "competition":  "HIGH",
+                              "cpc":  0.28
+                          },
+                          {
+                              "keyword":  "oneway taxi com",
+                              "search_volume":  20,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.18
+                          },
+                          {
+                              "keyword":  "round trip taxi fare",
+                              "search_volume":  20,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.2
+                          },
+                          {
+                              "keyword":  "round trip taxi near me",
+                              "search_volume":  10,
+                              "competition":  "HIGH",
+                              "cpc":  0.41
+                          },
+                          {
+                              "keyword":  "onewaycab in",
+                              "search_volume":  10,
+                              "competition":  "HIGH",
+                              "cpc":  0.17
+                          },
+                          {
+                              "keyword":  "drop taxi 24 7",
+                              "search_volume":  10,
+                              "competition":  "LOW",
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "onewaytaxi in",
+                              "search_volume":  10,
+                              "competition":  "HIGH",
+                              "cpc":  0.23
+                          },
+                          {
+                              "keyword":  "success one way taxi",
+                              "search_volume":  10,
+                              "competition":  null,
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "taxi services one way round trip outstation book",
+                              "search_volume":  10,
+                              "competition":  null,
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "palani to kodaikanal taxi charges",
+                              "search_volume":  10,
+                              "competition":  null,
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "on the way cabs",
+                              "search_volume":  10,
+                              "competition":  "HIGH",
+                              "cpc":  0.23
+                          },
+                          {
+                              "keyword":  "book outstation cabs one way",
+                              "search_volume":  10,
+                              "competition":  "LOW",
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "one side outstation cab",
+                              "search_volume":  10,
+                              "competition":  "HIGH",
+                              "cpc":  0.33
+                          },
+                          {
+                              "keyword":  "one side cab for outstation",
+                              "search_volume":  10,
+                              "competition":  null,
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "goibibo one way taxi",
+                              "search_volume":  10,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.27
+                          },
+                          {
+                              "keyword":  "bookonewaycab in",
+                              "search_volume":  10,
+                              "competition":  null,
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "make my trip one way cab",
+                              "search_volume":  10,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.12
+                          },
+                          {
+                              "keyword":  "indian drop taxi",
+                              "search_volume":  10,
+                              "competition":  "MEDIUM",
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "one way taxi hire",
+                              "search_volume":  10,
+                              "competition":  "LOW",
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "one way outstation cab service",
+                              "search_volume":  10,
+                              "competition":  null,
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "oneway cab contact no",
+                              "search_volume":  10,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.11
+                          },
+                          {
+                              "keyword":  "oneway cab com",
+                              "search_volume":  10,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.13
+                          },
+                          {
+                              "keyword":  "one way cab online booking",
+                              "search_volume":  10,
+                              "competition":  "HIGH",
+                              "cpc":  0.27
+                          },
+                          {
+                              "keyword":  "one side taxi com",
+                              "search_volume":  10,
+                              "competition":  "LOW",
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "cabs for outstation one way",
+                              "search_volume":  10,
+                              "competition":  "LOW",
+                              "cpc":  null
+                          },
+                          {
+                              "keyword":  "book one way outstation cab",
+                              "search_volume":  10,
+                              "competition":  "MEDIUM",
+                              "cpc":  0.3
+                          }
+                      ],
+    "serp_results":  [
+                         {
+                             "keyword":  "one way taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  1,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "One Way Cab | One Way Taxi | Inter-city Cab Booking",
+                                                     "url":  "https://oneway.cab/"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "One Way Cab : Book One Way Taxi Services at Lowest Fare",
+                                                     "url":  "https://www.makemytrip.com/car-rental/one-way-cab.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  6,
+                                                     "domain":  "www.redtaxi.co.in",
+                                                     "title":  "One Way Trip Call Taxi - Book One Way Drop Taxi",
+                                                     "url":  "https://www.redtaxi.co.in/oneway-trip"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "onewaydroptaxi.com",
+                                                     "title":  "Book Online Outstation Taxi Service| 9040091009 ...",
+                                                     "url":  "https://onewaydroptaxi.com/?srsltid=AfmBOorOawWl6T8F_YThqZviDA8FYQDqPRLNZPcnIOayhhdYaor921R8"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Outstation cabs, Car Rental, Taxi \u0026 Cars Booking",
+                                                     "url":  "https://www.goibibo.com/cars/"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "fasttrackcalltaxi.in",
+                                                     "title":  "FastTrack Outstation One-Way Drop Taxi",
+                                                     "url":  "https://fasttrackcalltaxi.in/services/outstation-one-way-drop-taxi"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "go2onewaytaxi.com",
+                                                     "title":  "Go2 Oneway Taxi: #1 One Way Taxi Services in Tamil Nadu",
+                                                     "url":  "https://go2onewaytaxi.com/"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.bharattaxi.com",
+                                                     "title":  "One Way Taxi Service - Cabs at Cheapest Rates",
+                                                     "url":  "https://www.bharattaxi.com/one-way"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  12,
+                                                     "domain":  "www.rodbez.com",
+                                                     "title":  "RodBez – One-Way \u0026 Rental Taxi Service in Bihar | Safe ...",
+                                                     "url":  "https://www.rodbez.com/"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  13,
+                                                     "domain":  "www.droptaxi.in",
+                                                     "title":  "DropTaxi",
+                                                     "url":  "https://www.droptaxi.in/"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "drop taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  1,
+                                                     "domain":  "www.droptaxi.in",
+                                                     "title":  "DropTaxi",
+                                                     "url":  "https://www.droptaxi.in/"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.redtaxi.co.in",
+                                                     "title":  "One Way Trip Call Taxi - Book One Way Drop Taxi",
+                                                     "url":  "https://www.redtaxi.co.in/oneway-trip"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  6,
+                                                     "domain":  "play.google.com",
+                                                     "title":  "droptaxi – Apps on Google Play",
+                                                     "url":  "https://play.google.com/store/apps/details?id=com.droptaxi.clientappnew\u0026hl=en_IN"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "onewaydroptaxi.com",
+                                                     "title":  "Book Online Outstation Taxi Service| 9040091009 ...",
+                                                     "url":  "https://onewaydroptaxi.com/?srsltid=AfmBOorjP0nEeOdhgTuM5mCRdNYvKUsbj9yFi9sXB28FE2-7eMsbWkQm"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "fasttrackcalltaxi.in",
+                                                     "title":  "FastTrack Outstation One-Way Drop Taxi",
+                                                     "url":  "https://fasttrackcalltaxi.in/services/outstation-one-way-drop-taxi"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Online Cab Booking - Book Outstation Cabs at Lowest Fare ...",
+                                                     "url":  "https://www.makemytrip.com/cabs/"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "taxida.in",
+                                                     "title":  "Book Best Drop Taxi in Chennai starting @ Rs 14 per km",
+                                                     "url":  "https://taxida.in/one-way-taxi/chennai"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.droptaxi.in",
+                                                     "title":  "Online Taxi Booking Service in India",
+                                                     "url":  "https://www.droptaxi.in/?bkret=1"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  12,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Outstation cabs, Car Rental, Taxi \u0026 Cars Booking",
+                                                     "url":  "https://www.goibibo.com/cars/"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  13,
+                                                     "domain":  "www.droptaxi.services",
+                                                     "title":  "One Way Drop Taxi Service in Tamil Nadu | Book ₹11 to ₹13 ...",
+                                                     "url":  "https://www.droptaxi.services/"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "outstation taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  1,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Online Cab Booking - MakeMyTrip",
+                                                     "url":  "https://www.makemytrip.com/cabs/"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Outstation cabs, Car Rental, Taxi \u0026 Cars Booking",
+                                                     "url":  "https://www.goibibo.com/cars/"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "book.olacabs.com",
+                                                     "title":  "Outstation Cabs Service at OlaCabs.com",
+                                                     "url":  "https://book.olacabs.com/outstation-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "quickride.in",
+                                                     "title":  "Outstation Cabs Delhi NCR Taxi starts at ₹1500",
+                                                     "url":  "https://quickride.in/outstation-taxi-delhi-ncr.php"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "One Way Cab | One Way Taxi | Inter-city Cab Booking",
+                                                     "url":  "https://oneway.cab/"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "play.google.com",
+                                                     "title":  "CabBazar - Outstation Taxi – Apps on Google Play",
+                                                     "url":  "https://play.google.com/store/apps/details?id=com.cabbazar_user\u0026hl=en_IN"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "20% Off on Reliable \u0026 Safe Outstation Cabs With Driver",
+                                                     "url":  "https://www.savaari.com/outstation-taxi/car-rentals"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.bharattaxi.com",
+                                                     "title":  "Kochi outstation cabs",
+                                                     "url":  "https://www.bharattaxi.com/kochi-outstation-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  12,
+                                                     "domain":  "www.redtaxi.co.in",
+                                                     "title":  "Red Taxi: Book Taxi, Tours, Travels, Cab, Car ... - Coimbatore",
+                                                     "url":  "https://www.redtaxi.co.in/"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  13,
+                                                     "domain":  "www.yatra.com",
+                                                     "title":  "Book Outstation Cabs for One Way \u0026 Return at Lowest Fare",
+                                                     "url":  "https://www.yatra.com/outstation-cabs/"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "one way cab",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  1,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "One Way Cab | One Way Taxi | Inter-city Cab Booking",
+                                                     "url":  "https://oneway.cab/"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Book One Way Cab Services at Lowest Price",
+                                                     "url":  "https://www.goibibo.com/cars/one-way-cab/"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "play.google.com",
+                                                     "title":  "One Way Cab – Apps on Google Play",
+                                                     "url":  "https://play.google.com/store/apps/details?id=com.onewaycab\u0026hl=en_IN"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  4,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "One Way Cab : Book One Way Taxi Services at Lowest Fare",
+                                                     "url":  "https://www.makemytrip.com/car-rental/one-way-cab.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  5,
+                                                     "domain":  "www.facebook.com",
+                                                     "title":  "OneWay.Cab (@onewaycab)",
+                                                     "url":  "https://www.facebook.com/onewaycab/"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  6,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "One Way Car Rentals India | OneWay.Cab",
+                                                     "url":  "https://oneway.cab/advantages.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "onewaydroptaxi.com",
+                                                     "title":  "Book Online Outstation Taxi Service| 9040091009 ...",
+                                                     "url":  "https://onewaydroptaxi.com/?srsltid=AfmBOoo_-567WQcOpVb1fEVnPwcsdl0WvqZAfWJ5o52ZA9gTBTbBH9-b"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Reliable \u0026 Safe Cabs and Taxi Services at Affordable Prices",
+                                                     "url":  "https://www.savaari.com/"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "bookoneway.cab",
+                                                     "title":  "BookOneway.cab: One Way Cab Service | Affordable One ...",
+                                                     "url":  "https://bookoneway.cab/"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.buzzway.in",
+                                                     "title":  "One Way Cab Booking in Bhuj",
+                                                     "url":  "https://www.buzzway.in/bhuj-one-way-cab"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "chennai to bangalore taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "One Way Trip From Chennai To Bangalore",
+                                                     "url":  "https://oneway.cab/Chennai/Chennai-To-Bangalore-Taxi.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Book Chennai to Bangalore cabs - Rates starting from ₹4164",
+                                                     "url":  "https://www.savaari.com/chennai/chennai-to-bangalore-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  4,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Chennai To Bangalore Cab @ 3706 and Get Upto 500 Off",
+                                                     "url":  "https://www.makemytrip.com/car-rental/chennai-bangalore-cab-services.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  5,
+                                                     "domain":  "www.easemytrip.com",
+                                                     "title":  "Chennai to Bangalore Cab Booking",
+                                                     "url":  "https://www.easemytrip.com/cabs/chennai-to-bangalore-cab-booking/"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  6,
+                                                     "domain":  "onetriptaxi.com",
+                                                     "title":  "One Way Drop Taxi Chennai to Bangalore",
+                                                     "url":  "https://onetriptaxi.com/one-way-drop-taxi-service-chennai-to-bangalore/"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "fasttrackcalltaxi.in",
+                                                     "title":  "FastTrack Chennai To Bangalore Taxi Service - ₹50 OFF",
+                                                     "url":  "https://fasttrackcalltaxi.in/chennai/outstation/chennai-to-bangalore"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "www.gozocabs.com",
+                                                     "title":  "Chennai to Bengaluru cabs from ₹4056 | Book taxi online",
+                                                     "url":  "https://www.gozocabs.com/book-taxi/chennai-bangalore"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "www.wticabs.com",
+                                                     "title":  "Chennai to Bangalore Cab | Book Verified Sedan \u0026 SUV",
+                                                     "url":  "https://www.wticabs.com/outstation-cabs/chennai-to-bangalore"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "hurryupcabs.com",
+                                                     "title":  "Chennai To Bangalore cab at ₹4000 | Online Cab Booking",
+                                                     "url":  "https://hurryupcabs.com/outstation/chennai-to-bangalore"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.bharattaxi.com",
+                                                     "title":  "Chennai to Bangalore Cabs",
+                                                     "url":  "https://www.bharattaxi.com/chennai-to-bangalore-cabs"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "bangalore to chennai taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  1,
+                                                     "domain":  "quickride.in",
+                                                     "title":  "Bangalore to Chennai Cabs at lowest fares - Bengaluru",
+                                                     "url":  "https://quickride.in/bangalore-to-chennai-cabs.php"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Bangalore To Chennai Cab @ 4771 and Get Upto 500 Off",
+                                                     "url":  "https://www.makemytrip.com/car-rental/bangalore-chennai-cab-services.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "Bengaluru To Chennai Taxi Services",
+                                                     "url":  "https://oneway.cab/bengaluru/bengaluru-to-chennai-taxi.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  4,
+                                                     "domain":  "www.uber.com",
+                                                     "title":  "Book Bangalore to Chennai cabs at ₹5613 (up to ₹500 off)",
+                                                     "url":  "https://www.uber.com/in/en/r/intercity/bangalore-karnataka-to-chennai-tamil-nadu/"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  6,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Bangalore to Chennai cabs at ₹4150 - Upto 20% OFF",
+                                                     "url":  "https://www.savaari.com/bangalore/bangalore-to-chennai-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Bangalore To Chennai Cabs 4148 + Upto Rs. 500 Off",
+                                                     "url":  "https://www.goibibo.com/cars/bangalore-to-chennai-cabs/"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "www.blablacar.in",
+                                                     "title":  "Bengaluru Chennai - Compare our ride options - BlaBlaCar",
+                                                     "url":  "https://www.blablacar.in/ride-sharing/bengaluru/chennai"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "hurryupcabs.com",
+                                                     "title":  "Bangalore to Chennai cab at ₹3510 | Online Cab Booking",
+                                                     "url":  "https://hurryupcabs.com/outstation/bangalore-to-chennai"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "www.yatra.com",
+                                                     "title":  "Bangalore to Chennai Cab Booking",
+                                                     "url":  "https://www.yatra.com/outstation-cabs/bangalore-to-chennai"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.onewaydroptaxi.com",
+                                                     "title":  "Bangalore to Chennai Taxi Service - OneWayDropTaxi",
+                                                     "url":  "https://www.onewaydroptaxi.com/bangalore-to-chennai-one-way-taxi-service.html?srsltid=AfmBOoqFYchUPnXHCLyJ7054eHhWRQtf_Werafqk06gpc6_zs3RDPEdQ"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "chennai to pondicherry taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  1,
+                                                     "domain":  "www.uber.com",
+                                                     "title":  "Book Chennai to Puducherry cabs at ₹2962 (up to ₹500 off)",
+                                                     "url":  "https://www.uber.com/in/en/r/intercity/chennai-tamil-nadu-to-puducherry-puducherry/"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Chennai To Pondicherry Cabs 2043 + Upto Rs. 500 Off",
+                                                     "url":  "https://www.goibibo.com/cars/chennai-to-pondicherry-cabs/"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Chennai To Pondicherry Cab @ 1832 and Get Upto 500 Off",
+                                                     "url":  "https://www.makemytrip.com/car-rental/chennai-pondicherry-cab-services.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  5,
+                                                     "domain":  "fasttrackcalltaxi.in",
+                                                     "title":  "FastTrack Chennai To Pondicherry Taxi Service - ₹50 OFF",
+                                                     "url":  "https://fasttrackcalltaxi.in/chennai/outstation/chennai-to-pondicherry"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Chennai to Pondicherry cabs at ₹2145 - Upto 20% OFF",
+                                                     "url":  "https://www.savaari.com/chennai/chennai-to-pondicherry-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "quickride.in",
+                                                     "title":  "Chennai to Pondicherry Cabs Taxi at ₹2785",
+                                                     "url":  "https://quickride.in/chennai-to-pondicherry-cabs.php"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "sttourstravels.com",
+                                                     "title":  "Chennai Airport to Pondicherry Taxi",
+                                                     "url":  "https://sttourstravels.com/chennai-airport-to-pondicherry-taxi/"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "www.easemytrip.com",
+                                                     "title":  "Chennai to Puducherry Cab Booking",
+                                                     "url":  "https://www.easemytrip.com/cabs/chennai-to-puducherry-cab-booking/"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  13,
+                                                     "domain":  "www.gozocabs.com",
+                                                     "title":  "Chennai to Pondicherry cab at ₹1401- Upto 15% OFF",
+                                                     "url":  "https://www.gozocabs.com/book-taxi/chennai-pondicherry"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  14,
+                                                     "domain":  "intercity.indrive.com",
+                                                     "title":  "Chennai to Pondicherry Cabs from INR 2880 - inDrive",
+                                                     "url":  "https://intercity.indrive.com/en/in/routes/chennai-to-pondicherry"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "hyderabad to vijayawada taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  1,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Hyderabad To Vijayawada Cab @ 4105 and Get Upto 500 ...",
+                                                     "url":  "https://www.makemytrip.com/car-rental/hyderabad-vijayawada-cab-services.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Book Hyderabad to Vijayawada Cabs",
+                                                     "url":  "https://www.savaari.com/hyderabad/hyderabad-to-vijayawada-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "www.blablacar.in",
+                                                     "title":  "Hyderabad Vijayawada - Compare our ride options - BlaBlaCar",
+                                                     "url":  "https://www.blablacar.in/ride-sharing/hyderabad/vijayawada/"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  5,
+                                                     "domain":  "www.avis.co.in",
+                                                     "title":  "Hyderabad to Vijayawada Luxury Cab Service",
+                                                     "url":  "https://www.avis.co.in/car-rental/hyderabad-to-vijayawada-taxi"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "One Way Trip From Hyderabad To Vijayawada",
+                                                     "url":  "https://oneway.cab/Hyderabad/Hyderabad-To-Vijayawada-Taxi.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "www.uber.com",
+                                                     "title":  "Hyderabad to Vijayawada Cabs @ ₹5495 (up to ₹500 off)",
+                                                     "url":  "https://www.uber.com/in/en/r/intercity/hyderabad-telangana-to-vijayawada-andhra-pradesh/"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "www.bharattaxi.com",
+                                                     "title":  "Book Hyderabad to Vijayawada Cabs",
+                                                     "url":  "https://www.bharattaxi.com/hyderabad-to-vijayawada"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "www.easemytrip.com",
+                                                     "title":  "Hyderabad to Vijayawada Cab Booking",
+                                                     "url":  "https://www.easemytrip.com/cabs/hyderabad-to-vijayawada-cab-booking/"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Hyderabad To Vijayawada Cabs 3565 + Upto Rs. 500 Off",
+                                                     "url":  "https://www.goibibo.com/cars/hyderabad-to-vijayawada-cabs/"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  12,
+                                                     "domain":  "www.gozocabs.com",
+                                                     "title":  "Hyderabad to Vijayawada cabs from ₹4051 | Book taxi ...",
+                                                     "url":  "https://www.gozocabs.com/book-taxi/hyderabad-vijayawada"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "kochi to trivandrum taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Cochin To Thiruvananthapuram Cab @ 2893 and Get Upto ...",
+                                                     "url":  "https://www.makemytrip.com/car-rental/cochin-thiruvananthapuram-cab-services.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "cabbazar.com",
+                                                     "title":  "Kochi to Trivandrum cab at ₹3200 | Upto 20% off",
+                                                     "url":  "https://cabbazar.com/taxi/cab/kochi-to-trivandrum"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  4,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Reliable Cabs from Kochi to Trivandrum at Great Prices",
+                                                     "url":  "https://www.savaari.com/kochi/kochi-to-trivandrum-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  5,
+                                                     "domain":  "www.uber.com",
+                                                     "title":  "Kochi to Thiruvananthapuram Cabs @ ₹5725 (up to ₹500 ...",
+                                                     "url":  "https://www.uber.com/in/en/r/intercity/kochi-kerala-to-thiruvananthapuram-kerala/"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  6,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Kochi To Thiruvananthapuram Cabs 3128 + Upto Rs. 500 Off",
+                                                     "url":  "https://www.goibibo.com/cars/kochi-to-thiruvananthapuram-cabs/"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Cochin To Trivandrum Cab @ 2893 and Get Upto 500 Off",
+                                                     "url":  "https://www.makemytrip.com/car-rental/cochin-trivandrum-cab-services.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "oneway.cab",
+                                                     "title":  "One Way Trip From Kochi Airport To Trivandrum",
+                                                     "url":  "https://oneway.cab/kochi-airport/kochi-airport-to-trivandrum-taxi.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "www.bluebirdtravels.in",
+                                                     "title":  "Book Kochi to Trivandrum Taxi - Blue Bird Travels",
+                                                     "url":  "https://www.bluebirdtravels.in/product/kochi-to-trivandrum-taxi/"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  10,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Kochi to Thiruvananthapuram cabs at ₹2587 - Upto 20% OFF",
+                                                     "url":  "https://www.savaari.com/kochi/kochi-to-thiruvananthapuram-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Cochin To Trivandrum Cabs 16016 + Upto Rs. 500 Off",
+                                                     "url":  "https://www.goibibo.com/cars/cochin-to-trivandrum-cabs/"
+                                                 }
+                                             ]
+                         },
+                         {
+                             "keyword":  "coimbatore to chennai taxi",
+                             "status_code":  20000,
+                             "status_message":  "Ok.",
+                             "se_type":  null,
+                             "top_organic":  [
+                                                 {
+                                                     "rank_group":  1,
+                                                     "rank_absolute":  2,
+                                                     "domain":  "www.uber.com",
+                                                     "title":  "Book Coimbatore to Chennai cabs at ₹3716 (up to ₹500 off)",
+                                                     "url":  "https://www.uber.com/in/en/r/intercity/coimbatore-tamil-nadu-to-chennai-tamil-nadu/"
+                                                 },
+                                                 {
+                                                     "rank_group":  2,
+                                                     "rank_absolute":  3,
+                                                     "domain":  "www.goibibo.com",
+                                                     "title":  "Coimbatore To Chennai Cabs 6752 + Upto Rs. 500 Off",
+                                                     "url":  "https://www.goibibo.com/cars/coimbatore-to-chennai-cabs/"
+                                                 },
+                                                 {
+                                                     "rank_group":  3,
+                                                     "rank_absolute":  4,
+                                                     "domain":  "www.makemytrip.com",
+                                                     "title":  "Coimbatore To Chennai Cab @ 6752 and Get Upto 500 Off",
+                                                     "url":  "https://www.makemytrip.com/car-rental/coimbatore-chennai-cab-services.html"
+                                                 },
+                                                 {
+                                                     "rank_group":  4,
+                                                     "rank_absolute":  5,
+                                                     "domain":  "www.blablacar.in",
+                                                     "title":  "Coimbatore Chennai - Compare our ride options - BlaBlaCar",
+                                                     "url":  "https://www.blablacar.in/ride-sharing/coimbatore/chennai"
+                                                 },
+                                                 {
+                                                     "rank_group":  5,
+                                                     "rank_absolute":  7,
+                                                     "domain":  "www.savaari.com",
+                                                     "title":  "Coimbatore to Chennai cabs at ₹6630",
+                                                     "url":  "https://www.savaari.com/coimbatore/coimbatore-to-chennai-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  6,
+                                                     "rank_absolute":  8,
+                                                     "domain":  "go2onewaytaxi.com",
+                                                     "title":  "Coimbatore to Chennai Taxi at Lowest Price",
+                                                     "url":  "https://go2onewaytaxi.com/coimbatore-to-chennai-taxi/"
+                                                 },
+                                                 {
+                                                     "rank_group":  7,
+                                                     "rank_absolute":  9,
+                                                     "domain":  "www.redtaxi.co.in",
+                                                     "title":  "Rental Taxi Services in Coimbatore - Online Cab Booking",
+                                                     "url":  "https://www.redtaxi.co.in/coimbatore-cab-booking"
+                                                 },
+                                                 {
+                                                     "rank_group":  8,
+                                                     "rank_absolute":  11,
+                                                     "domain":  "www.bharattaxi.com",
+                                                     "title":  "Cab and Taxi service from Coimbatore to Chennai",
+                                                     "url":  "https://www.bharattaxi.com/coimbatore-to-chennai-cabs"
+                                                 },
+                                                 {
+                                                     "rank_group":  9,
+                                                     "rank_absolute":  12,
+                                                     "domain":  "droptaxiinoneway.com",
+                                                     "title":  "Coimbatore To Chennai One Way Taxi At Rs.6978 - Drop Taxi",
+                                                     "url":  "https://droptaxiinoneway.com/coimbatore-to-chennai-drop-taxi-in-one-way/"
+                                                 },
+                                                 {
+                                                     "rank_group":  10,
+                                                     "rank_absolute":  13,
+                                                     "domain":  "www.gozocabs.com",
+                                                     "title":  "Coimbatore to Chennai cabs from ₹7663 | Book taxi online",
+                                                     "url":  "https://www.gozocabs.com/book-taxi/coimbatore-chennai"
+                                                 }
+                                             ]
+                         }
+                     ]
+}

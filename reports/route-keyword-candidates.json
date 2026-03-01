@@ -1,0 +1,302 @@
+﻿[
+    {
+        "keyword":  "bangalore to mysore taxi",
+        "search_volume":  1600,
+        "competition":  "MEDIUM",
+        "cpc":  0.33
+    },
+    {
+        "keyword":  "coimbatore to ooty taxi",
+        "search_volume":  1300,
+        "competition":  "MEDIUM",
+        "cpc":  0.3
+    },
+    {
+        "keyword":  "vijayawada to hyderabad taxi",
+        "search_volume":  1000,
+        "competition":  "LOW",
+        "cpc":  0.4
+    },
+    {
+        "keyword":  "pondicherry to chennai taxi",
+        "search_volume":  720,
+        "competition":  "MEDIUM",
+        "cpc":  0.51
+    },
+    {
+        "keyword":  "mysore to bangalore taxi",
+        "search_volume":  590,
+        "competition":  "MEDIUM",
+        "cpc":  0.27
+    },
+    {
+        "keyword":  "bangalore to tirupati taxi",
+        "search_volume":  480,
+        "competition":  "MEDIUM",
+        "cpc":  0.33
+    },
+    {
+        "keyword":  "chennai to tirupati taxi",
+        "search_volume":  480,
+        "competition":  "MEDIUM",
+        "cpc":  0.36
+    },
+    {
+        "keyword":  "chennai to vellore taxi",
+        "search_volume":  480,
+        "competition":  "MEDIUM",
+        "cpc":  0.42
+    },
+    {
+        "keyword":  "trichy to chennai taxi",
+        "search_volume":  390,
+        "competition":  "MEDIUM",
+        "cpc":  0.53
+    },
+    {
+        "keyword":  "chennai to trichy taxi",
+        "search_volume":  390,
+        "competition":  "MEDIUM",
+        "cpc":  0.52
+    },
+    {
+        "keyword":  "bangalore to hyderabad taxi",
+        "search_volume":  390,
+        "competition":  "MEDIUM",
+        "cpc":  0.34
+    },
+    {
+        "keyword":  "bangalore to coimbatore taxi",
+        "search_volume":  390,
+        "competition":  "MEDIUM",
+        "cpc":  0.41
+    },
+    {
+        "keyword":  "hyderabad to bangalore taxi",
+        "search_volume":  320,
+        "competition":  "HIGH",
+        "cpc":  0.49
+    },
+    {
+        "keyword":  "chennai to madurai taxi",
+        "search_volume":  320,
+        "competition":  "MEDIUM",
+        "cpc":  0.44
+    },
+    {
+        "keyword":  "ooty to bangalore taxi",
+        "search_volume":  320,
+        "competition":  "MEDIUM",
+        "cpc":  0.4
+    },
+    {
+        "keyword":  "bangalore to pondicherry taxi",
+        "search_volume":  320,
+        "competition":  "HIGH",
+        "cpc":  0.41
+    },
+    {
+        "keyword":  "ooty to coimbatore taxi",
+        "search_volume":  260,
+        "competition":  "HIGH",
+        "cpc":  0.29
+    },
+    {
+        "keyword":  "chennai to coimbatore taxi",
+        "search_volume":  260,
+        "competition":  "MEDIUM",
+        "cpc":  0.56
+    },
+    {
+        "keyword":  "tirupati to chennai taxi",
+        "search_volume":  170,
+        "competition":  "HIGH",
+        "cpc":  0.26
+    },
+    {
+        "keyword":  "salem to chennai taxi",
+        "search_volume":  140,
+        "competition":  "LOW",
+        "cpc":  0.51
+    },
+    {
+        "keyword":  "pondicherry to bangalore taxi",
+        "search_volume":  140,
+        "competition":  "HIGH",
+        "cpc":  0.39
+    },
+    {
+        "keyword":  "bangalore to madurai taxi",
+        "search_volume":  140,
+        "competition":  "MEDIUM",
+        "cpc":  0.61
+    },
+    {
+        "keyword":  "tirupati to bangalore taxi",
+        "search_volume":  110,
+        "competition":  "MEDIUM",
+        "cpc":  0.24
+    },
+    {
+        "keyword":  "coimbatore to bangalore taxi",
+        "search_volume":  70,
+        "competition":  "HIGH",
+        "cpc":  0.51
+    },
+    {
+        "keyword":  "madurai to trichy taxi",
+        "search_volume":  70,
+        "competition":  "LOW",
+        "cpc":  0.74
+    },
+    {
+        "keyword":  "coimbatore to madurai taxi",
+        "search_volume":  70,
+        "competition":  "HIGH",
+        "cpc":  0.42
+    },
+    {
+        "keyword":  "chennai to salem taxi",
+        "search_volume":  50,
+        "competition":  "LOW",
+        "cpc":  0.27
+    },
+    {
+        "keyword":  "madurai to coimbatore taxi",
+        "search_volume":  50,
+        "competition":  "HIGH",
+        "cpc":  0.65
+    },
+    {
+        "keyword":  "hyderabad to visakhapatnam taxi",
+        "search_volume":  50,
+        "competition":  "HIGH",
+        "cpc":  0.32
+    },
+    {
+        "keyword":  "salem to bangalore taxi",
+        "search_volume":  40,
+        "competition":  "HIGH",
+        "cpc":  0.36
+    },
+    {
+        "keyword":  "hyderabad to chennai taxi",
+        "search_volume":  40,
+        "competition":  "HIGH",
+        "cpc":  0.27
+    },
+    {
+        "keyword":  "coimbatore to trichy taxi",
+        "search_volume":  30,
+        "competition":  "MEDIUM",
+        "cpc":  0.4
+    },
+    {
+        "keyword":  "madurai to bangalore taxi",
+        "search_volume":  30,
+        "competition":  "LOW",
+        "cpc":  0.47
+    },
+    {
+        "keyword":  "trichy to coimbatore taxi",
+        "search_volume":  30,
+        "competition":  "HIGH",
+        "cpc":  0.81
+    },
+    {
+        "keyword":  "trichy to madurai taxi",
+        "search_volume":  30,
+        "competition":  "HIGH",
+        "cpc":  0.78
+    },
+    {
+        "keyword":  "kochi to coimbatore taxi",
+        "search_volume":  20,
+        "competition":  "HIGH",
+        "cpc":  0.3
+    },
+    {
+        "keyword":  "chennai to hyderabad taxi",
+        "search_volume":  20,
+        "competition":  "HIGH",
+        "cpc":  0.2
+    },
+    {
+        "keyword":  "chennai to ooty taxi",
+        "search_volume":  20,
+        "competition":  "MEDIUM",
+        "cpc":  0.23
+    },
+    {
+        "keyword":  "hyderabad to tirupati taxi",
+        "search_volume":  10,
+        "competition":  "LOW",
+        "cpc":  0.1
+    },
+    {
+        "keyword":  "kochi to bangalore taxi",
+        "search_volume":  10,
+        "competition":  "HIGH",
+        "cpc":  0.29
+    },
+    {
+        "keyword":  "coimbatore to tirupati taxi",
+        "search_volume":  10,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "kochi to chennai taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "visakhapatnam to vijayawada taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "mysore to coimbatore taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "mysore to chennai taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "trivandrum to bangalore taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "trichy to bangalore taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "trivandrum to chennai taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "trivandrum to kochi taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    },
+    {
+        "keyword":  "trichy to salem taxi",
+        "search_volume":  null,
+        "competition":  null,
+        "cpc":  null
+    }
+]

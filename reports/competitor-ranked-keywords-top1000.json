@@ -1,0 +1,3234 @@
+﻿[
+    {
+        "keyword":  "one way drop taxi",
+        "search_volume":  18100,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  204.52999877929688,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "oneway drop taxi",
+        "search_volume":  18100,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  135.75,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "munnar and thekkady distance",
+        "search_volume":  12100,
+        "rank_group":  66,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  25.40999984741211,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "munnar to thekkady distance",
+        "search_volume":  12100,
+        "rank_group":  72,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  25.40999984741211,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "one way cabs",
+        "search_volume":  12100,
+        "rank_group":  20,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  29.040000915527344,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one way taxi",
+        "search_volume":  9900,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  111.87000274658203,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "arunachalam to tirupati distance",
+        "search_volume":  8100,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/tirupati-to-arunachalam-cab/",
+        "etv":  159.57000732421875,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "calicut to wayanad distance",
+        "search_volume":  8100,
+        "rank_group":  51,
+        "url":  "https://go2onewaytaxi.com/kozhikode-to-wayanad-taxi/",
+        "etv":  17.010000228881836,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "calicut wayanad distance",
+        "search_volume":  8100,
+        "rank_group":  68,
+        "url":  "https://go2onewaytaxi.com/kozhikode-to-wayanad-taxi/",
+        "etv":  17.010000228881836,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "distance from calicut to wayanad",
+        "search_volume":  8100,
+        "rank_group":  22,
+        "url":  "https://go2onewaytaxi.com/kozhikode-to-wayanad-taxi/",
+        "etv":  17.81999969482422,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "distance from kozhikode to wayanad",
+        "search_volume":  8100,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/kozhikode-to-wayanad-taxi/",
+        "etv":  121.5,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "kozhikode to wayanad distance",
+        "search_volume":  8100,
+        "rank_group":  49,
+        "url":  "https://go2onewaytaxi.com/kozhikode-to-wayanad-taxi/",
+        "etv":  17.010000228881836,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "kozhikode wayanad distance",
+        "search_volume":  8100,
+        "rank_group":  27,
+        "url":  "https://go2onewaytaxi.com/kozhikode-to-wayanad-taxi/",
+        "etv":  17.010000228881836,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "salem to yercaud distance",
+        "search_volume":  8100,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  26.729999542236328,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "yercaud distance from salem",
+        "search_volume":  8100,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  379.8900146484375,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "drop taxi chennai",
+        "search_volume":  5400,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-chennai/",
+        "etv":  81,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "oneway cab",
+        "search_volume":  5400,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  17.81999969482422,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi in tirupur",
+        "search_volume":  4400,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  66,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi tirupur",
+        "search_volume":  4400,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  112.63999938964844,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "thekkady and munnar distance",
+        "search_volume":  4400,
+        "rank_group":  95,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  9.239999771118164,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "tirupur call taxi",
+        "search_volume":  4400,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  33,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "coimbatore taxi",
+        "search_volume":  3600,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  7.559999942779541,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi coimbatore",
+        "search_volume":  3600,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  7.559999942779541,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi at vellore",
+        "search_volume":  2900,
+        "rank_group":  64,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-vellore/",
+        "etv":  6.090000152587891,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "coimbatore taxi service",
+        "search_volume":  2900,
+        "rank_group":  58,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  6.090000152587891,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "coimbatore taxi services",
+        "search_volume":  2900,
+        "rank_group":  37,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  6.090000152587891,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "drop off",
+        "search_volume":  2900,
+        "rank_group":  77,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-bangalore/",
+        "etv":  6.090000152587891,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "munnar to thekkady",
+        "search_volume":  2900,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  6.090000152587891,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "taxi service coimbatore",
+        "search_volume":  2900,
+        "rank_group":  40,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  6.090000152587891,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cab chennai to pondicherry",
+        "search_volume":  2400,
+        "rank_group":  70,
+        "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+        "etv":  5.039999961853027,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "cab services in pondicherry",
+        "search_volume":  2400,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  5.039999961853027,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "chennai pondicherry cab",
+        "search_volume":  2400,
+        "rank_group":  80,
+        "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+        "etv":  5.039999961853027,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "chennai pondicherry taxi",
+        "search_volume":  2400,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+        "etv":  5.039999961853027,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "coimbatore go taxi",
+        "search_volume":  2400,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+        "etv":  18,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "fast track call taxi in salem",
+        "search_volume":  2400,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  5.039999961853027,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi coimbatore",
+        "search_volume":  2400,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+        "etv":  18,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi coimbatore no",
+        "search_volume":  2400,
+        "rank_group":  14,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+        "etv":  13.4399995803833,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "go taxi coimbatore number",
+        "search_volume":  2400,
+        "rank_group":  13,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  14.15999984741211,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi coimbatore phone number",
+        "search_volume":  2400,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  18,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi in coimbatore",
+        "search_volume":  2400,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+        "etv":  18,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi number in coimbatore",
+        "search_volume":  2400,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  10.319999694824219,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "go taxi phone number coimbatore",
+        "search_volume":  2400,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  21.84000015258789,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "one drop taxi",
+        "search_volume":  2400,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  47.279998779296875,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one way taxi service",
+        "search_volume":  2400,
+        "rank_group":  22,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  5.28000020980835,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "pondicherry cab service",
+        "search_volume":  2400,
+        "rank_group":  52,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  5.039999961853027,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi chennai pondicherry",
+        "search_volume":  2400,
+        "rank_group":  20,
+        "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+        "etv":  5.760000228881836,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi service in pondicherry",
+        "search_volume":  2400,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  5.039999961853027,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cab service for outstation",
+        "search_volume":  1900,
+        "rank_group":  56,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  3.990000009536743,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "cabs in coimbatore",
+        "search_volume":  1900,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.990000009536743,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi in trichy",
+        "search_volume":  1900,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  64.22000122070312,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi trichy",
+        "search_volume":  1900,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  37.43000030517578,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "salem to yercaud",
+        "search_volume":  1900,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  21.469999313354492,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "salem yercaud distance",
+        "search_volume":  1900,
+        "rank_group":  4,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  125.20999908447266,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "taxi at coimbatore",
+        "search_volume":  1900,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  14.25,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi cab number",
+        "search_volume":  1900,
+        "rank_group":  50,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  3.990000009536743,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi from madurai to rameswaram",
+        "search_volume":  1900,
+        "rank_group":  54,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  3.990000009536743,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi in coimbatore",
+        "search_volume":  1900,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  8.170000076293945,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi in tirunelveli",
+        "search_volume":  1900,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-tirunelveli/",
+        "etv":  3.990000009536743,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi service outstation",
+        "search_volume":  1900,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  3.990000009536743,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxis in coimbatore",
+        "search_volume":  1900,
+        "rank_group":  17,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  8.170000076293945,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "bangalore to mysore taxi booking",
+        "search_volume":  1600,
+        "rank_group":  73,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  3.3600001335144043,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi coimbatore",
+        "search_volume":  1600,
+        "rank_group":  24,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.3600001335144043,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi in coimbatore city",
+        "search_volume":  1600,
+        "rank_group":  40,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.3600001335144043,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "city call taxi coimbatore",
+        "search_volume":  1600,
+        "rank_group":  47,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.3600001335144043,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "coimbatore cab service",
+        "search_volume":  1600,
+        "rank_group":  51,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.3600001335144043,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "coimbatore cab services",
+        "search_volume":  1600,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.3600001335144043,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "coimbatore call taxi",
+        "search_volume":  1600,
+        "rank_group":  27,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.3600001335144043,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "coimbatore taxi number",
+        "search_volume":  1600,
+        "rank_group":  50,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.3600001335144043,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "drop taxi coimbatore",
+        "search_volume":  1600,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+        "etv":  14.5600004196167,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi in coimbatore",
+        "search_volume":  1600,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  18.079999923706055,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi madurai",
+        "search_volume":  1600,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-madurai/",
+        "etv":  24,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "fast track call taxi in vellore",
+        "search_volume":  1600,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-vellore/",
+        "etv":  3.3600001335144043,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi booking from bangalore to mysore",
+        "search_volume":  1600,
+        "rank_group":  38,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  3.3600001335144043,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from bangalore to mysore",
+        "search_volume":  1600,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  3.3600001335144043,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi number coimbatore",
+        "search_volume":  1600,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  12,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "best cab service",
+        "search_volume":  1300,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "book taxi coimbatore",
+        "search_volume":  1300,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  9.75,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "cab booking coimbatore",
+        "search_volume":  1300,
+        "rank_group":  17,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  5.590000152587891,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab booking from coimbatore to ooty",
+        "search_volume":  1300,
+        "rank_group":  67,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cbe to ooty cab",
+        "search_volume":  1300,
+        "rank_group":  68,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cochin to munnar cab",
+        "search_volume":  1300,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "coimbatore taxi booking",
+        "search_volume":  1300,
+        "rank_group":  24,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  2.7300000190734863,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi",
+        "search_volume":  1300,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  33.279998779296875,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "kochi airport cabs",
+        "search_volume":  1300,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "kochi airport taxi",
+        "search_volume":  1300,
+        "rank_group":  56,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "local taxi cab service",
+        "search_volume":  1300,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  2.7300000190734863,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "madurai to rameshwaram taxi charges",
+        "search_volume":  1300,
+        "rank_group":  30,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi booking coimbatore",
+        "search_volume":  1300,
+        "rank_group":  19,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  3.509999990463257,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi cochin to munnar",
+        "search_volume":  1300,
+        "rank_group":  30,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi coimbatore to ooty",
+        "search_volume":  1300,
+        "rank_group":  37,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi fare from coimbatore to ooty",
+        "search_volume":  1300,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi fare from madurai to rameshwaram",
+        "search_volume":  1300,
+        "rank_group":  48,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi kochi to munnar",
+        "search_volume":  1300,
+        "rank_group":  46,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  2.7300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cochin airport cab",
+        "search_volume":  1000,
+        "rank_group":  77,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cochin airport taxi",
+        "search_volume":  1000,
+        "rank_group":  59,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cochin to munnar cab fare",
+        "search_volume":  1000,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cochin to munnar taxi price",
+        "search_volume":  1000,
+        "rank_group":  17,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  4.300000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi salem",
+        "search_volume":  1000,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  33.79999923706055,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "ernakulam to munnar taxi fare",
+        "search_volume":  1000,
+        "rank_group":  46,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "kochi airport taxi service",
+        "search_volume":  1000,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "kochi to munnar cab fare",
+        "search_volume":  1000,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "kochi to munnar taxi fare",
+        "search_volume":  1000,
+        "rank_group":  30,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "one way taxi chennai",
+        "search_volume":  1000,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  25.600000381469727,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "pondicherry cabs",
+        "search_volume":  1000,
+        "rank_group":  41,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  2.0999999046325684,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "pondicherry taxi",
+        "search_volume":  1000,
+        "rank_group":  44,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  2.0999999046325684,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "pondy cabs",
+        "search_volume":  1000,
+        "rank_group":  84,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  2.0999999046325684,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "ranipet chennai distance",
+        "search_volume":  1000,
+        "rank_group":  34,
+        "url":  "https://go2onewaytaxi.com/chennai-to-ranipet-taxi/",
+        "etv":  2.0999999046325684,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi cochin airport",
+        "search_volume":  1000,
+        "rank_group":  19,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  2.700000047683716,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi to pondicherry",
+        "search_volume":  1000,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  3.299999952316284,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cabs at trichy",
+        "search_volume":  880,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  1.8480000495910645,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cabs in trichy",
+        "search_volume":  880,
+        "rank_group":  50,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  1.8480000495910645,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cabs service in tirunelveli",
+        "search_volume":  880,
+        "rank_group":  78,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-tirunelveli/",
+        "etv":  1.8480000495910645,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai airport to cmc vellore distance",
+        "search_volume":  880,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/chennai-airport-to-cmc-vellore-taxi/",
+        "etv":  17.336000442504883,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai airport to vellore cmc distance",
+        "search_volume":  880,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/chennai-airport-to-cmc-vellore-taxi/",
+        "etv":  22.527999877929688,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi in vellore",
+        "search_volume":  880,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-vellore/",
+        "etv":  22.527999877929688,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "drop taxi vellore",
+        "search_volume":  880,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-vellore/",
+        "etv":  41.27199935913086,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "fast track madurai contact no",
+        "search_volume":  880,
+        "rank_group":  56,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  1.8480000495910645,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "madurai to tiruvannamalai",
+        "search_volume":  880,
+        "rank_group":  49,
+        "url":  "https://go2onewaytaxi.com/madurai-to-tiruvannamalai-taxi/",
+        "etv":  1.8480000495910645,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "mangalore airport taxi",
+        "search_volume":  880,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/airport-taxi-mangalore/",
+        "etv":  1.8480000495910645,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one way drop taxi chennai",
+        "search_volume":  880,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  29.743999481201172,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "one way drop taxi madurai",
+        "search_volume":  880,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-madurai/",
+        "etv":  17.336000442504883,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "one way drop taxi trichy",
+        "search_volume":  880,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  41.27199935913086,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "one way trip",
+        "search_volume":  880,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  3.7839999198913574,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "oneway drop taxi chennai",
+        "search_volume":  880,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  29.743999481201172,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "taxi at trichy",
+        "search_volume":  880,
+        "rank_group":  47,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-trichy/",
+        "etv":  1.8480000495910645,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi in trichy",
+        "search_volume":  880,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  2.9040000438690186,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi service in mangalore airport",
+        "search_volume":  880,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/airport-taxi-mangalore/",
+        "etv":  1.8480000495910645,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxis in trichy",
+        "search_volume":  880,
+        "rank_group":  39,
+        "url":  "https://go2onewaytaxi.com/trichy-airport-taxi/",
+        "etv":  1.8480000495910645,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "bangalore to mysore taxi charges",
+        "search_volume":  720,
+        "rank_group":  46,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore to mysore taxi price",
+        "search_volume":  720,
+        "rank_group":  48,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore to mysore taxi prices",
+        "search_volume":  720,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "best taxi service chennai",
+        "search_volume":  720,
+        "rank_group":  88,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from chennai to bangalore",
+        "search_volume":  720,
+        "rank_group":  57,
+        "url":  "https://go2onewaytaxi.com/chennai-to-bangalore-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab in pondicherry",
+        "search_volume":  720,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab in salem",
+        "search_volume":  720,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cab pondicherry to chennai",
+        "search_volume":  720,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/pondicherry-to-chennai-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab service in salem",
+        "search_volume":  720,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cab service salem",
+        "search_volume":  720,
+        "rank_group":  29,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cab to munnar",
+        "search_volume":  720,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "cabs in pondicherry",
+        "search_volume":  720,
+        "rank_group":  50,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cabs in salem",
+        "search_volume":  720,
+        "rank_group":  38,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "chennai airport car parking charges",
+        "search_volume":  720,
+        "rank_group":  66,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai pondicherry taxi fare",
+        "search_volume":  720,
+        "rank_group":  21,
+        "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+        "etv":  1.656000018119812,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to bangalore cabs",
+        "search_volume":  720,
+        "rank_group":  58,
+        "url":  "https://go2onewaytaxi.com/chennai-to-bangalore-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to bangalore taxi",
+        "search_volume":  720,
+        "rank_group":  51,
+        "url":  "https://go2onewaytaxi.com/chennai-to-bangalore-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "erode cab",
+        "search_volume":  720,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "erode taxi",
+        "search_volume":  720,
+        "rank_group":  34,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "fast track call taxi in tirupur",
+        "search_volume":  720,
+        "rank_group":  25,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "madurai to rameshwaram cab services",
+        "search_volume":  720,
+        "rank_group":  44,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "madurai to rameswaram cab service",
+        "search_volume":  720,
+        "rank_group":  66,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "mysore ooty cab",
+        "search_volume":  720,
+        "rank_group":  85,
+        "url":  "https://go2onewaytaxi.com/mysore-to-ooty-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "one way call taxi",
+        "search_volume":  720,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  24.336000442504883,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "pondicherry to chennai cabs",
+        "search_volume":  720,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/pondicherry-to-chennai-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "pondicherry to chennai taxi",
+        "search_volume":  720,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/pondicherry-to-chennai-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "salem taxi services",
+        "search_volume":  720,
+        "rank_group":  43,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi at salem",
+        "search_volume":  720,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  8.13599967956543,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi charges from chennai to pondicherry",
+        "search_volume":  720,
+        "rank_group":  17,
+        "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+        "etv":  3.0959999561309814,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from chennai to bangalore",
+        "search_volume":  720,
+        "rank_group":  59,
+        "url":  "https://go2onewaytaxi.com/chennai-to-bangalore-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi in nagercoil",
+        "search_volume":  720,
+        "rank_group":  39,
+        "url":  "https://go2onewaytaxi.com/call-taxi-nagercoil/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi in pondicherry",
+        "search_volume":  720,
+        "rank_group":  15,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  3.671999931335449,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi in salem",
+        "search_volume":  720,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  6.552000045776367,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi nagercoil",
+        "search_volume":  720,
+        "rank_group":  30,
+        "url":  "https://go2onewaytaxi.com/call-taxi-nagercoil/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi pondicherry to chennai",
+        "search_volume":  720,
+        "rank_group":  39,
+        "url":  "https://go2onewaytaxi.com/pondicherry-to-chennai-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi service from madurai to rameshwaram",
+        "search_volume":  720,
+        "rank_group":  59,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi service in salem",
+        "search_volume":  720,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi service salem",
+        "search_volume":  720,
+        "rank_group":  27,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi to munnar",
+        "search_volume":  720,
+        "rank_group":  25,
+        "url":  "https://go2onewaytaxi.com/cochin-to-munnar-taxi/",
+        "etv":  1.5120000839233398,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxis in pondicherry",
+        "search_volume":  720,
+        "rank_group":  20,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  1.7279999256134033,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxis in salem",
+        "search_volume":  720,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  5.400000095367432,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "tirupati to arunachalam distance by car",
+        "search_volume":  720,
+        "rank_group":  3,
+        "url":  "https://go2onewaytaxi.com/tirupati-to-arunachalam-cab/",
+        "etv":  70.05599975585938,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "airport drop taxi",
+        "search_volume":  590,
+        "rank_group":  33,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "best airport cab in bangalore",
+        "search_volume":  590,
+        "rank_group":  89,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "best cab service in coimbatore",
+        "search_volume":  590,
+        "rank_group":  48,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab charges from coimbatore to ooty",
+        "search_volume":  590,
+        "rank_group":  53,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab fare from coimbatore to ooty",
+        "search_volume":  590,
+        "rank_group":  45,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from madurai to kodaikanal",
+        "search_volume":  590,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/madurai-to-kodaikanal-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab service in erode",
+        "search_volume":  590,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab service thanjavur",
+        "search_volume":  590,
+        "rank_group":  55,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-thanjavur/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab services in erode",
+        "search_volume":  590,
+        "rank_group":  38,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.2389999628067017,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "cab services in thanjavur",
+        "search_volume":  590,
+        "rank_group":  53,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-thanjavur/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi dindigul",
+        "search_volume":  590,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-dindigul/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi in dindigul",
+        "search_volume":  590,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-dindigul/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "coimbatore to ooty taxi cost",
+        "search_volume":  590,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "coimbatore to ooty taxi price",
+        "search_volume":  590,
+        "rank_group":  29,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "drop taxi bangalore",
+        "search_volume":  590,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-bangalore/",
+        "etv":  19.941999435424805,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi in bangalore",
+        "search_volume":  590,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-bangalore/",
+        "etv":  11.623000144958496,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "droptaxi.in",
+        "search_volume":  590,
+        "rank_group":  55,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-chennai/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "erode taxi service",
+        "search_volume":  590,
+        "rank_group":  24,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi number",
+        "search_volume":  590,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  4.425000190734863,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "madurai to kodaikanal cab",
+        "search_volume":  590,
+        "rank_group":  17,
+        "url":  "https://go2onewaytaxi.com/madurai-to-kodaikanal-taxi/",
+        "etv":  2.5369999408721924,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "one way drop taxi coimbatore",
+        "search_volume":  590,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  19.941999435424805,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "one way taxi service near me",
+        "search_volume":  590,
+        "rank_group":  23,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one way trip taxi",
+        "search_volume":  590,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  15.104000091552734,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi cabs near me",
+        "search_volume":  590,
+        "rank_group":  33,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi charges from coimbatore to ooty",
+        "search_volume":  590,
+        "rank_group":  27,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from coimbatore to ooty price",
+        "search_volume":  590,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/coimbatore-to-ooty-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from madurai to kodaikanal",
+        "search_volume":  590,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/madurai-to-kodaikanal-taxi/",
+        "etv":  4.425000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi service erode",
+        "search_volume":  590,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi service in erode",
+        "search_volume":  590,
+        "rank_group":  34,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi services in erode",
+        "search_volume":  590,
+        "rank_group":  30,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.2389999628067017,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "vellore to chennai drop taxi",
+        "search_volume":  590,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+        "etv":  1.2389999628067017,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "airport cabs chennai",
+        "search_volume":  480,
+        "rank_group":  55,
+        "url":  "https://go2onewaytaxi.com/airport-taxi-in-chennai/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "airport cabs kochi",
+        "search_volume":  480,
+        "rank_group":  89,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "airport taxi from kochi",
+        "search_volume":  480,
+        "rank_group":  57,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "airport taxi in kochi",
+        "search_volume":  480,
+        "rank_group":  67,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "bangalore to tirupati taxi",
+        "search_volume":  480,
+        "rank_group":  34,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-tirupati-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from rameswaram to madurai",
+        "search_volume":  480,
+        "rank_group":  55,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from salem to yercaud",
+        "search_volume":  480,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  12.288000106811523,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "cab from trichy to chennai",
+        "search_volume":  480,
+        "rank_group":  20,
+        "url":  "https://go2onewaytaxi.com/trichy-to-chennai-taxi/",
+        "etv":  1.1519999504089355,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab in erode",
+        "search_volume":  480,
+        "rank_group":  42,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.0080000162124634,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "cab in vellore",
+        "search_volume":  480,
+        "rank_group":  37,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-vellore/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab services in tirupur",
+        "search_volume":  480,
+        "rank_group":  41,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cab to tirupati from bangalore",
+        "search_volume":  480,
+        "rank_group":  74,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-tirupati-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cabs in erode",
+        "search_volume":  480,
+        "rank_group":  40,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.0080000162124634,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "call taxi in nagercoil",
+        "search_volume":  480,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/call-taxi-nagercoil/",
+        "etv":  3.5999999046325684,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi kodaikanal",
+        "search_volume":  480,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-kodaikanal/",
+        "etv":  9.456000328063965,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi nagercoil",
+        "search_volume":  480,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/call-taxi-nagercoil/",
+        "etv":  16.224000930786133,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "chennai taxi service airport",
+        "search_volume":  480,
+        "rank_group":  74,
+        "url":  "https://go2onewaytaxi.com/airport-taxi-in-chennai/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "chennai to vellore cab",
+        "search_volume":  480,
+        "rank_group":  23,
+        "url":  "https://go2onewaytaxi.com/chennai-to-vellore-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to vellore cabs",
+        "search_volume":  480,
+        "rank_group":  30,
+        "url":  "https://go2onewaytaxi.com/chennai-to-vellore-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "chennai to vellore taxi",
+        "search_volume":  480,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/chennai-to-vellore-taxi/",
+        "etv":  1.5839999914169312,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cochin airport taxi.org",
+        "search_volume":  480,
+        "rank_group":  41,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "nagercoil call taxi",
+        "search_volume":  480,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/call-taxi-nagercoil/",
+        "etv":  1.5839999914169312,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "palladam call taxi",
+        "search_volume":  480,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-palladam/",
+        "etv":  22.511999130249023,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "rameshwaram to madurai cabs",
+        "search_volume":  480,
+        "rank_group":  63,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "rate of innova taxi per km",
+        "search_volume":  480,
+        "rank_group":  51,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "salem to yercaud cab",
+        "search_volume":  480,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  12.288000106811523,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "salem to yercaud taxi",
+        "search_volume":  480,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  16.224000930786133,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi at erode",
+        "search_volume":  480,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi from bangalore to tirupati",
+        "search_volume":  480,
+        "rank_group":  36,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-tirupati-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from salem to yercaud",
+        "search_volume":  480,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/salem-to-yercaud-taxi/",
+        "etv":  16.224000930786133,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "taxi from trichy to chennai",
+        "search_volume":  480,
+        "rank_group":  15,
+        "url":  "https://go2onewaytaxi.com/trichy-to-chennai-taxi/",
+        "etv":  2.447999954223633,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi in erode",
+        "search_volume":  480,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  1.5839999914169312,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi services in tirupur",
+        "search_volume":  480,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi to tirupati from bangalore",
+        "search_volume":  480,
+        "rank_group":  66,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-tirupati-taxi/",
+        "etv":  1.0080000162124634,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi udumalpet",
+        "search_volume":  480,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-udumalpet/",
+        "etv":  22.511999130249023,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "tirupur taxi services",
+        "search_volume":  480,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  1.0080000162124634,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "trichy to chennai cab",
+        "search_volume":  480,
+        "rank_group":  17,
+        "url":  "https://go2onewaytaxi.com/trichy-to-chennai-taxi/",
+        "etv":  2.063999891281128,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore to coimbatore taxi",
+        "search_volume":  390,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-coimbatore-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from chennai to trichy",
+        "search_volume":  390,
+        "rank_group":  52,
+        "url":  "https://go2onewaytaxi.com/chennai-to-trichy-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab services in cochin airport",
+        "search_volume":  390,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cabs in cochin airport",
+        "search_volume":  390,
+        "rank_group":  80,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cabs salem",
+        "search_volume":  390,
+        "rank_group":  29,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cabs salem or",
+        "search_volume":  390,
+        "rank_group":  57,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi coimbatore number",
+        "search_volume":  390,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  7.683000087738037,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi coimbatore phone number",
+        "search_volume":  390,
+        "rank_group":  38,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi erode number",
+        "search_volume":  390,
+        "rank_group":  88,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi in coimbatore number",
+        "search_volume":  390,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  2.924999952316284,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi in tuticorin",
+        "search_volume":  390,
+        "rank_group":  15,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tuticorin/",
+        "etv":  1.9890000820159912,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi karaikudi",
+        "search_volume":  390,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/call-taxi-karaikudi/",
+        "etv":  18.291000366210938,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi number coimbatore",
+        "search_volume":  390,
+        "rank_group":  40,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi number in coimbatore",
+        "search_volume":  390,
+        "rank_group":  39,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi number in erode",
+        "search_volume":  390,
+        "rank_group":  51,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  0.8190000057220459,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "call taxi tuticorin",
+        "search_volume":  390,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tuticorin/",
+        "etv":  3.5490000247955322,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cbe call taxi numbers",
+        "search_volume":  390,
+        "rank_group":  44,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai airport taxi charges",
+        "search_volume":  390,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/airport-taxi-in-chennai/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "chennai to trichy cab",
+        "search_volume":  390,
+        "rank_group":  39,
+        "url":  "https://go2onewaytaxi.com/chennai-to-trichy-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to trichy cabs",
+        "search_volume":  390,
+        "rank_group":  47,
+        "url":  "https://go2onewaytaxi.com/chennai-to-trichy-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "chennai to trichy taxi",
+        "search_volume":  390,
+        "rank_group":  22,
+        "url":  "https://go2onewaytaxi.com/chennai-to-trichy-taxi/",
+        "etv":  0.8579999804496765,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "chennai to vellore drop taxi",
+        "search_volume":  390,
+        "rank_group":  13,
+        "url":  "https://go2onewaytaxi.com/chennai-to-vellore-taxi/",
+        "etv":  2.3010001182556152,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cochin airport cab service",
+        "search_volume":  390,
+        "rank_group":  82,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cochin airport taxi service",
+        "search_volume":  390,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cochin airport taxi services",
+        "search_volume":  390,
+        "rank_group":  84,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "cochin international airport taxi service",
+        "search_volume":  390,
+        "rank_group":  54,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "coimbatore call taxi number",
+        "search_volume":  390,
+        "rank_group":  39,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "coimbatore call taxi numbers",
+        "search_volume":  390,
+        "rank_group":  37,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "coimbatore call taxi phone number",
+        "search_volume":  390,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "dindigul to kodaikanal cab",
+        "search_volume":  390,
+        "rank_group":  4,
+        "url":  "https://go2onewaytaxi.com/dindigul-to-kodaikanal-taxi/",
+        "etv":  25.701000213623047,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "distance between munnar and thekkady",
+        "search_volume":  390,
+        "rank_group":  77,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "distance between munnar to thekkady",
+        "search_volume":  390,
+        "rank_group":  76,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "distance from munnar to thekkady",
+        "search_volume":  390,
+        "rank_group":  63,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "fast track call taxi in erode",
+        "search_volume":  390,
+        "rank_group":  44,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-erode/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "karaikudi call taxi",
+        "search_volume":  390,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/call-taxi-karaikudi/",
+        "etv":  5.849999904632568,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "one to one taxi madurai",
+        "search_volume":  390,
+        "rank_group":  17,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  1.6770000457763672,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one trip taxi",
+        "search_volume":  390,
+        "rank_group":  14,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  2.184000015258789,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one way drop",
+        "search_volume":  390,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  2.924999952316284,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "one way taxi coimbatore",
+        "search_volume":  390,
+        "rank_group":  2,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  63.18000030517578,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "one way taxi trichy",
+        "search_volume":  390,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  13.182000160217285,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "taxi from chennai to trichy",
+        "search_volume":  390,
+        "rank_group":  29,
+        "url":  "https://go2onewaytaxi.com/chennai-to-trichy-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi salem",
+        "search_volume":  390,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  4.4070000648498535,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi service cochin airport",
+        "search_volume":  390,
+        "rank_group":  64,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi service in cochin airport",
+        "search_volume":  390,
+        "rank_group":  67,
+        "url":  "https://go2onewaytaxi.com/cochin-airport-taxi/",
+        "etv":  0.8190000057220459,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "theni call taxi",
+        "search_volume":  390,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-theni/",
+        "etv":  1.6770000457763672,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "villupuram drop taxi",
+        "search_volume":  390,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-villupuram/",
+        "etv":  5.849999904632568,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore mysore cab service",
+        "search_volume":  320,
+        "rank_group":  58,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore to chikmagalur taxi",
+        "search_volume":  320,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-chikmagalur-taxi/",
+        "etv":  1.055999994277954,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore to mysore cab services",
+        "search_volume":  320,
+        "rank_group":  36,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore to wayanad cab",
+        "search_volume":  320,
+        "rank_group":  22,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-wayanad-taxi/",
+        "etv":  0.7039999961853027,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "bangalore to wayanad taxi",
+        "search_volume":  320,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-wayanad-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "best one way taxi",
+        "search_volume":  320,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  6.303999900817871,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "book a taxi in chennai",
+        "search_volume":  320,
+        "rank_group":  76,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab fare from mysore to ooty",
+        "search_volume":  320,
+        "rank_group":  52,
+        "url":  "https://go2onewaytaxi.com/mysore-to-ooty-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "cab for mysore from bangalore",
+        "search_volume":  320,
+        "rank_group":  33,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from bangalore to chikmagalur",
+        "search_volume":  320,
+        "rank_group":  37,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-chikmagalur-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from bangalore to pondicherry",
+        "search_volume":  320,
+        "rank_group":  66,
+        "url":  "https://go2onewaytaxi.com/pondicherry-to-bangalore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from bangalore to wayanad",
+        "search_volume":  320,
+        "rank_group":  24,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-wayanad-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab from chennai to madurai",
+        "search_volume":  320,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/chennai-to-madurai-taxi/",
+        "etv":  1.055999994277954,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab services in dindigul",
+        "search_volume":  320,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-dindigul/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi in perambalur",
+        "search_volume":  320,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/call-taxi-perambalur/",
+        "etv":  3.615999937057495,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi in pollachi",
+        "search_volume":  320,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-pollachi/",
+        "etv":  15.008000373840332,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi in pondicherry",
+        "search_volume":  320,
+        "rank_group":  41,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi perambalur",
+        "search_volume":  320,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/call-taxi-perambalur/",
+        "etv":  6.303999900817871,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi pollachi",
+        "search_volume":  320,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-pollachi/",
+        "etv":  10.815999984741211,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi pondicherry",
+        "search_volume":  320,
+        "rank_group":  41,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi service in madurai",
+        "search_volume":  320,
+        "rank_group":  60,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi tirupur phone number",
+        "search_volume":  320,
+        "rank_group":  14,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  1.7920000553131104,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi udumalpet",
+        "search_volume":  320,
+        "rank_group":  4,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-udumalpet/",
+        "etv":  21.08799934387207,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "chennai to coimbatore cabs",
+        "search_volume":  320,
+        "rank_group":  14,
+        "url":  "https://go2onewaytaxi.com/chennai-to-coimbatore-taxi/",
+        "etv":  1.7920000553131104,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to coimbatore taxi",
+        "search_volume":  320,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/chennai-to-coimbatore-taxi/",
+        "etv":  4.800000190734863,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to madurai cab",
+        "search_volume":  320,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/chennai-to-madurai-taxi/",
+        "etv":  1.055999994277954,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to madurai cabs",
+        "search_volume":  320,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/chennai-to-madurai-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "chennai to madurai taxi",
+        "search_volume":  320,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/chennai-to-madurai-taxi/",
+        "etv":  1.375999927520752,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to tiruvannamalai taxi",
+        "search_volume":  320,
+        "rank_group":  34,
+        "url":  "https://go2onewaytaxi.com/chennai-to-tiruvannamalai-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi one way",
+        "search_volume":  320,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  4.800000190734863,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "drop taxi pondicherry",
+        "search_volume":  320,
+        "rank_group":  4,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  21.08799934387207,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi tiruvannamalai",
+        "search_volume":  320,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/tiruvannamalai-drop-taxi/",
+        "etv":  2.9119999408721924,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "fast track call taxi madurai tariff",
+        "search_volume":  320,
+        "rank_group":  47,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "fast track tariff in madurai",
+        "search_volume":  320,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  0.671999990940094,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "go taxi coimbatore booking",
+        "search_volume":  320,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+        "etv":  8.192000389099121,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "go taxi phone number in coimbatore",
+        "search_volume":  320,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-coimbatore/",
+        "etv":  2.9119999408721924,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "kanchipuram call taxi",
+        "search_volume":  320,
+        "rank_group":  29,
+        "url":  "https://go2onewaytaxi.com/chennai-to-kanchipuram-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "karaikudi cabs",
+        "search_volume":  320,
+        "rank_group":  24,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-karaikudi/",
+        "etv":  0.671999990940094,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "madurai to chennai cab",
+        "search_volume":  320,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/madurai-to-chennai-taxi/",
+        "etv":  10.815999984741211,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "madurai to chennai taxi",
+        "search_volume":  320,
+        "rank_group":  4,
+        "url":  "https://go2onewaytaxi.com/madurai-to-chennai-taxi/",
+        "etv":  21.08799934387207,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "mangalore to coorg taxi",
+        "search_volume":  320,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/mangalore-to-coorg-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "mysore to ooty taxi fare",
+        "search_volume":  320,
+        "rank_group":  43,
+        "url":  "https://go2onewaytaxi.com/mysore-to-ooty-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "one way drop taxi salem",
+        "search_volume":  320,
+        "rank_group":  4,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-salem/",
+        "etv":  21.08799934387207,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one way taxi madurai",
+        "search_volume":  320,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  10.815999984741211,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "online taxi booking chennai",
+        "search_volume":  320,
+        "rank_group":  87,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "perambalur call taxi",
+        "search_volume":  320,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/call-taxi-perambalur/",
+        "etv":  2.9119999408721924,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "pollachi call taxi",
+        "search_volume":  320,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-pollachi/",
+        "etv":  15.008000373840332,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "pondicherry call taxi",
+        "search_volume":  320,
+        "rank_group":  55,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-pondicherry/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi apps chennai",
+        "search_volume":  320,
+        "rank_group":  57,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi chennai to coimbatore",
+        "search_volume":  320,
+        "rank_group":  20,
+        "url":  "https://go2onewaytaxi.com/chennai-to-coimbatore-taxi/",
+        "etv":  0.7680000066757202,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi for bangalore to mysore",
+        "search_volume":  320,
+        "rank_group":  86,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi for mysore from bangalore",
+        "search_volume":  320,
+        "rank_group":  89,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from bangalore to chikmagalur",
+        "search_volume":  320,
+        "rank_group":  15,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-chikmagalur-taxi/",
+        "etv":  1.6319999694824219,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from bangalore to pondicherry",
+        "search_volume":  320,
+        "rank_group":  54,
+        "url":  "https://go2onewaytaxi.com/pondicherry-to-bangalore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from bangalore to wayanad",
+        "search_volume":  320,
+        "rank_group":  22,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-wayanad-taxi/",
+        "etv":  0.7039999961853027,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from chennai to coimbatore",
+        "search_volume":  320,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/chennai-to-coimbatore-taxi/",
+        "etv":  1.375999927520752,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from chennai to madurai",
+        "search_volume":  320,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/chennai-to-madurai-taxi/",
+        "etv":  1.375999927520752,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from madurai to chennai",
+        "search_volume":  320,
+        "rank_group":  3,
+        "url":  "https://go2onewaytaxi.com/madurai-to-chennai-taxi/",
+        "etv":  31.13599967956543,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi service application",
+        "search_volume":  320,
+        "rank_group":  82,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi service from bangalore to mysore",
+        "search_volume":  320,
+        "rank_group":  93,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mysore-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi tiruvannamalai",
+        "search_volume":  320,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/tiruvannamalai-drop-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "theni taxi service",
+        "search_volume":  320,
+        "rank_group":  22,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-theni/",
+        "etv":  0.7039999961853027,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "theni taxi services",
+        "search_volume":  320,
+        "rank_group":  15,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-theni/",
+        "etv":  1.6319999694824219,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "tirupati to arunachalam kilometres",
+        "search_volume":  320,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/tirupati-to-arunachalam-cab/",
+        "etv":  0.671999990940094,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "tirupur call taxi phone number",
+        "search_volume":  320,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tirupur/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "tiruvannamalai taxi service",
+        "search_volume":  320,
+        "rank_group":  33,
+        "url":  "https://go2onewaytaxi.com/tiruvannamalai-drop-taxi/",
+        "etv":  0.671999990940094,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "udumalpet call taxi",
+        "search_volume":  320,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-udumalpet/",
+        "etv":  15.008000373840332,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "vellore drop taxi",
+        "search_volume":  320,
+        "rank_group":  7,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-vellore/",
+        "etv":  8.192000389099121,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "bangalore airport cabs rates",
+        "search_volume":  260,
+        "rank_group":  87,
+        "url":  "https://go2onewaytaxi.com/airport-taxi-in-bangalore/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "bangalore to mangalore cabs",
+        "search_volume":  260,
+        "rank_group":  21,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mangalore-taxi/",
+        "etv":  0.5979999899864197,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab service in villupuram",
+        "search_volume":  260,
+        "rank_group":  35,
+        "url":  "https://go2onewaytaxi.com/villupuram-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "cab vellore to chennai",
+        "search_volume":  260,
+        "rank_group":  41,
+        "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi in tiruvannamalai",
+        "search_volume":  260,
+        "rank_group":  27,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-tiruvannamalai/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi in udumalpet",
+        "search_volume":  260,
+        "rank_group":  3,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-udumalpet/",
+        "etv":  25.29800033569336,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi palladam",
+        "search_volume":  260,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-palladam/",
+        "etv":  12.194000244140625,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "call taxi tindivanam",
+        "search_volume":  260,
+        "rank_group":  3,
+        "url":  "https://go2onewaytaxi.com/call-taxi-tindivanam/",
+        "etv":  25.29800033569336,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi tiruvannamalai",
+        "search_volume":  260,
+        "rank_group":  23,
+        "url":  "https://go2onewaytaxi.com/tiruvannamalai-drop-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "call taxi villupuram",
+        "search_volume":  260,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/villupuram-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai pondicherry distance by road",
+        "search_volume":  260,
+        "rank_group":  95,
+        "url":  "https://go2onewaytaxi.com/chennai-to-pondicherry-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "chennai to mahabalipuram cab",
+        "search_volume":  260,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/chennai-to-mahabalipuram-taxi/",
+        "etv":  1.9500000476837158,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "chennai to mahabalipuram taxi",
+        "search_volume":  260,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/chennai-to-mahabalipuram-taxi/",
+        "etv":  1.9500000476837158,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "drop cars",
+        "search_volume":  260,
+        "rank_group":  58,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-coimbatore/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "drop taxi tariff",
+        "search_volume":  260,
+        "rank_group":  38,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "drop taxi thanjavur",
+        "search_volume":  260,
+        "rank_group":  4,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-thanjavur/",
+        "etv":  17.134000778198242,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "drop taxi villupuram",
+        "search_volume":  260,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-villupuram/",
+        "etv":  12.194000244140625,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "fast track cabs trichy",
+        "search_volume":  260,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "fast track call taxi in trichy",
+        "search_volume":  260,
+        "rank_group":  62,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "go taxi booking",
+        "search_volume":  260,
+        "rank_group":  3,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  25.29800033569336,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "munnar to thekkady distance by road",
+        "search_volume":  260,
+        "rank_group":  65,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "munnar to thekkady road distance",
+        "search_volume":  260,
+        "rank_group":  69,
+        "url":  "https://go2onewaytaxi.com/munnar-to-thekkady-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "informational"
+    },
+    {
+        "keyword":  "one way drop taxi bangalore",
+        "search_volume":  260,
+        "rank_group":  5,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-bangalore/",
+        "etv":  12.194000244140625,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "one way taxi bangalore",
+        "search_volume":  260,
+        "rank_group":  9,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-bangalore/",
+        "etv":  3.9000000953674316,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "one way taxi chennai airport",
+        "search_volume":  260,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/airport-taxi-in-chennai/",
+        "etv":  0.8579999804496765,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "one way taxi tariff",
+        "search_volume":  260,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  8.788000106811523,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "one way travels",
+        "search_volume":  260,
+        "rank_group":  26,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "ooty coimbatore taxi",
+        "search_volume":  260,
+        "rank_group":  13,
+        "url":  "https://go2onewaytaxi.com/ooty-to-coimbatore-taxi/",
+        "etv":  1.5339999198913574,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "ooty to coimbatore cab",
+        "search_volume":  260,
+        "rank_group":  28,
+        "url":  "https://go2onewaytaxi.com/ooty-to-coimbatore-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "ooty to coimbatore taxi",
+        "search_volume":  260,
+        "rank_group":  11,
+        "url":  "https://go2onewaytaxi.com/ooty-to-coimbatore-taxi/",
+        "etv":  2.365999937057495,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi bangalore to mangalore",
+        "search_volume":  260,
+        "rank_group":  25,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mangalore-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi chennai to mahabalipuram",
+        "search_volume":  260,
+        "rank_group":  13,
+        "url":  "https://go2onewaytaxi.com/chennai-to-mahabalipuram-taxi/",
+        "etv":  1.5339999198913574,
+        "intent":  "transactional"
+    },
+    {
+        "keyword":  "taxi from bangalore to mangalore",
+        "search_volume":  260,
+        "rank_group":  24,
+        "url":  "https://go2onewaytaxi.com/bangalore-to-mangalore-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from chennai to mahabalipuram",
+        "search_volume":  260,
+        "rank_group":  12,
+        "url":  "https://go2onewaytaxi.com/chennai-to-mahabalipuram-taxi/",
+        "etv":  1.9500000476837158,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from ooty to coimbatore",
+        "search_volume":  260,
+        "rank_group":  19,
+        "url":  "https://go2onewaytaxi.com/ooty-to-coimbatore-taxi/",
+        "etv":  0.7020000219345093,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi from vellore to chennai",
+        "search_volume":  260,
+        "rank_group":  32,
+        "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi go",
+        "search_volume":  260,
+        "rank_group":  18,
+        "url":  "https://go2onewaytaxi.com/",
+        "etv":  0.8579999804496765,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi ooty to coimbatore",
+        "search_volume":  260,
+        "rank_group":  24,
+        "url":  "https://go2onewaytaxi.com/ooty-to-coimbatore-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi service in villupuram",
+        "search_volume":  260,
+        "rank_group":  30,
+        "url":  "https://go2onewaytaxi.com/villupuram-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "taxi vellore to chennai",
+        "search_volume":  260,
+        "rank_group":  31,
+        "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "tiruvannamalai to chennai taxi",
+        "search_volume":  260,
+        "rank_group":  10,
+        "url":  "https://go2onewaytaxi.com/tiruvannamalai-to-chennai-taxi/",
+        "etv":  2.937999963760376,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "trichy drop taxi",
+        "search_volume":  260,
+        "rank_group":  8,
+        "url":  "https://go2onewaytaxi.com/drop-taxi-in-trichy/",
+        "etv":  5.122000217437744,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "trichy to chennai drop taxi",
+        "search_volume":  260,
+        "rank_group":  16,
+        "url":  "https://go2onewaytaxi.com/trichy-to-chennai-taxi/",
+        "etv":  1.1180000305175781,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "vellore to chennai cab",
+        "search_volume":  260,
+        "rank_group":  33,
+        "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "vellore to chennai cabs",
+        "search_volume":  260,
+        "rank_group":  33,
+        "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "vellore to chennai taxi",
+        "search_volume":  260,
+        "rank_group":  38,
+        "url":  "https://go2onewaytaxi.com/vellore-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "villupuram call taxi",
+        "search_volume":  260,
+        "rank_group":  25,
+        "url":  "https://go2onewaytaxi.com/villupuram-to-chennai-taxi/",
+        "etv":  0.5460000038146973,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "best ooty taxi",
+        "search_volume":  210,
+        "rank_group":  43,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-ooty/",
+        "etv":  0.4410000145435333,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "madurai outstation taxi",
+        "search_volume":  210,
+        "rank_group":  43,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  0.4410000145435333,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "outstation cabs madurai",
+        "search_volume":  210,
+        "rank_group":  89,
+        "url":  "https://go2onewaytaxi.com/one-way-taxi-in-madurai/",
+        "etv":  0.4410000145435333,
+        "intent":  "navigational"
+    },
+    {
+        "keyword":  "rameshwaram to madurai cab cost",
+        "search_volume":  210,
+        "rank_group":  60,
+        "url":  "https://go2onewaytaxi.com/madurai-to-rameswaram-taxi/",
+        "etv":  0.4410000145435333,
+        "intent":  "commercial"
+    },
+    {
+        "keyword":  "taxi in udumalpet",
+        "search_volume":  210,
+        "rank_group":  6,
+        "url":  "https://go2onewaytaxi.com/call-taxi-in-udumalpet/",
+        "etv":  7.0980000495910645,
+        "intent":  "commercial"
+    }
+]
