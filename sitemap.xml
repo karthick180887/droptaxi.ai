@@ -31,6 +31,12 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://droptaxi.ai/airport-transfer-guide-south-india.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://droptaxi.ai/all-routes.html</loc>
     <lastmod>2026-03-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -431,6 +437,12 @@
     <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://droptaxi.ai/chennai-road-trips-guide.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://droptaxi.ai/chennai-to-bangalore-taxi.html</loc>
@@ -1945,6 +1957,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://droptaxi.ai/one-way-taxi-vs-round-trip-guide.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://droptaxi.ai/ooty-to-bangalore-taxi.html</loc>
     <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2072,6 +2090,18 @@
   </url>
   <url>
     <loc>https://droptaxi.ai/sivagangai-call-taxi.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://droptaxi.ai/south-india-hill-stations-taxi-guide.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://droptaxi.ai/tamil-nadu-temple-circuit-taxi-guide.html</loc>
     <lastmod>2026-03-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
