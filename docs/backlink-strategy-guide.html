@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Backlink &amp; Directory Submission Guide — DropTaxi (Internal)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <style>
+    /* ── Guide-specific styles ── */
+    .guide-badge {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .badge-free { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-paid { background: rgba(239, 68, 68, 0.12); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.25); }
+    .badge-freemium { background: rgba(245, 158, 11, 0.12); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.25); }
+    .badge-high { background: rgba(99, 102, 241, 0.12); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.25); }
+    .badge-medium { background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.2); }
+    .badge-low { background: rgba(148, 163, 184, 0.1); color: #94a3b8; border: 1px solid rgba(148, 163, 184, 0.2); }
+
+    .priority-stars { color: #f59e0b; letter-spacing: 2px; font-size: 0.85rem; }
+
+    .internal-banner {
+      background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(245, 158, 11, 0.08));
+      border: 1px solid rgba(239, 68, 68, 0.25);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .internal-banner strong { color: #ef4444; font-size: 0.9rem; }
+    .internal-banner p { margin: 0; font-size: 0.88rem; color: var(--muted); }
+
+    .toc { list-style: none; padding: 0; margin: 1rem 0 0; }
+    .toc li { margin-bottom: 0.5rem; }
+    .toc a {
+      display: block;
+      padding: 0.6rem 1rem;
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: 10px;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.92rem;
+      transition: border-color 0.2s, background 0.2s, transform 0.2s;
+    }
+    .toc a:hover {
+      border-color: rgba(99, 102, 241, 0.3);
+      background: var(--glass-hover);
+      transform: translateX(4px);
+      color: var(--text-strong);
+    }
+    .toc .toc-num {
+      display: inline-block;
+      width: 1.6rem;
+      height: 1.6rem;
+      line-height: 1.6rem;
+      text-align: center;
+      border-radius: 6px;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(245, 158, 11, 0.1));
+      color: var(--brand-light);
+      font-weight: 800;
+      font-size: 0.8rem;
+      margin-right: 0.6rem;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+
+    .section-anchor { scroll-margin-top: 90px; }
+
+    .guide-section { margin-bottom: 3rem; }
+    .guide-section h2 {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 1.25rem;
+    }
+    .guide-section h2 .section-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 10px;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(245, 158, 11, 0.1));
+      color: var(--brand-light);
+      font-weight: 800;
+      font-size: 0.95rem;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      flex-shrink: 0;
+    }
+
+    .nap-card {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      backdrop-filter: blur(8px);
+      position: relative;
+      overflow: hidden;
+    }
+    .nap-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--brand), var(--accent));
+    }
+    .nap-card table { min-width: 0; }
+    .nap-card th { width: 160px; white-space: nowrap; }
+    .nap-card td { color: var(--text-strong); font-weight: 500; }
+    .nap-card .editable {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px dashed rgba(245, 158, 11, 0.3);
+      border-radius: 6px;
+      padding: 0.3rem 0.6rem;
+      color: var(--accent);
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .timeline-card {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s var(--ease-spring), border-color 0.3s;
+    }
+    .timeline-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(99, 102, 241, 0.25);
+    }
+    .timeline-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--brand), var(--accent));
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .timeline-card:hover::before { opacity: 1; }
+    .timeline-card h3 { color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; }
+    .timeline-card h4 { color: var(--text-strong); font-size: 1rem; margin: 0 0 0.6rem; }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .social-card {
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      transition: transform 0.3s var(--ease-spring), border-color 0.3s;
+    }
+    .social-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(99, 102, 241, 0.2);
+    }
+    .social-card h3 { font-size: 1rem; margin-bottom: 0.3rem; }
+    .social-card .social-url { font-size: 0.82rem; color: var(--brand-light); margin-bottom: 0.6rem; word-break: break-all; }
+    .social-card h4 { font-size: 0.82rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; margin: 0.8rem 0 0.3rem; }
+
+    .content-tip {
+      background: rgba(99, 102, 241, 0.06);
+      border-left: 3px solid var(--brand);
+      border-radius: 0 10px 10px 0;
+      padding: 0.8rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .content-tip strong { color: var(--brand-light); }
+
+    @media (max-width: 760px) {
+      .timeline-grid { grid-template-columns: 1fr; }
+      .social-grid { grid-template-columns: 1fr; }
+      .nap-card th { width: 120px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="../index.html" aria-label="DropTaxi Home">
+        <span class="brand-mark" aria-hidden="true">DT</span>
+        <span>DropTaxi</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav mega-nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+
+        <div class="mega-dropdown">
+          <button class="mega-trigger" aria-expanded="false">Routes <span class="chevron">&#9662;</span></button>
+          <div class="mega-panel">
+            <div class="mega-panel-inner">
+              <div class="mega-col">
+                <h4>From Chennai</h4>
+                <a href="../chennai-to-bangalore-taxi.html">Chennai &rarr; Bangalore</a>
+                <a href="../chennai-to-coimbatore-taxi.html">Chennai &rarr; Coimbatore</a>
+                <a href="../chennai-to-madurai-taxi.html">Chennai &rarr; Madurai</a>
+                <a href="../chennai-to-trichy-taxi.html">Chennai &rarr; Trichy</a>
+                <a href="../chennai-to-pondicherry-taxi.html">Chennai &rarr; Pondicherry</a>
+                <a href="../chennai-to-tirupati-taxi.html">Chennai &rarr; Tirupati</a>
+                <a href="../all-routes.html" class="mega-view-all">View All Routes &rarr;</a>
+              </div>
+              <div class="mega-col">
+                <h4>From Bangalore</h4>
+                <a href="../bangalore-to-chennai-taxi.html">Bangalore &rarr; Chennai</a>
+                <a href="../bangalore-to-mysore-taxi.html">Bangalore &rarr; Mysore</a>
+                <a href="../bangalore-to-coimbatore-taxi.html">Bangalore &rarr; Coimbatore</a>
+                <a href="../bangalore-to-hyderabad-taxi.html">Bangalore &rarr; Hyderabad</a>
+                <a href="../bangalore-to-ooty-taxi.html">Bangalore &rarr; Ooty</a>
+                <a href="../all-routes.html" class="mega-view-all">View All Routes &rarr;</a>
+              </div>
+              <div class="mega-col">
+                <h4>From Madurai</h4>
+                <a href="../madurai-to-chennai-taxi.html">Madurai &rarr; Chennai</a>
+                <a href="../madurai-to-bangalore-taxi.html">Madurai &rarr; Bangalore</a>
+                <a href="../madurai-to-kodaikanal-taxi.html">Madurai &rarr; Kodaikanal</a>
+                <h4>From Coimbatore</h4>
+                <a href="../coimbatore-to-chennai-taxi.html">Coimbatore &rarr; Chennai</a>
+                <a href="../coimbatore-to-ooty-taxi.html">Coimbatore &rarr; Ooty</a>
+              </div>
+              <div class="mega-col">
+                <h4>More Routes</h4>
+                <a href="../trichy-to-chennai-taxi.html">Trichy &rarr; Chennai</a>
+                <a href="../hyderabad-to-bangalore-taxi.html">Hyderabad &rarr; Bangalore</a>
+                <a href="../mysore-to-bangalore-taxi.html">Mysore &rarr; Bangalore</a>
+                <a href="../all-routes.html" class="mega-view-all">View All Routes &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mega-dropdown">
+          <button class="mega-trigger" aria-expanded="false">Cities <span class="chevron">&#9662;</span></button>
+          <div class="mega-panel">
+            <div class="mega-panel-inner">
+              <div class="mega-col">
+                <h4>Tamil Nadu</h4>
+                <a href="../drop-taxi-in-chennai.html">Chennai</a>
+                <a href="../drop-taxi-in-coimbatore.html">Coimbatore</a>
+                <a href="../drop-taxi-in-madurai.html">Madurai</a>
+                <a href="../drop-taxi-in-trichy.html">Trichy</a>
+                <a href="../drop-taxi-in-salem.html">Salem</a>
+              </div>
+              <div class="mega-col">
+                <h4>Kerala</h4>
+                <a href="../drop-taxi-in-kochi.html">Kochi</a>
+                <a href="../drop-taxi-in-trivandrum.html">Trivandrum</a>
+                <a href="../drop-taxi-in-munnar.html">Munnar</a>
+                <h4>Karnataka</h4>
+                <a href="../drop-taxi-in-bangalore.html">Bangalore</a>
+                <a href="../drop-taxi-in-mysore.html">Mysore</a>
+              </div>
+              <div class="mega-col">
+                <h4>AP &amp; Telangana</h4>
+                <a href="../drop-taxi-in-hyderabad.html">Hyderabad</a>
+                <a href="../drop-taxi-in-tirupati.html">Tirupati</a>
+                <a href="../drop-taxi-in-vijayawada.html">Vijayawada</a>
+              </div>
+              <div class="mega-col">
+                <h4>Pondicherry</h4>
+                <a href="../drop-taxi-in-pondicherry.html">Pondicherry</a>
+                <a href="../cities.html" class="mega-view-all">View All Cities &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mega-dropdown">
+          <button class="mega-trigger" aria-expanded="false">More <span class="chevron">&#9662;</span></button>
+          <div class="mega-panel mega-panel-sm">
+            <div class="mega-panel-inner">
+              <div class="mega-col">
+                <h4>Services</h4>
+                <a href="../one-way-cab-booking.html">One Way Cab Booking</a>
+                <a href="../outstation-cabs.html">Outstation Cabs</a>
+                <a href="../tariff.html">Tariff &amp; Pricing</a>
+                <h4>Company</h4>
+                <a href="../about-us.html">About Us</a>
+                <a href="../reviews.html">Customer Reviews</a>
+                <a href="../blogs.html">Blog</a>
+                <a href="../faq.html">FAQ</a>
+                <a href="../contact.html">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="../contact.html" class="btn btn-primary btn-nav-cta">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Main Content ── -->
+  <main id="main-content" class="page-main">
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <ul class="breadcrumbs">
+          <li><a href="../index.html">Home</a></li>
+          <li>Docs</li>
+          <li>Backlink Strategy Guide</li>
+        </ul>
+        <h1>Backlink &amp; Directory Submission Guide</h1>
+        <p class="lead">A comprehensive, step-by-step internal reference for building high-quality backlinks, directory citations, and online presence for droptaxi.ai.</p>
+
+        <div class="internal-banner">
+          <strong>INTERNAL DOCUMENT</strong>
+          <p>This page is not indexed by search engines. It is for internal use only to guide the manual backlink building process for DropTaxi.</p>
+        </div>
+
+        <!-- Table of Contents -->
+        <div class="stat-card">
+          <h2 style="font-size:1.15rem; margin-bottom:0.8rem;">Table of Contents</h2>
+          <ul class="toc">
+            <li><a href="#section-1"><span class="toc-num">1</span> Free Business Directories (Priority: HIGH)</a></li>
+            <li><a href="#section-2"><span class="toc-num">2</span> Social Media Profiles</a></li>
+            <li><a href="#section-3"><span class="toc-num">3</span> Travel &amp; Tourism Specific Platforms</a></li>
+            <li><a href="#section-4"><span class="toc-num">4</span> Content Marketing &amp; Guest Post Targets</a></li>
+            <li><a href="#section-5"><span class="toc-num">5</span> Press Release Sites</a></li>
+            <li><a href="#section-6"><span class="toc-num">6</span> Citation Consistency Checklist (NAP Data)</a></li>
+            <li><a href="#section-7"><span class="toc-num">7</span> Backlink Building Timeline (Month-by-Month)</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 1: FREE BUSINESS DIRECTORIES
+         ══════════════════════════════════════════════════════ -->
+    <section id="section-1" class="section section-anchor guide-section">
+      <div class="container">
+        <h2><span class="section-num">1</span> Free Business Directories (Priority: HIGH)</h2>
+        <p class="section-intro">Submit DropTaxi to every directory below using consistent NAP (Name, Address, Phone) data. Focus on high-DA directories first. Always include the website URL, business hours (24/7), and category (Taxi Service / Transportation).</p>
+
+        <div class="content-tip">
+          <strong>Pro tip:</strong> Complete your Google Business Profile first &mdash; many other directories pull data from Google. Always use the exact same business name, address, and phone number everywhere.
+        </div>
+
+        <div class="table-wrap" style="margin-top:1rem;">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Directory</th>
+                <th>Submission URL</th>
+                <th>Cost</th>
+                <th>Domain Authority</th>
+                <th>Info Needed</th>
+                <th>Priority</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- 1 -->
+              <tr>
+                <td>1</td>
+                <td><strong>Google Business Profile</strong></td>
+                <td><a href="https://business.google.com" target="_blank" rel="noopener">business.google.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Photos, Hours, Description, Categories</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <!-- 2 -->
+              <tr>
+                <td>2</td>
+                <td><strong>Justdial</strong></td>
+                <td><a href="https://www.justdial.com/Free-Listing" target="_blank" rel="noopener">justdial.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Categories, Photos, Hours</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <!-- 3 -->
+              <tr>
+                <td>3</td>
+                <td><strong>Sulekha</strong></td>
+                <td><a href="https://www.sulekha.com/free-business-listing" target="_blank" rel="noopener">sulekha.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Services, Description</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <!-- 4 -->
+              <tr>
+                <td>4</td>
+                <td><strong>IndiaMART</strong></td>
+                <td><a href="https://seller.indiamart.com" target="_blank" rel="noopener">indiamart.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Services, GST (optional)</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 5 -->
+              <tr>
+                <td>5</td>
+                <td><strong>TradeIndia</strong></td>
+                <td><a href="https://www.tradeindia.com/free-listing.html" target="_blank" rel="noopener">tradeindia.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Services, Description</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 6 -->
+              <tr>
+                <td>6</td>
+                <td><strong>Bing Places</strong></td>
+                <td><a href="https://www.bingplaces.com" target="_blank" rel="noopener">bingplaces.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Photos, Hours, Categories</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <!-- 7 -->
+              <tr>
+                <td>7</td>
+                <td><strong>Apple Maps Connect</strong></td>
+                <td><a href="https://mapsconnect.apple.com" target="_blank" rel="noopener">mapsconnect.apple.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Hours, Categories, Apple ID</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <!-- 8 -->
+              <tr>
+                <td>8</td>
+                <td><strong>Yellow Pages India</strong></td>
+                <td><a href="https://www.yellowpages.co.in" target="_blank" rel="noopener">yellowpages.co.in</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Categories, Description</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 9 -->
+              <tr>
+                <td>9</td>
+                <td><strong>Yelp India</strong></td>
+                <td><a href="https://biz.yelp.com" target="_blank" rel="noopener">yelp.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Photos, Hours, Description</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 10 -->
+              <tr>
+                <td>10</td>
+                <td><strong>Foursquare</strong></td>
+                <td><a href="https://foursquare.com/add-place" target="_blank" rel="noopener">foursquare.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Categories, Photos</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 11 -->
+              <tr>
+                <td>11</td>
+                <td><strong>AskLaila</strong></td>
+                <td><a href="https://www.asklaila.com/business-listing" target="_blank" rel="noopener">asklaila.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Categories</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 12 -->
+              <tr>
+                <td>12</td>
+                <td><strong>MapQuest</strong></td>
+                <td><a href="https://www.mapquest.com/add-a-business" target="_blank" rel="noopener">mapquest.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Categories, Hours</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 13 -->
+              <tr>
+                <td>13</td>
+                <td><strong>Hotfrog India</strong></td>
+                <td><a href="https://www.hotfrog.in" target="_blank" rel="noopener">hotfrog.in</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Description, Categories</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 14 -->
+              <tr>
+                <td>14</td>
+                <td><strong>Cylex India</strong></td>
+                <td><a href="https://www.cylex.in" target="_blank" rel="noopener">cylex.in</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Description, Categories</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 15 -->
+              <tr>
+                <td>15</td>
+                <td><strong>LocalStack</strong></td>
+                <td><a href="https://www.localstack.com/signup" target="_blank" rel="noopener">localstack.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Hours, Description</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 16 -->
+              <tr>
+                <td>16</td>
+                <td><strong>Manta</strong></td>
+                <td><a href="https://www.manta.com/claim" target="_blank" rel="noopener">manta.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Description, Categories</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 17 -->
+              <tr>
+                <td>17</td>
+                <td><strong>Brownbook</strong></td>
+                <td><a href="https://www.brownbook.net/add-business/" target="_blank" rel="noopener">brownbook.net</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Description</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 18 -->
+              <tr>
+                <td>18</td>
+                <td><strong>eLocal</strong></td>
+                <td><a href="https://www.elocal.com/add-business" target="_blank" rel="noopener">elocal.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Categories</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 19 -->
+              <tr>
+                <td>19</td>
+                <td><strong>Hub.biz</strong></td>
+                <td><a href="https://www.hub.biz/add-business" target="_blank" rel="noopener">hub.biz</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-low">Low</span></td>
+                <td>NAP, Description</td>
+                <td><span class="priority-stars">★★☆☆☆</span></td>
+              </tr>
+              <!-- 20 -->
+              <tr>
+                <td>20</td>
+                <td><strong>Tupalo</strong></td>
+                <td><a href="https://www.tupalo.co/add-business" target="_blank" rel="noopener">tupalo.co</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Photos, Description</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 21 -->
+              <tr>
+                <td>21</td>
+                <td><strong>n49.com</strong></td>
+                <td><a href="https://www.n49.com/add-business" target="_blank" rel="noopener">n49.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Description</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 22 -->
+              <tr>
+                <td>22</td>
+                <td><strong>Fyple</strong></td>
+                <td><a href="https://www.fyple.com/add-business" target="_blank" rel="noopener">fyple.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-low">Low</span></td>
+                <td>NAP, Categories</td>
+                <td><span class="priority-stars">★★☆☆☆</span></td>
+              </tr>
+              <!-- 23 -->
+              <tr>
+                <td>23</td>
+                <td><strong>iGlobal</strong></td>
+                <td><a href="https://www.iglobal.co/add-company" target="_blank" rel="noopener">iglobal.co</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Description, Photos</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 24 -->
+              <tr>
+                <td>24</td>
+                <td><strong>Wand.com</strong></td>
+                <td><a href="https://www.wand.com/add-business" target="_blank" rel="noopener">wand.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-low">Low</span></td>
+                <td>NAP, Description</td>
+                <td><span class="priority-stars">★★☆☆☆</span></td>
+              </tr>
+              <!-- 25 -->
+              <tr>
+                <td>25</td>
+                <td><strong>City-data</strong></td>
+                <td><a href="https://www.city-data.com/forum/" target="_blank" rel="noopener">city-data.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Forum profile with business info</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 26 -->
+              <tr>
+                <td>26</td>
+                <td><strong>ExportersIndia</strong></td>
+                <td><a href="https://www.exportersindia.com/free-listing.htm" target="_blank" rel="noopener">exportersindia.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Services</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 27 -->
+              <tr>
+                <td>27</td>
+                <td><strong>Dealerbaba</strong></td>
+                <td><a href="https://www.dealerbaba.com/free-listing" target="_blank" rel="noopener">dealerbaba.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-low">Low</span></td>
+                <td>NAP, Description</td>
+                <td><span class="priority-stars">★★☆☆☆</span></td>
+              </tr>
+              <!-- 28 -->
+              <tr>
+                <td>28</td>
+                <td><strong>Kompass India</strong></td>
+                <td><a href="https://in.kompass.com/register/" target="_blank" rel="noopener">in.kompass.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Services, Description</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 29 -->
+              <tr>
+                <td>29</td>
+                <td><strong>ClickIndia</strong></td>
+                <td><a href="https://www.clickindia.com/post-free-ad/" target="_blank" rel="noopener">clickindia.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-medium">Medium</span></td>
+                <td>NAP, Description, Photos</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 30 -->
+              <tr>
+                <td>30</td>
+                <td><strong>Quikr</strong></td>
+                <td><a href="https://www.quikr.com/post-ad" target="_blank" rel="noopener">quikr.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Ad Description, Photos</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 31 -->
+              <tr>
+                <td>31</td>
+                <td><strong>OLX India</strong></td>
+                <td><a href="https://www.olx.in/post" target="_blank" rel="noopener">olx.in</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Ad Description, Photos</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <!-- 32 -->
+              <tr>
+                <td>32</td>
+                <td><strong>Crunchbase</strong></td>
+                <td><a href="https://www.crunchbase.com/add-new" target="_blank" rel="noopener">crunchbase.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Company Name, Website, Description, Founders</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <!-- 33 -->
+              <tr>
+                <td>33</td>
+                <td><strong>ThomasNet (India)</strong></td>
+                <td><a href="https://www.thomasnet.com/register/" target="_blank" rel="noopener">thomasnet.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>NAP, Services, Description</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 2: SOCIAL MEDIA PROFILES
+         ══════════════════════════════════════════════════════ -->
+    <section id="section-2" class="section section-tint section-anchor guide-section">
+      <div class="container">
+        <h2><span class="section-num">2</span> Social Media Profiles</h2>
+        <p class="section-intro">Establish a consistent brand presence across all major social platforms. Each profile is a backlink and a trust signal. Complete every field and maintain a regular posting schedule.</p>
+
+        <div class="social-grid">
+
+          <!-- Facebook -->
+          <div class="social-card">
+            <h3>Facebook Page</h3>
+            <div class="social-url">facebook.com/droptaxi.ai</div>
+            <h4>Setup Checklist</h4>
+            <ul class="check-list">
+              <li>Create a Business Page (not personal profile)</li>
+              <li>Add logo as profile pic, branded cover photo</li>
+              <li>Fill About section with full NAP + website link</li>
+              <li>Set category to "Taxi Service"</li>
+              <li>Enable Messenger for booking inquiries</li>
+              <li>Add CTA button: "Call Now" or "Book Now"</li>
+            </ul>
+            <h4>Content to Post</h4>
+            <ul class="check-list">
+              <li>Route highlights with pricing (2-3x/week)</li>
+              <li>Customer testimonials and reviews</li>
+              <li>Travel tips for South India destinations</li>
+              <li>Festival/holiday travel deals and offers</li>
+              <li>Behind-the-scenes: clean cars, professional drivers</li>
+            </ul>
+          </div>
+
+          <!-- Instagram -->
+          <div class="social-card">
+            <h3>Instagram Business</h3>
+            <div class="social-url">instagram.com/droptaxi.ai</div>
+            <h4>Setup Checklist</h4>
+            <ul class="check-list">
+              <li>Switch to Business Account</li>
+              <li>Add website link in bio (use Linktree if needed)</li>
+              <li>Create Highlights: Routes, Reviews, Pricing, FAQs</li>
+              <li>Set contact options: phone, email, website</li>
+              <li>Maintain consistent visual aesthetic</li>
+            </ul>
+            <h4>Content to Post</h4>
+            <ul class="check-list">
+              <li>Destination photos (Ooty, Munnar, Kodaikanal, etc.)</li>
+              <li>Reels: "Chennai to Bangalore in comfort" type videos</li>
+              <li>Stories: daily deals, customer shoutouts</li>
+              <li>Carousel posts: "Top 5 weekend getaways from Chennai"</li>
+              <li>User-generated content from happy customers</li>
+            </ul>
+          </div>
+
+          <!-- Twitter/X -->
+          <div class="social-card">
+            <h3>Twitter / X</h3>
+            <div class="social-url">x.com/droptaxiai</div>
+            <h4>Setup Checklist</h4>
+            <ul class="check-list">
+              <li>Create business account with consistent handle</li>
+              <li>Add website link, location, and bio</li>
+              <li>Pin a tweet with booking link and phone number</li>
+              <li>Follow local travel bloggers and tourism boards</li>
+            </ul>
+            <h4>Content to Post</h4>
+            <ul class="check-list">
+              <li>Route updates and new city announcements</li>
+              <li>Reply to travel queries mentioning taxi/cab needs</li>
+              <li>Share blog posts and travel tips</li>
+              <li>Engage with #ChennaiTravel #BangaloreTaxi hashtags</li>
+              <li>Quick polls: "Favorite weekend getaway from Chennai?"</li>
+            </ul>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="social-card">
+            <h3>LinkedIn Company Page</h3>
+            <div class="social-url">linkedin.com/company/droptaxi</div>
+            <h4>Setup Checklist</h4>
+            <ul class="check-list">
+              <li>Create a Company Page (not personal profile)</li>
+              <li>Add logo, cover image, and detailed description</li>
+              <li>Set industry: Transportation / Ground Passenger</li>
+              <li>Add website URL and headquarters location</li>
+              <li>List specialities: one-way taxi, drop taxi, outstation cabs</li>
+            </ul>
+            <h4>Content to Post</h4>
+            <ul class="check-list">
+              <li>Company milestones and growth stories</li>
+              <li>Driver partner spotlights and team stories</li>
+              <li>Industry insights: ride-hailing trends in India</li>
+              <li>Hiring updates for driver partners</li>
+              <li>Partnership announcements</li>
+            </ul>
+          </div>
+
+          <!-- YouTube -->
+          <div class="social-card">
+            <h3>YouTube Channel</h3>
+            <div class="social-url">youtube.com/@droptaxi</div>
+            <h4>Setup Checklist</h4>
+            <ul class="check-list">
+              <li>Create a Brand Account (not personal)</li>
+              <li>Add logo, banner, and channel description with keywords</li>
+              <li>Add website link and social links in About</li>
+              <li>Create playlists by route/city</li>
+              <li>Enable community tab for engagement</li>
+            </ul>
+            <h4>Content to Post</h4>
+            <ul class="check-list">
+              <li>Route experience videos: "Chennai to Pondicherry road trip"</li>
+              <li>Customer testimonial videos</li>
+              <li>Shorts: quick cab booking tips, travel hacks</li>
+              <li>"How to book a one-way taxi" tutorial</li>
+              <li>Destination guides for South India cities</li>
+            </ul>
+          </div>
+
+          <!-- Pinterest -->
+          <div class="social-card">
+            <h3>Pinterest Business</h3>
+            <div class="social-url">pinterest.com/droptaxiai</div>
+            <h4>Setup Checklist</h4>
+            <ul class="check-list">
+              <li>Create a Business Account</li>
+              <li>Claim website for rich pins</li>
+              <li>Create boards: "South India Road Trips", "Temple Towns", etc.</li>
+              <li>Add profile description with keywords</li>
+            </ul>
+            <h4>Content to Post</h4>
+            <ul class="check-list">
+              <li>Infographics: route maps, fare comparisons</li>
+              <li>Destination photography (scenic South India)</li>
+              <li>Travel planning checklists</li>
+              <li>Blog post pins linking back to droptaxi.ai/blogs</li>
+              <li>"Best places to visit near Chennai" style pins</li>
+            </ul>
+          </div>
+
+          <!-- Google Business Profile (repeated as social) -->
+          <div class="social-card">
+            <h3>Google Business Profile</h3>
+            <div class="social-url">business.google.com</div>
+            <h4>Setup Checklist</h4>
+            <ul class="check-list">
+              <li>Verify business via phone or postcard</li>
+              <li>Add all service areas (Tamil Nadu, Kerala, Karnataka, etc.)</li>
+              <li>Upload 20+ high-quality photos</li>
+              <li>Set accurate business hours (24/7)</li>
+              <li>Add service list with descriptions</li>
+              <li>Enable messaging and booking link</li>
+            </ul>
+            <h4>Content to Post</h4>
+            <ul class="check-list">
+              <li>Google Posts: weekly updates, offers, events</li>
+              <li>Respond to every review within 24 hours</li>
+              <li>Add Q&amp;A entries proactively</li>
+              <li>Update photos monthly with new car/route images</li>
+              <li>Share seasonal deals and festival specials</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 3: TRAVEL & TOURISM SPECIFIC
+         ══════════════════════════════════════════════════════ -->
+    <section id="section-3" class="section section-anchor guide-section">
+      <div class="container">
+        <h2><span class="section-num">3</span> Travel &amp; Tourism Specific Platforms</h2>
+        <p class="section-intro">These travel-focused platforms are high-value for a transportation business. They attract users who are actively planning trips and may need cab services.</p>
+
+        <div class="table-wrap" style="margin-top:1rem;">
+          <table>
+            <thead>
+              <tr>
+                <th>Platform</th>
+                <th>URL</th>
+                <th>Cost</th>
+                <th>DA</th>
+                <th>What to Do</th>
+                <th>Priority</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>TripAdvisor</strong></td>
+                <td><a href="https://www.tripadvisor.com/Owners" target="_blank" rel="noopener">tripadvisor.com/Owners</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>List as Transportation Service. Add photos, respond to reviews. Aim for 20+ reviews.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <tr>
+                <td><strong>MakeMyTrip</strong></td>
+                <td><a href="https://www.makemytrip.com/cabs/" target="_blank" rel="noopener">makemytrip.com</a></td>
+                <td><span class="guide-badge badge-paid">Paid</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Explore partner listing or advertising. High-intent traffic for cab bookings.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Goibibo</strong></td>
+                <td><a href="https://www.goibibo.com/cabs/" target="_blank" rel="noopener">goibibo.com</a></td>
+                <td><span class="guide-badge badge-paid">Paid</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Partner integration for cab services. Contact their B2B team.</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Cleartrip</strong></td>
+                <td><a href="https://www.cleartrip.com" target="_blank" rel="noopener">cleartrip.com</a></td>
+                <td><span class="guide-badge badge-paid">Paid</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Explore partnership for ground transport. Contact business development.</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Yatra</strong></td>
+                <td><a href="https://www.yatra.com/cabs" target="_blank" rel="noopener">yatra.com</a></td>
+                <td><span class="guide-badge badge-paid">Paid</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Cab partner listing. Contact supplier team for integration.</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>WikiVoyage</strong></td>
+                <td><a href="https://en.wikivoyage.org" target="_blank" rel="noopener">en.wikivoyage.org</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Add DropTaxi as a transport option on South India city pages. Follow editorial guidelines carefully.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>IndiaMike Forum</strong></td>
+                <td><a href="https://www.indiamike.com/india/" target="_blank" rel="noopener">indiamike.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Create profile, answer transport questions in Tamil Nadu / South India threads. Genuine helpful replies with subtle brand mention.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <tr>
+                <td><strong>TripAdvisor Forums</strong></td>
+                <td><a href="https://www.tripadvisor.com/ShowForum-g304551-i3474-Tamil_Nadu.html" target="_blank" rel="noopener">tripadvisor.com/forums</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Answer "how to get from X to Y" questions. Share genuine travel advice with cab booking tips.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-tip" style="margin-top:1.5rem;">
+          <strong>Forum strategy:</strong> On IndiaMike and TripAdvisor forums, do NOT spam. Build a genuine profile over weeks by answering travel questions. Only mention DropTaxi when relevant (e.g., "for one-way drops between cities, services like DropTaxi charge by the km with no return fare"). Build trust first, promote second.
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 4: CONTENT MARKETING / GUEST POST TARGETS
+         ══════════════════════════════════════════════════════ -->
+    <section id="section-4" class="section section-tint section-anchor guide-section">
+      <div class="container">
+        <h2><span class="section-num">4</span> Content Marketing &amp; Guest Post Targets</h2>
+        <p class="section-intro">Create and distribute content that naturally links back to droptaxi.ai. Each platform offers a dofollow or nofollow link plus brand awareness among your target audience.</p>
+
+        <div class="table-wrap" style="margin-top:1rem;">
+          <table>
+            <thead>
+              <tr>
+                <th>Platform</th>
+                <th>URL</th>
+                <th>Link Type</th>
+                <th>DA</th>
+                <th>Content Strategy</th>
+                <th>Priority</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Medium.com</strong></td>
+                <td><a href="https://medium.com" target="_blank" rel="noopener">medium.com</a></td>
+                <td><span class="guide-badge badge-free">Nofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Publish articles: "Complete Guide to One-Way Taxi Services in Tamil Nadu", "Best Road Trips from Chennai". Include CTA linking to droptaxi.ai.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <tr>
+                <td><strong>Blogger / Blogspot</strong></td>
+                <td><a href="https://www.blogger.com" target="_blank" rel="noopener">blogger.com</a></td>
+                <td><span class="guide-badge badge-free">Dofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Create a travel blog. Post route guides, fare comparisons, destination content. Link to main site from each post.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <tr>
+                <td><strong>WordPress.com</strong></td>
+                <td><a href="https://wordpress.com" target="_blank" rel="noopener">wordpress.com</a></td>
+                <td><span class="guide-badge badge-free">Dofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Free blog with links back. Post city guides and travel tips. Target long-tail keywords.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Quora Spaces</strong></td>
+                <td><a href="https://www.quora.com" target="_blank" rel="noopener">quora.com</a></td>
+                <td><span class="guide-badge badge-free">Nofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Answer questions about travel in South India, Tamil Nadu transport, intercity cabs. Create a Quora Space for South India travel. Link to droptaxi.ai when relevant.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <tr>
+                <td><strong>Reddit r/india</strong></td>
+                <td><a href="https://www.reddit.com/r/india/" target="_blank" rel="noopener">reddit.com/r/india</a></td>
+                <td><span class="guide-badge badge-free">Nofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Share travel experiences, answer transport queries. Do NOT self-promote directly. Build karma first, then naturally reference when asked.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Reddit r/chennai</strong></td>
+                <td><a href="https://www.reddit.com/r/chennai/" target="_blank" rel="noopener">reddit.com/r/chennai</a></td>
+                <td><span class="guide-badge badge-free">Nofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Engage in travel and transport discussions. Offer helpful advice about intercity travel from Chennai.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Reddit r/bangalore</strong></td>
+                <td><a href="https://www.reddit.com/r/bangalore/" target="_blank" rel="noopener">reddit.com/r/bangalore</a></td>
+                <td><span class="guide-badge badge-free">Nofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Answer "best way to get from Bangalore to X" questions. Share genuine experiences.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Reddit r/tamilnadu</strong></td>
+                <td><a href="https://www.reddit.com/r/tamilnadu/" target="_blank" rel="noopener">reddit.com/r/tamilnadu</a></td>
+                <td><span class="guide-badge badge-free">Nofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Participate in travel/tourism threads. Share route info and local knowledge.</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Tamil Nadu Tourism Forums</strong></td>
+                <td><a href="https://www.tamilnadutourism.tn.gov.in" target="_blank" rel="noopener">tamilnadutourism.tn.gov.in</a></td>
+                <td><span class="guide-badge badge-free">Dofollow</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Look for vendor listing or transportation partner opportunities. Contact tourism board for official listing.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-tip" style="margin-top:1.5rem;">
+          <strong>Content ideas for guest posts and blogs:</strong>
+        </div>
+        <div class="landing-grid" style="margin-top:0.5rem;">
+          <div class="landing-card">
+            <h3>Route Guides</h3>
+            <p>"Chennai to Pondicherry: Complete Travel Guide", "Best Scenic Routes from Bangalore", "Madurai to Rameshwaram Road Trip"</p>
+          </div>
+          <div class="landing-card">
+            <h3>Comparison Articles</h3>
+            <p>"One-Way Taxi vs Bus vs Train: Which is Cheaper?", "Drop Taxi vs Ola/Uber for Outstation Travel"</p>
+          </div>
+          <div class="landing-card">
+            <h3>Destination Content</h3>
+            <p>"Top 10 Weekend Getaways from Chennai", "Best Hill Stations in South India", "Temple Circuit Tour of Tamil Nadu"</p>
+          </div>
+          <div class="landing-card">
+            <h3>Practical Guides</h3>
+            <p>"How to Save Money on Intercity Taxi", "Airport Transfer Tips for South India", "Family Travel Guide for Tamil Nadu"</p>
+          </div>
+          <div class="landing-card">
+            <h3>Local Knowledge</h3>
+            <p>"Toll Charges on Chennai-Bangalore Highway", "Best Pit Stops on the Bangalore-Mysore Road", "Rainy Season Travel Tips for Kerala"</p>
+          </div>
+          <div class="landing-card">
+            <h3>Seasonal Content</h3>
+            <p>"Pongal Travel Deals", "Summer Hill Station Escapes", "Diwali Weekend Trip Ideas", "Christmas in Kodaikanal"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 5: PRESS RELEASE SITES
+         ══════════════════════════════════════════════════════ -->
+    <section id="section-5" class="section section-anchor guide-section">
+      <div class="container">
+        <h2><span class="section-num">5</span> Press Release Sites</h2>
+        <p class="section-intro">Press releases build high-authority backlinks and establish credibility. Use them for major announcements: new city launches, milestones, partnerships, or innovative features.</p>
+
+        <div class="table-wrap" style="margin-top:1rem;">
+          <table>
+            <thead>
+              <tr>
+                <th>Platform</th>
+                <th>URL</th>
+                <th>Cost</th>
+                <th>DA</th>
+                <th>Notes</th>
+                <th>Priority</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>PRLog</strong></td>
+                <td><a href="https://www.prlog.org/pub/" target="_blank" rel="noopener">prlog.org</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Completely free press release distribution. Include 2-3 links to droptaxi.ai. Add a company boilerplate at the bottom.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <tr>
+                <td><strong>OpenPR</strong></td>
+                <td><a href="https://www.openpr.com/news/submit.html" target="_blank" rel="noopener">openpr.com</a></td>
+                <td><span class="guide-badge badge-free">Free</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Free submission with dofollow links. Good for SEO. Include keyword-rich anchor text.</td>
+                <td><span class="priority-stars">★★★★★</span></td>
+              </tr>
+              <tr>
+                <td><strong>PR.com</strong></td>
+                <td><a href="https://www.pr.com/press-release/submit" target="_blank" rel="noopener">pr.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Free basic submission. Paid tiers for wider distribution. Create a company profile first.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>Newswire (Free Tier)</strong></td>
+                <td><a href="https://www.newswire.com" target="_blank" rel="noopener">newswire.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>Free tier available with limited distribution. Good for establishing press presence.</td>
+                <td><span class="priority-stars">★★★☆☆</span></td>
+              </tr>
+              <tr>
+                <td><strong>EIN Presswire</strong></td>
+                <td><a href="https://www.einpresswire.com" target="_blank" rel="noopener">einpresswire.com</a></td>
+                <td><span class="guide-badge badge-freemium">Freemium</span></td>
+                <td><span class="guide-badge badge-high">High</span></td>
+                <td>One free release to start. Affordable paid plans. Good for Google News syndication.</td>
+                <td><span class="priority-stars">★★★★☆</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-tip" style="margin-top:1.5rem;">
+          <strong>Press release ideas for DropTaxi:</strong>
+        </div>
+        <ul class="check-list" style="margin-top:0.5rem;">
+          <li>"DropTaxi Launches AI-Powered One-Way Taxi Service Across South India"</li>
+          <li>"DropTaxi Expands to 100+ Routes Across Tamil Nadu, Kerala, Karnataka, and AP"</li>
+          <li>"DropTaxi Introduces Transparent Pricing: Save Up to 40% on Intercity Travel"</li>
+          <li>"DropTaxi Partners with [Hotel Chain/Travel Platform] for Seamless Airport Transfers"</li>
+          <li>"DropTaxi Reaches [Milestone] Rides: A New Era of Affordable Intercity Taxi in India"</li>
+          <li>"DropTaxi Launches 24/7 Customer Support and Real-Time Cab Tracking"</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 6: CITATION CONSISTENCY CHECKLIST
+         ══════════════════════════════════════════════════════ -->
+    <section id="section-6" class="section section-tint section-anchor guide-section">
+      <div class="container">
+        <h2><span class="section-num">6</span> Citation Consistency Checklist</h2>
+        <p class="section-intro">NAP consistency (Name, Address, Phone) is critical for local SEO. Use the exact same information on every directory, social profile, and citation. Even small differences (e.g., "St." vs "Street") can hurt rankings.</p>
+
+        <div class="content-tip">
+          <strong>Important:</strong> Copy-paste the data below into every directory submission. Never paraphrase or abbreviate. Consistency is the single most important factor in local SEO citations.
+        </div>
+
+        <div class="nap-card" style="margin-top:1.5rem;">
+          <h3 style="margin-bottom:1rem; color: var(--accent);">Official NAP Data &mdash; Use Everywhere</h3>
+          <div class="table-wrap" style="border:none; background: none;">
+            <table style="min-width:0;">
+              <tbody>
+                <tr>
+                  <th>Business Name</th>
+                  <td><strong>DropTaxi</strong></td>
+                </tr>
+                <tr>
+                  <th>Legal / Full Name</th>
+                  <td><strong>DropTaxi</strong> (use this exact spelling everywhere)</td>
+                </tr>
+                <tr>
+                  <th>Address</th>
+                  <td><span class="editable">[Fill in your registered business address here]</span></td>
+                </tr>
+                <tr>
+                  <th>City</th>
+                  <td><span class="editable">[Fill in city — e.g., Chennai, Tamil Nadu]</span></td>
+                </tr>
+                <tr>
+                  <th>State</th>
+                  <td><span class="editable">[Fill in state — e.g., Tamil Nadu]</span></td>
+                </tr>
+                <tr>
+                  <th>PIN Code</th>
+                  <td><span class="editable">[Fill in PIN code]</span></td>
+                </tr>
+                <tr>
+                  <th>Phone</th>
+                  <td><strong>+91 63838 83922</strong></td>
+                </tr>
+                <tr>
+                  <th>Phone (Alternate)</th>
+                  <td><strong>063838 83922</strong> (local format)</td>
+                </tr>
+                <tr>
+                  <th>Website</th>
+                  <td><strong><a href="https://droptaxi.ai" target="_blank" rel="noopener">https://droptaxi.ai</a></strong></td>
+                </tr>
+                <tr>
+                  <th>Email</th>
+                  <td><strong><a href="mailto:enquiry@droptaxi.ai">enquiry@droptaxi.ai</a></strong></td>
+                </tr>
+                <tr>
+                  <th>Business Hours</th>
+                  <td><strong>24/7</strong> (Open 24 hours, 7 days a week)</td>
+                </tr>
+                <tr>
+                  <th>Primary Category</th>
+                  <td><strong>Taxi Service</strong></td>
+                </tr>
+                <tr>
+                  <th>Secondary Categories</th>
+                  <td>Transportation Service, Car Rental, Cab Service, Airport Taxi</td>
+                </tr>
+                <tr>
+                  <th>Service Areas</th>
+                  <td>Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, Pondicherry</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="nap-card" style="margin-top:1.5rem;">
+          <h3 style="margin-bottom:1rem; color: var(--accent);">Standard Business Description (Copy-Paste Ready)</h3>
+          <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 10px; border: 1px solid var(--glass-border);">
+            <p style="color: var(--text); line-height: 1.8; margin-bottom: 0.8rem;"><strong>Short (50 words):</strong><br>DropTaxi offers affordable one-way and outstation taxi services across South India. Book drop taxis in Tamil Nadu, Kerala, Karnataka, and Andhra Pradesh. Pay only for one way. Available 24/7 with professional drivers, clean cars, and transparent pricing. Call +91 63838 83922 or visit droptaxi.ai.</p>
+            <p style="color: var(--text); line-height: 1.8; margin-bottom: 0;"><strong>Long (100 words):</strong><br>DropTaxi is South India's trusted one-way and outstation taxi service. Unlike traditional round-trip cabs, DropTaxi charges only for the distance you travel — saving you up to 40% on intercity rides. We operate across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry with 100+ routes connecting major cities, airports, and hill stations. Our fleet includes sedans, SUVs, and premium cars, all maintained to the highest standards. With 24/7 availability, professional drivers, GPS tracking, and transparent pricing with no hidden charges, DropTaxi is the smartest way to travel between cities. Book now at droptaxi.ai or call +91 63838 83922.</p>
+          </div>
+        </div>
+
+        <div class="nap-card" style="margin-top:1.5rem;">
+          <h3 style="margin-bottom:1rem; color: var(--accent);">Keywords to Include in Listings</h3>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0.5rem 0;">
+            <span class="guide-badge badge-high">one way taxi</span>
+            <span class="guide-badge badge-high">drop taxi</span>
+            <span class="guide-badge badge-high">outstation cab</span>
+            <span class="guide-badge badge-medium">intercity taxi</span>
+            <span class="guide-badge badge-medium">airport taxi</span>
+            <span class="guide-badge badge-medium">one way cab</span>
+            <span class="guide-badge badge-medium">drop taxi Tamil Nadu</span>
+            <span class="guide-badge badge-medium">Chennai taxi</span>
+            <span class="guide-badge badge-medium">Bangalore taxi</span>
+            <span class="guide-badge badge-low">Coimbatore cab</span>
+            <span class="guide-badge badge-low">Madurai taxi</span>
+            <span class="guide-badge badge-low">one way cab booking</span>
+            <span class="guide-badge badge-low">affordable taxi service</span>
+            <span class="guide-badge badge-low">South India cab</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         SECTION 7: BACKLINK BUILDING TIMELINE
+         ══════════════════════════════════════════════════════ -->
+    <section id="section-7" class="section section-anchor guide-section">
+      <div class="container">
+        <h2><span class="section-num">7</span> Backlink Building Timeline (Month-by-Month)</h2>
+        <p class="section-intro">Follow this structured timeline to build backlinks systematically. Do not rush; search engines reward natural, gradual link acquisition over time.</p>
+
+        <div class="timeline-grid">
+
+          <!-- Month 1 -->
+          <div class="timeline-card">
+            <h3>Month 1 — Foundation</h3>
+            <h4>Google Business + Top 10 Directories + Social Profiles</h4>
+            <ul class="check-list">
+              <li><strong>Week 1:</strong> Set up and verify Google Business Profile. Complete all fields, upload 20+ photos, add services.</li>
+              <li><strong>Week 1:</strong> Create Bing Places and Apple Maps Connect listings.</li>
+              <li><strong>Week 2:</strong> Submit to Justdial, Sulekha, IndiaMART, TradeIndia, Yellow Pages India.</li>
+              <li><strong>Week 2:</strong> Create Facebook Page and Instagram Business account.</li>
+              <li><strong>Week 3:</strong> Submit to Yelp, Foursquare, AskLaila, MapQuest, Manta.</li>
+              <li><strong>Week 3:</strong> Set up LinkedIn Company Page, Twitter/X, YouTube Channel.</li>
+              <li><strong>Week 4:</strong> Set up Pinterest Business. Create Crunchbase profile.</li>
+              <li><strong>Week 4:</strong> Audit all listings for NAP consistency.</li>
+            </ul>
+            <div class="content-tip" style="margin-top: 0.5rem;">
+              <strong>Goal:</strong> 10+ directory listings, 7 social profiles, all with consistent NAP data.
+            </div>
+          </div>
+
+          <!-- Month 2 -->
+          <div class="timeline-card">
+            <h3>Month 2 — Expansion</h3>
+            <h4>Next 20 Directories + Travel Platforms + First Blog Posts</h4>
+            <ul class="check-list">
+              <li><strong>Week 1:</strong> Submit to remaining directories (#11-25): Hotfrog, Cylex, LocalStack, Brownbook, eLocal, Hub.biz, Tupalo, n49, Fyple, iGlobal, Wand, City-data.</li>
+              <li><strong>Week 1:</strong> Submit to ExportersIndia, Dealerbaba, Kompass, ClickIndia.</li>
+              <li><strong>Week 2:</strong> Create TripAdvisor business listing. Submit to Quikr, OLX.</li>
+              <li><strong>Week 2:</strong> Set up Medium account and publish first 2 articles.</li>
+              <li><strong>Week 3:</strong> Create Blogger/Blogspot travel blog and publish 3 route guides.</li>
+              <li><strong>Week 3:</strong> Register on IndiaMike forum. Start answering travel questions.</li>
+              <li><strong>Week 4:</strong> Create WordPress.com blog with 2-3 destination articles.</li>
+              <li><strong>Week 4:</strong> Start posting regularly on social media (3x/week minimum).</li>
+            </ul>
+            <div class="content-tip" style="margin-top: 0.5rem;">
+              <strong>Goal:</strong> 30+ total directory listings, TripAdvisor presence, 5-7 blog posts live, active social posting.
+            </div>
+          </div>
+
+          <!-- Month 3 -->
+          <div class="timeline-card">
+            <h3>Month 3 — Authority Building</h3>
+            <h4>Guest Posts + Quora Answers + Press Release</h4>
+            <ul class="check-list">
+              <li><strong>Week 1:</strong> Create Quora account. Answer 10+ questions about South India travel, taxi services, and intercity transport. Link to droptaxi.ai where relevant.</li>
+              <li><strong>Week 1:</strong> Create a Quora Space for "South India Travel Tips".</li>
+              <li><strong>Week 2:</strong> Write and submit first press release to PRLog and OpenPR (e.g., launch announcement).</li>
+              <li><strong>Week 2:</strong> Publish 2 more Medium articles on travel topics.</li>
+              <li><strong>Week 3:</strong> Start engaging on Reddit (r/india, r/chennai, r/bangalore). Build karma with genuine posts before mentioning brand.</li>
+              <li><strong>Week 3:</strong> Explore MakeMyTrip / Yatra partner listings.</li>
+              <li><strong>Week 4:</strong> Submit to PR.com and EIN Presswire.</li>
+              <li><strong>Week 4:</strong> Attempt WikiVoyage edit to add DropTaxi on relevant city pages.</li>
+            </ul>
+            <div class="content-tip" style="margin-top: 0.5rem;">
+              <strong>Goal:</strong> 20+ Quora answers, 2 press releases live, Reddit presence established, 10+ total blog posts across platforms.
+            </div>
+          </div>
+
+          <!-- Month 4+ -->
+          <div class="timeline-card">
+            <h3>Month 4+ — Sustained Growth</h3>
+            <h4>Partnership Outreach + Content Marketing + Review Building</h4>
+            <ul class="check-list">
+              <li><strong>Ongoing:</strong> Publish 2-4 blog posts per month across Medium, Blogger, WordPress.</li>
+              <li><strong>Ongoing:</strong> Answer 5-10 Quora questions per week.</li>
+              <li><strong>Ongoing:</strong> Post on social media 3-5 times per week.</li>
+              <li><strong>Monthly:</strong> Request reviews from satisfied customers on Google, TripAdvisor, Justdial.</li>
+              <li><strong>Monthly:</strong> Identify and reach out to travel bloggers for guest post or review opportunities.</li>
+              <li><strong>Quarterly:</strong> Publish a press release for new milestones or features.</li>
+              <li><strong>Quarterly:</strong> Audit all directory listings for accuracy and update as needed.</li>
+              <li><strong>Explore:</strong> Contact Tamil Nadu Tourism Board for official listing.</li>
+              <li><strong>Explore:</strong> Partner with hotels, travel agencies, and event organizers for referral backlinks.</li>
+              <li><strong>Explore:</strong> Sponsor local events or travel meetups for brand mentions and backlinks.</li>
+            </ul>
+            <div class="content-tip" style="margin-top: 0.5rem;">
+              <strong>Goal:</strong> Consistent content output, growing review count, partnership links, domain authority climbing month over month.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Summary metrics -->
+        <div class="stat-card" style="margin-top: 2rem;">
+          <h3 style="margin-bottom: 1rem;">Expected Outcomes After 6 Months</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div>
+              <p class="stats"><strong style="font-size: 1.5rem; color: var(--brand-light);">30+</strong><br><span style="color: var(--muted); font-size: 0.88rem;">Directory Citations</span></p>
+            </div>
+            <div>
+              <p class="stats"><strong style="font-size: 1.5rem; color: var(--brand-light);">7</strong><br><span style="color: var(--muted); font-size: 0.88rem;">Social Media Profiles</span></p>
+            </div>
+            <div>
+              <p class="stats"><strong style="font-size: 1.5rem; color: var(--brand-light);">20+</strong><br><span style="color: var(--muted); font-size: 0.88rem;">Blog Posts &amp; Articles</span></p>
+            </div>
+            <div>
+              <p class="stats"><strong style="font-size: 1.5rem; color: var(--brand-light);">50+</strong><br><span style="color: var(--muted); font-size: 0.88rem;">Quora Answers</span></p>
+            </div>
+            <div>
+              <p class="stats"><strong style="font-size: 1.5rem; color: var(--brand-light);">3-5</strong><br><span style="color: var(--muted); font-size: 0.88rem;">Press Releases</span></p>
+            </div>
+            <div>
+              <p class="stats"><strong style="font-size: 1.5rem; color: var(--brand-light);">100+</strong><br><span style="color: var(--muted); font-size: 0.88rem;">Total Backlinks</span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>DropTaxi</h3>
+        <p>One way taxi and outstation cab service across South India.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <p><a href="../routes.html">Routes and Fares</a></p>
+        <p><a href="../cities.html">Cities We Serve</a></p>
+        <p><a href="../contact.html">Contact and Booking</a></p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="tel:+916383883922">063838 83922</a></p>
+        <p><a href="mailto:enquiry@droptaxi.ai">enquiry@droptaxi.ai</a></p>
+        <p>Open 24x7</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>Copyright 2026 DropTaxi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ── -->
+  <script src="../assets/js/site.js" defer></script>
+  <script>
+    // Smooth scroll for TOC links
+    document.querySelectorAll('.toc a').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        var target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.pushState(null, '', this.getAttribute('href'));
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
