@@ -1,0 +1,108 @@
+# DropTaxi Kubernetes Deployment
+# Deploy with: kubectl apply -f k8s-deployment.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: droptaxi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: droptaxi-web
+  namespace: droptaxi
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: droptaxi-web
+  template:
+    metadata:
+      labels:
+        app: droptaxi-web
+    spec:
+      containers:
+        - name: droptaxi-web
+          image: docker.io/karthick1808/droptaxi-web:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NODE_ENV
+              value: "production"
+            - name: TELEGRAM_BOT_TOKEN
+              value: "8635836644:AAEUad0--90ZDxvz-dl0hnYRorsMFoWZQSo"
+            - name: TELEGRAM_CHAT_ID
+              value: "6667506755"
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: droptaxi-web
+  namespace: droptaxi
+spec:
+  selector:
+    app: droptaxi-web
+  ports:
+    - port: 80
+      targetPort: 3000
+      name: http
+  type: ClusterIP
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: droptaxi-ingress
+  namespace: droptaxi
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "50m"
+    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - droptaxi.ai
+        - www.droptaxi.ai
+      secretName: droptaxi-tls
+  rules:
+    - host: droptaxi.ai
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: droptaxi-web
+                port:
+                  number: 80
+    - host: www.droptaxi.ai
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: droptaxi-web
+                port:
+                  number: 80

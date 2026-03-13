@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "dataforseo": {
+      "command": "node",
+      "args": ["mcp-servers/dataforseo/server.js"],
+      "cwd": "E:/Websites/droptaxi",
+      "env": {
+        "DATAFORSEO_LOGIN": "enquiry@seorankpro.in",
+        "DATAFORSEO_PASSWORD": "2b8cc7ed8b1e3cf6"
+      }
+    }
+  }
+}

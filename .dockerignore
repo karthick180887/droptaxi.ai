@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+*.html
+assets
+docs
+sitemap.xml
+robots.txt
+README.md
+*.md

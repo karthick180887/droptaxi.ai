@@ -1,0 +1,13 @@
+{
+  "name": "dataforseo-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for DataForSEO API — keyword research, SERP analysis, and competitor insights",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}

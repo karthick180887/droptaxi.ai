@@ -1,0 +1,173 @@
+{
+  "audit_date": "2026-03-11",
+  "site": "https://droptaxi.ai",
+  "domain_in_code": "https://www.seorankpro.in",
+  "auditor": "Schema.org Structured Data Audit",
+  "summary": {
+    "total_pages_audited": 5,
+    "critical_errors": 8,
+    "warnings": 12,
+    "missing_opportunities": 9,
+    "overall_grade": "C-"
+  },
+  "pages": {
+    "homepage": {
+      "url": "https://droptaxi.ai/",
+      "file": "index.html",
+      "existing_schema": [
+        {
+          "type": "WebSite",
+          "status": "PASS_WITH_WARNINGS",
+          "notes": [
+            "URL uses seorankpro.in instead of droptaxi.ai -- DOMAIN MISMATCH",
+            "SearchAction target uses seorankpro.in domain"
+          ]
+        },
+        {
+          "type": "TaxiService",
+          "status": "PASS_WITH_WARNINGS",
+          "notes": [
+            "URL uses seorankpro.in instead of droptaxi.ai",
+            "Missing @id for entity identity",
+            "Missing address (PostalAddress) -- recommended for local business",
+            "Missing geo (GeoCoordinates) -- recommended",
+            "Missing aggregateRating -- strong opportunity given 4.8/5 mentioned on page"
+          ]
+        },
+        {
+          "type": "FAQPage (manual, lines 82-129)",
+          "status": "WARNING",
+          "notes": [
+            "FAQPage restricted to government/healthcare sites since August 2023",
+            "Will NOT generate rich results for a taxi business",
+            "Not harmful to keep, but will not produce SERP features"
+          ]
+        },
+        {
+          "type": "BreadcrumbList (Phase2, line 131)",
+          "status": "FAIL",
+          "notes": [
+            "Position 3 name is the full H1 -- should be short label like 'Home'",
+            "Position 3 item URL is the homepage itself -- circular reference with position 1",
+            "Breadcrumb trail makes no semantic sense: Home > SEO Hub > [Homepage H1]"
+          ]
+        },
+        {
+          "type": "FAQPage (Phase2, line 132)",
+          "status": "FAIL",
+          "notes": [
+            "INVALID JSON -- missing opening quote on 'acceptedAnswer' keys (syntax: acceptedAnswer\" instead of \"acceptedAnswer\")",
+            "Duplicate FAQPage on same page (two FAQPage blocks)",
+            "FAQ questions reference page H1 literally ('Fast, Safe, and Affordable Intercity Cabs...') -- looks auto-generated and spammy"
+          ]
+        }
+      ],
+      "missing_schema": [
+        "Organization (with logo, sameAs, contactPoint)",
+        "AggregateRating on TaxiService (page mentions 4.8/5 rating)"
+      ]
+    },
+    "route_page": {
+      "url": "https://droptaxi.ai/chennai-to-bangalore-taxi",
+      "file": "chennai-to-bangalore-taxi.html",
+      "existing_schema": [
+        {
+          "type": "Service",
+          "status": "PASS_WITH_WARNINGS",
+          "notes": [
+            "URL uses seorankpro.in instead of droptaxi.ai",
+            "Missing description property",
+            "Offer is missing availability, validFrom, priceValidUntil",
+            "Provider TaxiService has no @id or url",
+            "Missing serviceType property"
+          ]
+        }
+      ],
+      "missing_schema": [
+        "BreadcrumbList (HTML breadcrumbs exist but no JSON-LD)",
+        "FAQPage could be added but will not generate rich results (restricted)"
+      ]
+    },
+    "city_page": {
+      "url": "https://droptaxi.ai/drop-taxi-in-chennai",
+      "file": "drop-taxi-in-chennai.html",
+      "existing_schema": [
+        {
+          "type": "Service",
+          "status": "PASS_WITH_WARNINGS",
+          "notes": [
+            "URL uses seorankpro.in instead of droptaxi.ai",
+            "Missing description property",
+            "Missing offers/pricing information",
+            "Provider TaxiService has no @id or url"
+          ]
+        }
+      ],
+      "missing_schema": [
+        "BreadcrumbList (HTML breadcrumbs exist but no JSON-LD)"
+      ]
+    },
+    "about_page": {
+      "url": "https://droptaxi.ai/about-us",
+      "file": "about-us.html",
+      "existing_schema": [
+        {
+          "type": "Service",
+          "status": "FAIL",
+          "notes": [
+            "Service name is 'About Us Taxi Service' -- clearly auto-generated from page slug",
+            "An About page should use Organization schema, not Service",
+            "URL uses seorankpro.in instead of droptaxi.ai"
+          ]
+        },
+        {
+          "type": "FAQPage",
+          "status": "FAIL",
+          "notes": [
+            "Questions reference 'About Us Taxi Service' literally -- nonsensical",
+            "FAQPage restricted to government/healthcare since August 2023",
+            "Content is auto-generated boilerplate, not genuine FAQ"
+          ]
+        }
+      ],
+      "missing_schema": [
+        "Organization (this is the ideal page for it)",
+        "BreadcrumbList (HTML breadcrumbs exist but no JSON-LD)"
+      ]
+    },
+    "contact_page": {
+      "url": "https://droptaxi.ai/contact",
+      "file": "contact.html",
+      "existing_schema": [
+        {
+          "type": "ContactPage",
+          "status": "PASS_WITH_WARNINGS",
+          "notes": [
+            "URL uses seorankpro.in instead of droptaxi.ai",
+            "Good use of ContactPage type with mainEntity TaxiService",
+            "Missing address on TaxiService",
+            "Missing openingHoursSpecification on nested TaxiService"
+          ]
+        },
+        {
+          "type": "BreadcrumbList (Phase2)",
+          "status": "FAIL",
+          "notes": [
+            "Position 2 is 'SEO Hub' pointing to all-routes.html -- contact page is NOT under SEO Hub",
+            "Incorrect hierarchy: should be Home > Contact"
+          ]
+        },
+        {
+          "type": "FAQPage (Phase2)",
+          "status": "FAIL",
+          "notes": [
+            "INVALID JSON -- missing opening quote on 'acceptedAnswer' keys",
+            "Questions reference 'Book Your One Way Taxi' literally -- auto-generated",
+            "FAQPage restricted since August 2023"
+          ]
+        }
+      ],
+      "missing_schema": []
+    }
+  }
+}

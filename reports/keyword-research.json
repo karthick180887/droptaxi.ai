@@ -1,0 +1,2627 @@
+{
+  "date": "2026-03-12T06:51:33.348Z",
+  "market": "India",
+  "total_keywords": 39,
+  "keywords": [
+    {
+      "keyword": "drop taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 58,
+      "search_volume": 33100,
+      "low_top_of_page_bid": 0.23,
+      "high_top_of_page_bid": 0.39,
+      "cpc": 0.44,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 27100
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 40500
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 33100
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 33100
+        }
+      ]
+    },
+    {
+      "keyword": "one way cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 67,
+      "search_volume": 12100,
+      "low_top_of_page_bid": 0.08,
+      "high_top_of_page_bid": 0.29,
+      "cpc": 0.22,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 12100
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 14800
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 14800
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 14800
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 14800
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 12100
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 12100
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 12100
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 12100
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 12100
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 9900
+        }
+      ]
+    },
+    {
+      "keyword": "one way taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 48,
+      "search_volume": 9900,
+      "low_top_of_page_bid": 0.11,
+      "high_top_of_page_bid": 0.41,
+      "cpc": 0.38,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 9900
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 8100
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 8100
+        }
+      ]
+    },
+    {
+      "keyword": "intercity cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 70,
+      "search_volume": 3600,
+      "low_top_of_page_bid": 0.07,
+      "high_top_of_page_bid": 0.33,
+      "cpc": 0.3,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 3600
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 3600
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 3600
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 3600
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 3600
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore airport cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 65,
+      "search_volume": 3600,
+      "low_top_of_page_bid": 0.16,
+      "high_top_of_page_bid": 0.6,
+      "cpc": 0.65,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 2400
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 3600
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 3600
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 3600
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 5400
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to pondicherry taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 58,
+      "search_volume": 2400,
+      "low_top_of_page_bid": 0.23,
+      "high_top_of_page_bid": 0.5,
+      "cpc": 0.55,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1900
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "one way cab booking",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 68,
+      "search_volume": 1600,
+      "low_top_of_page_bid": 0.06,
+      "high_top_of_page_bid": 0.33,
+      "cpc": 0.3,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1600
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 1000
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore to mysore cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 53,
+      "search_volume": 1600,
+      "low_top_of_page_bid": 0.11,
+      "high_top_of_page_bid": 0.37,
+      "cpc": 0.32,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1300
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 1600
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore to ooty cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 49,
+      "search_volume": 1600,
+      "low_top_of_page_bid": 0.11,
+      "high_top_of_page_bid": 0.34,
+      "cpc": 0.35,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 2400
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore to chennai cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "search_volume": 1000,
+      "low_top_of_page_bid": 0.24,
+      "high_top_of_page_bid": 0.47,
+      "cpc": 0.57,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 1600
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to bangalore taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 51,
+      "search_volume": 720,
+      "low_top_of_page_bid": 0.22,
+      "high_top_of_page_bid": 0.47,
+      "cpc": 0.57,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 590
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to tirupati taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 51,
+      "search_volume": 590,
+      "low_top_of_page_bid": 0.14,
+      "high_top_of_page_bid": 0.36,
+      "cpc": 0.41,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 880
+        }
+      ]
+    },
+    {
+      "keyword": "chennai airport taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "search_volume": 590,
+      "low_top_of_page_bid": 0.14,
+      "high_top_of_page_bid": 0.42,
+      "cpc": 0.46,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 590
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore to tirupati cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 53,
+      "search_volume": 480,
+      "low_top_of_page_bid": 0.13,
+      "high_top_of_page_bid": 0.34,
+      "cpc": 0.35,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 480
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to vellore taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "search_volume": 480,
+      "low_top_of_page_bid": 0.2,
+      "high_top_of_page_bid": 0.41,
+      "cpc": 0.48,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 480
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore to coimbatore taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 51,
+      "search_volume": 390,
+      "low_top_of_page_bid": 0.17,
+      "high_top_of_page_bid": 0.44,
+      "cpc": 0.43,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 320
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to trichy taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "LOW",
+      "competition_index": 26,
+      "search_volume": 390,
+      "low_top_of_page_bid": 0.29,
+      "high_top_of_page_bid": 0.5,
+      "cpc": 0.53,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 480
+        }
+      ]
+    },
+    {
+      "keyword": "outstation taxi one way",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 68,
+      "search_volume": 320,
+      "low_top_of_page_bid": 0.09,
+      "high_top_of_page_bid": 0.37,
+      "cpc": 0.34,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 260
+        }
+      ]
+    },
+    {
+      "keyword": "one way outstation cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 68,
+      "search_volume": 320,
+      "low_top_of_page_bid": 0.09,
+      "high_top_of_page_bid": 0.37,
+      "cpc": 0.34,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 260
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to coimbatore taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "LOW",
+      "competition_index": 22,
+      "search_volume": 320,
+      "low_top_of_page_bid": 0.26,
+      "high_top_of_page_bid": 0.5,
+      "cpc": 0.56,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 320
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to madurai taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "LOW",
+      "competition_index": 31,
+      "search_volume": 320,
+      "low_top_of_page_bid": 0.22,
+      "high_top_of_page_bid": 0.5,
+      "cpc": 0.49,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 480
+        }
+      ]
+    },
+    {
+      "keyword": "hyderabad to bangalore cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "search_volume": 260,
+      "low_top_of_page_bid": 0.12,
+      "high_top_of_page_bid": 0.35,
+      "cpc": 0.38,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 260
+        }
+      ]
+    },
+    {
+      "keyword": "madurai to chennai taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "LOW",
+      "competition_index": 24,
+      "search_volume": 260,
+      "low_top_of_page_bid": 0.24,
+      "high_top_of_page_bid": 0.51,
+      "cpc": 0.5,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 590
+        }
+      ]
+    },
+    {
+      "keyword": "coimbatore to chennai cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "search_volume": 210,
+      "low_top_of_page_bid": 0.26,
+      "high_top_of_page_bid": 0.52,
+      "cpc": 0.51,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 210
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore to mangalore cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "search_volume": 210,
+      "low_top_of_page_bid": 0.11,
+      "high_top_of_page_bid": 0.35,
+      "cpc": 0.33,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 170
+        }
+      ]
+    },
+    {
+      "keyword": "bangalore to chennai one way cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 48,
+      "search_volume": 170,
+      "low_top_of_page_bid": 0.26,
+      "high_top_of_page_bid": 0.46,
+      "cpc": 0.55,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 110
+        }
+      ]
+    },
+    {
+      "keyword": "chennai airport drop taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 71,
+      "search_volume": 170,
+      "low_top_of_page_bid": 0.19,
+      "high_top_of_page_bid": 0.37,
+      "cpc": 0.43,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 170
+        }
+      ]
+    },
+    {
+      "keyword": "coimbatore airport taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "LOW",
+      "competition_index": 15,
+      "search_volume": 140,
+      "low_top_of_page_bid": 0.11,
+      "high_top_of_page_bid": 0.29,
+      "cpc": 0.29,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 90
+        }
+      ]
+    },
+    {
+      "keyword": "drop taxi booking",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 68,
+      "search_volume": 50,
+      "low_top_of_page_bid": 0.16,
+      "high_top_of_page_bid": 0.33,
+      "cpc": 0.36,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "keyword": "cheapest one way cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 66,
+      "search_volume": 50,
+      "low_top_of_page_bid": 0.06,
+      "high_top_of_page_bid": 0.3,
+      "cpc": 0.28,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to salem taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "LOW",
+      "competition_index": 15,
+      "search_volume": 50,
+      "low_top_of_page_bid": 0.28,
+      "high_top_of_page_bid": 0.42,
+      "cpc": 0.66,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 70
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to bangalore one way taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 64,
+      "search_volume": 40,
+      "low_top_of_page_bid": 0.26,
+      "high_top_of_page_bid": 0.44,
+      "cpc": 0.54,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "keyword": "chennai to coimbatore one way taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "search_volume": 30,
+      "low_top_of_page_bid": 0.29,
+      "high_top_of_page_bid": 0.55,
+      "cpc": 0.69,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "keyword": "best one way taxi service",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 95,
+      "search_volume": 10,
+      "low_top_of_page_bid": 0.21,
+      "high_top_of_page_bid": 0.67,
+      "cpc": 1.1,
+      "monthly_searches": [
+        {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "keyword": "drop taxi alternative",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "one way taxi price",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "drop taxi rate per km",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "bangalore airport one way taxi",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "madurai airport cab",
+      "spell": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    }
+  ]
+}

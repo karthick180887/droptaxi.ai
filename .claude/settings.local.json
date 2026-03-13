@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "Bash(node scripts/dataforseo-keywords.js)",
+      "Bash(cd E:/Websites/droptaxi/mcp-servers/dataforseo && npm install 2>&1)",
+      "Bash(cd E:/Websites/droptaxi && DATAFORSEO_LOGIN=\"enquiry@seorankpro.in\" DATAFORSEO_PASSWORD=\"2b8cc7ed8b1e3cf6\" timeout 5 node mcp-servers/dataforseo/server.js 2>&1 || true)",
+      "Bash(grep -E \"slug:\" /e/Websites/droptaxi/lib/pages.ts | grep -v \"//\" | tail -80)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && npx next build 2>&1 | tail -40)",
+      "mcp__dataforseo__account_balance",
+      "mcp__dataforseo__domain_overview",
+      "mcp__dataforseo__keywords_for_site",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && node -e \"const d=require\\('./reports/all-page-keywords.json'\\); console.log\\(JSON.stringify\\(d.allKeywords.length\\)\\); console.log\\(JSON.stringify\\(d.allKeywords.slice\\(0,20\\)\\)\\)\")",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && node -e \"const d=require\\('./reports/all-page-keywords.json'\\); const kw=d.allKeywords; console.log\\('Batch 1 \\(0-225\\):', kw.length, 'keywords'\\); console.log\\('Can fit in one API call \\(max 700\\):', kw.length <= 700\\)\")",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && node -e \"const d=require\\('./reports/all-page-keywords.json'\\); console.log\\(JSON.stringify\\(d.allKeywords\\)\\)\")",
+      "mcp__dataforseo__keyword_search_volume",
+      "mcp__dataforseo__keyword_difficulty",
+      "mcp__dataforseo__serp_competitors",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && node -e \"\nconst fs = require\\('fs'\\);\nconst raw = fs.readFileSync\\('C:/Users/karth/.claude/projects/E--Websites-droptaxi/028e9189-1eae-4565-9c5f-9fe869a4302e/tool-results/mcp-dataforseo-keyword_search_volume-1773300419928.txt', 'utf8'\\);\nconst parsed = JSON.parse\\(raw\\);\nconst text = parsed[0].text;\nconst data = JSON.parse\\(text\\);\n// Extract all keywords with volume\nconst keywords = data.keywords || [];\n// Sort by search_volume desc\nkeywords.sort\\(\\(a,b\\) => \\(b.search_volume||0\\) - \\(a.search_volume||0\\)\\);\n// Output top 80 with volume and competition\nconst top = keywords.filter\\(k => k.search_volume > 0\\).map\\(k => \\({\n  keyword: k.keyword,\n  vol: k.search_volume,\n  cpc: k.cpc,\n  comp: k.competition\n}\\)\\);\nconsole.log\\(JSON.stringify\\({total: keywords.length, withVolume: top.length, top60: top.slice\\(0,60\\)}, null, 2\\)\\);\n\" 2>&1)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && node -e \"\nconst fs = require\\('fs'\\);\nconst raw = fs.readFileSync\\('C:/Users/karth/.claude/projects/E--Websites-droptaxi/028e9189-1eae-4565-9c5f-9fe869a4302e/tool-results/mcp-dataforseo-keyword_search_volume-1773300419928.txt', 'utf8'\\);\nconst parsed = JSON.parse\\(raw\\);\nconst text = parsed[0].text;\nconst data = JSON.parse\\(text\\);\nconst keywords = data.keywords || [];\nkeywords.sort\\(\\(a,b\\) => \\(b.search_volume||0\\) - \\(a.search_volume||0\\)\\);\n\n// Full dataset with page mapping\nconst pageMap = require\\('./reports/all-page-keywords.json'\\);\n// Reverse map: keyword -> slug\nconst kwToSlug = {};\nfor \\(const [cat, map] of Object.entries\\(pageMap\\)\\) {\n  if \\(cat === 'allKeywords'\\) continue;\n  for \\(const [slug, kw] of Object.entries\\(map\\)\\) {\n    kwToSlug[kw] = slug;\n  }\n}\n\nconst result = keywords.map\\(k => \\({\n  keyword: k.keyword,\n  slug: kwToSlug[k.keyword] || 'UNMAPPED',\n  search_volume: k.search_volume || 0,\n  cpc: k.cpc || 0,\n  competition: k.competition || 'NONE',\n  competition_index: k.competition_index || 0,\n}\\)\\);\n\nfs.writeFileSync\\('./reports/serp-analysis-all-keywords.json', JSON.stringify\\({\n  totalKeywords: result.length,\n  withVolume: result.filter\\(r => r.search_volume > 0\\).length,\n  zeroVolume: result.filter\\(r => r.search_volume === 0\\).length,\n  totalMonthlySearches: result.reduce\\(\\(sum, r\\) => sum + r.search_volume, 0\\),\n  keywords: result\n}, null, 2\\)\\);\nconsole.log\\('Saved. Total:', result.length, '| With volume:', result.filter\\(r => r.search_volume > 0\\).length, '| Zero:', result.filter\\(r => r.search_volume === 0\\).length\\);\nconsole.log\\('Total monthly search volume:', result.reduce\\(\\(sum, r\\) => sum + r.search_volume, 0\\)\\);\n\" 2>&1)",
+      "mcp__dataforseo__serp_google_organic",
+      "mcp__dataforseo__competitor_domain_keywords",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && node -e \"\nconst fs = require\\('fs'\\);\nconst raw = fs.readFileSync\\('C:/Users/karth/.claude/projects/E--Websites-droptaxi/028e9189-1eae-4565-9c5f-9fe869a4302e/tool-results/mcp-dataforseo-keyword_search_volume-1773300419928.txt', 'utf8'\\);\nconst parsed = JSON.parse\\(raw\\);\nconst data = JSON.parse\\(parsed[0].text\\);\nconst keywords = data.keywords || [];\nkeywords.sort\\(\\(a,b\\) => \\(b.search_volume||0\\) - \\(a.search_volume||0\\)\\);\n\n// All keywords with volume\nconst all = keywords.map\\(k => \\({\n  keyword: k.keyword,\n  search_volume: k.search_volume || 0,\n  cpc: k.cpc || 0,\n  competition: k.competition || 'NONE',\n  competition_index: k.competition_index || 0,\n}\\)\\);\n\n// Save full dataset\nfs.writeFileSync\\('./reports/serp-keyword-volumes.json', JSON.stringify\\(all, null, 2\\)\\);\nconsole.log\\('Saved', all.length, 'keywords'\\);\n// Show zero-volume keywords\nconst zero = all.filter\\(k => k.search_volume === 0\\).map\\(k => k.keyword\\);\nconsole.log\\('Zero volume:', JSON.stringify\\(zero\\)\\);\n\" 2>&1)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && npx next build 2>&1 | tail -25)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && grep -c '\".*\":' lib/route-data.ts)",
+      "Bash(cd \"E:/Websites/droptaxi\" && npx tsc --noEmit lib/route-data.ts 2>&1 | head -20)",
+      "Bash(npx tsc:*)",
+      "Bash(cd \"E:/Websites/droptaxi\" && grep -c '\".*-to-.*-taxi\"\\\\|\".*-to-.*-cab\"' lib/route-data.ts)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && sed -i 's/916383883922/919994540558/g; s/063838 83922/099945 40558/g; s/63838 83922/99945 40558/g; s/\\\\+91 63838 83922/+91 99945 40558/g' app/page.tsx app/\\\\[slug\\\\]/page.tsx components/Footer.tsx components/QuoteForm.tsx components/FloatingCTA.tsx components/pages/StaticPage.tsx lib/pages.ts reports/directory-submission-plan.md)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && npx next build 2>&1 | tail -15)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && grep -n '\"Sedan\", value: \"From INR 13/km\"' lib/pages.ts)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && sed -i 's/099945 40558/99949 40558/g' lib/pages.ts app/page.tsx components/pages/StaticPage.tsx components/QuoteForm.tsx components/Footer.tsx)",
+      "Bash(cd \"E:\\\\Websites\\\\droptaxi\" && sed -i 's/9994540558/9994940558/g; s/99945 40558/99949 40558/g' lib/constants.ts lib/pages.ts app/page.tsx app/\\\\[slug\\\\]/page.tsx components/Footer.tsx components/pages/StaticPage.tsx components/QuoteForm.tsx components/FloatingCTA.tsx reports/directory-submission-plan.md)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "dataforseo"
+  ]
+}

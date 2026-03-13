@@ -1,0 +1,1304 @@
+{
+  "totalKeywords": 162,
+  "withVolume": 134,
+  "zeroVolume": 28,
+  "totalMonthlySearches": 118920,
+  "keywords": [
+    {
+      "keyword": "drop taxi",
+      "slug": "drop-taxi",
+      "search_volume": 33100,
+      "cpc": 0.44,
+      "competition": "MEDIUM",
+      "competition_index": 58
+    },
+    {
+      "keyword": "airport taxi in bangalore",
+      "slug": "airport-taxi-in-bangalore",
+      "search_volume": 12100,
+      "cpc": 0.58,
+      "competition": "MEDIUM",
+      "competition_index": 60
+    },
+    {
+      "keyword": "outstation cabs",
+      "slug": "outstation-cabs",
+      "search_volume": 9900,
+      "cpc": 0.32,
+      "competition": "MEDIUM",
+      "competition_index": 62
+    },
+    {
+      "keyword": "call taxi in tirupur",
+      "slug": "call-taxi-in-tirupur",
+      "search_volume": 4400,
+      "cpc": 0.15,
+      "competition": "LOW",
+      "competition_index": 20
+    },
+    {
+      "keyword": "call taxi in karur",
+      "slug": "call-taxi-in-karur",
+      "search_volume": 2900,
+      "cpc": 0.1,
+      "competition": "LOW",
+      "competition_index": 17
+    },
+    {
+      "keyword": "call taxi in vellore",
+      "slug": "call-taxi-in-vellore",
+      "search_volume": 2900,
+      "cpc": 0.2,
+      "competition": "MEDIUM",
+      "competition_index": 52
+    },
+    {
+      "keyword": "madurai call taxi",
+      "slug": "UNMAPPED",
+      "search_volume": 2900,
+      "cpc": 0.24,
+      "competition": "MEDIUM",
+      "competition_index": 55
+    },
+    {
+      "keyword": "chennai to pondicherry taxi",
+      "slug": "chennai-to-pondicherry-taxi",
+      "search_volume": 2400,
+      "cpc": 0.55,
+      "competition": "MEDIUM",
+      "competition_index": 58
+    },
+    {
+      "keyword": "madurai to rameswaram taxi",
+      "slug": "madurai-to-rameswaram-taxi",
+      "search_volume": 1900,
+      "cpc": 0.45,
+      "competition": "MEDIUM",
+      "competition_index": 47
+    },
+    {
+      "keyword": "drop taxi in trichy",
+      "slug": "drop-taxi-in-trichy",
+      "search_volume": 1900,
+      "cpc": 0.53,
+      "competition": "MEDIUM",
+      "competition_index": 63
+    },
+    {
+      "keyword": "call taxi salem",
+      "slug": "call-taxi-salem",
+      "search_volume": 1900,
+      "cpc": 0.14,
+      "competition": "MEDIUM",
+      "competition_index": 41
+    },
+    {
+      "keyword": "bangalore to mysore taxi",
+      "slug": "bangalore-to-mysore-taxi",
+      "search_volume": 1600,
+      "cpc": 0.32,
+      "competition": "MEDIUM",
+      "competition_index": 53
+    },
+    {
+      "keyword": "drop taxi in coimbatore",
+      "slug": "drop-taxi-in-coimbatore",
+      "search_volume": 1600,
+      "cpc": 0.5,
+      "competition": "MEDIUM",
+      "competition_index": 65
+    },
+    {
+      "keyword": "drop taxi madurai",
+      "slug": "drop-taxi-madurai",
+      "search_volume": 1600,
+      "cpc": 0.51,
+      "competition": "MEDIUM",
+      "competition_index": 60
+    },
+    {
+      "keyword": "one way cab booking",
+      "slug": "one-way-cab-booking",
+      "search_volume": 1600,
+      "cpc": 0.3,
+      "competition": "HIGH",
+      "competition_index": 68
+    },
+    {
+      "keyword": "call taxi in erode",
+      "slug": "call-taxi-in-erode",
+      "search_volume": 1600,
+      "cpc": 0.07,
+      "competition": "LOW",
+      "competition_index": 27
+    },
+    {
+      "keyword": "bangalore to coorg taxi",
+      "slug": "bangalore-to-coorg-taxi",
+      "search_volume": 1300,
+      "cpc": 0.41,
+      "competition": "MEDIUM",
+      "competition_index": 46
+    },
+    {
+      "keyword": "cochin to munnar taxi",
+      "slug": "cochin-to-munnar-taxi",
+      "search_volume": 1300,
+      "cpc": 0.46,
+      "competition": "MEDIUM",
+      "competition_index": 66
+    },
+    {
+      "keyword": "coimbatore to ooty taxi",
+      "slug": "coimbatore-to-ooty-taxi",
+      "search_volume": 1300,
+      "cpc": 0.32,
+      "competition": "MEDIUM",
+      "competition_index": 57
+    },
+    {
+      "keyword": "ernakulam to munnar taxi",
+      "slug": "ernakulam-to-munnar-taxi",
+      "search_volume": 1300,
+      "cpc": 0.46,
+      "competition": "MEDIUM",
+      "competition_index": 66
+    },
+    {
+      "keyword": "bangalore to chennai taxi",
+      "slug": "bangalore-to-chennai-taxi",
+      "search_volume": 1000,
+      "cpc": 0.57,
+      "competition": "MEDIUM",
+      "competition_index": 44
+    },
+    {
+      "keyword": "vijayawada to hyderabad taxi",
+      "slug": "vijayawada-to-hyderabad-taxi",
+      "search_volume": 1000,
+      "cpc": 0.41,
+      "competition": "LOW",
+      "competition_index": 14
+    },
+    {
+      "keyword": "rameshwaram taxi service",
+      "slug": "rameshwaram-taxi-service",
+      "search_volume": 1000,
+      "cpc": 0.21,
+      "competition": "MEDIUM",
+      "competition_index": 41
+    },
+    {
+      "keyword": "cochin airport taxi",
+      "slug": "cochin-airport-taxi",
+      "search_volume": 1000,
+      "cpc": 0.4,
+      "competition": "LOW",
+      "competition_index": 29
+    },
+    {
+      "keyword": "hyderabad to vijayawada taxi",
+      "slug": "hyderabad-to-vijayawada-taxi",
+      "search_volume": 880,
+      "cpc": 0.49,
+      "competition": "LOW",
+      "competition_index": 28
+    },
+    {
+      "keyword": "mysore to coorg cab",
+      "slug": "mysore-to-coorg-cab",
+      "search_volume": 880,
+      "cpc": 0.32,
+      "competition": "LOW",
+      "competition_index": 31
+    },
+    {
+      "keyword": "drop taxi in vellore",
+      "slug": "drop-taxi-in-vellore",
+      "search_volume": 880,
+      "cpc": 0.47,
+      "competition": "MEDIUM",
+      "competition_index": 59
+    },
+    {
+      "keyword": "chennai to bangalore taxi",
+      "slug": "chennai-to-bangalore-taxi",
+      "search_volume": 720,
+      "cpc": 0.57,
+      "competition": "MEDIUM",
+      "competition_index": 51
+    },
+    {
+      "keyword": "mysore to ooty taxi",
+      "slug": "mysore-to-ooty-taxi",
+      "search_volume": 720,
+      "cpc": 0.3,
+      "competition": "MEDIUM",
+      "competition_index": 49
+    },
+    {
+      "keyword": "pondicherry to chennai taxi",
+      "slug": "pondicherry-to-chennai-taxi",
+      "search_volume": 720,
+      "cpc": 0.47,
+      "competition": "MEDIUM",
+      "competition_index": 47
+    },
+    {
+      "keyword": "chennai to tirupati taxi",
+      "slug": "chennai-to-tirupati-taxi",
+      "search_volume": 590,
+      "cpc": 0.41,
+      "competition": "MEDIUM",
+      "competition_index": 51
+    },
+    {
+      "keyword": "madurai to kodaikanal taxi",
+      "slug": "madurai-to-kodaikanal-taxi",
+      "search_volume": 590,
+      "cpc": 0.41,
+      "competition": "MEDIUM",
+      "competition_index": 60
+    },
+    {
+      "keyword": "mysore to bangalore taxi",
+      "slug": "mysore-to-bangalore-taxi",
+      "search_volume": 590,
+      "cpc": 0.31,
+      "competition": "MEDIUM",
+      "competition_index": 53
+    },
+    {
+      "keyword": "drop taxi in bangalore",
+      "slug": "drop-taxi-in-bangalore",
+      "search_volume": 590,
+      "cpc": 0.42,
+      "competition": "MEDIUM",
+      "competition_index": 55
+    },
+    {
+      "keyword": "bangalore to tirupati taxi",
+      "slug": "bangalore-to-tirupati-taxi",
+      "search_volume": 480,
+      "cpc": 0.35,
+      "competition": "MEDIUM",
+      "competition_index": 53
+    },
+    {
+      "keyword": "chennai to vellore taxi",
+      "slug": "chennai-to-vellore-taxi",
+      "search_volume": 480,
+      "cpc": 0.48,
+      "competition": "MEDIUM",
+      "competition_index": 39
+    },
+    {
+      "keyword": "rameswaram to madurai taxi",
+      "slug": "rameswaram-to-madurai-taxi",
+      "search_volume": 480,
+      "cpc": 0.48,
+      "competition": "HIGH",
+      "competition_index": 68
+    },
+    {
+      "keyword": "salem to yercaud taxi",
+      "slug": "salem-to-yercaud-taxi",
+      "search_volume": 480,
+      "cpc": 0.27,
+      "competition": "MEDIUM",
+      "competition_index": 44
+    },
+    {
+      "keyword": "call taxi nagercoil",
+      "slug": "call-taxi-nagercoil",
+      "search_volume": 480,
+      "cpc": 0.13,
+      "competition": "MEDIUM",
+      "competition_index": 45
+    },
+    {
+      "keyword": "airport taxi in chennai",
+      "slug": "airport-taxi-in-chennai",
+      "search_volume": 480,
+      "cpc": 0.36,
+      "competition": "MEDIUM",
+      "competition_index": 50
+    },
+    {
+      "keyword": "bangalore to coimbatore taxi",
+      "slug": "bangalore-to-coimbatore-taxi",
+      "search_volume": 390,
+      "cpc": 0.43,
+      "competition": "MEDIUM",
+      "competition_index": 51
+    },
+    {
+      "keyword": "bangalore to hyderabad taxi",
+      "slug": "bangalore-to-hyderabad-taxi",
+      "search_volume": 390,
+      "cpc": 0.38,
+      "competition": "MEDIUM",
+      "competition_index": 38
+    },
+    {
+      "keyword": "chennai to trichy taxi",
+      "slug": "chennai-to-trichy-taxi",
+      "search_volume": 390,
+      "cpc": 0.53,
+      "competition": "LOW",
+      "competition_index": 26
+    },
+    {
+      "keyword": "dindigul to kodaikanal taxi",
+      "slug": "dindigul-to-kodaikanal-taxi",
+      "search_volume": 390,
+      "cpc": 0.3,
+      "competition": "MEDIUM",
+      "competition_index": 60
+    },
+    {
+      "keyword": "trichy to chennai taxi",
+      "slug": "trichy-to-chennai-taxi",
+      "search_volume": 390,
+      "cpc": 0.65,
+      "competition": "LOW",
+      "competition_index": 22
+    },
+    {
+      "keyword": "tiruvannamalai drop taxi",
+      "slug": "tiruvannamalai-drop-taxi",
+      "search_volume": 390,
+      "cpc": 0.33,
+      "competition": "LOW",
+      "competition_index": 22
+    },
+    {
+      "keyword": "call taxi in kodaikanal",
+      "slug": "call-taxi-in-kodaikanal",
+      "search_volume": 390,
+      "cpc": 0.24,
+      "competition": "LOW",
+      "competition_index": 6
+    },
+    {
+      "keyword": "call taxi in pollachi",
+      "slug": "call-taxi-in-pollachi",
+      "search_volume": 390,
+      "cpc": 0.17,
+      "competition": "MEDIUM",
+      "competition_index": 36
+    },
+    {
+      "keyword": "call taxi karaikudi",
+      "slug": "call-taxi-karaikudi",
+      "search_volume": 390,
+      "cpc": 0.11,
+      "competition": "LOW",
+      "competition_index": 33
+    },
+    {
+      "keyword": "bangalore to chikmagalur taxi",
+      "slug": "bangalore-to-chikmagalur-taxi",
+      "search_volume": 320,
+      "cpc": 0.37,
+      "competition": "MEDIUM",
+      "competition_index": 50
+    },
+    {
+      "keyword": "bangalore to pondicherry taxi",
+      "slug": "bangalore-to-pondicherry-taxi",
+      "search_volume": 320,
+      "cpc": 0.45,
+      "competition": "MEDIUM",
+      "competition_index": 56
+    },
+    {
+      "keyword": "bangalore to wayanad taxi",
+      "slug": "bangalore-to-wayanad-taxi",
+      "search_volume": 320,
+      "cpc": 0.34,
+      "competition": "MEDIUM",
+      "competition_index": 54
+    },
+    {
+      "keyword": "chennai to coimbatore taxi",
+      "slug": "chennai-to-coimbatore-taxi",
+      "search_volume": 320,
+      "cpc": 0.56,
+      "competition": "LOW",
+      "competition_index": 22
+    },
+    {
+      "keyword": "chennai to madurai taxi",
+      "slug": "chennai-to-madurai-taxi",
+      "search_volume": 320,
+      "cpc": 0.49,
+      "competition": "LOW",
+      "competition_index": 31
+    },
+    {
+      "keyword": "chennai to tiruvannamalai taxi",
+      "slug": "chennai-to-tiruvannamalai-taxi",
+      "search_volume": 320,
+      "cpc": 0.5,
+      "competition": "MEDIUM",
+      "competition_index": 48
+    },
+    {
+      "keyword": "mangalore to coorg taxi",
+      "slug": "mangalore-to-coorg-taxi",
+      "search_volume": 320,
+      "cpc": 0.4,
+      "competition": "MEDIUM",
+      "competition_index": 47
+    },
+    {
+      "keyword": "ooty to bangalore taxi",
+      "slug": "ooty-to-bangalore-taxi",
+      "search_volume": 320,
+      "cpc": 0.43,
+      "competition": "MEDIUM",
+      "competition_index": 58
+    },
+    {
+      "keyword": "vellore to chennai taxi",
+      "slug": "vellore-to-chennai-taxi",
+      "search_volume": 320,
+      "cpc": 0.4,
+      "competition": "LOW",
+      "competition_index": 30
+    },
+    {
+      "keyword": "call taxi in kanchipuram",
+      "slug": "call-taxi-in-kanchipuram",
+      "search_volume": 320,
+      "cpc": 0.2,
+      "competition": "MEDIUM",
+      "competition_index": 63
+    },
+    {
+      "keyword": "chennai to mahabalipuram taxi",
+      "slug": "chennai-to-mahabalipuram-taxi",
+      "search_volume": 260,
+      "cpc": 0.32,
+      "competition": "MEDIUM",
+      "competition_index": 58
+    },
+    {
+      "keyword": "hyderabad to bangalore taxi",
+      "slug": "hyderabad-to-bangalore-taxi",
+      "search_volume": 260,
+      "cpc": 0.38,
+      "competition": "MEDIUM",
+      "competition_index": 44
+    },
+    {
+      "keyword": "madurai to chennai taxi",
+      "slug": "madurai-to-chennai-taxi",
+      "search_volume": 260,
+      "cpc": 0.5,
+      "competition": "LOW",
+      "competition_index": 24
+    },
+    {
+      "keyword": "ooty to coimbatore taxi",
+      "slug": "ooty-to-coimbatore-taxi",
+      "search_volume": 260,
+      "cpc": 0.39,
+      "competition": "MEDIUM",
+      "competition_index": 64
+    },
+    {
+      "keyword": "rameshwaram to kanyakumari taxi",
+      "slug": "rameshwaram-to-kanyakumari-taxi",
+      "search_volume": 260,
+      "cpc": 0.28,
+      "competition": "MEDIUM",
+      "competition_index": 62
+    },
+    {
+      "keyword": "drop taxi thanjavur",
+      "slug": "drop-taxi-thanjavur",
+      "search_volume": 260,
+      "cpc": 0.24,
+      "competition": "MEDIUM",
+      "competition_index": 60
+    },
+    {
+      "keyword": "call taxi in tiruvannamalai",
+      "slug": "call-taxi-in-tiruvannamalai",
+      "search_volume": 260,
+      "cpc": 0.19,
+      "competition": "MEDIUM",
+      "competition_index": 47
+    },
+    {
+      "keyword": "bangalore to mangalore taxi",
+      "slug": "bangalore-to-mangalore-taxi",
+      "search_volume": 210,
+      "cpc": 0.33,
+      "competition": "MEDIUM",
+      "competition_index": 36
+    },
+    {
+      "keyword": "coimbatore to chennai taxi",
+      "slug": "coimbatore-to-chennai-taxi",
+      "search_volume": 210,
+      "cpc": 0.51,
+      "competition": "MEDIUM",
+      "competition_index": 37
+    },
+    {
+      "keyword": "coimbatore to kodaikanal cab",
+      "slug": "coimbatore-to-kodaikanal-cab",
+      "search_volume": 210,
+      "cpc": 0.29,
+      "competition": "MEDIUM",
+      "competition_index": 61
+    },
+    {
+      "keyword": "kozhikode to wayanad taxi",
+      "slug": "kozhikode-to-wayanad-taxi",
+      "search_volume": 210,
+      "cpc": 0.25,
+      "competition": "MEDIUM",
+      "competition_index": 49
+    },
+    {
+      "keyword": "munnar to alleppey taxi",
+      "slug": "munnar-to-alleppey-taxi",
+      "search_volume": 210,
+      "cpc": 0.29,
+      "competition": "MEDIUM",
+      "competition_index": 61
+    },
+    {
+      "keyword": "tiruvannamalai to chennai taxi",
+      "slug": "tiruvannamalai-to-chennai-taxi",
+      "search_volume": 210,
+      "cpc": 0.55,
+      "competition": "MEDIUM",
+      "competition_index": 39
+    },
+    {
+      "keyword": "drop taxi cuddalore",
+      "slug": "drop-taxi-cuddalore",
+      "search_volume": 210,
+      "cpc": 0.53,
+      "competition": "MEDIUM",
+      "competition_index": 42
+    },
+    {
+      "keyword": "drop taxi tirunelveli",
+      "slug": "drop-taxi-tirunelveli",
+      "search_volume": 210,
+      "cpc": 0.5,
+      "competition": "MEDIUM",
+      "competition_index": 48
+    },
+    {
+      "keyword": "drop taxi villupuram",
+      "slug": "drop-taxi-villupuram",
+      "search_volume": 210,
+      "cpc": 0.46,
+      "competition": "MEDIUM",
+      "competition_index": 64
+    },
+    {
+      "keyword": "trichy airport taxi",
+      "slug": "trichy-airport-taxi",
+      "search_volume": 210,
+      "cpc": 0.21,
+      "competition": "LOW",
+      "competition_index": 28
+    },
+    {
+      "keyword": "bangalore to kodaikanal taxi",
+      "slug": "bangalore-to-kodaikanal-taxi",
+      "search_volume": 170,
+      "cpc": 0.3,
+      "competition": "MEDIUM",
+      "competition_index": 41
+    },
+    {
+      "keyword": "bangalore to vellore taxi",
+      "slug": "bangalore-to-vellore-taxi",
+      "search_volume": 170,
+      "cpc": 0.56,
+      "competition": "MEDIUM",
+      "competition_index": 39
+    },
+    {
+      "keyword": "chennai to kanchipuram taxi",
+      "slug": "chennai-to-kanchipuram-taxi",
+      "search_volume": 170,
+      "cpc": 0.3,
+      "competition": "HIGH",
+      "competition_index": 73
+    },
+    {
+      "keyword": "coimbatore to coonoor taxi",
+      "slug": "coimbatore-to-coonoor-taxi",
+      "search_volume": 170,
+      "cpc": 0.29,
+      "competition": "HIGH",
+      "competition_index": 69
+    },
+    {
+      "keyword": "coimbatore to munnar taxi",
+      "slug": "coimbatore-to-munnar-taxi",
+      "search_volume": 170,
+      "cpc": 0.24,
+      "competition": "MEDIUM",
+      "competition_index": 56
+    },
+    {
+      "keyword": "vellore to bangalore taxi",
+      "slug": "vellore-to-bangalore-taxi",
+      "search_volume": 170,
+      "cpc": 0.51,
+      "competition": "MEDIUM",
+      "competition_index": 38
+    },
+    {
+      "keyword": "bangalore to madurai taxi",
+      "slug": "bangalore-to-madurai-taxi",
+      "search_volume": 140,
+      "cpc": 0.4,
+      "competition": "LOW",
+      "competition_index": 29
+    },
+    {
+      "keyword": "cochin to sabarimala taxi",
+      "slug": "cochin-to-sabarimala-taxi",
+      "search_volume": 140,
+      "cpc": 0.37,
+      "competition": "LOW",
+      "competition_index": 29
+    },
+    {
+      "keyword": "pondicherry to bangalore taxi",
+      "slug": "pondicherry-to-bangalore-taxi",
+      "search_volume": 140,
+      "cpc": 0.43,
+      "competition": "HIGH",
+      "competition_index": 73
+    },
+    {
+      "keyword": "salem to chennai taxi",
+      "slug": "salem-to-chennai-taxi",
+      "search_volume": 140,
+      "cpc": 0.61,
+      "competition": "LOW",
+      "competition_index": 9
+    },
+    {
+      "keyword": "tirupati to chennai taxi",
+      "slug": "tirupati-to-chennai-taxi",
+      "search_volume": 140,
+      "cpc": 0.32,
+      "competition": "MEDIUM",
+      "competition_index": 63
+    },
+    {
+      "keyword": "trivandrum to kanyakumari taxi",
+      "slug": "trivandrum-to-kanyakumari-taxi",
+      "search_volume": 140,
+      "cpc": 0.32,
+      "competition": "HIGH",
+      "competition_index": 68
+    },
+    {
+      "keyword": "call taxi in ooty",
+      "slug": "call-taxi-in-ooty",
+      "search_volume": 140,
+      "cpc": 0.16,
+      "competition": "LOW",
+      "competition_index": 24
+    },
+    {
+      "keyword": "coimbatore airport taxi",
+      "slug": "coimbatore-airport-taxi",
+      "search_volume": 140,
+      "cpc": 0.29,
+      "competition": "LOW",
+      "competition_index": 15
+    },
+    {
+      "keyword": "drop taxi reviews",
+      "slug": "reviews",
+      "search_volume": 140,
+      "cpc": 0.41,
+      "competition": "LOW",
+      "competition_index": 15
+    },
+    {
+      "keyword": "bangalore to hampi taxi",
+      "slug": "bangalore-to-hampi-taxi",
+      "search_volume": 110,
+      "cpc": 0.24,
+      "competition": "MEDIUM",
+      "competition_index": 52
+    },
+    {
+      "keyword": "bangalore to munnar cab",
+      "slug": "bangalore-to-munnar-cab",
+      "search_volume": 110,
+      "cpc": 0.31,
+      "competition": "MEDIUM",
+      "competition_index": 55
+    },
+    {
+      "keyword": "chennai to velankanni taxi",
+      "slug": "chennai-to-velankanni-taxi",
+      "search_volume": 110,
+      "cpc": 0.28,
+      "competition": "HIGH",
+      "competition_index": 68
+    },
+    {
+      "keyword": "drop taxi in chennai",
+      "slug": "drop-taxi-in-chennai",
+      "search_volume": 110,
+      "cpc": 0.47,
+      "competition": "LOW",
+      "competition_index": 26
+    },
+    {
+      "keyword": "bangalore to hosur taxi",
+      "slug": "bangalore-to-hosur-taxi",
+      "search_volume": 90,
+      "cpc": 0.41,
+      "competition": "HIGH",
+      "competition_index": 71
+    },
+    {
+      "keyword": "bangalore to rameshwaram taxi",
+      "slug": "bangalore-to-rameshwaram-taxi",
+      "search_volume": 90,
+      "cpc": 0.31,
+      "competition": "MEDIUM",
+      "competition_index": 53
+    },
+    {
+      "keyword": "chennai airport to vellore taxi",
+      "slug": "chennai-airport-to-vellore-taxi",
+      "search_volume": 90,
+      "cpc": 0.44,
+      "competition": "MEDIUM",
+      "competition_index": 54
+    },
+    {
+      "keyword": "kochi to alleppey taxi",
+      "slug": "kochi-to-alleppey-taxi",
+      "search_volume": 90,
+      "cpc": 0.47,
+      "competition": "MEDIUM",
+      "competition_index": 49
+    },
+    {
+      "keyword": "tirupati to arunachalam cab",
+      "slug": "tirupati-to-arunachalam-cab",
+      "search_volume": 90,
+      "cpc": 0.19,
+      "competition": "MEDIUM",
+      "competition_index": 52
+    },
+    {
+      "keyword": "drop taxi in salem",
+      "slug": "drop-taxi-in-salem",
+      "search_volume": 90,
+      "cpc": 0.55,
+      "competition": "MEDIUM",
+      "competition_index": 44
+    },
+    {
+      "keyword": "bangalore to tiruvannamalai taxi",
+      "slug": "bangalore-to-tiruvannamalai-taxi",
+      "search_volume": 70,
+      "cpc": 0.59,
+      "competition": "MEDIUM",
+      "competition_index": 47
+    },
+    {
+      "keyword": "coimbatore to madurai taxi",
+      "slug": "coimbatore-to-madurai-taxi",
+      "search_volume": 70,
+      "cpc": 0.47,
+      "competition": "MEDIUM",
+      "competition_index": 38
+    },
+    {
+      "keyword": "munnar to thekkady taxi",
+      "slug": "munnar-to-thekkady-taxi",
+      "search_volume": 70,
+      "cpc": 0.29,
+      "competition": "MEDIUM",
+      "competition_index": 61
+    },
+    {
+      "keyword": "drop taxi neyveli",
+      "slug": "drop-taxi-neyveli",
+      "search_volume": 70,
+      "cpc": 0.48,
+      "competition": "HIGH",
+      "competition_index": 68
+    },
+    {
+      "keyword": "call taxi in palakkad",
+      "slug": "call-taxi-in-palakkad",
+      "search_volume": 70,
+      "cpc": 0.22,
+      "competition": "MEDIUM",
+      "competition_index": 54
+    },
+    {
+      "keyword": "call taxi in tambaram",
+      "slug": "call-taxi-in-tambaram",
+      "search_volume": 70,
+      "cpc": 0.37,
+      "competition": "HIGH",
+      "competition_index": 83
+    },
+    {
+      "keyword": "call taxi kanyakumari",
+      "slug": "call-taxi-kanyakumari",
+      "search_volume": 70,
+      "cpc": 0.1,
+      "competition": "MEDIUM",
+      "competition_index": 35
+    },
+    {
+      "keyword": "madurai airport taxi",
+      "slug": "madurai-airport-taxi",
+      "search_volume": 70,
+      "cpc": 0.31,
+      "competition": "MEDIUM",
+      "competition_index": 35
+    },
+    {
+      "keyword": "one way taxi fare",
+      "slug": "tariff",
+      "search_volume": 70,
+      "cpc": 0.28,
+      "competition": "HIGH",
+      "competition_index": 80
+    },
+    {
+      "keyword": "chennai to rameshwaram taxi",
+      "slug": "chennai-to-rameshwaram-taxi",
+      "search_volume": 50,
+      "cpc": 0.33,
+      "competition": "MEDIUM",
+      "competition_index": 47
+    },
+    {
+      "keyword": "chennai to salem taxi",
+      "slug": "chennai-to-salem-taxi",
+      "search_volume": 50,
+      "cpc": 0.66,
+      "competition": "LOW",
+      "competition_index": 15
+    },
+    {
+      "keyword": "coimbatore to palakkad taxi",
+      "slug": "coimbatore-to-palakkad-taxi",
+      "search_volume": 50,
+      "cpc": 0.27,
+      "competition": "HIGH",
+      "competition_index": 67
+    },
+    {
+      "keyword": "madurai to coimbatore taxi",
+      "slug": "madurai-to-coimbatore-taxi",
+      "search_volume": 50,
+      "cpc": 0.54,
+      "competition": "LOW",
+      "competition_index": 10
+    },
+    {
+      "keyword": "madurai to trichy taxi",
+      "slug": "madurai-to-trichy-taxi",
+      "search_volume": 50,
+      "cpc": 0.91,
+      "competition": "LOW",
+      "competition_index": 15
+    },
+    {
+      "keyword": "salem to coimbatore taxi",
+      "slug": "salem-to-coimbatore-taxi",
+      "search_volume": 50,
+      "cpc": 0.58,
+      "competition": "LOW",
+      "competition_index": 27
+    },
+    {
+      "keyword": "trichy to velankanni cab",
+      "slug": "trichy-to-velankanni-cab",
+      "search_volume": 50,
+      "cpc": 0.2,
+      "competition": "MEDIUM",
+      "competition_index": 56
+    },
+    {
+      "keyword": "vellore to pondicherry taxi",
+      "slug": "vellore-to-pondicherry-taxi",
+      "search_volume": 50,
+      "cpc": 0.4,
+      "competition": "MEDIUM",
+      "competition_index": 59
+    },
+    {
+      "keyword": "chennai to cuddalore taxi",
+      "slug": "chennai-to-cuddalore-taxi",
+      "search_volume": 40,
+      "cpc": 0.31,
+      "competition": "LOW",
+      "competition_index": 29
+    },
+    {
+      "keyword": "chennai to kumbakonam taxi",
+      "slug": "chennai-to-kumbakonam-taxi",
+      "search_volume": 40,
+      "cpc": 0.36,
+      "competition": "MEDIUM",
+      "competition_index": 41
+    },
+    {
+      "keyword": "coimbatore to salem taxi",
+      "slug": "coimbatore-to-salem-taxi",
+      "search_volume": 40,
+      "cpc": 0.54,
+      "competition": "LOW",
+      "competition_index": 25
+    },
+    {
+      "keyword": "pondicherry to mahabalipuram taxi",
+      "slug": "pondicherry-to-mahabalipuram-taxi",
+      "search_volume": 40,
+      "cpc": 0.51,
+      "competition": "HIGH",
+      "competition_index": 77
+    },
+    {
+      "keyword": "velankanni to pondicherry cab",
+      "slug": "velankanni-to-pondicherry-cab",
+      "search_volume": 40,
+      "cpc": 0.21,
+      "competition": "HIGH",
+      "competition_index": 77
+    },
+    {
+      "keyword": "chennai to neyveli taxi",
+      "slug": "chennai-to-neyveli-taxi",
+      "search_volume": 30,
+      "cpc": 0.33,
+      "competition": "MEDIUM",
+      "competition_index": 52
+    },
+    {
+      "keyword": "madurai to bangalore taxi",
+      "slug": "madurai-to-bangalore-taxi",
+      "search_volume": 30,
+      "cpc": 0.77,
+      "competition": "LOW",
+      "competition_index": 15
+    },
+    {
+      "keyword": "trichy to coimbatore taxi",
+      "slug": "trichy-to-coimbatore-taxi",
+      "search_volume": 30,
+      "cpc": 0.46,
+      "competition": "LOW",
+      "competition_index": 25
+    },
+    {
+      "keyword": "trichy to madurai taxi",
+      "slug": "trichy-to-madurai-taxi",
+      "search_volume": 30,
+      "cpc": 0.77,
+      "competition": "LOW",
+      "competition_index": 31
+    },
+    {
+      "keyword": "villupuram to chennai taxi",
+      "slug": "villupuram-to-chennai-taxi",
+      "search_volume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "competition_index": 16
+    },
+    {
+      "keyword": "one way taxi in coimbatore",
+      "slug": "one-way-taxi-in-coimbatore",
+      "search_volume": 30,
+      "cpc": 0.44,
+      "competition": "HIGH",
+      "competition_index": 91
+    },
+    {
+      "keyword": "chennai to kodaikanal taxi",
+      "slug": "chennai-to-kodaikanal-taxi",
+      "search_volume": 20,
+      "cpc": 0.33,
+      "competition": "HIGH",
+      "competition_index": 69
+    },
+    {
+      "keyword": "drop taxi hyderabad",
+      "slug": "drop-taxi-hyderabad",
+      "search_volume": 20,
+      "cpc": 0.24,
+      "competition": "HIGH",
+      "competition_index": 77
+    },
+    {
+      "keyword": "drop taxi in pondicherry",
+      "slug": "drop-taxi-in-pondicherry",
+      "search_volume": 20,
+      "cpc": 0.46,
+      "competition": "MEDIUM",
+      "competition_index": 39
+    },
+    {
+      "keyword": "chennai airport to cmc vellore taxi",
+      "slug": "chennai-airport-to-cmc-vellore-taxi",
+      "search_volume": 10,
+      "cpc": 0.51,
+      "competition": "HIGH",
+      "competition_index": 86
+    },
+    {
+      "keyword": "vellore to tiruvannamalai cab",
+      "slug": "vellore-to-tiruvannamalai-cab",
+      "search_volume": 10,
+      "cpc": 0.38,
+      "competition": "HIGH",
+      "competition_index": 75
+    },
+    {
+      "keyword": "bangalore to trichy taxi",
+      "slug": "bangalore-to-trichy-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "chennai to karaikudi taxi",
+      "slug": "chennai-to-karaikudi-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "chennai to ranipet taxi",
+      "slug": "chennai-to-ranipet-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "chennai to tirunelveli taxi",
+      "slug": "chennai-to-tirunelveli-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "madurai to pondicherry taxi",
+      "slug": "madurai-to-pondicherry-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "madurai to salem taxi",
+      "slug": "madurai-to-salem-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "madurai to tiruvannamalai taxi",
+      "slug": "madurai-to-tiruvannamalai-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "madurai to vellore taxi",
+      "slug": "madurai-to-vellore-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "pondicherry to coimbatore taxi",
+      "slug": "pondicherry-to-coimbatore-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "pondicherry to madurai taxi",
+      "slug": "pondicherry-to-madurai-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "pondicherry to salem taxi",
+      "slug": "pondicherry-to-salem-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "salem to madurai taxi",
+      "slug": "salem-to-madurai-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "salem to trichy taxi",
+      "slug": "salem-to-trichy-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "salem to vellore taxi",
+      "slug": "salem-to-vellore-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "trichy to salem taxi",
+      "slug": "trichy-to-salem-taxi",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in chengalpattu",
+      "slug": "drop-taxi-in-chengalpattu",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in erode",
+      "slug": "drop-taxi-in-erode",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in hosur",
+      "slug": "drop-taxi-in-hosur",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in kanchipuram",
+      "slug": "drop-taxi-in-kanchipuram",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in karur",
+      "slug": "drop-taxi-in-karur",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in krishnagiri",
+      "slug": "drop-taxi-in-krishnagiri",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in kumbakonam",
+      "slug": "drop-taxi-in-kumbakonam",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in namakkal",
+      "slug": "drop-taxi-in-namakkal",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi in trivandrum",
+      "slug": "drop-taxi-in-trivandrum",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi munnar",
+      "slug": "drop-taxi-munnar",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "one way taxi in madurai",
+      "slug": "one-way-taxi-in-madurai",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "one way taxi in trichy",
+      "slug": "one-way-taxi-in-trichy",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    },
+    {
+      "keyword": "drop taxi cities",
+      "slug": "cities",
+      "search_volume": 0,
+      "cpc": 0,
+      "competition": "NONE",
+      "competition_index": 0
+    }
+  ]
+}
