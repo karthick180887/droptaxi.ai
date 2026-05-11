@@ -1,5 +1,6 @@
 "use client";
 import { Phone, Send } from "lucide-react";
+import { SUPPORT_PHONE_E164 } from "@/lib/constants";
 
 export default function FloatingCTA() {
   return (
@@ -14,7 +15,7 @@ export default function FloatingCTA() {
         <Send size={24} />
       </a>
       <a
-        href="tel:+919994940558"
+        href={`tel:${SUPPORT_PHONE_E164}`}
         className="cta-call"
         aria-label="Call us"
       >

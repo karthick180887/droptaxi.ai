@@ -32,18 +32,22 @@ def parse_routes(s):
 
 def generate_faqs(name, slug, state, routes):
     r0 = routes[0]
-    fare_sedan = r0["distanceKm"] * 13 + 300
-    fare_suv = r0["distanceKm"] * 19 + 400
+    # One-way rates: Sedan ₹13/km, SUV ₹18/km, Innova ₹19/km, Crysta ₹25/km. Min 130 km.
+    billed_km = max(r0["distanceKm"], 130)
+    fare_sedan = billed_km * 13 + 300
+    fare_suv = billed_km * 18 + 400
+    fare_innova = billed_km * 19 + 400
+    fare_crysta = billed_km * 25 + 400
     r1 = routes[1] if len(routes) > 1 else r0
     return [
         {"q": f"What is the drop taxi fare from {name} to {r0['to']}?",
-         "a": f"The sedan fare starts at approximately ₹{fare_sedan:,}. SUV fare starts at ₹{fare_suv:,}. Fares include driver bata and fuel. Toll and parking charges are extra."},
+         "a": f"The sedan fare starts at approximately ₹{fare_sedan:,} (₹13/km). SUV from ₹{fare_suv:,} (₹18/km), Innova from ₹{fare_innova:,} (₹19/km), and Innova Crysta from ₹{fare_crysta:,} (₹25/km). One-way is billed for a minimum of 130 km. Toll and parking are extra."},
         {"q": f"Is night drop taxi available from {name}?",
          "a": f"Yes, DropTaxi operates 24/7 from {name}. Night bookings between 10 PM and 6 AM are available with verified, experienced drivers for safe travel."},
         {"q": f"What car types are available for drop taxi in {name}?",
          "a": f"We offer AC Sedan (Etios/Dzire), SUV (Innova/Ertiga), and Tempo Traveller for group bookings. All vehicles are well-maintained and GPS-tracked."},
         {"q": f"How do I book a one way taxi from {name}?",
-         "a": f"Call 063838 83922 or WhatsApp us with your pickup point in {name}, drop destination, travel date, and car preference. You will get instant fare confirmation."},
+         "a": f"Call 78100 46010 or WhatsApp us with your pickup point in {name}, drop destination, travel date, and car preference. You will get instant fare confirmation."},
         {"q": f"Can I book a drop taxi from {name} to {r1['to']}?",
          "a": f"Yes, {name} to {r1['to']} is a popular route. The distance is approximately {r1['distanceKm']} km and takes about {r1['durationHrs']} hours. Book via call or WhatsApp for best rates."},
     ]

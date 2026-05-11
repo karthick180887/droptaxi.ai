@@ -1,6 +1,7 @@
 "use client";
 import { useState, useCallback, type FormEvent } from "react";
 import PlacesAutocomplete from "./PlacesAutocomplete";
+import { SUPPORT_PHONE_DISPLAY } from "@/lib/constants";
 
 function formatTimeToAMPM(time24: string): string {
   const [hoursStr, minutes] = time24.split(":");
@@ -150,7 +151,7 @@ export default function QuoteForm() {
         </button>
         {status === "error" && (
           <p style={{ color: "#ef4444", fontSize: "0.85rem", marginTop: "0.5rem" }}>
-            Something went wrong. Please call us at 99949 40558.
+            Something went wrong. Please call us at {SUPPORT_PHONE_DISPLAY}.
           </p>
         )}
       </form>

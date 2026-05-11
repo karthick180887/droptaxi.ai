@@ -1,5 +1,6 @@
 import type { PageData, Breadcrumb, ListItem, CarType, FAQ, RelatedLink, FareBreakdown } from "@/lib/types";
 import { ROUTE_DATA, CITY_DATA, computeFares } from "@/lib/route-data";
+import { SUPPORT_PHONE, SUPPORT_PHONE_DISPLAY } from "@/lib/constants";
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -137,15 +138,14 @@ function makeRoutePage(slug: string, from: string, to: string): PageData {
   ];
 
   const fareBreakdown: FareBreakdown[] | undefined = fares ? [
-    { carType: "Mini (3+1)", fare: `INR ${fares.mini}`, perKm: "INR 11/km" },
     { carType: "Sedan / Etios (4+1)", fare: `INR ${fares.sedan}`, perKm: "INR 13/km" },
-    { carType: "SUV (6+1 / 7+1)", fare: `INR ${fares.suv}`, perKm: "INR 17/km" },
-    { carType: "Innova (6+1 / 7+1)", fare: `INR ${fares.innova}`, perKm: "INR 17/km" },
-    { carType: "Innova Crysta (6+1)", fare: `INR ${fares.crysta}`, perKm: "INR 21/km" },
+    { carType: "SUV (6+1 / 7+1)", fare: `INR ${fares.suv}`, perKm: "INR 18/km" },
+    { carType: "Innova (6+1 / 7+1)", fare: `INR ${fares.innova}`, perKm: "INR 19/km" },
+    { carType: "Innova Crysta (6+1)", fare: `INR ${fares.crysta}`, perKm: "INR 25/km" },
   ] : undefined;
 
   const routeFaqs: FAQ[] = [
-    { question: `How much does a ${f} to ${t} taxi cost?`, answer: fares ? `Mini from INR ${fares.mini}, Sedan/Etios from INR ${fares.sedan}, SUV/Innova from INR ${fares.suv}, and Innova Crysta from INR ${fares.crysta}. Final fare is confirmed at booking.` : `Fare depends on vehicle type. Contact us on Telegram for an instant quote.` },
+    { question: `How much does a ${f} to ${t} taxi cost?`, answer: fares ? `Sedan/Etios from INR ${fares.sedan} at ₹13/km, SUV from INR ${fares.suv} at ₹18/km, Innova from INR ${fares.innova} at ₹19/km, and Innova Crysta from INR ${fares.crysta} at ₹25/km. One-way is billed for a minimum of 130 km. Final fare is confirmed at booking.` : `Fare depends on vehicle type. Contact us on Telegram for an instant quote.` },
     { question: `What is the distance from ${f} to ${t}?`, answer: info ? `The distance is approximately ${info.distance} km and takes ${info.duration} by road${info.highway ? ` via ${info.highway}` : ""}.` : `Contact us for route details and duration estimate.` },
     { question: `Can I book a ${f} to ${t} taxi for night travel?`, answer: `Yes. We operate 24x7 including late night and early morning trips. Night charges may apply between 10 PM and 6 AM.` },
     { question: "Is there a return fare charge?", answer: "No. You only pay for the one way distance. There is no hidden return fare or extra charge." },
@@ -205,9 +205,9 @@ function makeCityPage(slug: string, city: string): PageData {
 
   return {
     slug,
-    title: `Drop Taxi in ${c} — One Way Cab from INR 11/km`,
+    title: `Drop Taxi in ${c} — One Way Cab from INR 13/km`,
     h1: `Drop Taxi in ${c}`,
-    description: `Book drop taxi in ${c} from INR 11/km. One way cab with fixed fare, no return charge, verified drivers & 24x7 support. Mini, Sedan, SUV, Innova & Innova Crysta available.`,
+    description: `Book drop taxi in ${c} from INR 13/km. One way cab with fixed fare, no return charge, verified drivers & 24x7 support. Mini, Sedan, SUV, Innova & Innova Crysta available.`,
     eyebrow: `Drop Taxi ${c} — One Way Outstation Cab`,
     lead: info?.description || `Affordable one way taxi service in ${c} with transparent pricing and reliable drivers.`,
     breadcrumbs: [
@@ -237,9 +237,9 @@ function makeCallTaxiPage(slug: string, city: string): PageData {
   const info = CITY_DATA[cityKey] || CITY_DATA[city.toLowerCase()];
 
   const callTaxiFaqs: FAQ[] = [
-    { question: `How do I book a call taxi in ${c}?`, answer: `Call us at 99949 40558 or send a Telegram message with your ${c} pickup point, destination, and travel time. We confirm within minutes.` },
+    { question: `How do I book a call taxi in ${c}?`, answer: `Call us at ${SUPPORT_PHONE_DISPLAY} or send a Telegram message with your ${c} pickup point, destination, and travel time. We confirm within minutes.` },
     { question: `Is call taxi available 24x7 in ${c}?`, answer: `Yes. Our ${c} call taxi service runs round the clock including nights, early mornings, and holidays.` },
-    { question: `What is the call taxi fare in ${c}?`, answer: `Fares depend on distance and car type. Starting from INR 11/km for sedan. Contact us for exact fare to your destination.` },
+    { question: `What is the call taxi fare in ${c}?`, answer: `Fares depend on distance and car type. Starting from INR 13/km for sedan. Contact us for exact fare to your destination.` },
     { question: `Can I book a call taxi for outstation from ${c}?`, answer: `Yes. Our call taxi service covers both local ${c} trips and outstation intercity travel with fixed one way fares.` },
   ];
 
@@ -247,7 +247,7 @@ function makeCallTaxiPage(slug: string, city: string): PageData {
     slug,
     title: `Call Taxi in ${c} — 24x7 Booking | DropTaxi`,
     h1: `Call Taxi in ${c}`,
-    description: `Call taxi ${c} — book local & outstation cabs 24x7. Fixed fare from INR 11/km, no return charge, GPS-tracked rides. Call 99949 40558.`,
+    description: `Call taxi ${c} — book local & outstation cabs 24x7. Fixed fare from INR 13/km, no return charge, GPS-tracked rides. Call ${SUPPORT_PHONE_DISPLAY}.`,
     eyebrow: `Call Taxi ${c} — Local & Outstation`,
     lead: info?.description || `Reliable call taxi service in ${c} with fixed fares and professional drivers available round the clock.`,
     breadcrumbs: [
@@ -275,9 +275,9 @@ function makeAirportPage(slug: string, city: string): PageData {
   const c = titleCase(city);
   return {
     slug,
-    title: `${c} Airport Taxi — Pickup & Drop from INR 11/km`,
+    title: `${c} Airport Taxi — Pickup & Drop from INR 13/km`,
     h1: `${c} Airport Taxi Service`,
-    description: `Book ${c} airport taxi with flight tracking, meet & greet pickup, and fixed fare from INR 11/km. Mini, Sedan, SUV, Innova & Innova Crysta. No return fare. Call 99949 40558.`,
+    description: `Book ${c} airport taxi with flight tracking, meet & greet pickup, and fixed fare from INR 13/km. Mini, Sedan, SUV, Innova & Innova Crysta. No return fare. Call ${SUPPORT_PHONE_DISPLAY}.`,
     eyebrow: `${c} Airport Transfer — Pickup & Drop`,
     lead: "Hassle-free airport pickup and drop with flight tracking and fixed one way fares.",
     breadcrumbs: [
@@ -491,9 +491,9 @@ const ALL_PAGES: PageData[] = [
   // The generic "drop-taxi" landing page
   {
     slug: "drop-taxi",
-    title: "Drop Taxi — One Way Cab from INR 11/km | South India",
+    title: "Drop Taxi — One Way Cab from INR 13/km | South India",
     h1: "Drop Taxi — One Way Taxi Booking",
-    description: "Book drop taxi across South India from INR 11/km. One way fare only — no return charge. Mini, Sedan, Etios, SUV, Innova & Innova Crysta. 100+ cities, 24x7 booking. Call 99949 40558.",
+    description: `Book drop taxi across South India from INR 13/km. One way fare only — no return charge. Mini, Sedan, Etios, SUV, Innova & Innova Crysta. 100+ cities, 24x7 booking. Call ${SUPPORT_PHONE_DISPLAY}.`,
     eyebrow: "Drop Taxi — One Way Cab South India",
     lead: "Book drop taxi from Chennai, Bangalore, Coimbatore, Madurai, Hyderabad, and 100+ cities. Pay only for one way distance.",
     breadcrumbs: [{ label: "Home", href: "/" }, { label: "Drop Taxi" }],
@@ -564,9 +564,9 @@ const ALL_PAGES: PageData[] = [
   // ── Extra city-type pages (6) ──────────────────────────────────────
   {
     slug: "one-way-cab-booking",
-    title: "One Way Cab Booking Online — From INR 11/km | DropTaxi",
+    title: "One Way Cab Booking Online — From INR 13/km | DropTaxi",
     h1: "One Way Cab Booking Online",
-    description: "Book one way cab online across South India from INR 11/km. Mini, Sedan, Etios, SUV, Innova & Innova Crysta with fixed fare, no return charge. 100+ cities, 24x7 booking.",
+    description: "Book one way cab online across South India from INR 13/km. Mini, Sedan, Etios, SUV, Innova & Innova Crysta with fixed fare, no return charge. 100+ cities, 24x7 booking.",
     eyebrow: "One Way Cab Booking — South India",
     lead: "Book one way intercity cabs from Chennai, Bangalore, Hyderabad, Coimbatore, and 100+ cities with transparent fixed fares.",
     breadcrumbs: [{ label: "Home", href: "/" }, { label: "Cities", href: "/cities" }, { label: "One Way Cab Booking" }],
@@ -581,9 +581,9 @@ const ALL_PAGES: PageData[] = [
   },
   {
     slug: "one-way-taxi-in-coimbatore",
-    title: "One Way Taxi in Coimbatore — Outstation Cab from INR 11/km",
+    title: "One Way Taxi in Coimbatore — Outstation Cab from INR 13/km",
     h1: "One Way Taxi in Coimbatore",
-    description: "Book one way taxi in Coimbatore to Ooty, Chennai, Madurai & more. Sedan from INR 11/km, no return fare. Verified drivers, 24x7 support.",
+    description: "Book one way taxi in Coimbatore to Ooty, Chennai, Madurai & more. Sedan from INR 13/km, no return fare. Verified drivers, 24x7 support.",
     eyebrow: "One Way Taxi Coimbatore — Outstation Cab",
     lead: "Affordable one way taxi from Coimbatore to Ooty, Chennai, Madurai, Salem, and all major South Indian cities.",
     breadcrumbs: [{ label: "Home", href: "/" }, { label: "Cities", href: "/cities" }, { label: "Coimbatore" }],
@@ -598,9 +598,9 @@ const ALL_PAGES: PageData[] = [
   },
   {
     slug: "one-way-taxi-in-madurai",
-    title: "One Way Taxi in Madurai — Outstation Cab from INR 11/km",
+    title: "One Way Taxi in Madurai — Outstation Cab from INR 13/km",
     h1: "One Way Taxi in Madurai",
-    description: "Book one way taxi in Madurai to Chennai, Rameswaram, Kodaikanal & more. Fixed fare from INR 11/km, no return charge. Call 99949 40558.",
+    description: `Book one way taxi in Madurai to Chennai, Rameswaram, Kodaikanal & more. Fixed fare from INR 13/km, no return charge. Call ${SUPPORT_PHONE_DISPLAY}.`,
     eyebrow: "One Way Taxi Madurai — Outstation Cab",
     lead: "Affordable one way taxi from Madurai to Chennai, Rameswaram, Kodaikanal, Trichy, and all South Indian cities.",
     breadcrumbs: [{ label: "Home", href: "/" }, { label: "Cities", href: "/cities" }, { label: "Madurai" }],
@@ -615,9 +615,9 @@ const ALL_PAGES: PageData[] = [
   },
   {
     slug: "one-way-taxi-in-trichy",
-    title: "One Way Taxi in Trichy — Outstation Cab from INR 11/km",
+    title: "One Way Taxi in Trichy — Outstation Cab from INR 13/km",
     h1: "One Way Taxi in Trichy",
-    description: "Book one way taxi in Trichy to Chennai, Madurai, Velankanni & more. Fixed fare from INR 11/km, no return charge. Verified drivers, 24x7 booking.",
+    description: "Book one way taxi in Trichy to Chennai, Madurai, Velankanni & more. Fixed fare from INR 13/km, no return charge. Verified drivers, 24x7 booking.",
     eyebrow: "One Way Taxi Trichy — Outstation Cab",
     lead: "Affordable one way taxi from Trichy to Chennai, Madurai, Velankanni, Salem, and all South Indian cities.",
     breadcrumbs: [{ label: "Home", href: "/" }, { label: "Cities", href: "/cities" }, { label: "Trichy" }],
@@ -632,9 +632,9 @@ const ALL_PAGES: PageData[] = [
   },
   {
     slug: "outstation-cabs",
-    title: "Outstation Cabs — One Way from INR 11/km | DropTaxi",
+    title: "Outstation Cabs — One Way from INR 13/km | DropTaxi",
     h1: "Outstation Cab Booking",
-    description: "Book outstation cabs across South India from INR 11/km. One way & round trip with fixed fare, no return charge. Mini, Sedan, SUV, Innova & Innova Crysta. 100+ cities.",
+    description: "Book outstation cabs across South India from INR 13/km. One way & round trip with fixed fare, no return charge. Mini, Sedan, SUV, Innova & Innova Crysta. 100+ cities.",
     eyebrow: "Outstation Cabs — One Way & Round Trip",
     lead: "Book outstation cabs from Chennai, Bangalore, Hyderabad, Coimbatore, Madurai, and 100+ cities. Fixed fares, verified drivers, 24x7 support.",
     breadcrumbs: [{ label: "Home", href: "/" }, { label: "Cities", href: "/cities" }, { label: "Outstation Cabs" }],
@@ -651,7 +651,7 @@ const ALL_PAGES: PageData[] = [
     slug: "rameshwaram-taxi-service",
     title: "Rameshwaram Taxi Service — Temple Trips & Outstation",
     h1: "Rameshwaram Taxi Service",
-    description: "Book Rameshwaram taxi for temple visits, Kanyakumari trips & outstation travel. Fixed fare from INR 11/km, no return charge. Call 99949 40558.",
+    description: `Book Rameshwaram taxi for temple visits, Kanyakumari trips & outstation travel. Fixed fare from INR 13/km, no return charge. Call ${SUPPORT_PHONE_DISPLAY}.`,
     eyebrow: "Rameshwaram Taxi — Temple Trips & Outstation",
     lead: "Reliable taxi service in Rameshwaram for Rameswaram temple darshan, Kanyakumari trips, and outstation travel to Madurai and beyond.",
     breadcrumbs: [{ label: "Home", href: "/" }, { label: "Cities", href: "/cities" }, { label: "Rameshwaram" }],
@@ -771,23 +771,23 @@ const ALL_PAGES: PageData[] = [
       { question: "Does DropTaxi operate during festivals and holidays?", answer: "Yes. We operate 365 days a year including Pongal, Diwali, Christmas, and all public holidays. Advance booking recommended during peak seasons." },
     ],
   }),
-  makeStaticPage("all-routes", "All 105 One Way Taxi Routes & Fares", "All One Way Taxi Routes", "Browse 105+ one way taxi routes across South India with fares. Chennai, Bangalore, Coimbatore, Madurai & more. Sedan from INR 11/km."),
+  makeStaticPage("all-routes", "All 105 One Way Taxi Routes & Fares", "All One Way Taxi Routes", "Browse 105+ one way taxi routes across South India with fares. Chennai, Bangalore, Coimbatore, Madurai & more. Sedan from INR 13/km."),
   makeStaticPage("blogs", "Blog — Travel Tips & Route Guides", "DropTaxi Blog", "Travel tips, route guides, fare comparisons, and booking advice for one way taxi travel across South India."),
-  makeStaticPage("book-now", "Book One Way Taxi Now", "Book Your One Way Taxi", "Book a one way taxi instantly from INR 11/km. Mini, Sedan, Etios, SUV, Innova & Innova Crysta. Fixed fare, no return charge, 24x7 support. Call 99949 40558."),
+  makeStaticPage("book-now", "Book One Way Taxi Now", "Book Your One Way Taxi", `Book a one way taxi instantly from INR 13/km. Mini, Sedan, Etios, SUV, Innova & Innova Crysta. Fixed fare, no return charge, 24x7 support. Call ${SUPPORT_PHONE_DISPLAY}.`),
   makeStaticPage("cities", "Drop Taxi in 100+ Cities — South India", "Cities We Serve", "Explore 100+ cities covered by DropTaxi for one way taxi and drop taxi services across Tamil Nadu, Karnataka, Kerala, AP & Telangana."),
   makeStaticPage("contact", "Contact DropTaxi", "Contact Us",
     "Get in touch with DropTaxi for bookings, support, or partnership enquiries. Available 24x7 via phone, Telegram, and email.", {
     lead: "We are available 24x7 to help you plan your trip.",
     sectionTitle: "How to Reach Us",
     listItems: [
-      { label: "Phone", value: "+91 99949 40558 (24x7)" },
-      { label: "Telegram", value: "+91 99949 40558" },
+      { label: "Phone", value: `${SUPPORT_PHONE} (24x7)` },
+      { label: "Telegram", value: `${SUPPORT_PHONE}` },
       { label: "Email", value: "enquiry@droptaxi.ai" },
       { label: "Response Time", value: "Under 5 minutes during business hours" },
     ],
     bodyText: "For instant booking, send your pickup city, drop city, travel date, and preferred car type on Telegram. Our dispatch team confirms fare and assigns a driver within minutes.",
     faqs: [
-      { question: "What is the fastest way to book?", answer: "Telegram is fastest. Send trip details to +91 99949 40558 and get fare confirmation within minutes." },
+      { question: "What is the fastest way to book?", answer: `Telegram is fastest. Send trip details to ${SUPPORT_PHONE} and get fare confirmation within minutes.` },
       { question: "Can I modify my booking after confirmation?", answer: "Yes. Changes can be made up to 4 hours before pickup at no extra charge." },
       { question: "What if I need to cancel?", answer: "Cancellations 4+ hours before pickup are free. Late cancellations may incur a nominal fee." },
     ],
@@ -797,14 +797,14 @@ const ALL_PAGES: PageData[] = [
     contentSections: [
       { heading: "Why One Way Taxis Are Perfect for Local Trips", body: "One way taxis eliminate the biggest cost burden of traditional cab services — the return fare. When you book a round trip taxi for a one way journey, you pay for the driver's empty return trip. With DropTaxi, you only pay for your leg of the journey, saving 30–50% compared to round trip rates." },
       { heading: "Ideal Scenarios for Local One Way Travel", body: "One way taxis are perfect for airport drops, railway station transfers, hospital visits (especially to CMC Vellore), weekend getaways to Pondicherry or Ooty, and intercity business meetings. Even short trips like Chennai to Kanchipuram or Bangalore to Hosur benefit from one way pricing." },
-      { heading: "How Pricing Works", body: "DropTaxi charges a per-kilometer rate by vehicle type. Mini starts at INR 11/km, Sedan/Etios at INR 13/km, SUV/Innova at INR 17/km, and Innova Crysta at INR 21/km. The fare includes fuel, driver charges, and vehicle cost. Tolls, parking, and state permits are additional at actual cost. No hidden charges or surge pricing." },
+      { heading: "How Pricing Works", body: "DropTaxi charges a per-kilometer rate by vehicle type. Mini starts at INR 13/km, Sedan/Etios at INR 13/km, SUV at INR 18/km, Innova at INR 19/km, and Innova Crysta at INR 25/km. The fare includes fuel, driver charges, and vehicle cost. Tolls, parking, and state permits are additional at actual cost. No hidden charges or surge pricing." },
     ],
   }),
   makeStaticPage("faq", "FAQ", "Frequently Asked Questions",
     "Find answers to common questions about DropTaxi one way taxi booking, fares, and services.", {
     faqs: [
       { question: "What is DropTaxi?", answer: "DropTaxi is a one way taxi booking service covering 100+ cities across South India with fixed fares, verified drivers, and 24x7 support." },
-      { question: "How do I book a one way taxi?", answer: "Send your pickup city, drop city, travel date, and preferred car type on Telegram (+91 99949 40558) or call us. We confirm fare within minutes." },
+      { question: "How do I book a one way taxi?", answer: `Send your pickup city, drop city, travel date, and preferred car type on Telegram (${SUPPORT_PHONE}) or call us. We confirm fare within minutes.` },
       { question: "Is there a return fare charge?", answer: "No. You only pay for the one way distance. No empty return fare." },
       { question: "What vehicles are available?", answer: "Mini (3+1), Sedan (4+1), Etios (4+1), Sedan Non-CNG (4+1), SUV (6+1/7+1), Innova (6+1/7+1), and Innova Crysta (6+1)." },
       { question: "Are drivers verified?", answer: "Yes. Background checks, licence verification, and vehicle inspection. Driver details shared before pickup." },
@@ -822,19 +822,19 @@ const ALL_PAGES: PageData[] = [
       { heading: "How We Maintain Quality", body: "Every trip is rated by the passenger. Drivers below 4.5 rating receive additional training. Vehicles are inspected monthly for cleanliness, AC performance, and mechanical condition. Our quality team reviews all feedback within 24 hours." },
     ],
   }),
-  makeStaticPage("routes", "One Way Taxi Routes — 105+ South India Routes", "One Way Taxi Routes", "Browse 105+ popular one way taxi routes across Tamil Nadu, Karnataka, Kerala & AP with fares starting from INR 11/km."),
-  makeStaticPage("tariff", "One Way Taxi Fare — Mini INR 11/km, Sedan INR 13/km, SUV INR 17/km", "Taxi Tariff and Fare Chart",
-    "DropTaxi fare chart — Mini INR 11/km, Sedan INR 13/km, SUV/Innova INR 17/km, Innova Crysta INR 21/km. One way pricing only, no return fare.", {
+  makeStaticPage("routes", "One Way Taxi Routes — 105+ South India Routes", "One Way Taxi Routes", "Browse 105+ popular one way taxi routes across Tamil Nadu, Karnataka, Kerala & AP with fares starting from INR 13/km."),
+  makeStaticPage("tariff", "One Way Taxi Fare — Sedan INR 13/km, SUV INR 18/km, Innova INR 19/km, Crysta INR 25/km", "Taxi Tariff and Fare Chart",
+    "DropTaxi fare chart — Sedan INR 13/km, SUV INR 18/km, Innova INR 19/km, Innova Crysta INR 25/km. One way minimum 130 km, round trip minimum 250 km. No return fare on one way.", {
     lead: "Transparent per-kilometer pricing with no hidden charges or return fares.",
     sectionTitle: "Fare Structure",
     listItems: [
-      { label: "Mini (3+1)", value: "INR 11/km — economical for solo or couple travel" },
+      { label: "Mini (3+1)", value: "INR 13/km — economical for solo or couple travel" },
       { label: "Sedan (4+1)", value: "INR 13/km — comfortable for small families" },
       { label: "Etios (4+1)", value: "INR 13/km — spacious sedan with large boot" },
       { label: "Sedan Non-CNG (4+1)", value: "INR 13/km — petrol/diesel, ideal for hill routes" },
-      { label: "SUV (6+1 / 7+1)", value: "INR 17/km — family groups with carrier" },
-      { label: "Innova (6+1 / 7+1)", value: "INR 17/km — group travel with carrier" },
-      { label: "Innova Crysta (6+1)", value: "INR 21/km — premium corporate travel" },
+      { label: "SUV (6+1 / 7+1)", value: "INR 18/km — family groups with carrier" },
+      { label: "Innova (6+1 / 7+1)", value: "INR 18/km — group travel with carrier" },
+      { label: "Innova Crysta (6+1)", value: "INR 25/km — premium corporate travel" },
       { label: "Minimum Fare", value: "INR 1,500 for all vehicle types" },
       { label: "Night Charge", value: "INR 200–300 (10 PM to 6 AM)" },
       { label: "Tolls & Permits", value: "Actual cost added where applicable" },
@@ -856,7 +856,7 @@ const ALL_PAGES: PageData[] = [
       { heading: "The Hidden Cost of Round Trip Taxis", body: "When you book a round trip taxi for a one way journey, you pay for the driver's fuel, time, and tolls for the return trip — even though you are not in the car. On a 300 km route, this adds INR 3,000–5,000 to your bill. One way taxis solve this by matching you with drivers heading in your direction." },
       { heading: "Flexibility Without Commitment", body: "One way taxis give you the freedom to travel without planning a return. Stay at your destination for a day, a week, or a month. Take a bus or train back. Fly home. This flexibility is especially valuable for family visits, hospital trips, and business travel where return dates are uncertain." },
       { heading: "Comfort and Safety Over Long Distances", body: "Outstation trips of 200–600 km take 4–10 hours by road. DropTaxi vehicles are maintained for long-distance comfort — working AC, spacious boot, clean interiors, and experienced highway drivers. Every trip is GPS-tracked with our support team monitoring in real time." },
-      { heading: "How to Book Your Outstation Trip", body: "Share your pickup city, destination, travel date, and preferred car type on Telegram (+91 99949 40558). We confirm the final fare — including tolls and permits — within minutes. Pay after the trip via cash, UPI, or bank transfer." },
+      { heading: "How to Book Your Outstation Trip", body: `Share your pickup city, destination, travel date, and preferred car type on Telegram (${SUPPORT_PHONE}). We confirm the final fare — including tolls and permits — within minutes. Pay after the trip via cash, UPI, or bank transfer.` },
     ],
   }),
   makeStaticPage("why-round-trip-taxi-services-can-be-a-cost-effective-option-for-your-journey", "Round Trip Taxi Services — Cost Effective Travel", "Why Round Trip Taxi Services Can Be a Cost Effective Option",
@@ -870,14 +870,14 @@ const ALL_PAGES: PageData[] = [
 
   // ── New content pages targeting competitor keywords ──────────────
   makeStaticPage("car-rental-in-chennai", "Car Rental in Chennai — Sedan, SUV & Innova Crysta", "Car Rental in Chennai",
-    "Book car rental in Chennai from INR 11/km. Sedan, SUV, Innova Crysta for local, outstation & airport transfers. No hidden charges. Call 99949 40558.", {
+    `Book car rental in Chennai from INR 13/km. Sedan, SUV, Innova Crysta for local, outstation & airport transfers. No hidden charges. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Affordable car rental in Chennai with professional drivers for city tours, airport transfers, and outstation trips.",
     sectionTitle: "Car Rental Options",
     listItems: [
-      { label: "Mini (3+1)", value: "From INR 11/km — economical solo/couple travel" },
+      { label: "Mini (3+1)", value: "From INR 13/km — economical solo/couple travel" },
       { label: "Sedan / Etios (4+1)", value: "From INR 13/km — comfortable family rides" },
-      { label: "SUV / Innova (6+1 / 7+1)", value: "From INR 17/km — groups with carrier" },
-      { label: "Innova Crysta (6+1)", value: "From INR 21/km — premium corporate travel" },
+      { label: "SUV / Innova (6+1 / 7+1)", value: "SUV from INR 18/km, Innova from INR 19/km — with carrier" },
+      { label: "Innova Crysta (6+1)", value: "From INR 25/km — premium corporate travel" },
       { label: "Service", value: "Airport transfers, city tours, outstation, corporate" },
       { label: "Booking", value: "24x7 via Telegram, phone, or website" },
     ],
@@ -888,7 +888,7 @@ const ALL_PAGES: PageData[] = [
       { heading: "Airport Transfers in Chennai", body: "Our Chennai airport car rental service includes flight tracking, arrivals pickup with name board, and luggage assistance. Available 24x7 including midnight arrivals. Pre-book for guaranteed vehicle availability during peak travel seasons." },
     ],
     faqs: [
-      { question: "What is the car rental rate in Chennai?", answer: "Mini from INR 11/km, Sedan/Etios from INR 13/km, SUV/Innova from INR 17/km, Innova Crysta from INR 21/km. Minimum fare INR 1,500. Tolls and parking extra at actual cost." },
+      { question: "What is the car rental rate in Chennai?", answer: "Sedan/Etios from INR 13/km, SUV from INR 18/km, Innova from INR 19/km, Innova Crysta from INR 25/km. One-way is billed for a minimum of 130 km. Minimum fare INR 1,500. Tolls and parking extra at actual cost." },
       { question: "Can I rent a car for a full day in Chennai?", answer: "Yes. Full-day packages available for city tours, business travel, and shopping trips. Contact us for customized packages." },
       { question: "Is driver included in Chennai car rental?", answer: "Yes. All our rentals are chauffeur-driven with experienced, verified drivers. No self-drive option." },
       { question: "Can I book a car rental from Chennai Airport?", answer: "Yes. We provide 24x7 airport pickup with flight tracking and meet-and-greet service at arrivals." },
@@ -901,14 +901,14 @@ const ALL_PAGES: PageData[] = [
     ],
   }),
   makeStaticPage("car-rental-in-bangalore", "Car Rental in Bangalore — Sedan, SUV & Innova Crysta", "Car Rental in Bangalore",
-    "Book car rental in Bangalore from INR 11/km. Sedan, SUV, Innova Crysta for local, outstation & airport transfers. No hidden charges. Call 99949 40558.", {
+    `Book car rental in Bangalore from INR 13/km. Sedan, SUV, Innova Crysta for local, outstation & airport transfers. No hidden charges. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Professional car rental in Bangalore with verified drivers for city tours, IT corridor transfers, and outstation trips.",
     sectionTitle: "Car Rental Options",
     listItems: [
-      { label: "Mini (3+1)", value: "From INR 11/km — economical city transfers" },
+      { label: "Mini (3+1)", value: "From INR 13/km — economical city transfers" },
       { label: "Sedan / Etios (4+1)", value: "From INR 13/km — airport & business" },
-      { label: "SUV / Innova (6+1/7+1)", value: "From INR 17/km — family with carrier" },
-      { label: "Innova Crysta (6+1)", value: "From INR 21/km — corporate & premium" },
+      { label: "SUV / Innova (6+1/7+1)", value: "SUV from INR 18/km, Innova from INR 19/km — family with carrier" },
+      { label: "Innova Crysta (6+1)", value: "From INR 25/km — corporate & premium" },
       { label: "Coverage", value: "Whitefield, Electronic City, Koramangala, all zones" },
       { label: "Airport", value: "KIA Terminal pickup & drop with flight tracking" },
       { label: "Booking", value: "24x7 via Telegram, phone, or website" },
@@ -919,9 +919,9 @@ const ALL_PAGES: PageData[] = [
       { heading: "Popular Outstation Routes from Bangalore", body: "Top routes include Bangalore to Mysore (150 km), Bangalore to Coorg (265 km), Bangalore to Ooty (280 km), Bangalore to Goa (560 km), and Bangalore to Chennai (350 km). One way pricing means you never pay for the driver's return trip." },
     ],
     faqs: [
-      { question: "What is the cheapest car rental in Bangalore?", answer: "Mini (3+1) starts at INR 11/km and Sedan (4+1) at INR 13/km with a minimum fare of INR 1,500. Mini is the most economical option." },
+      { question: "What is the cheapest car rental in Bangalore?", answer: "Mini (3+1) starts at INR 13/km and Sedan (4+1) at INR 13/km with a minimum fare of INR 1,500. Mini is the most economical option." },
       { question: "Can I book a car from Bangalore Airport?", answer: "Yes. 24x7 airport transfers with flight tracking, name board pickup, and luggage assistance. Pre-booking recommended." },
-      { question: "Do you have Innova available in Bangalore?", answer: "Yes. Toyota Innova Crysta available at INR 21/km for premium travel, corporate rides, and group trips of up to 7 passengers." },
+      { question: "Do you have Innova available in Bangalore?", answer: "Yes. Toyota Innova Crysta available at INR 25/km for premium travel, corporate rides, and group trips of up to 7 passengers." },
     ],
     relatedLinks: [
       { title: "Bangalore to Mysore Taxi", description: "One way to Mysore.", href: "/bangalore-to-mysore-taxi" },
@@ -931,105 +931,105 @@ const ALL_PAGES: PageData[] = [
     ],
   }),
   makeStaticPage("car-rental-in-coimbatore", "Car Rental in Coimbatore — Sedan, SUV & Innova Crysta", "Car Rental in Coimbatore",
-    "Book car rental in Coimbatore from INR 11/km. Sedan, SUV, Innova for Ooty, Munnar, local & outstation travel. Fixed fare. Call 99949 40558.", {
+    `Book car rental in Coimbatore from INR 13/km. Sedan, SUV, Innova for Ooty, Munnar, local & outstation travel. Fixed fare. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Affordable car rental in Coimbatore with verified drivers for hill station trips, airport transfers, and city rides.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "Mini / Sedan / Etios", value: "From INR 11/km (Mini) / INR 13/km (Sedan)" },
-      { label: "SUV", value: "From INR 17/km — recommended for hill stations" },
-      { label: "Innova Crysta", value: "From INR 21/km — premium" },
+      { label: "Mini / Sedan / Etios", value: "From INR 13/km (Sedan / Mini)" },
+      { label: "SUV", value: "From INR 18/km — recommended for hill stations" },
+      { label: "Innova Crysta", value: "From INR 25/km — premium" },
       { label: "Top Routes", value: "Ooty, Munnar, Kodaikanal, Chennai, Madurai" },
     ],
     bodyText: "Coimbatore is the gateway to the Nilgiris and Western Ghats. Our car rental service is ideal for trips to Ooty, Coonoor, Munnar, and Kodaikanal with experienced hill-road drivers.",
     faqs: [
-      { question: "What is the car rental rate in Coimbatore?", answer: "Starting from INR 13/km for sedan. SUV recommended for hill station routes at INR 17/km." },
+      { question: "What is the car rental rate in Coimbatore?", answer: "Starting from INR 13/km for sedan. SUV recommended for hill station routes at INR 18/km." },
       { question: "Can I rent a car for Ooty trip from Coimbatore?", answer: "Yes. We recommend SUV or Innova for the ghat road. Our drivers are experienced in the 36 hairpin bends route." },
     ],
   }),
   makeStaticPage("car-rental-in-madurai", "Car Rental in Madurai — Sedan, SUV & Innova Crysta", "Car Rental in Madurai",
-    "Book car rental in Madurai from INR 11/km. Sedan, SUV, Innova for Rameswaram, Kodaikanal, outstation trips. Fixed fare. Call 99949 40558.", {
+    `Book car rental in Madurai from INR 13/km. Sedan, SUV, Innova for Rameswaram, Kodaikanal, outstation trips. Fixed fare. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Reliable car rental in Madurai for temple trips, hill station visits, and outstation travel across South India.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "Mini / Sedan / Etios", value: "From INR 11/km (Mini) / INR 13/km (Sedan)" },
-      { label: "SUV / Innova", value: "From INR 17/km — with carrier" },
-      { label: "Innova Crysta", value: "From INR 21/km" },
+      { label: "Mini / Sedan / Etios", value: "From INR 13/km (Sedan / Mini)" },
+      { label: "SUV / Innova", value: "SUV from INR 18/km, Innova from INR 19/km — with carrier" },
+      { label: "Innova Crysta", value: "From INR 25/km" },
       { label: "Top Routes", value: "Rameswaram, Kodaikanal, Munnar, Kanyakumari" },
     ],
     bodyText: "Madurai is the temple city of Tamil Nadu and a major hub for pilgrim travel. Our car rental service connects to Rameswaram, Kodaikanal, Kanyakumari, and all South Indian destinations.",
     faqs: [
-      { question: "What is the car rental rate in Madurai?", answer: "Starting from INR 13/km for sedan, INR 17/km for SUV, INR 21/km for Innova Crysta." },
+      { question: "What is the car rental rate in Madurai?", answer: "Starting from INR 13/km for sedan, INR 18/km for SUV, INR 25/km for Innova Crysta." },
       { question: "Can I book a car for Rameswaram from Madurai?", answer: "Yes. Madurai to Rameswaram is 165 km, approximately 3.5 hours. Fixed fare, no return charge." },
     ],
   }),
   makeStaticPage("car-rental-in-trichy", "Car Rental in Trichy — Sedan, SUV & Innova Crysta", "Car Rental in Trichy",
-    "Book car rental in Trichy from INR 11/km. Sedan, SUV, Innova for Thanjavur, Velankanni, outstation travel. Fixed fare. Call 99949 40558.", {
+    `Book car rental in Trichy from INR 13/km. Sedan, SUV, Innova for Thanjavur, Velankanni, outstation travel. Fixed fare. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Affordable car rental in Trichy for temple circuit tours, Velankanni pilgrimages, and outstation trips.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "Mini / Sedan / Etios", value: "From INR 11/km (Mini) / INR 13/km (Sedan)" },
-      { label: "SUV / Innova", value: "From INR 17/km — with carrier" },
+      { label: "Mini / Sedan / Etios", value: "From INR 13/km (Sedan / Mini)" },
+      { label: "SUV / Innova", value: "SUV from INR 18/km, Innova from INR 19/km — with carrier" },
       { label: "Top Routes", value: "Thanjavur, Velankanni, Kumbakonam, Madurai, Chennai" },
     ],
     bodyText: "Trichy (Tiruchirappalli) is central Tamil Nadu's major city with the iconic Rock Fort Temple. Our car rental connects to the Chola temple circuit, Velankanni, and all major cities.",
   }),
   makeStaticPage("car-rental-in-salem", "Car Rental in Salem — Sedan, SUV & Innova Crysta", "Car Rental in Salem",
-    "Book car rental in Salem from INR 11/km. Sedan, SUV, Innova for Yercaud, Chennai, Coimbatore. Fixed fare. Call 99949 40558.", {
+    `Book car rental in Salem from INR 13/km. Sedan, SUV, Innova for Yercaud, Chennai, Coimbatore. Fixed fare. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Car rental in Salem for Yercaud hill trips, business travel, and outstation rides across Tamil Nadu.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "Mini / Sedan / Etios", value: "From INR 11/km (Mini) / INR 13/km (Sedan)" },
-      { label: "SUV", value: "From INR 17/km — recommended for Yercaud ghat" },
+      { label: "Mini / Sedan / Etios", value: "From INR 13/km (Sedan / Mini)" },
+      { label: "SUV", value: "From INR 18/km — recommended for Yercaud ghat" },
       { label: "Top Routes", value: "Yercaud, Chennai, Coimbatore, Erode, Trichy" },
     ],
     bodyText: "Salem is a major junction city in Tamil Nadu and the gateway to Yercaud hill station. Our car rental service covers all Salem routes including the scenic ghat road to Yercaud.",
   }),
   makeStaticPage("car-rental-in-vellore", "Car Rental in Vellore — Sedan, SUV & Innova Crysta", "Car Rental in Vellore",
-    "Book car rental in Vellore from INR 11/km. Sedan, SUV, Innova for CMC Hospital transfers, Tirupati, Chennai. Call 99949 40558.", {
+    `Book car rental in Vellore from INR 13/km. Sedan, SUV, Innova for CMC Hospital transfers, Tirupati, Chennai. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Car rental in Vellore for CMC Hospital visits, Tirupati pilgrimages, and Chennai airport transfers.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "Mini / Sedan / Etios", value: "From INR 11/km (Mini) / INR 13/km (Sedan)" },
-      { label: "SUV / Innova", value: "From INR 17/km — with carrier" },
+      { label: "Mini / Sedan / Etios", value: "From INR 13/km (Sedan / Mini)" },
+      { label: "SUV / Innova", value: "SUV from INR 18/km, Innova from INR 19/km — with carrier" },
       { label: "Top Routes", value: "Chennai, Tirupati, Yelagiri, Bangalore, Sripuram" },
     ],
     bodyText: "Vellore is home to the renowned CMC Hospital and the golden Sripuram Temple. Our car rental service is popular for medical travel, pilgrimage, and airport transfers.",
   }),
   makeStaticPage("car-rental-in-pondicherry", "Car Rental in Pondicherry — Sedan, SUV & Innova Crysta", "Car Rental in Pondicherry",
-    "Book car rental in Pondicherry from INR 11/km. Sedan, SUV, Innova for city tours, outstation travel. Fixed fare. Call 99949 40558.", {
+    `Book car rental in Pondicherry from INR 13/km. Sedan, SUV, Innova for city tours, outstation travel. Fixed fare. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Explore Pondicherry and beyond with our affordable car rental service. Beach tours, Auroville visits, and outstation trips.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "Mini / Sedan / Etios", value: "From INR 11/km (Mini) / INR 13/km (Sedan)" },
-      { label: "SUV / Innova", value: "From INR 17/km — with carrier" },
+      { label: "Mini / Sedan / Etios", value: "From INR 13/km (Sedan / Mini)" },
+      { label: "SUV / Innova", value: "SUV from INR 18/km, Innova from INR 19/km — with carrier" },
       { label: "Top Routes", value: "Chennai, Mahabalipuram, Chidambaram, Bangalore" },
     ],
     bodyText: "Pondicherry is a charming coastal union territory known for French Quarter, beaches, and Auroville. Our car rental covers city tours and outstation routes.",
   }),
   makeStaticPage("car-rental-in-tirupati", "Car Rental in Tirupati — Sedan, SUV & Innova Crysta", "Car Rental in Tirupati",
-    "Book car rental in Tirupati from INR 11/km. Sedan, SUV, Innova for Tirumala darshan, Chennai, outstation. Call 99949 40558.", {
+    `Book car rental in Tirupati from INR 13/km. Sedan, SUV, Innova for Tirumala darshan, Chennai, outstation. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Car rental in Tirupati for Tirumala Temple visits, airport transfers, and outstation travel.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "Mini / Sedan / Etios", value: "From INR 11/km (Mini) / INR 13/km (Sedan)" },
-      { label: "SUV / Innova", value: "From INR 17/km — with carrier" },
+      { label: "Mini / Sedan / Etios", value: "From INR 13/km (Sedan / Mini)" },
+      { label: "SUV / Innova", value: "SUV from INR 18/km, Innova from INR 19/km — with carrier" },
       { label: "Top Routes", value: "Tirumala, Chennai, Vellore, Bangalore, Kanchipuram" },
     ],
     bodyText: "Tirupati serves millions of pilgrims annually visiting the Tirumala Venkateswara Temple. Our car rental provides comfortable temple transfers and outstation rides.",
   }),
   makeStaticPage("car-rental-in-kodaikanal", "Car Rental in Kodaikanal — SUV & Innova for Hill Roads", "Car Rental in Kodaikanal",
-    "Book car rental in Kodaikanal from INR 17/km. SUV & Innova recommended for ghat roads. Local sightseeing & outstation. Call 99949 40558.", {
+    `Book car rental in Kodaikanal from INR 18/km. SUV & Innova recommended for ghat roads. Local sightseeing & outstation. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Hill station car rental in Kodaikanal with experienced ghat-road drivers for sightseeing and outstation travel.",
     sectionTitle: "Available Vehicles",
     listItems: [
-      { label: "SUV / Innova (6+1/7+1)", value: "From INR 17/km — best for hill roads, with carrier" },
-      { label: "Innova Crysta (6+1)", value: "From INR 21/km — premium hill station travel" },
+      { label: "SUV / Innova (6+1/7+1)", value: "SUV from INR 18/km, Innova from INR 19/km — best for hill roads, with carrier" },
+      { label: "Innova Crysta (6+1)", value: "From INR 25/km — premium hill station travel" },
       { label: "Top Routes", value: "Madurai, Dindigul, Coimbatore, Palani" },
     ],
     bodyText: "Kodaikanal, the Princess of Hill Stations, sits at 2,133 metres in the Palani Hills. Our car rental service includes drivers experienced in the steep ghat roads with 36 hairpin bends.",
   }),
   makeStaticPage("cab-booking-online", "Online Cab Booking — Book One Way Taxi Instantly", "Online Cab Booking",
-    "Book cab online across South India from INR 11/km. Instant confirmation via Telegram. Mini, Sedan, SUV, Innova & Innova Crysta. No app download needed. Call 99949 40558.", {
+    `Book cab online across South India from INR 13/km. Instant confirmation via Telegram. Mini, Sedan, SUV, Innova & Innova Crysta. No app download needed. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Book your cab online in under 2 minutes. Share trip details on Telegram or phone. Get instant fare confirmation with no app download required.",
     sectionTitle: "How Online Booking Works",
     listItems: [
@@ -1046,14 +1046,14 @@ const ALL_PAGES: PageData[] = [
       { heading: "Book Cabs for Any Occasion", body: "Our online booking covers all travel needs — airport pickups, railway station transfers, hospital visits, wedding travel, corporate trips, and outstation journeys. Available in 100+ cities across Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, and Telangana." },
     ],
     faqs: [
-      { question: "How do I book a cab online?", answer: "Message us on Telegram (+91 99949 40558) with pickup city, drop city, travel date, and preferred car type. We confirm fare within minutes." },
+      { question: "How do I book a cab online?", answer: `Message us on Telegram (${SUPPORT_PHONE}) with pickup city, drop city, travel date, and preferred car type. We confirm fare within minutes.` },
       { question: "Do I need to download an app?", answer: "No. Book directly via Telegram, WhatsApp, phone call, or our website. No app download or registration required." },
       { question: "Is online booking cheaper?", answer: "Our rates are the same across all channels — fixed per-km pricing with no surge. Online booking is simply more convenient." },
       { question: "Can I book a cab online for tomorrow?", answer: "Yes. We accept bookings from 2 hours in advance to 30 days ahead. Advance booking recommended for guaranteed availability." },
     ],
   }),
   makeStaticPage("taxi-service-near-me", "Taxi Service Near Me — Book One Way Cab", "Taxi Service Near Me",
-    "Find the nearest taxi service with DropTaxi. One way cab from INR 11/km across 100+ cities in South India. Fixed fare, no return charge. Call 99949 40558.", {
+    `Find the nearest taxi service with DropTaxi. One way cab from INR 13/km across 100+ cities in South India. Fixed fare, no return charge. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Looking for a taxi service near you? DropTaxi operates in 100+ cities across South India with doorstep pickup and fixed one way fares.",
     sectionTitle: "Service Coverage",
     listItems: [
@@ -1066,11 +1066,11 @@ const ALL_PAGES: PageData[] = [
     ],
     bodyText: "No matter where you are in South India, DropTaxi is near you. Our fleet of 500+ vehicles across 100+ cities ensures a cab is always within reach. Doorstep pickup and drop at any address.",
     contentSections: [
-      { heading: "How to Find a Taxi Near You", body: "Simply call 99949 40558 or message us on Telegram with your current location and destination. Our dispatch team identifies the nearest available driver and confirms pickup time and fare within minutes. No app download needed — just a phone call or message." },
-      { heading: "Why DropTaxi for Local & Outstation", body: "Unlike ride-hailing apps that charge surge pricing during peak hours, DropTaxi offers fixed per-km rates 24x7. Whether you need a local city ride, airport transfer, or outstation trip, our fare remains the same. Mini from INR 11/km, Sedan/Etios from INR 13/km, SUV/Innova from INR 17/km, Innova Crysta from INR 21/km." },
+      { heading: "How to Find a Taxi Near You", body: `Simply call ${SUPPORT_PHONE_DISPLAY} or message us on Telegram with your current location and destination. Our dispatch team identifies the nearest available driver and confirms pickup time and fare within minutes. No app download needed — just a phone call or message.` },
+      { heading: "Why DropTaxi for Local & Outstation", body: "Unlike ride-hailing apps that charge surge pricing during peak hours, DropTaxi offers fixed per-km rates 24x7. Whether you need a local city ride, airport transfer, or outstation trip, our fare remains the same. Sedan/Etios from INR 13/km, SUV from INR 18/km, Innova from INR 19/km, Innova Crysta from INR 25/km. One-way is billed for a minimum of 130 km." },
     ],
     faqs: [
-      { question: "How do I find a taxi near me?", answer: "Call 99949 40558 or message on Telegram. Share your pickup location and we will assign the nearest available driver." },
+      { question: "How do I find a taxi near me?", answer: `Call ${SUPPORT_PHONE_DISPLAY} or message on Telegram. Share your pickup location and we will assign the nearest available driver.` },
       { question: "Is DropTaxi available in my city?", answer: "We operate in 100+ cities across Tamil Nadu, Karnataka, Kerala, AP, and Telangana. Call us to check availability in your area." },
       { question: "Can I get a taxi immediately?", answer: "Yes, subject to driver availability. For guaranteed service, we recommend booking at least 2 hours in advance." },
     ],
@@ -1132,7 +1132,7 @@ const ALL_PAGES: PageData[] = [
     ],
   }),
   makeStaticPage("one-day-trip-from-chennai", "One Day Trip from Chennai — Best Getaways & Taxi Booking", "One Day Trip from Chennai",
-    "Plan the best one day trips from Chennai by taxi. Pondicherry, Mahabalipuram, Kanchipuram & more. Sedan from INR 11/km. Book now.", {
+    "Plan the best one day trips from Chennai by taxi. Pondicherry, Mahabalipuram, Kanchipuram & more. Sedan from INR 13/km. Book now.", {
     lead: "The best one day getaways from Chennai with comfortable taxi service. Explore beaches, temples, and hill stations within a day.",
     sectionTitle: "Top Day Trips",
     listItems: [
@@ -1158,13 +1158,13 @@ const ALL_PAGES: PageData[] = [
       { title: "Places to Visit in Chennai", description: "City attractions guide.", href: "/places-to-visit-in-chennai" },
     ],
   }),
-  makeStaticPage("outstation-taxi-booking", "Outstation Taxi Booking — One Way from INR 11/km", "Outstation Taxi Booking",
-    "Book outstation taxi online across South India from INR 11/km. One way fixed fare, no return charge. Sedan, SUV, Innova. 100+ cities. Call 99949 40558.", {
+  makeStaticPage("outstation-taxi-booking", "Outstation Taxi Booking — One Way from INR 13/km", "Outstation Taxi Booking",
+    `Book outstation taxi online across South India from INR 13/km. One way fixed fare, no return charge. Sedan, SUV, Innova. 100+ cities. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Book outstation taxi for intercity travel across South India. Fixed one way fares, verified drivers, and 24x7 support.",
     sectionTitle: "Outstation Booking Details",
     listItems: [
       { label: "Coverage", value: "100+ cities across 5 South Indian states" },
-      { label: "Pricing", value: "Sedan INR 13/km, SUV INR 17/km, Innova INR 21/km" },
+      { label: "Pricing", value: "Sedan INR 13/km, SUV INR 18/km, Innova INR 25/km" },
       { label: "Booking", value: "Via Telegram, phone, or website — instant confirmation" },
       { label: "Payment", value: "Cash, UPI, or bank transfer after trip" },
       { label: "Support", value: "24x7 live customer support with GPS tracking" },
@@ -1175,13 +1175,13 @@ const ALL_PAGES: PageData[] = [
       { heading: "Popular Outstation Routes", body: "Our most booked outstation routes include Chennai to Bangalore (350 km), Bangalore to Mysore (150 km), Chennai to Pondicherry (150 km), Madurai to Rameswaram (165 km), and Coimbatore to Ooty (90 km). All available with one way pricing — no return fare." },
     ],
     faqs: [
-      { question: "How do I book an outstation taxi?", answer: "Call 99949 40558 or message on Telegram. Share pickup city, drop city, date, and car preference. Fare confirmed within minutes." },
+      { question: "How do I book an outstation taxi?", answer: `Call ${SUPPORT_PHONE_DISPLAY} or message on Telegram. Share pickup city, drop city, date, and car preference. Fare confirmed within minutes.` },
       { question: "Is there a minimum fare for outstation?", answer: "Yes. Minimum fare is INR 1,500 for all vehicle types regardless of distance." },
       { question: "Can I book outstation taxi for one way?", answer: "Yes. That's our specialty. You pay only for one way distance with no return fare charge." },
     ],
   }),
   makeStaticPage("acting-driver-in-chennai", "Acting Driver in Chennai — Hire a Professional Driver", "Acting Driver in Chennai",
-    "Hire an acting driver in Chennai for your own car. Professional, verified drivers available 24x7. Daily & monthly packages. Call 99949 40558.", {
+    `Hire an acting driver in Chennai for your own car. Professional, verified drivers available 24x7. Daily & monthly packages. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Need a driver for your own car in Chennai? Our acting drivers are experienced, verified, and available for daily, weekly, or monthly hire.",
     sectionTitle: "Acting Driver Service",
     listItems: [
@@ -1198,12 +1198,12 @@ const ALL_PAGES: PageData[] = [
       { question: "Are acting drivers available for outstation?", answer: "Yes. Our drivers are experienced in highway driving and can drive your car for outstation trips across Tamil Nadu and beyond." },
     ],
   }),
-  makeStaticPage("innova-car-rental", "Innova Crysta Rental — Premium Taxi from INR 21/km", "Innova Crysta Car Rental",
-    "Book Toyota Innova Crysta rental from INR 21/km. Premium 7-seater for family, corporate & group travel. Chauffeur-driven. Call 99949 40558.", {
+  makeStaticPage("innova-car-rental", "Innova Crysta Rental — Premium Taxi from INR 25/km", "Innova Crysta Car Rental",
+    `Book Toyota Innova Crysta rental from INR 25/km. Premium 7-seater for family, corporate & group travel. Chauffeur-driven. Call ${SUPPORT_PHONE_DISPLAY}.`, {
     lead: "Toyota Innova Crysta — the premium choice for family travel, corporate trips, and group pilgrimages across South India.",
     sectionTitle: "Innova Rental Details",
     listItems: [
-      { label: "Rate", value: "From INR 21/km" },
+      { label: "Rate", value: "From INR 25/km" },
       { label: "Capacity", value: "6–7 passengers with luggage" },
       { label: "Features", value: "AC, spacious boot, reclining seats, premium comfort" },
       { label: "Best For", value: "Family trips, corporate travel, pilgrimages, VIP transfers" },
@@ -1211,7 +1211,7 @@ const ALL_PAGES: PageData[] = [
     ],
     bodyText: "The Toyota Innova Crysta is our premium vehicle offering maximum comfort for long-distance travel. Spacious interiors, powerful AC, ample luggage space, and smooth ride quality make it the top choice for discerning travellers.",
     faqs: [
-      { question: "How much does an Innova rental cost?", answer: "INR 21/km with a minimum fare of INR 1,500. For a 300 km trip, the fare is approximately INR 6,399." },
+      { question: "How much does an Innova rental cost?", answer: "INR 25/km with a minimum fare of INR 1,500. For a 300 km trip, the fare is approximately INR 6,399." },
       { question: "Is the Innova suitable for hill stations?", answer: "Yes. The Innova Crysta's powerful engine handles ghat roads comfortably. Recommended for Ooty, Kodaikanal, Munnar, and Coorg trips." },
       { question: "Can I book an Innova for a multi-day trip?", answer: "Yes. Multi-day packages available with driver accommodation included. Contact us for customized quotes." },
     ],

@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Drop Taxi & One Way Cab in South India | DropTaxi",
     description:
-      "Reliable one way cabs across Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana, and Puducherry. No return fare. Sedan from INR 11/km.",
+      "Reliable one way cabs across Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana, and Puducherry. No return fare. Sedan from INR 13/km.",
     url: "https://www.droptaxi.ai/",
     siteName: "DropTaxi",
     locale: "en_IN",

@@ -1,6 +1,13 @@
 // Route-specific data for SEO content enrichment
 // Distance in km, duration in hours, fares in INR
 
+import {
+  ONE_WAY_RATES,
+  ROUND_TRIP_RATES,
+  ONE_WAY_MIN_KM,
+  ROUND_TRIP_MIN_KM,
+} from "@/lib/constants";
+
 export interface RouteInfo {
   distance: number;
   duration: string;
@@ -9,19 +16,36 @@ export interface RouteInfo {
   description: string;
 }
 
-// Mini: ~INR 11/km, Sedan/Etios: ~INR 13/km, SUV/Innova: ~INR 17/km, Innova Crysta: ~INR 21/km
+// One-way: Sedan ₹13/km, SUV ₹18/km, Innova ₹19/km, Crysta ₹25/km — min 130 km billed.
+// "mini" alias kept for backward compatibility with existing callers (= sedan rate).
+function roundFare(value: number): number {
+  return Math.round(value / 100) * 100 + 99;
+}
+
 export function computeFares(distanceKm: number): { mini: string; sedan: string; suv: string; innova: string; crysta: string } {
-  const mini = Math.round(distanceKm * 11.5 / 100) * 100 + 99;
-  const sedan = Math.round(distanceKm * 13.5 / 100) * 100 + 99;
-  const suv = Math.round(distanceKm * 17.5 / 100) * 100 + 99;
-  const innova = Math.round(distanceKm * 17.5 / 100) * 100 + 99;
-  const crysta = Math.round(distanceKm * 21 / 100) * 100 + 99;
+  const km = Math.max(distanceKm, ONE_WAY_MIN_KM);
+  const sedan = roundFare(km * ONE_WAY_RATES.sedan);
+  const suv = roundFare(km * ONE_WAY_RATES.suv);
+  const innova = roundFare(km * ONE_WAY_RATES.innova);
+  const crysta = roundFare(km * ONE_WAY_RATES.crysta);
   return {
-    mini: mini.toLocaleString("en-IN"),
+    mini: sedan.toLocaleString("en-IN"),
     sedan: sedan.toLocaleString("en-IN"),
     suv: suv.toLocaleString("en-IN"),
     innova: innova.toLocaleString("en-IN"),
     crysta: crysta.toLocaleString("en-IN"),
+  };
+}
+
+// Round-trip: bills 2× one-way distance OR 250 km, whichever is greater.
+// Round-trip rates are ₹1 lower per km than one-way (sedan ₹12, SUV ₹17, etc.).
+export function computeRoundTripFares(distanceKm: number): { sedan: string; suv: string; innova: string; crysta: string } {
+  const km = Math.max(distanceKm * 2, ROUND_TRIP_MIN_KM);
+  return {
+    sedan: roundFare(km * ROUND_TRIP_RATES.sedan).toLocaleString("en-IN"),
+    suv: roundFare(km * ROUND_TRIP_RATES.suv).toLocaleString("en-IN"),
+    innova: roundFare(km * ROUND_TRIP_RATES.innova).toLocaleString("en-IN"),
+    crysta: roundFare(km * ROUND_TRIP_RATES.crysta).toLocaleString("en-IN"),
   };
 }
 

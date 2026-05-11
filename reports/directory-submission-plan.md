@@ -12,11 +12,11 @@
 |-------|-------|
 | Business Name | DropTaxi |
 | Tagline | One Way Drop Taxi & Cab Service in South India |
-| Phone | +91 99949 40558 |
+| Phone | +91 78100 46010 |
 | Email | enquiry@droptaxi.ai |
 | Website | https://www.droptaxi.ai |
 | Telegram | https://t.me/droptaxiaibot |
-| WhatsApp | https://wa.me/919994940558 |
+| WhatsApp | https://wa.me/917810046010 |
 | Category | Taxi Service / Cab Booking / Car Rental / Transportation |
 | Service Areas | Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana |
 | Hours | 24/7 |

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getPageBySlug, getAllSlugs } from "@/lib/pages";
-import { SITE_URL } from "@/lib/constants";
+import { SITE_URL, SUPPORT_PHONE_E164, WHATSAPP_URL } from "@/lib/constants";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import RoutePage from "@/components/pages/RoutePage";
@@ -134,7 +134,7 @@ function generateSchemaMarkup(data: PageData): object[] {
       "@type": "TaxiService",
       name: `DropTaxi — ${cityName}`,
       description: data.description,
-      telephone: "+919994940558",
+      telephone: SUPPORT_PHONE_E164,
       url: pageUrl,
       provider: {
         "@type": "Organization",
@@ -171,7 +171,7 @@ function generateSchemaMarkup(data: PageData): object[] {
       "@type": "TaxiService",
       name: `DropTaxi Airport Transfer — ${cityName}`,
       description: data.description,
-      telephone: "+919994940558",
+      telephone: SUPPORT_PHONE_E164,
       url: pageUrl,
       serviceType: "Airport Taxi Transfer",
       provider: {
@@ -210,7 +210,7 @@ function generateSchemaMarkup(data: PageData): object[] {
       name: "DropTaxi",
       url: SITE_URL,
       logo: `${SITE_URL}/images/og-cover.png`,
-      telephone: "+919994940558",
+      telephone: SUPPORT_PHONE_E164,
       email: "enquiry@droptaxi.ai",
       description:
         "DropTaxi is a one way intercity taxi service operating across South India covering Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana, and Puducherry.",
@@ -219,7 +219,7 @@ function generateSchemaMarkup(data: PageData): object[] {
         "@type": "Country",
         name: "India",
       },
-      sameAs: ["https://wa.me/919994940558", "https://t.me/droptaxiaibot"],
+      sameAs: [WHATSAPP_URL, "https://t.me/droptaxiaibot"],
     });
   }
 
@@ -234,7 +234,7 @@ function generateSchemaMarkup(data: PageData): object[] {
         "@type": "TaxiService",
         "@id": `${SITE_URL}/#taxiservice`,
         name: "DropTaxi",
-        telephone: "+919994940558",
+        telephone: SUPPORT_PHONE_E164,
         email: "enquiry@droptaxi.ai",
         openingHoursSpecification: {
           "@type": "OpeningHoursSpecification",

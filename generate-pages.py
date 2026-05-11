@@ -18,10 +18,12 @@ def load_json(path):
         return json.load(f)
 
 def calc_fares(distance_km):
+    # One-way: Sedan ₹13/km, SUV ₹18/km, Innova ₹19/km. Min 130 km billed.
+    km = max(distance_km, 130)
     return {
-        "sedan": distance_km * 13 + 300,
-        "suv": distance_km * 19 + 400,
-        "innova": distance_km * 21 + 400,
+        "sedan": km * 13 + 300,
+        "suv": km * 18 + 400,
+        "innova": km * 19 + 400,
     }
 
 def build_fare_table_rows(routes):

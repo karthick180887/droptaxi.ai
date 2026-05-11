@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SUPPORT_PHONE_E164, SUPPORT_PHONE_DISPLAY } from "@/lib/constants";
 
 export default function Footer() {
   return (
@@ -47,7 +48,7 @@ export default function Footer() {
         </div>
         <div>
           <h3>Contact</h3>
-          <p><a href="tel:+919994940558">99949 40558</a></p>
+          <p><a href={`tel:${SUPPORT_PHONE_E164}`}>{SUPPORT_PHONE_DISPLAY}</a></p>
           <p><a href="mailto:enquiry@droptaxi.ai">enquiry@droptaxi.ai</a></p>
           <p><a href="https://t.me/droptaxiaibot" target="_blank" rel="noopener noreferrer">Telegram Booking</a></p>
           <p>Open 24x7</p>

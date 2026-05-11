@@ -2,7 +2,13 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import QuoteForm from "@/components/QuoteForm";
-import { TRUST_BADGES, SITE_URL } from "@/lib/constants";
+import {
+  TRUST_BADGES,
+  SITE_URL,
+  SUPPORT_PHONE_E164,
+  SUPPORT_PHONE_DISPLAY,
+  WHATSAPP_URL,
+} from "@/lib/constants";
 
 const homepageSchema = [
   {
@@ -12,7 +18,7 @@ const homepageSchema = [
     name: "DropTaxi",
     url: SITE_URL,
     logo: `${SITE_URL}/images/og-cover.png`,
-    telephone: "+919994940558",
+    telephone: SUPPORT_PHONE_E164,
     email: "enquiry@droptaxi.ai",
     description:
       "One way intercity taxi service across South India with transparent fares and 24x7 support.",
@@ -23,12 +29,12 @@ const homepageSchema = [
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+919994940558",
+      telephone: SUPPORT_PHONE_E164,
       contactType: "customer service",
       availableLanguage: ["English", "Tamil", "Hindi"],
       areaServed: "IN",
     },
-    sameAs: ["https://wa.me/919994940558", "https://t.me/droptaxiaibot"],
+    sameAs: [WHATSAPP_URL, "https://t.me/droptaxiaibot"],
   },
   {
     "@context": "https://schema.org",
@@ -39,7 +45,7 @@ const homepageSchema = [
     image: `${SITE_URL}/images/og-cover.png`,
     description:
       "One way intercity taxi service across South India with transparent fares and 24x7 support.",
-    telephone: "+919994940558",
+    telephone: SUPPORT_PHONE_E164,
     email: "enquiry@droptaxi.ai",
     areaServed: [
       "Tamil Nadu",
@@ -63,14 +69,14 @@ const homepageSchema = [
       opens: "00:00",
       closes: "23:59",
     },
-    priceRange: "INR 11/km onwards",
+    priceRange: "INR 13/km onwards",
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.8",
       bestRating: "5",
       ratingCount: "10000",
     },
-    sameAs: ["https://wa.me/919994940558", "https://t.me/droptaxiaibot"],
+    sameAs: [WHATSAPP_URL, "https://t.me/droptaxiaibot"],
   },
   {
     "@context": "https://schema.org",
@@ -108,7 +114,7 @@ export default function Home() {
                 Clean cars, verified drivers, and transparent pricing.
               </p>
               <div className="hero-cta">
-                <a className="btn btn-primary" href="tel:+919994940558">Call 99949 40558</a>
+                <a className="btn btn-primary" href={`tel:${SUPPORT_PHONE_E164}`}>Call {SUPPORT_PHONE_DISPLAY}</a>
                 <Link className="btn btn-ghost" href="/routes">View Popular Routes</Link>
               </div>
               <div className="trust-badges">
@@ -328,7 +334,7 @@ export default function Home() {
             <h2>Need a one way taxi today?</h2>
             <p>Talk to our dispatch team and lock your fare now.</p>
             <div className="cta-actions">
-              <a className="btn btn-primary" href="tel:+919994940558">Call Now</a>
+              <a className="btn btn-primary" href={`tel:${SUPPORT_PHONE_E164}`}>Call Now</a>
               <a className="btn btn-ghost" href="https://t.me/droptaxiaibot" target="_blank" rel="noopener noreferrer">Telegram Booking</a>
             </div>
           </div>

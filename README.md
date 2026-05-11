@@ -35,8 +35,8 @@ Static SEO-focused website for a South India one way taxi business.
 ## Current Configuration
 
 - Domain: `https://www.seorankpro.in`
-- Phone display: `063838 83922`
-- Phone dial link / WhatsApp: `916383883922`
+- Phone display: `78100 46010`
+- Phone dial link / WhatsApp: `917810046010`
 - Email: `enquiry@seorankpro.in`
 
 If you need to change these values later, update all HTML files plus:

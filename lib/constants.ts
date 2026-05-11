@@ -1,8 +1,31 @@
 export const APP_NAME = "DropTaxi";
-export const SUPPORT_PHONE = "+91 99949 40558";
-export const WHATSAPP_NUMBER = "919994940558";
+
+// Phone — single source of truth. Update these to change the number site-wide.
+export const SUPPORT_PHONE_E164 = "+917810046010";       // tel: hrefs, JSON-LD telephone
+export const SUPPORT_PHONE = "+91 78100 46010";          // human display, with country code
+export const SUPPORT_PHONE_DISPLAY = "78100 46010";      // human display, no country code
+export const WHATSAPP_NUMBER = "917810046010";           // digits-only for wa.me
+export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
+
 export const SUPPORT_EMAIL = "enquiry@droptaxi.ai";
 export const SITE_URL = "https://www.droptaxi.ai";
+
+// Fare rates — single source of truth.
+// "Final" rates per ops; update here only.
+export const ONE_WAY_RATES = {
+  sedan: 13,
+  suv: 18,
+  innova: 19,
+  crysta: 25,
+} as const;
+export const ROUND_TRIP_RATES = {
+  sedan: 12,
+  suv: 17,
+  innova: 18,
+  crysta: 23,
+} as const;
+export const ONE_WAY_MIN_KM = 130;
+export const ROUND_TRIP_MIN_KM = 250;
 
 export const VEHICLE_TYPES = [
   { name: "Mini", description: "Compact and economical for 3+1 passengers with light luggage." },

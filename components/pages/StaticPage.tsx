@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { PageData } from "@/lib/types";
 import QuoteForm from "@/components/QuoteForm";
+import { SUPPORT_PHONE_E164, SUPPORT_PHONE_DISPLAY } from "@/lib/constants";
 
 interface StaticPageProps {
   data: PageData;
@@ -71,8 +72,8 @@ export default function StaticPage({ data }: StaticPageProps) {
                 >
                   Telegram Booking
                 </a>
-                <a className="btn btn-ghost" href="tel:+919994940558">
-                  Call 99949 40558
+                <a className="btn btn-ghost" href={`tel:${SUPPORT_PHONE_E164}`}>
+                  Call {SUPPORT_PHONE_DISPLAY}
                 </a>
               </div>
             </aside>
