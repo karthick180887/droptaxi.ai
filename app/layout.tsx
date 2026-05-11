@@ -82,6 +82,9 @@ export const metadata: Metadata = {
     canonical: "https://www.droptaxi.ai/",
   },
   category: "transportation",
+  verification: {
+    google: "hRns6LumNxy9kr8c52dLp4P7BSuIdC4zdCHeIq4DQnQ",
+  },
 };
 
 export default function RootLayout({
