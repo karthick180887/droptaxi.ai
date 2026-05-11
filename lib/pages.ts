@@ -586,6 +586,122 @@ const ALL_PAGES: PageData[] = [
     "nagercoil-to-chennai-taxi",
     "nagercoil-to-madurai-taxi",
   
+    "chennai-to-hyderabad-taxi",
+  
+    "hyderabad-to-chennai-taxi",
+  
+    "chennai-to-cochin-taxi",
+  
+    "cochin-to-chennai-taxi",
+  
+    "chennai-to-trivandrum-taxi",
+  
+    "trivandrum-to-chennai-taxi",
+  
+    "bangalore-to-cochin-taxi",
+  
+    "cochin-to-bangalore-taxi",
+  
+    "bangalore-to-trivandrum-taxi",
+  
+    "trivandrum-to-bangalore-taxi",
+  
+    "bangalore-to-goa-taxi",
+  
+    "goa-to-bangalore-taxi",
+  
+    "coimbatore-to-trivandrum-taxi",
+  
+    "trivandrum-to-coimbatore-taxi",
+  
+    "madurai-to-trivandrum-taxi",
+  
+    "trivandrum-to-madurai-taxi",
+  
+    "madurai-to-cochin-taxi",
+  
+    "cochin-to-madurai-taxi",
+  
+    "madurai-to-tirupati-taxi",
+  
+    "tirupati-to-madurai-taxi",
+  
+    "hyderabad-to-tirupati-taxi",
+  
+    "tirupati-to-hyderabad-taxi",
+
+    "hyderabad-to-coimbatore-taxi",
+  
+    "coimbatore-to-hyderabad-taxi",
+  
+    "chennai-to-mysore-taxi",
+  
+    "mysore-to-chennai-taxi",
+  
+    "chennai-to-goa-taxi",
+  
+    "goa-to-chennai-taxi",
+  
+    "salem-to-bangalore-taxi",
+  
+    "bangalore-to-salem-taxi",
+  
+    "salem-to-tirupati-taxi",
+  
+    "tirupati-to-salem-taxi",
+  
+    "trichy-to-trivandrum-taxi",
+  
+    "trivandrum-to-trichy-taxi",
+  
+    "trichy-to-hyderabad-taxi",
+  
+    "hyderabad-to-trichy-taxi",
+  
+    "madurai-to-hyderabad-taxi",
+  
+    "hyderabad-to-madurai-taxi",
+  
+    "kanyakumari-to-chennai-taxi",
+  
+    "chennai-to-kanyakumari-taxi",
+  
+    "kanyakumari-to-cochin-taxi",
+  
+    "cochin-to-kanyakumari-taxi",
+  
+    "vijayawada-to-tirupati-taxi",
+  
+    "tirupati-to-vijayawada-taxi",
+  
+    "vijayawada-to-chennai-taxi",
+  
+    "chennai-to-vijayawada-taxi",
+  
+    "vijayawada-to-bangalore-taxi",
+  
+    "bangalore-to-vijayawada-taxi",
+  
+    "chennai-airport-to-tirupati-taxi",
+  
+    "tirupati-to-chennai-airport-taxi",
+  
+    "chennai-airport-to-pondicherry-taxi",
+  
+    "pondicherry-to-chennai-airport-taxi",
+  
+    "chennai-airport-to-bangalore-taxi",
+  
+    "bangalore-to-chennai-airport-taxi",
+  
+    "bangalore-airport-to-mysore-taxi",
+  
+    "mysore-to-bangalore-airport-taxi",
+  
+    "bangalore-airport-to-coorg-taxi",
+  
+    "coorg-to-bangalore-airport-taxi",
+  
   ].map((slug) => {
     const [from, to] = parseRoute(slug);
     return makeRoutePage(slug, from, to);
