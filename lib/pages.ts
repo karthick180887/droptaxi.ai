@@ -702,6 +702,1067 @@ const ALL_PAGES: PageData[] = [
   
     "coorg-to-bangalore-airport-taxi",
   
+    "ariyalur-to-chennai-taxi",
+  
+    "chengalpattu-to-chennai-taxi",
+  
+    "chengalpattu-to-pondicherry-taxi",
+  
+    "cuddalore-to-trichy-taxi",
+  
+    "dharmapuri-to-salem-taxi",
+  
+    "dharmapuri-to-bangalore-taxi",
+  
+    "dharmapuri-to-chennai-taxi",
+  
+    "dindigul-to-trichy-taxi",
+  
+    "kallakurichi-to-salem-taxi",
+  
+    "kallakurichi-to-chennai-taxi",
+  
+    "kallakurichi-to-pondicherry-taxi",
+  
+    "kallakurichi-to-trichy-taxi",
+  
+    "kanchipuram-to-pondicherry-taxi",
+  
+    "karur-to-salem-taxi",
+  
+    "karur-to-madurai-taxi",
+  
+    "krishnagiri-to-bangalore-taxi",
+  
+    "krishnagiri-to-salem-taxi",
+  
+    "krishnagiri-to-chennai-taxi",
+  
+    "mayiladuthurai-to-trichy-taxi",
+  
+    "mayiladuthurai-to-chennai-taxi",
+  
+    "nagapattinam-to-trichy-taxi",
+  
+    "nagapattinam-to-chennai-taxi",
+  
+    "namakkal-to-salem-taxi",
+  
+    "namakkal-to-trichy-taxi",
+  
+    "namakkal-to-coimbatore-taxi",
+  
+    "perambalur-to-trichy-taxi",
+  
+    "perambalur-to-salem-taxi",
+  
+    "perambalur-to-chennai-taxi",
+  
+    "pudukkottai-to-trichy-taxi",
+  
+    "pudukkottai-to-madurai-taxi",
+  
+    "ramanathapuram-to-madurai-taxi",
+  
+    "ramanathapuram-to-trichy-taxi",
+  
+    "ranipet-to-bangalore-taxi",
+  
+    "sivagangai-to-madurai-taxi",
+  
+    "sivagangai-to-trichy-taxi",
+  
+    "sivagangai-to-chennai-taxi",
+  
+    "tenkasi-to-madurai-taxi",
+  
+    "tenkasi-to-trivandrum-taxi",
+  
+    "thanjavur-to-madurai-taxi",
+  
+    "theni-to-coimbatore-taxi",
+  
+    "thoothukudi-to-madurai-taxi",
+  
+    "thoothukudi-to-chennai-taxi",
+  
+    "tirunelveli-to-trivandrum-taxi",
+  
+    "tirupattur-to-bangalore-taxi",
+  
+    "tirupattur-to-chennai-taxi",
+  
+    "tirupur-to-chennai-taxi",
+  
+    "tiruvannamalai-to-pondicherry-taxi",
+  
+    "virudhunagar-to-madurai-taxi",
+  
+    "virudhunagar-to-trichy-taxi",
+  
+    "tiruvallur-to-chennai-taxi",
+  
+    "hosur-to-salem-taxi",
+  
+    "kodaikanal-to-trichy-taxi",
+  
+    "nagercoil-to-trivandrum-taxi",
+  
+    "karaikudi-to-trichy-taxi",
+  
+    "sivakasi-to-trichy-taxi",
+  
+    "srirangam-to-madurai-taxi",
+  
+    "srirangam-to-chennai-taxi",
+  
+    "chrompet-to-pondicherry-taxi",
+  
+    "neyveli-to-trichy-taxi",
+  
+    "neyveli-to-pondicherry-taxi",
+  
+    "tiruchendur-to-madurai-taxi",
+  
+    "chidambaram-to-pondicherry-taxi",
+  
+    "chidambaram-to-trichy-taxi",
+  
+    "pollachi-to-madurai-taxi",
+  
+    "coonoor-to-mysore-taxi",
+  
+    "coonoor-to-bangalore-taxi",
+  
+    "trivandrum-to-kochi-taxi",
+  
+    "kollam-to-trivandrum-taxi",
+  
+    "kollam-to-kochi-taxi",
+  
+    "pathanamthitta-to-kochi-taxi",
+  
+    "pathanamthitta-to-trivandrum-taxi",
+  
+    "alappuzha-to-kochi-taxi",
+  
+    "alappuzha-to-trivandrum-taxi",
+  
+    "kottayam-to-kochi-taxi",
+  
+    "idukki-to-kochi-taxi",
+  
+    "idukki-to-madurai-taxi",
+  
+    "kochi-to-trivandrum-taxi",
+  
+    "kochi-to-coimbatore-taxi",
+  
+    "thrissur-to-kochi-taxi",
+  
+    "thrissur-to-coimbatore-taxi",
+  
+    "palakkad-to-kochi-taxi",
+  
+    "malappuram-to-kochi-taxi",
+  
+    "malappuram-to-coimbatore-taxi",
+  
+    "kozhikode-to-bangalore-taxi",
+  
+    "kozhikode-to-mysore-taxi",
+  
+    "wayanad-to-mysore-taxi",
+  
+    "kannur-to-mangalore-taxi",
+  
+    "kasaragod-to-mangalore-taxi",
+  
+    "kasaragod-to-bangalore-taxi",
+  
+    "munnar-to-kochi-taxi",
+  
+    "alleppey-to-trivandrum-taxi",
+  
+    "thekkady-to-kochi-taxi",
+  
+    "thekkady-to-madurai-taxi",
+  
+    "thekkady-to-coimbatore-taxi",
+  
+    "guruvayur-to-kochi-taxi",
+  
+    "guruvayur-to-coimbatore-taxi",
+  
+    "varkala-to-trivandrum-taxi",
+  
+    "varkala-to-kochi-taxi",
+  
+    "kumarakom-to-kochi-taxi",
+  
+    "bagalkot-to-bangalore-taxi",
+  
+    "ballari-to-bangalore-taxi",
+  
+    "ballari-to-hyderabad-taxi",
+  
+    "belagavi-to-bangalore-taxi",
+  
+    "bidar-to-hyderabad-taxi",
+  
+    "bidar-to-bangalore-taxi",
+  
+    "chamarajanagar-to-mysore-taxi",
+  
+    "chamarajanagar-to-bangalore-taxi",
+  
+    "chamarajanagar-to-coimbatore-taxi",
+  
+    "chamarajanagar-to-salem-taxi",
+  
+    "chikballapur-to-bangalore-taxi",
+  
+    "chikballapur-to-tirupati-taxi",
+  
+    "chikkamagaluru-to-bangalore-taxi",
+  
+    "chikkamagaluru-to-mangalore-taxi",
+  
+    "chikkamagaluru-to-mysore-taxi",
+  
+    "chitradurga-to-bangalore-taxi",
+  
+    "davangere-to-bangalore-taxi",
+  
+    "dharwad-to-bangalore-taxi",
+  
+    "gadag-to-bangalore-taxi",
+  
+    "hassan-to-bangalore-taxi",
+  
+    "hassan-to-mysore-taxi",
+  
+    "hassan-to-mangalore-taxi",
+  
+    "haveri-to-bangalore-taxi",
+  
+    "kalaburagi-to-hyderabad-taxi",
+  
+    "kalaburagi-to-bangalore-taxi",
+  
+    "kolar-to-bangalore-taxi",
+  
+    "kolar-to-tirupati-taxi",
+  
+    "kolar-to-chennai-taxi",
+  
+    "koppal-to-bangalore-taxi",
+  
+    "mandya-to-mysore-taxi",
+  
+    "mandya-to-bangalore-taxi",
+  
+    "mandya-to-coimbatore-taxi",
+  
+    "mandya-to-madurai-taxi",
+  
+    "mysore-to-mangalore-taxi",
+  
+    "raichur-to-hyderabad-taxi",
+  
+    "raichur-to-bangalore-taxi",
+  
+    "ramanagara-to-bangalore-taxi",
+  
+    "ramanagara-to-mysore-taxi",
+  
+    "shivamogga-to-bangalore-taxi",
+  
+    "shivamogga-to-mangalore-taxi",
+  
+    "tumakuru-to-bangalore-taxi",
+  
+    "tumakuru-to-mysore-taxi",
+  
+    "udupi-to-mangalore-taxi",
+  
+    "udupi-to-bangalore-taxi",
+  
+    "uttara-kannada-to-mangalore-taxi",
+  
+    "uttara-kannada-to-bangalore-taxi",
+  
+    "vijayanagara-to-bangalore-taxi",
+  
+    "vijayapura-to-hyderabad-taxi",
+  
+    "vijayapura-to-bangalore-taxi",
+  
+    "yadgir-to-hyderabad-taxi",
+  
+    "yadgir-to-bangalore-taxi",
+  
+    "mangalore-to-mysore-taxi",
+  
+    "hubli-to-bangalore-taxi",
+  
+    "hubli-to-mangalore-taxi",
+  
+    "anantapur-to-bangalore-taxi",
+  
+    "anantapur-to-hyderabad-taxi",
+  
+    "anantapur-to-tirupati-taxi",
+  
+    "chittoor-to-tirupati-taxi",
+  
+    "chittoor-to-bangalore-taxi",
+  
+    "chittoor-to-chennai-taxi",
+  
+    "east-godavari-to-vijayawada-taxi",
+  
+    "east-godavari-to-hyderabad-taxi",
+  
+    "guntur-to-hyderabad-taxi",
+  
+    "guntur-to-chennai-taxi",
+  
+    "guntur-to-bangalore-taxi",
+  
+    "kadapa-to-tirupati-taxi",
+  
+    "kadapa-to-bangalore-taxi",
+  
+    "kadapa-to-hyderabad-taxi",
+  
+    "krishna-to-vijayawada-taxi",
+  
+    "krishna-to-hyderabad-taxi",
+  
+    "krishna-to-chennai-taxi",
+  
+    "kurnool-to-hyderabad-taxi",
+  
+    "kurnool-to-bangalore-taxi",
+  
+    "kurnool-to-vijayawada-taxi",
+  
+    "nellore-to-chennai-taxi",
+  
+    "nellore-to-tirupati-taxi",
+  
+    "nellore-to-vijayawada-taxi",
+  
+    "nellore-to-hyderabad-taxi",
+  
+    "nellore-to-bangalore-taxi",
+  
+    "prakasam-to-vijayawada-taxi",
+  
+    "prakasam-to-hyderabad-taxi",
+  
+    "prakasam-to-chennai-taxi",
+  
+    "srikakulam-to-hyderabad-taxi",
+  
+    "vizag-to-hyderabad-taxi",
+  
+    "vizag-to-vijayawada-taxi",
+  
+    "vizianagaram-to-hyderabad-taxi",
+  
+    "west-godavari-to-vijayawada-taxi",
+  
+    "west-godavari-to-hyderabad-taxi",
+  
+    "west-godavari-to-chennai-taxi",
+  
+    "alluri-sitharama-raju-to-hyderabad-taxi",
+  
+    "anakapalli-to-vijayawada-taxi",
+  
+    "bapatla-to-vijayawada-taxi",
+  
+    "bapatla-to-hyderabad-taxi",
+  
+    "bapatla-to-chennai-taxi",
+  
+    "eluru-to-vijayawada-taxi",
+  
+    "eluru-to-hyderabad-taxi",
+  
+    "kakinada-to-vijayawada-taxi",
+  
+    "kakinada-to-hyderabad-taxi",
+  
+    "kakinada-to-chennai-taxi",
+  
+    "konaseema-to-vijayawada-taxi",
+  
+    "konaseema-to-hyderabad-taxi",
+  
+    "ntr-to-hyderabad-taxi",
+  
+    "palnadu-to-vijayawada-taxi",
+  
+    "palnadu-to-hyderabad-taxi",
+  
+    "parvathipuram-manyam-to-hyderabad-taxi",
+  
+    "sri-sathya-sai-to-bangalore-taxi",
+  
+    "sri-sathya-sai-to-hyderabad-taxi",
+  
+    "nandyal-to-hyderabad-taxi",
+  
+    "nandyal-to-vijayawada-taxi",
+  
+    "nandyal-to-bangalore-taxi",
+  
+    "annamayya-to-tirupati-taxi",
+  
+    "annamayya-to-chennai-taxi",
+  
+    "annamayya-to-bangalore-taxi",
+  
+    "rajahmundry-to-vijayawada-taxi",
+  
+    "rajahmundry-to-hyderabad-taxi",
+  
+    "ongole-to-vijayawada-taxi",
+  
+    "ongole-to-hyderabad-taxi",
+  
+    "ongole-to-chennai-taxi",
+  
+    "adilabad-to-hyderabad-taxi",
+  
+    "bhadradri-kothagudem-to-hyderabad-taxi",
+  
+    "bhadradri-kothagudem-to-vijayawada-taxi",
+  
+    "hanumakonda-to-hyderabad-taxi",
+  
+    "hanumakonda-to-vijayawada-taxi",
+  
+    "jagtial-to-hyderabad-taxi",
+  
+    "jangaon-to-hyderabad-taxi",
+  
+    "jayashankar-bhupalpally-to-hyderabad-taxi",
+  
+    "jogulamba-gadwal-to-hyderabad-taxi",
+  
+    "kamareddy-to-hyderabad-taxi",
+  
+    "karimnagar-to-hyderabad-taxi",
+  
+    "khammam-to-hyderabad-taxi",
+  
+    "khammam-to-vijayawada-taxi",
+  
+    "kumuram-bheem-asifabad-to-hyderabad-taxi",
+  
+    "mahabubabad-to-hyderabad-taxi",
+  
+    "mahabubnagar-to-hyderabad-taxi",
+  
+    "mancherial-to-hyderabad-taxi",
+  
+    "medak-to-hyderabad-taxi",
+  
+    "mulugu-to-hyderabad-taxi",
+  
+    "nagarkurnool-to-hyderabad-taxi",
+  
+    "nalgonda-to-hyderabad-taxi",
+  
+    "nalgonda-to-vijayawada-taxi",
+  
+    "narayanpet-to-hyderabad-taxi",
+  
+    "nirmal-to-hyderabad-taxi",
+  
+    "nizamabad-to-hyderabad-taxi",
+  
+    "peddapalli-to-hyderabad-taxi",
+  
+    "rajanna-sircilla-to-hyderabad-taxi",
+  
+    "rangareddy-to-bangalore-taxi",
+  
+    "rangareddy-to-vijayawada-taxi",
+  
+    "sangareddy-to-hyderabad-taxi",
+  
+    "siddipet-to-hyderabad-taxi",
+  
+    "suryapet-to-hyderabad-taxi",
+  
+    "suryapet-to-vijayawada-taxi",
+  
+    "vikarabad-to-hyderabad-taxi",
+  
+    "vikarabad-to-bangalore-taxi",
+  
+    "wanaparthy-to-hyderabad-taxi",
+  
+    "warangal-to-hyderabad-taxi",
+  
+    "warangal-to-vijayawada-taxi",
+  
+    "yadadri-bhuvanagiri-to-hyderabad-taxi",
+  
+    "secunderabad-to-bangalore-taxi",
+  
+    "secunderabad-to-vijayawada-taxi",
+  
+    "secunderabad-to-tirupati-taxi",
+  
+    "pondicherry-to-trichy-taxi",
+  
+    "karaikal-to-trichy-taxi",
+  
+    "karaikal-to-pondicherry-taxi",
+  
+    "karaikal-to-chennai-taxi",
+  
+    "mahe-to-mangalore-taxi",
+  
+    "mahe-to-bangalore-taxi",
+  
+    "yanam-to-vijayawada-taxi",
+  
+    "yanam-to-hyderabad-taxi",
+  
+    "chennai-to-ariyalur-taxi",
+  
+    "chennai-to-chengalpattu-taxi",
+  
+    "pondicherry-to-chengalpattu-taxi",
+  
+    "trichy-to-cuddalore-taxi",
+  
+    "salem-to-dharmapuri-taxi",
+  
+    "bangalore-to-dharmapuri-taxi",
+  
+    "chennai-to-dharmapuri-taxi",
+  
+    "trichy-to-dindigul-taxi",
+  
+    "salem-to-kallakurichi-taxi",
+  
+    "chennai-to-kallakurichi-taxi",
+  
+    "pondicherry-to-kallakurichi-taxi",
+  
+    "trichy-to-kallakurichi-taxi",
+  
+    "pondicherry-to-kanchipuram-taxi",
+  
+    "salem-to-karur-taxi",
+  
+    "madurai-to-karur-taxi",
+  
+    "bangalore-to-krishnagiri-taxi",
+  
+    "salem-to-krishnagiri-taxi",
+  
+    "chennai-to-krishnagiri-taxi",
+  
+    "trichy-to-mayiladuthurai-taxi",
+  
+    "chennai-to-mayiladuthurai-taxi",
+  
+    "trichy-to-nagapattinam-taxi",
+  
+    "chennai-to-nagapattinam-taxi",
+  
+    "salem-to-namakkal-taxi",
+  
+    "trichy-to-namakkal-taxi",
+  
+    "coimbatore-to-namakkal-taxi",
+  
+    "trichy-to-perambalur-taxi",
+  
+    "salem-to-perambalur-taxi",
+  
+    "chennai-to-perambalur-taxi",
+  
+    "trichy-to-pudukkottai-taxi",
+  
+    "madurai-to-pudukkottai-taxi",
+  
+    "madurai-to-ramanathapuram-taxi",
+  
+    "trichy-to-ramanathapuram-taxi",
+  
+    "bangalore-to-ranipet-taxi",
+  
+    "madurai-to-sivagangai-taxi",
+  
+    "trichy-to-sivagangai-taxi",
+  
+    "chennai-to-sivagangai-taxi",
+  
+    "madurai-to-tenkasi-taxi",
+  
+    "trivandrum-to-tenkasi-taxi",
+  
+    "madurai-to-thanjavur-taxi",
+  
+    "coimbatore-to-theni-taxi",
+  
+    "madurai-to-thoothukudi-taxi",
+  
+    "chennai-to-thoothukudi-taxi",
+  
+    "trivandrum-to-tirunelveli-taxi",
+  
+    "bangalore-to-tirupattur-taxi",
+  
+    "chennai-to-tirupattur-taxi",
+  
+    "chennai-to-tirupur-taxi",
+  
+    "pondicherry-to-tiruvannamalai-taxi",
+  
+    "madurai-to-virudhunagar-taxi",
+  
+    "trichy-to-virudhunagar-taxi",
+  
+    "chennai-to-tiruvallur-taxi",
+  
+    "salem-to-hosur-taxi",
+  
+    "trichy-to-kodaikanal-taxi",
+  
+    "trivandrum-to-nagercoil-taxi",
+  
+    "trichy-to-karaikudi-taxi",
+  
+    "trichy-to-sivakasi-taxi",
+  
+    "madurai-to-srirangam-taxi",
+  
+    "chennai-to-srirangam-taxi",
+  
+    "pondicherry-to-chrompet-taxi",
+  
+    "trichy-to-neyveli-taxi",
+  
+    "pondicherry-to-neyveli-taxi",
+  
+    "madurai-to-tiruchendur-taxi",
+  
+    "pondicherry-to-chidambaram-taxi",
+  
+    "trichy-to-chidambaram-taxi",
+  
+    "madurai-to-pollachi-taxi",
+  
+    "mysore-to-coonoor-taxi",
+  
+    "bangalore-to-coonoor-taxi",
+  
+    "trivandrum-to-kollam-taxi",
+  
+    "kochi-to-kollam-taxi",
+  
+    "kochi-to-pathanamthitta-taxi",
+  
+    "trivandrum-to-pathanamthitta-taxi",
+  
+    "kochi-to-alappuzha-taxi",
+  
+    "trivandrum-to-alappuzha-taxi",
+  
+    "kochi-to-kottayam-taxi",
+  
+    "kochi-to-idukki-taxi",
+  
+    "madurai-to-idukki-taxi",
+  
+    "coimbatore-to-kochi-taxi",
+  
+    "kochi-to-thrissur-taxi",
+  
+    "coimbatore-to-thrissur-taxi",
+  
+    "kochi-to-palakkad-taxi",
+  
+    "kochi-to-malappuram-taxi",
+  
+    "coimbatore-to-malappuram-taxi",
+  
+    "bangalore-to-kozhikode-taxi",
+  
+    "mysore-to-kozhikode-taxi",
+  
+    "mysore-to-wayanad-taxi",
+  
+    "mangalore-to-kannur-taxi",
+  
+    "mangalore-to-kasaragod-taxi",
+  
+    "bangalore-to-kasaragod-taxi",
+  
+    "kochi-to-munnar-taxi",
+  
+    "trivandrum-to-alleppey-taxi",
+  
+    "kochi-to-thekkady-taxi",
+  
+    "madurai-to-thekkady-taxi",
+  
+    "coimbatore-to-thekkady-taxi",
+  
+    "kochi-to-guruvayur-taxi",
+  
+    "coimbatore-to-guruvayur-taxi",
+  
+    "trivandrum-to-varkala-taxi",
+  
+    "kochi-to-varkala-taxi",
+  
+    "kochi-to-kumarakom-taxi",
+  
+    "bangalore-to-bagalkot-taxi",
+  
+    "bangalore-to-ballari-taxi",
+  
+    "hyderabad-to-ballari-taxi",
+  
+    "bangalore-to-belagavi-taxi",
+  
+    "hyderabad-to-bidar-taxi",
+  
+    "bangalore-to-bidar-taxi",
+  
+    "mysore-to-chamarajanagar-taxi",
+  
+    "bangalore-to-chamarajanagar-taxi",
+  
+    "coimbatore-to-chamarajanagar-taxi",
+  
+    "salem-to-chamarajanagar-taxi",
+  
+    "bangalore-to-chikballapur-taxi",
+  
+    "tirupati-to-chikballapur-taxi",
+  
+    "bangalore-to-chikkamagaluru-taxi",
+  
+    "mangalore-to-chikkamagaluru-taxi",
+  
+    "mysore-to-chikkamagaluru-taxi",
+  
+    "bangalore-to-chitradurga-taxi",
+  
+    "bangalore-to-davangere-taxi",
+  
+    "bangalore-to-dharwad-taxi",
+  
+    "bangalore-to-gadag-taxi",
+  
+    "bangalore-to-hassan-taxi",
+  
+    "mysore-to-hassan-taxi",
+  
+    "mangalore-to-hassan-taxi",
+  
+    "bangalore-to-haveri-taxi",
+  
+    "hyderabad-to-kalaburagi-taxi",
+  
+    "bangalore-to-kalaburagi-taxi",
+  
+    "bangalore-to-kolar-taxi",
+  
+    "tirupati-to-kolar-taxi",
+  
+    "chennai-to-kolar-taxi",
+  
+    "bangalore-to-koppal-taxi",
+  
+    "mysore-to-mandya-taxi",
+  
+    "bangalore-to-mandya-taxi",
+  
+    "coimbatore-to-mandya-taxi",
+  
+    "madurai-to-mandya-taxi",
+  
+    "hyderabad-to-raichur-taxi",
+  
+    "bangalore-to-raichur-taxi",
+  
+    "bangalore-to-ramanagara-taxi",
+  
+    "mysore-to-ramanagara-taxi",
+  
+    "bangalore-to-shivamogga-taxi",
+  
+    "mangalore-to-shivamogga-taxi",
+  
+    "bangalore-to-tumakuru-taxi",
+  
+    "mysore-to-tumakuru-taxi",
+  
+    "mangalore-to-udupi-taxi",
+  
+    "bangalore-to-udupi-taxi",
+  
+    "mangalore-to-uttara-kannada-taxi",
+  
+    "bangalore-to-uttara-kannada-taxi",
+  
+    "bangalore-to-vijayanagara-taxi",
+  
+    "hyderabad-to-vijayapura-taxi",
+  
+    "bangalore-to-vijayapura-taxi",
+  
+    "hyderabad-to-yadgir-taxi",
+  
+    "bangalore-to-yadgir-taxi",
+  
+    "bangalore-to-hubli-taxi",
+  
+    "mangalore-to-hubli-taxi",
+  
+    "bangalore-to-anantapur-taxi",
+  
+    "hyderabad-to-anantapur-taxi",
+  
+    "tirupati-to-anantapur-taxi",
+  
+    "tirupati-to-chittoor-taxi",
+  
+    "bangalore-to-chittoor-taxi",
+  
+    "chennai-to-chittoor-taxi",
+  
+    "vijayawada-to-east-godavari-taxi",
+  
+    "hyderabad-to-east-godavari-taxi",
+  
+    "hyderabad-to-guntur-taxi",
+  
+    "chennai-to-guntur-taxi",
+  
+    "bangalore-to-guntur-taxi",
+  
+    "tirupati-to-kadapa-taxi",
+  
+    "bangalore-to-kadapa-taxi",
+  
+    "hyderabad-to-kadapa-taxi",
+  
+    "vijayawada-to-krishna-taxi",
+  
+    "hyderabad-to-krishna-taxi",
+  
+    "chennai-to-krishna-taxi",
+  
+    "hyderabad-to-kurnool-taxi",
+  
+    "bangalore-to-kurnool-taxi",
+  
+    "vijayawada-to-kurnool-taxi",
+  
+    "chennai-to-nellore-taxi",
+  
+    "tirupati-to-nellore-taxi",
+  
+    "vijayawada-to-nellore-taxi",
+  
+    "hyderabad-to-nellore-taxi",
+  
+    "bangalore-to-nellore-taxi",
+  
+    "vijayawada-to-prakasam-taxi",
+  
+    "hyderabad-to-prakasam-taxi",
+  
+    "chennai-to-prakasam-taxi",
+  
+    "hyderabad-to-srikakulam-taxi",
+  
+    "hyderabad-to-vizag-taxi",
+  
+    "vijayawada-to-vizag-taxi",
+  
+    "hyderabad-to-vizianagaram-taxi",
+  
+    "vijayawada-to-west-godavari-taxi",
+  
+    "hyderabad-to-west-godavari-taxi",
+  
+    "chennai-to-west-godavari-taxi",
+  
+    "hyderabad-to-alluri-sitharama-raju-taxi",
+  
+    "vijayawada-to-anakapalli-taxi",
+  
+    "vijayawada-to-bapatla-taxi",
+  
+    "hyderabad-to-bapatla-taxi",
+  
+    "chennai-to-bapatla-taxi",
+  
+    "vijayawada-to-eluru-taxi",
+  
+    "hyderabad-to-eluru-taxi",
+  
+    "vijayawada-to-kakinada-taxi",
+  
+    "hyderabad-to-kakinada-taxi",
+  
+    "chennai-to-kakinada-taxi",
+  
+    "vijayawada-to-konaseema-taxi",
+  
+    "hyderabad-to-konaseema-taxi",
+  
+    "hyderabad-to-ntr-taxi",
+  
+    "vijayawada-to-palnadu-taxi",
+  
+    "hyderabad-to-palnadu-taxi",
+  
+    "hyderabad-to-parvathipuram-manyam-taxi",
+  
+    "bangalore-to-sri-sathya-sai-taxi",
+  
+    "hyderabad-to-sri-sathya-sai-taxi",
+  
+    "hyderabad-to-nandyal-taxi",
+  
+    "vijayawada-to-nandyal-taxi",
+  
+    "bangalore-to-nandyal-taxi",
+  
+    "tirupati-to-annamayya-taxi",
+  
+    "chennai-to-annamayya-taxi",
+  
+    "bangalore-to-annamayya-taxi",
+  
+    "vijayawada-to-rajahmundry-taxi",
+  
+    "hyderabad-to-rajahmundry-taxi",
+  
+    "vijayawada-to-ongole-taxi",
+  
+    "hyderabad-to-ongole-taxi",
+  
+    "chennai-to-ongole-taxi",
+  
+    "hyderabad-to-adilabad-taxi",
+  
+    "hyderabad-to-bhadradri-kothagudem-taxi",
+  
+    "vijayawada-to-bhadradri-kothagudem-taxi",
+  
+    "hyderabad-to-hanumakonda-taxi",
+  
+    "vijayawada-to-hanumakonda-taxi",
+  
+    "hyderabad-to-jagtial-taxi",
+  
+    "hyderabad-to-jangaon-taxi",
+  
+    "hyderabad-to-jayashankar-bhupalpally-taxi",
+  
+    "hyderabad-to-jogulamba-gadwal-taxi",
+  
+    "hyderabad-to-kamareddy-taxi",
+  
+    "hyderabad-to-karimnagar-taxi",
+  
+    "hyderabad-to-khammam-taxi",
+  
+    "vijayawada-to-khammam-taxi",
+  
+    "hyderabad-to-kumuram-bheem-asifabad-taxi",
+  
+    "hyderabad-to-mahabubabad-taxi",
+  
+    "hyderabad-to-mahabubnagar-taxi",
+  
+    "hyderabad-to-mancherial-taxi",
+  
+    "hyderabad-to-medak-taxi",
+  
+    "hyderabad-to-mulugu-taxi",
+  
+    "hyderabad-to-nagarkurnool-taxi",
+  
+    "hyderabad-to-nalgonda-taxi",
+  
+    "vijayawada-to-nalgonda-taxi",
+  
+    "hyderabad-to-narayanpet-taxi",
+  
+    "hyderabad-to-nirmal-taxi",
+  
+    "hyderabad-to-nizamabad-taxi",
+  
+    "hyderabad-to-peddapalli-taxi",
+  
+    "hyderabad-to-rajanna-sircilla-taxi",
+  
+    "bangalore-to-rangareddy-taxi",
+  
+    "vijayawada-to-rangareddy-taxi",
+  
+    "hyderabad-to-sangareddy-taxi",
+  
+    "hyderabad-to-siddipet-taxi",
+  
+    "hyderabad-to-suryapet-taxi",
+  
+    "vijayawada-to-suryapet-taxi",
+  
+    "hyderabad-to-vikarabad-taxi",
+  
+    "bangalore-to-vikarabad-taxi",
+  
+    "hyderabad-to-wanaparthy-taxi",
+  
+    "hyderabad-to-warangal-taxi",
+  
+    "vijayawada-to-warangal-taxi",
+  
+    "hyderabad-to-yadadri-bhuvanagiri-taxi",
+  
+    "bangalore-to-secunderabad-taxi",
+  
+    "vijayawada-to-secunderabad-taxi",
+  
+    "tirupati-to-secunderabad-taxi",
+  
+    "trichy-to-pondicherry-taxi",
+  
+    "trichy-to-karaikal-taxi",
+  
+    "pondicherry-to-karaikal-taxi",
+  
+    "chennai-to-karaikal-taxi",
+  
+    "mangalore-to-mahe-taxi",
+  
+    "bangalore-to-mahe-taxi",
+  
+    "vijayawada-to-yanam-taxi",
+  
+    "hyderabad-to-yanam-taxi",
+  
+  
   ].map((slug) => {
     const [from, to] = parseRoute(slug);
     return makeRoutePage(slug, from, to);
