@@ -1,0 +1,22 @@
+# Netlify build configuration for droptaxi.ai
+#
+# Auto-detection of Next.js works, but pinning the config explicitly
+# protects against Netlify auto-detection changes and makes intent clear
+# to any future contributor.
+
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Note: redirects live in next.config.ts (async redirects()) — the Next.js
+# plugin honours those automatically. No need for [[redirects]] blocks
+# here or a separate _redirects file.
+
+# Note: headers (HSTS, CSP, X-Frame-Options, etc.) live in next.config.ts
+# (async headers()) — same reasoning.
