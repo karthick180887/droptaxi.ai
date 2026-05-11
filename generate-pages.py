@@ -214,7 +214,26 @@ def main():
     # Collect ALL html files for sitemap
     all_html = [os.path.basename(f) for f in glob.glob(os.path.join(BASE_DIR, "*.html"))]
     # Exclude non-page files
-    exclude = {"elementor-hf-footer.html", "elementor-hf-header.html", "category-uncategorized.html"}
+    exclude = {
+        # Elementor admin/header/footer artifacts (not user pages)
+        "elementor-hf-footer.html",
+        "elementor-hf-header.html",
+        "category-uncategorized.html",
+        # Non-canonical duplicate URLs — these pages exist for backward
+        # compatibility but rel=canonical points them at drop-taxi-in-{city}.html.
+        # Keeping them out of the sitemap so GSC stops counting them as
+        # separate "discovered" URLs.
+        "drop-taxi-cuddalore.html",
+        "drop-taxi-erode.html",
+        "drop-taxi-hyderabad.html",
+        "drop-taxi-madurai.html",
+        "drop-taxi-munnar.html",
+        "drop-taxi-neyveli.html",
+        "drop-taxi-srirangam.html",
+        "drop-taxi-thanjavur.html",
+        "drop-taxi-tirunelveli.html",
+        "drop-taxi-villupuram.html",
+    }
     all_html = [f for f in all_html if f not in exclude]
 
     # Generate sitemap
