@@ -1968,4 +1968,982 @@ export const CITY_DATA: Record<string, CityInfo> = {
     ],
     description: "Yelagiri Hills is a serene hill station at 1,100 metres in Tirupattur district. Known for rose gardens, lakes, trekking trails, and adventure sports. A popular weekend getaway from Chennai and Bangalore.",
   },
+
+
+  // ── Tier-2 districts (auto-generated from Python pipeline) ──
+  ariyalur: {
+    pickupPoints: ["Ariyalur Bus Stand", "Ariyalur Railway Station", "Sendurai", "Jayamkondam"],
+    popularRoutes: [
+    ],
+    description: "Ariyalur is known for ancient chola temples, limestone quarries, agricultural town. DropTaxi provides one way drop taxi and outstation cab service from Ariyalur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chengalpattu: {
+    pickupPoints: ["Chengalpattu Bus Stand", "Chengalpattu Railway Station", "Mahabalipuram", "GST Road Junction"],
+    popularRoutes: [
+    ],
+    description: "Chengalpattu is known for mahabalipuram shore temple, vedanthangal bird sanctuary, gateway to ecr. DropTaxi provides one way drop taxi and outstation cab service from Chengalpattu to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  cuddalore: {
+    pickupPoints: ["Cuddalore Bus Stand", "Cuddalore Railway Station", "Chidambaram", "Silver Beach"],
+    popularRoutes: [
+      { name: "Cuddalore to Chennai", href: "/cuddalore-to-chennai-taxi" }
+    ],
+    description: "Cuddalore is known for chidambaram nataraja temple, silver beach, french colonial heritage. DropTaxi provides one way drop taxi and outstation cab service from Cuddalore to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  dharmapuri: {
+    pickupPoints: ["Dharmapuri Bus Stand", "Dharmapuri Railway Station", "Hogenakkal", "Pennagaram"],
+    popularRoutes: [
+    ],
+    description: "Dharmapuri is known for hogenakkal falls, mango orchards, scenic granite hills. DropTaxi provides one way drop taxi and outstation cab service from Dharmapuri to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kallakurichi: {
+    pickupPoints: ["Kallakurichi Bus Stand", "Chinnasalem", "Ulundurpet", "Sankarapuram"],
+    popularRoutes: [
+    ],
+    description: "Kallakurichi is known for agricultural district, scenic eastern ghats, jackfruit orchards. DropTaxi provides one way drop taxi and outstation cab service from Kallakurichi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  karur: {
+    pickupPoints: ["Karur Bus Stand", "Karur Junction Railway Station", "Kulithalai", "Aravakurichi"],
+    popularRoutes: [
+      { name: "Karur to Trichy", href: "/karur-to-trichy-taxi" },
+      { name: "Karur to Coimbatore", href: "/karur-to-coimbatore-taxi" }
+    ],
+    description: "Karur is known for bus body building capital, textile exports, pasupatheeswara temple. DropTaxi provides one way drop taxi and outstation cab service from Karur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  krishnagiri: {
+    pickupPoints: ["Krishnagiri Bus Stand", "Hosur", "Pochampalli", "Kaveripattinam"],
+    popularRoutes: [
+    ],
+    description: "Krishnagiri is known for mango capital of india, krp dam, gateway to bangalore from tn. DropTaxi provides one way drop taxi and outstation cab service from Krishnagiri to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mayiladuthurai: {
+    pickupPoints: ["Mayiladuthurai Bus Stand", "Mayiladuthurai Junction", "Sirkali", "Poompuhar"],
+    popularRoutes: [
+    ],
+    description: "Mayiladuthurai is known for mayuranathaswamy temple, poompuhar ancient port, cauvery delta region. DropTaxi provides one way drop taxi and outstation cab service from Mayiladuthurai to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  nagapattinam: {
+    pickupPoints: ["Nagapattinam Bus Stand", "Nagapattinam Railway Station", "Velankanni", "Karaikal"],
+    popularRoutes: [
+    ],
+    description: "Nagapattinam is known for velankanni basilica, coastal heritage, nagore dargah. DropTaxi provides one way drop taxi and outstation cab service from Nagapattinam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  namakkal: {
+    pickupPoints: ["Namakkal Bus Stand", "Rasipuram", "Tiruchengode", "Paramathi"],
+    popularRoutes: [
+    ],
+    description: "Namakkal is known for namakkal fort, transport hub, poultry and egg capital of india. DropTaxi provides one way drop taxi and outstation cab service from Namakkal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  perambalur: {
+    pickupPoints: ["Perambalur Bus Stand", "Perambalur Railway Station", "Kunnam", "Veppanthattai"],
+    popularRoutes: [
+    ],
+    description: "Perambalur is known for smallest district in tn, sathanur dam, ancient chola region. DropTaxi provides one way drop taxi and outstation cab service from Perambalur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  pudukkottai: {
+    pickupPoints: ["Pudukkottai Bus Stand", "Pudukkottai Railway Station", "Aranthangi", "Karambakudi"],
+    popularRoutes: [
+    ],
+    description: "Pudukkottai is known for former princely state, sittanavasal jain caves, ancient temples. DropTaxi provides one way drop taxi and outstation cab service from Pudukkottai to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  ramanathapuram: {
+    pickupPoints: ["Ramanathapuram Bus Stand", "Ramanathapuram Railway Station", "Paramakudi", "Rameswaram"],
+    popularRoutes: [
+    ],
+    description: "Ramanathapuram is known for gateway to rameswaram, pamban bridge, pilgrimage hub. DropTaxi provides one way drop taxi and outstation cab service from Ramanathapuram to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  ranipet: {
+    pickupPoints: ["Ranipet Bus Stand", "Ranipet Railway Station", "Walajapet", "Arcot"],
+    popularRoutes: [
+      { name: "Ranipet to Chennai", href: "/ranipet-to-chennai-taxi" }
+    ],
+    description: "Ranipet is known for leather exports hub, arcot nawab heritage, ranipet fort. DropTaxi provides one way drop taxi and outstation cab service from Ranipet to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  sivagangai: {
+    pickupPoints: ["Sivagangai Bus Stand", "Karaikudi", "Devakottai", "Chettinad"],
+    popularRoutes: [
+    ],
+    description: "Sivagangai is known for chettinad palace heritage, karaikudi cuisine, pillaiyarpatti temple. DropTaxi provides one way drop taxi and outstation cab service from Sivagangai to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tenkasi: {
+    pickupPoints: ["Tenkasi Bus Stand", "Tenkasi Railway Station", "Courtallam", "Sankarankovil"],
+    popularRoutes: [
+    ],
+    description: "Tenkasi is known for courtallam waterfalls (spa of south india), scenic western ghats. DropTaxi provides one way drop taxi and outstation cab service from Tenkasi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  theni: {
+    pickupPoints: ["Theni Bus Stand", "Periyakulam", "Bodinayakanur", "Uthamapalayam"],
+    popularRoutes: [
+      { name: "Theni to Madurai", href: "/theni-to-madurai-taxi" }
+    ],
+    description: "Theni is known for gateway to meghamalai and munnar, cardamom hills, vaigai dam. DropTaxi provides one way drop taxi and outstation cab service from Theni to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  thoothukudi: {
+    pickupPoints: ["Thoothukudi Bus Stand", "Thoothukudi Junction", "Tiruchendur", "VOC Port"],
+    popularRoutes: [
+    ],
+    description: "Thoothukudi is known for voc port, tiruchendur murugan temple, salt pans, pearl city. DropTaxi provides one way drop taxi and outstation cab service from Thoothukudi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tirunelveli: {
+    pickupPoints: ["Tirunelveli Junction", "Tirunelveli Bus Stand", "Palayamkottai", "Ambasamudram"],
+    popularRoutes: [
+      { name: "Tirunelveli to Madurai", href: "/tirunelveli-to-madurai-taxi" }
+    ],
+    description: "Tirunelveli is known for nellaiappar temple, halwa city, papanasam dam, south tn hub. DropTaxi provides one way drop taxi and outstation cab service from Tirunelveli to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tirupattur: {
+    pickupPoints: ["Tirupattur Bus Stand", "Tirupattur Railway Station", "Ambur", "Vaniyambadi"],
+    popularRoutes: [
+    ],
+    description: "Tirupattur is known for leather industry hub, ambur biryani, scenic javadi hills. DropTaxi provides one way drop taxi and outstation cab service from Tirupattur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tirupur: {
+    pickupPoints: ["Tirupur Bus Stand", "Tirupur Railway Station", "Avinashi", "Palladam", "Udumalpet"],
+    popularRoutes: [
+      { name: "Tirupur to Coimbatore", href: "/tirupur-to-coimbatore-taxi" }
+    ],
+    description: "Tirupur is known for knitwear capital, textile exports hub, dollar city. DropTaxi provides one way drop taxi and outstation cab service from Tirupur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tiruvannamalai: {
+    pickupPoints: ["Tiruvannamalai Bus Stand", "Tiruvannamalai Railway Station", "Arunachaleswarar Temple", "Ramana Ashram"],
+    popularRoutes: [
+      { name: "Tiruvannamalai to Chennai", href: "/tiruvannamalai-to-chennai-taxi" },
+      { name: "Tiruvannamalai to Vellore", href: "/tiruvannamalai-to-vellore-cab" },
+      { name: "Tiruvannamalai to Bangalore", href: "/tiruvannamalai-to-bangalore-taxi" }
+    ],
+    description: "Tiruvannamalai is known for arunachaleswarar temple, girivalam path, ramana maharshi ashram. DropTaxi provides one way drop taxi and outstation cab service from Tiruvannamalai to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  villupuram: {
+    pickupPoints: ["Villupuram Bus Stand", "Villupuram Junction Railway Station", "Tindivanam", "Gingee"],
+    popularRoutes: [
+      { name: "Villupuram to Chennai", href: "/villupuram-to-chennai-taxi" }
+    ],
+    description: "Villupuram is known for gingee fort, french colonial heritage, ecr coastal route. DropTaxi provides one way drop taxi and outstation cab service from Villupuram to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  virudhunagar: {
+    pickupPoints: ["Virudhunagar Bus Stand", "Virudhunagar Junction", "Sivakasi", "Aruppukkottai", "Rajapalayam"],
+    popularRoutes: [
+    ],
+    description: "Virudhunagar is known for fireworks and match capital (sivakasi), printing hub, rajapalayam dogs. DropTaxi provides one way drop taxi and outstation cab service from Virudhunagar to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tiruvallur: {
+    pickupPoints: ["Tiruvallur Bus Stand", "Tiruvallur Railway Station", "Avadi", "Poonamallee", "Sriperumbudur"],
+    popularRoutes: [
+    ],
+    description: "Tiruvallur is known for sriperumbudur birthplace of ramanuja, auto manufacturing hub. DropTaxi provides one way drop taxi and outstation cab service from Tiruvallur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  ooty: {
+    pickupPoints: ["Ooty Bus Stand", "Ooty Railway Station", "Charring Cross", "Botanical Gardens", "Lake Area"],
+    popularRoutes: [
+      { name: "Ooty to Coimbatore", href: "/ooty-to-coimbatore-taxi" },
+      { name: "Ooty to Mysore", href: "/ooty-to-mysore-taxi" },
+      { name: "Ooty to Bangalore", href: "/ooty-to-bangalore-taxi" }
+    ],
+    description: "Ooty is known for queen of hill stations, nilgiri mountain railway, botanical gardens. DropTaxi provides one way drop taxi and outstation cab service from Ooty to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kodaikanal: {
+    pickupPoints: ["Kodaikanal Bus Stand", "Kodai Lake", "Coakers Walk", "Seven Roads Junction"],
+    popularRoutes: [
+      { name: "Kodaikanal to Madurai", href: "/kodaikanal-to-madurai-taxi" },
+      { name: "Kodaikanal to Dindigul", href: "/kodaikanal-to-dindigul-taxi" },
+      { name: "Kodaikanal to Coimbatore", href: "/kodaikanal-to-coimbatore-cab" }
+    ],
+    description: "Kodaikanal is known for princess of hill stations, kodai lake, silver cascade, pine forests. DropTaxi provides one way drop taxi and outstation cab service from Kodaikanal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  karaikudi: {
+    pickupPoints: ["Karaikudi Bus Stand", "Karaikudi Railway Station", "Chettinad Palace", "Devakottai"],
+    popularRoutes: [
+      { name: "Karaikudi to Madurai", href: "/karaikudi-to-madurai-taxi" }
+    ],
+    description: "Karaikudi is known for chettinad heritage, palatial mansions, spicy chettinad cuisine. DropTaxi provides one way drop taxi and outstation cab service from Karaikudi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  palani: {
+    pickupPoints: ["Palani Bus Stand", "Palani Railway Station", "Murugan Temple", "Palani Hills"],
+    popularRoutes: [
+      { name: "Palani to Madurai", href: "/palani-to-madurai-taxi" },
+      { name: "Palani to Coimbatore", href: "/palani-to-coimbatore-taxi" }
+    ],
+    description: "Palani is known for palani murugan temple, one of the six abodes of lord murugan. DropTaxi provides one way drop taxi and outstation cab service from Palani to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  sivakasi: {
+    pickupPoints: ["Sivakasi Bus Stand", "Sivakasi Town", "Virudhunagar Junction"],
+    popularRoutes: [
+      { name: "Sivakasi to Madurai", href: "/sivakasi-to-madurai-taxi" }
+    ],
+    description: "Sivakasi is known for fireworks and match industry capital, mini japan of india. DropTaxi provides one way drop taxi and outstation cab service from Sivakasi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  srirangam: {
+    pickupPoints: ["Srirangam Bus Stand", "Ranganathaswamy Temple", "Srirangam Railway Station"],
+    popularRoutes: [
+    ],
+    description: "Srirangam is known for sri ranganathaswamy temple, largest functioning hindu temple in the world. DropTaxi provides one way drop taxi and outstation cab service from Srirangam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chrompet: {
+    pickupPoints: ["Chrompet Bus Stand", "Chrompet Railway Station", "Pallavaram", "Tambaram"],
+    popularRoutes: [
+    ],
+    description: "Chrompet is known for chennai suburb, railway junction, residential and commercial hub. DropTaxi provides one way drop taxi and outstation cab service from Chrompet to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  neyveli: {
+    pickupPoints: ["Neyveli Bus Stand", "Neyveli Township", "NLC Gate"],
+    popularRoutes: [
+      { name: "Neyveli to Chennai", href: "/neyveli-to-chennai-taxi" }
+    ],
+    description: "Neyveli is known for nlc mining township, lignite capital of india, planned township. DropTaxi provides one way drop taxi and outstation cab service from Neyveli to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tiruchendur: {
+    pickupPoints: ["Tiruchendur Bus Stand", "Tiruchendur Temple", "Tiruchendur Beach"],
+    popularRoutes: [
+      { name: "Tiruchendur to Thoothukudi", href: "/tiruchendur-to-thoothukudi-taxi" },
+      { name: "Tiruchendur to Tirunelveli", href: "/tiruchendur-to-tirunelveli-taxi" }
+    ],
+    description: "Tiruchendur is known for arulmigu subramaniya swamy temple, seaside murugan abode. DropTaxi provides one way drop taxi and outstation cab service from Tiruchendur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chidambaram: {
+    pickupPoints: ["Chidambaram Bus Stand", "Annamalai University", "Nataraja Temple"],
+    popularRoutes: [
+      { name: "Chidambaram to Chennai", href: "/chidambaram-to-chennai-taxi" }
+    ],
+    description: "Chidambaram is known for nataraja temple with chidambaram rahasyam, annamalai university. DropTaxi provides one way drop taxi and outstation cab service from Chidambaram to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  velankanni: {
+    pickupPoints: ["Velankanni Bus Stand", "Velankanni Basilica", "Beach Road"],
+    popularRoutes: [
+      { name: "Velankanni to Trichy", href: "/velankanni-to-trichy-cab" },
+      { name: "Velankanni to Chennai", href: "/velankanni-to-chennai-taxi" }
+    ],
+    description: "Velankanni is known for basilica of our lady of good health, lourdes of the east. DropTaxi provides one way drop taxi and outstation cab service from Velankanni to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  pollachi: {
+    pickupPoints: ["Pollachi Bus Stand", "Pollachi Railway Station", "Aliyar Dam", "Topslip"],
+    popularRoutes: [
+      { name: "Pollachi to Coimbatore", href: "/pollachi-to-coimbatore-taxi" }
+    ],
+    description: "Pollachi is known for coconut capital, aliyar dam, topslip wildlife, gateway to valparai. DropTaxi provides one way drop taxi and outstation cab service from Pollachi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mettupalayam: {
+    pickupPoints: ["Mettupalayam Bus Stand", "Mettupalayam Railway Station", "Karamadai"],
+    popularRoutes: [
+      { name: "Mettupalayam to Coimbatore", href: "/mettupalayam-to-coimbatore-taxi" }
+    ],
+    description: "Mettupalayam is known for gateway to nilgiris, nilgiri mountain railway starting point. DropTaxi provides one way drop taxi and outstation cab service from Mettupalayam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  coonoor: {
+    pickupPoints: ["Coonoor Bus Stand", "Coonoor Railway Station", "Sims Park", "Dolphin Nose"],
+    popularRoutes: [
+      { name: "Coonoor to Coimbatore", href: "/coonoor-to-coimbatore-taxi" }
+    ],
+    description: "Coonoor is known for nilgiri tea estates, sims park, dolphin nose viewpoint. DropTaxi provides one way drop taxi and outstation cab service from Coonoor to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mahabalipuram: {
+    pickupPoints: ["Mahabalipuram Bus Stand", "Shore Temple", "Five Rathas", "ECR Junction"],
+    popularRoutes: [
+      { name: "Mahabalipuram to Chennai", href: "/mahabalipuram-to-chennai-taxi" },
+      { name: "Mahabalipuram to Pondicherry", href: "/mahabalipuram-to-pondicherry-taxi" }
+    ],
+    description: "Mahabalipuram is known for unesco shore temple, pallava rock-cut monuments, beach town. DropTaxi provides one way drop taxi and outstation cab service from Mahabalipuram to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kollam: {
+    pickupPoints: ["Kollam Bus Stand", "Kollam Junction Railway Station", "Ashtamudi Lake", "Cashew Junction"],
+    popularRoutes: [
+    ],
+    description: "Kollam is known for ashtamudi lake, cashew capital, gateway to kerala backwaters. DropTaxi provides one way drop taxi and outstation cab service from Kollam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  pathanamthitta: {
+    pickupPoints: ["Pathanamthitta Bus Stand", "Pathanamthitta Town", "Sabarimala Base Camp", "Adoor"],
+    popularRoutes: [
+    ],
+    description: "Pathanamthitta is known for sabarimala temple, pilgrimage capital of kerala, river district. DropTaxi provides one way drop taxi and outstation cab service from Pathanamthitta to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  alappuzha: {
+    pickupPoints: ["Alappuzha Bus Stand", "Alappuzha Railway Station", "Alappuzha Beach", "Finishing Point"],
+    popularRoutes: [
+    ],
+    description: "Alappuzha is known for venice of the east, houseboat backwaters, nehru trophy boat race. DropTaxi provides one way drop taxi and outstation cab service from Alappuzha to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kottayam: {
+    pickupPoints: ["Kottayam Bus Stand", "Kottayam Railway Station", "Nagampadom", "Kumarakom"],
+    popularRoutes: [
+    ],
+    description: "Kottayam is known for rubber capital of india, kumarakom backwaters, literary hub. DropTaxi provides one way drop taxi and outstation cab service from Kottayam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  idukki: {
+    pickupPoints: ["Idukki Bus Stand", "Thodupuzha", "Painavu", "Adimali"],
+    popularRoutes: [
+    ],
+    description: "Idukki is known for idukki arch dam, spice gardens, highest district in kerala. DropTaxi provides one way drop taxi and outstation cab service from Idukki to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kochi: {
+    pickupPoints: ["Ernakulam Junction Railway Station", "Ernakulam Town Railway Station", "Vyttila Hub", "Fort Kochi", "Marine Drive"],
+    popularRoutes: [
+    ],
+    description: "Kochi is known for queen of arabian sea, fort kochi, it hub, backwater cruise hub. DropTaxi provides one way drop taxi and outstation cab service from Kochi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  thrissur: {
+    pickupPoints: ["Thrissur Bus Stand", "Thrissur Railway Station", "Swaraj Round", "Vadakkunnathan Temple"],
+    popularRoutes: [
+    ],
+    description: "Thrissur is known for cultural capital of kerala, thrissur pooram, vadakkunnathan temple. DropTaxi provides one way drop taxi and outstation cab service from Thrissur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  palakkad: {
+    pickupPoints: ["Palakkad Bus Stand", "Palakkad Junction Railway Station", "Palakkad Fort", "Olavakkode"],
+    popularRoutes: [
+      { name: "Palakkad to Coimbatore", href: "/palakkad-to-coimbatore-taxi" }
+    ],
+    description: "Palakkad is known for gateway of kerala, palakkad gap, silent valley, rice granary. DropTaxi provides one way drop taxi and outstation cab service from Palakkad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  malappuram: {
+    pickupPoints: ["Malappuram Bus Stand", "Tirur Railway Station", "Manjeri", "Perinthalmanna"],
+    popularRoutes: [
+    ],
+    description: "Malappuram is known for historical malabar region, educational hub, kottakkunnu heritage. DropTaxi provides one way drop taxi and outstation cab service from Malappuram to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kozhikode: {
+    pickupPoints: ["Kozhikode Railway Station", "New Bus Stand", "Mananchira", "SM Street", "Beach Road"],
+    popularRoutes: [
+      { name: "Kozhikode to Wayanad", href: "/kozhikode-to-wayanad-taxi" }
+    ],
+    description: "Kozhikode is known for city of spices, kozhikode beach, kappad historic landing, halwa. DropTaxi provides one way drop taxi and outstation cab service from Kozhikode to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  wayanad: {
+    pickupPoints: ["Kalpetta Bus Stand", "Sultan Bathery", "Mananthavady", "Meenangadi"],
+    popularRoutes: [
+      { name: "Wayanad to Kozhikode", href: "/wayanad-to-kozhikode-taxi" },
+      { name: "Wayanad to Bangalore", href: "/wayanad-to-bangalore-taxi" }
+    ],
+    description: "Wayanad is known for western ghats paradise, edakkal caves, banasura dam, spice estates. DropTaxi provides one way drop taxi and outstation cab service from Wayanad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kannur: {
+    pickupPoints: ["Kannur Railway Station", "Kannur Bus Stand", "Payyambalam Beach", "Fort Area"],
+    popularRoutes: [
+    ],
+    description: "Kannur is known for land of looms and lores, theyyam art, st angelo fort, coir industry. DropTaxi provides one way drop taxi and outstation cab service from Kannur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kasaragod: {
+    pickupPoints: ["Kasaragod Bus Stand", "Kasaragod Railway Station", "Bekal Fort", "Kanhangad"],
+    popularRoutes: [
+    ],
+    description: "Kasaragod is known for bekal fort, northernmost district of kerala, seven languages district. DropTaxi provides one way drop taxi and outstation cab service from Kasaragod to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  munnar: {
+    pickupPoints: ["Munnar Bus Stand", "Munnar Town", "Old Munnar", "KDHP Tea Museum"],
+    popularRoutes: [
+      { name: "Munnar to Thekkady", href: "/munnar-to-thekkady-taxi" },
+      { name: "Munnar to Madurai", href: "/munnar-to-madurai-taxi" },
+      { name: "Munnar to Coimbatore", href: "/munnar-to-coimbatore-taxi" }
+    ],
+    description: "Munnar is known for tea capital of south india, eravikulam, mattupetty dam, honeymoon spot. DropTaxi provides one way drop taxi and outstation cab service from Munnar to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  alleppey: {
+    pickupPoints: ["Alleppey Bus Stand", "Alleppey Railway Station", "Alleppey Beach", "KSRTC Stand"],
+    popularRoutes: [
+      { name: "Alleppey to Kochi", href: "/alleppey-to-kochi-taxi" }
+    ],
+    description: "Alleppey is known for houseboat paradise, backwater capital, alappuzha beach, coir. DropTaxi provides one way drop taxi and outstation cab service from Alleppey to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  thekkady: {
+    pickupPoints: ["Thekkady Bus Stand", "Kumily Town", "Periyar Tiger Reserve Gate"],
+    popularRoutes: [
+      { name: "Thekkady to Munnar", href: "/thekkady-to-munnar-taxi" }
+    ],
+    description: "Thekkady is known for periyar tiger reserve, spice plantation tours, elephant rides. DropTaxi provides one way drop taxi and outstation cab service from Thekkady to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  guruvayur: {
+    pickupPoints: ["Guruvayur Bus Stand", "Guruvayur Railway Station", "Guruvayur Temple"],
+    popularRoutes: [
+    ],
+    description: "Guruvayur is known for guruvayur sri krishna temple, punnathur kotta elephant sanctuary. DropTaxi provides one way drop taxi and outstation cab service from Guruvayur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kovalam: {
+    pickupPoints: ["Kovalam Beach Junction", "Lighthouse Beach", "Hawa Beach", "Samudra Beach"],
+    popularRoutes: [
+    ],
+    description: "Kovalam is known for crescent beach, lighthouse beach, ayurveda hub, international beach resort. DropTaxi provides one way drop taxi and outstation cab service from Kovalam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  varkala: {
+    pickupPoints: ["Varkala Bus Stand", "Varkala Railway Station", "Varkala Cliff", "Papanasam Beach"],
+    popularRoutes: [
+    ],
+    description: "Varkala is known for varkala cliff, papanasam beach, janardanaswamy temple, coastal retreat. DropTaxi provides one way drop taxi and outstation cab service from Varkala to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kumarakom: {
+    pickupPoints: ["Kumarakom Boat Jetty", "Kumarakom Bird Sanctuary", "Taj Hotel Area"],
+    popularRoutes: [
+    ],
+    description: "Kumarakom is known for vembanad lake backwaters, bird sanctuary, luxury houseboats. DropTaxi provides one way drop taxi and outstation cab service from Kumarakom to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  bagalkot: {
+    pickupPoints: ["Bagalkot Bus Stand", "Bagalkot Railway Station", "Badami", "Pattadakal"],
+    popularRoutes: [
+    ],
+    description: "Bagalkot is known for badami caves, pattadakal unesco site, aihole cradle of architecture. DropTaxi provides one way drop taxi and outstation cab service from Bagalkot to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  ballari: {
+    pickupPoints: ["Ballari Bus Stand", "Ballari Junction Railway Station", "Ballari Fort", "Hospet"],
+    popularRoutes: [
+    ],
+    description: "Ballari is known for hampi unesco site, vijayanagara empire ruins, iron ore mining hub. DropTaxi provides one way drop taxi and outstation cab service from Ballari to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  belagavi: {
+    pickupPoints: ["Belagavi Bus Stand", "Belagavi Railway Station", "Camp Area", "Rani Channamma Circle"],
+    popularRoutes: [
+    ],
+    description: "Belagavi is known for second capital of karnataka, military cantonment, jain heritage. DropTaxi provides one way drop taxi and outstation cab service from Belagavi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  bidar: {
+    pickupPoints: ["Bidar Bus Stand", "Bidar Railway Station", "Bidar Fort", "Basavakalyan"],
+    popularRoutes: [
+    ],
+    description: "Bidar is known for bidar fort, bahmani sultanate heritage, whispering gallery. DropTaxi provides one way drop taxi and outstation cab service from Bidar to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chamarajanagar: {
+    pickupPoints: ["Chamarajanagar Bus Stand", "Kollegal", "Male Mahadeshwara Hills"],
+    popularRoutes: [
+    ],
+    description: "Chamarajanagar is known for male mahadeshwara hills, br hills wildlife, cauvery fishing camp. DropTaxi provides one way drop taxi and outstation cab service from Chamarajanagar to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chikballapur: {
+    pickupPoints: ["Chikballapur Bus Stand", "Chikballapur Railway Station", "Nandi Hills"],
+    popularRoutes: [
+    ],
+    description: "Chikballapur is known for nandi hills sunrise point, granite quarries, silk farming. DropTaxi provides one way drop taxi and outstation cab service from Chikballapur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chikkamagaluru: {
+    pickupPoints: ["Chikkamagaluru Bus Stand", "Kadur Railway Station", "Mullayanagiri", "Coffee Estate Area"],
+    popularRoutes: [
+    ],
+    description: "Chikkamagaluru is known for coffee land of india, mullayanagiri peak, baba budangiri, trekking hub. DropTaxi provides one way drop taxi and outstation cab service from Chikkamagaluru to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chitradurga: {
+    pickupPoints: ["Chitradurga Bus Stand", "Chitradurga Fort", "Challakere", "Holalkere"],
+    popularRoutes: [
+    ],
+    description: "Chitradurga is known for stone fortress, chandravalli caves, onake obavva warrior heritage. DropTaxi provides one way drop taxi and outstation cab service from Chitradurga to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  davangere: {
+    pickupPoints: ["Davangere Bus Stand", "Davangere Railway Station", "Benne Dosa Area"],
+    popularRoutes: [
+    ],
+    description: "Davangere is known for benne dosa capital, cotton textile hub, education center. DropTaxi provides one way drop taxi and outstation cab service from Davangere to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  dharwad: {
+    pickupPoints: ["Dharwad Bus Stand", "Dharwad Railway Station", "Karnataka University", "Saptapur"],
+    popularRoutes: [
+    ],
+    description: "Dharwad is known for dharwad pedha sweet, education hub, hindustani classical music center. DropTaxi provides one way drop taxi and outstation cab service from Dharwad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  gadag: {
+    pickupPoints: ["Gadag Bus Stand", "Gadag Railway Station", "Lakkundi", "Ron"],
+    popularRoutes: [
+    ],
+    description: "Gadag is known for lakkundi jain temples, trikuteshwara temple, cotton trading center. DropTaxi provides one way drop taxi and outstation cab service from Gadag to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  hassan: {
+    pickupPoints: ["Hassan Bus Stand", "Hassan Railway Station", "Belur", "Halebid"],
+    popularRoutes: [
+    ],
+    description: "Hassan is known for belur-halebid hoysala temples, shravanabelagola bahubali statue. DropTaxi provides one way drop taxi and outstation cab service from Hassan to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  haveri: {
+    pickupPoints: ["Haveri Bus Stand", "Haveri Railway Station", "Ranebennur", "Byadgi"],
+    popularRoutes: [
+    ],
+    description: "Haveri is known for byadgi chilli market, handloom textiles, ranebennur blackbuck sanctuary. DropTaxi provides one way drop taxi and outstation cab service from Haveri to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kalaburagi: {
+    pickupPoints: ["Kalaburagi Bus Stand", "Kalaburagi Railway Station", "Gulbarga Fort", "Sharana Basaveshwara Temple"],
+    popularRoutes: [
+    ],
+    description: "Kalaburagi is known for gulbarga fort, sharana basaveshwara temple, al-beruni heritage. DropTaxi provides one way drop taxi and outstation cab service from Kalaburagi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kolar: {
+    pickupPoints: ["Kolar Bus Stand", "Kolar Railway Station", "KGF", "Bangarpet"],
+    popularRoutes: [
+    ],
+    description: "Kolar is known for kolar gold fields, anthargange caves, kolaramma temple. DropTaxi provides one way drop taxi and outstation cab service from Kolar to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  koppal: {
+    pickupPoints: ["Koppal Bus Stand", "Koppal Railway Station", "Kuknur", "Gangavathi"],
+    popularRoutes: [
+    ],
+    description: "Koppal is known for gateway to hampi, anjanadri hill (hanuman birthplace), tungabhadra dam. DropTaxi provides one way drop taxi and outstation cab service from Koppal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mandya: {
+    pickupPoints: ["Mandya Bus Stand", "Mandya Railway Station", "Srirangapatna", "KRS Dam"],
+    popularRoutes: [
+    ],
+    description: "Mandya is known for sugar capital of karnataka, krs dam, srirangapatna tipu heritage. DropTaxi provides one way drop taxi and outstation cab service from Mandya to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  raichur: {
+    pickupPoints: ["Raichur Bus Stand", "Raichur Junction Railway Station", "Raichur Fort"],
+    popularRoutes: [
+    ],
+    description: "Raichur is known for raichur fort, rice and cotton granary, narayanpur dam. DropTaxi provides one way drop taxi and outstation cab service from Raichur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  ramanagara: {
+    pickupPoints: ["Ramanagara Bus Stand", "Ramanagara Railway Station", "Channapatna", "Sholay Rocks"],
+    popularRoutes: [
+    ],
+    description: "Ramanagara is known for sholay filming location, silk town channapatna, rock climbing hub. DropTaxi provides one way drop taxi and outstation cab service from Ramanagara to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  shivamogga: {
+    pickupPoints: ["Shivamogga Bus Stand", "Shivamogga Railway Station", "Bhadravathi", "Jog Falls Road"],
+    popularRoutes: [
+    ],
+    description: "Shivamogga is known for gateway to jog falls, sharavathi valley, western ghats greenery. DropTaxi provides one way drop taxi and outstation cab service from Shivamogga to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  tumakuru: {
+    pickupPoints: ["Tumakuru Bus Stand", "Tumakuru Railway Station", "Sira", "Gubbi"],
+    popularRoutes: [
+    ],
+    description: "Tumakuru is known for coconut capital, siddaganga mutt, devarayanadurga hills. DropTaxi provides one way drop taxi and outstation cab service from Tumakuru to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  udupi: {
+    pickupPoints: ["Udupi Bus Stand", "Udupi Railway Station", "Sri Krishna Matha", "Malpe Beach"],
+    popularRoutes: [
+    ],
+    description: "Udupi is known for udupi sri krishna temple, malpe beach, manipal university town. DropTaxi provides one way drop taxi and outstation cab service from Udupi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "uttara-kannada": {
+    pickupPoints: ["Karwar Bus Stand", "Sirsi Bus Stand", "Dandeli", "Gokarna", "Kumta"],
+    popularRoutes: [
+    ],
+    description: "Uttara Kannada is known for gokarna beaches, dandeli adventure sports, jog falls, coastal karnataka. DropTaxi provides one way drop taxi and outstation cab service from Uttara Kannada to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  vijayanagara: {
+    pickupPoints: ["Hosapete Bus Stand", "Hosapete Railway Station", "Hampi Bazaar", "Tungabhadra Dam"],
+    popularRoutes: [
+    ],
+    description: "Vijayanagara is known for hampi world heritage site, vijayanagara empire capital ruins. DropTaxi provides one way drop taxi and outstation cab service from Vijayanagara to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  vijayapura: {
+    pickupPoints: ["Vijayapura Bus Stand", "Vijayapura Railway Station", "Gol Gumbaz", "Ibrahim Roza"],
+    popularRoutes: [
+    ],
+    description: "Vijayapura is known for gol gumbaz, ibrahim roza, adil shahi architecture, grape wines. DropTaxi provides one way drop taxi and outstation cab service from Vijayapura to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  yadgir: {
+    pickupPoints: ["Yadgir Bus Stand", "Yadgir Railway Station", "Yadgir Fort", "Sannati"],
+    popularRoutes: [
+    ],
+    description: "Yadgir is known for yadgir fort, sannati buddhist site, bhima river heritage. DropTaxi provides one way drop taxi and outstation cab service from Yadgir to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mangalore: {
+    pickupPoints: ["Mangalore Central Railway Station", "KSRTC Bus Stand", "Hampankatta", "Bejai", "Kankanady"],
+    popularRoutes: [
+      { name: "Mangalore to Bangalore", href: "/mangalore-to-bangalore-taxi" },
+      { name: "Mangalore to Coorg", href: "/mangalore-to-coorg-taxi" }
+    ],
+    description: "Mangalore is known for port city, mangalorean cuisine, kudroli temple, new mangalore port. DropTaxi provides one way drop taxi and outstation cab service from Mangalore to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  hubli: {
+    pickupPoints: ["Hubli Railway Station", "Hubli Bus Stand", "Deshpande Nagar", "Gokul Road", "Vidyanagar"],
+    popularRoutes: [
+    ],
+    description: "Hubli is known for commercial capital of north karnataka, railway junction, trade hub. DropTaxi provides one way drop taxi and outstation cab service from Hubli to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  coorg: {
+    pickupPoints: ["Madikeri Bus Stand", "Kushalnagar", "Virajpet", "Gonikoppal", "Somwarpet"],
+    popularRoutes: [
+      { name: "Coorg to Mysore", href: "/coorg-to-mysore-cab" },
+      { name: "Coorg to Bangalore", href: "/coorg-to-bangalore-taxi" },
+      { name: "Coorg to Mangalore", href: "/coorg-to-mangalore-taxi" }
+    ],
+    description: "Coorg is known for scotland of india, coffee plantations, abbey falls, dubare elephant camp. DropTaxi provides one way drop taxi and outstation cab service from Coorg to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  hampi: {
+    pickupPoints: ["Hampi Bus Stand", "Hampi Bazaar", "Virupaksha Temple Gate", "Hippie Island"],
+    popularRoutes: [
+      { name: "Hampi to Bangalore", href: "/hampi-to-bangalore-taxi" }
+    ],
+    description: "Hampi is known for unesco world heritage ruins, boulder landscape, backpacker paradise. DropTaxi provides one way drop taxi and outstation cab service from Hampi to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  anantapur: {
+    pickupPoints: ["Anantapur Bus Stand", "Anantapur Railway Station", "Penukonda", "Dharmavaram"],
+    popularRoutes: [
+    ],
+    description: "Anantapur is known for penukonda fort, lepakshi temple, driest district in ap, peanut capital. DropTaxi provides one way drop taxi and outstation cab service from Anantapur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  chittoor: {
+    pickupPoints: ["Chittoor Bus Stand", "Chittoor Railway Station", "Tirupati Road", "Kuppam"],
+    popularRoutes: [
+    ],
+    description: "Chittoor is known for horsley hills, mango orchards, gateway to tirupati. DropTaxi provides one way drop taxi and outstation cab service from Chittoor to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "east-godavari": {
+    pickupPoints: ["Rajahmundry Bus Stand", "Kakinada Bus Stand", "Rajamahendravaram Railway Station"],
+    popularRoutes: [
+    ],
+    description: "East Godavari is known for godavari river delta, coconut groves, rajahmundry, papikondalu. DropTaxi provides one way drop taxi and outstation cab service from East Godavari to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  guntur: {
+    pickupPoints: ["Guntur Bus Stand", "Guntur Junction Railway Station", "Brodipet", "Arundelpet"],
+    popularRoutes: [
+    ],
+    description: "Guntur is known for chilli capital of india, amaravati buddhist stupa, kondaveedu fort. DropTaxi provides one way drop taxi and outstation cab service from Guntur to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kadapa: {
+    pickupPoints: ["Kadapa Bus Stand", "Kadapa Railway Station", "Rajampet", "Proddatur"],
+    popularRoutes: [
+    ],
+    description: "Kadapa is known for ameen peer dargah, gandikota grand canyon, belum caves nearby. DropTaxi provides one way drop taxi and outstation cab service from Kadapa to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  krishna: {
+    pickupPoints: ["Machilipatnam Bus Stand", "Machilipatnam Railway Station", "Gudivada", "Nuzvid"],
+    popularRoutes: [
+    ],
+    description: "Krishna is known for machilipatnam kalamkari art, ancient port city, krishna river delta. DropTaxi provides one way drop taxi and outstation cab service from Krishna to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kurnool: {
+    pickupPoints: ["Kurnool Bus Stand", "Kurnool Railway Station", "Nandyal Road", "Adoni"],
+    popularRoutes: [
+    ],
+    description: "Kurnool is known for belum caves, srisailam temple, former capital of andhra, mantralayam. DropTaxi provides one way drop taxi and outstation cab service from Kurnool to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  nellore: {
+    pickupPoints: ["Nellore Bus Stand", "Nellore Railway Station", "Grand Trunk Road", "Kavali"],
+    popularRoutes: [
+    ],
+    description: "Nellore is known for pulicat lake, mypadu beach, aquaculture hub, udayagiri fort. DropTaxi provides one way drop taxi and outstation cab service from Nellore to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  prakasam: {
+    pickupPoints: ["Ongole Bus Stand", "Ongole Railway Station", "Markapuram", "Chirala"],
+    popularRoutes: [
+    ],
+    description: "Prakasam is known for ongole cattle breed, chirala handlooms, kothapatnam beach. DropTaxi provides one way drop taxi and outstation cab service from Prakasam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  srikakulam: {
+    pickupPoints: ["Srikakulam Bus Stand", "Srikakulam Road Railway Station", "Palasa", "Amadalavalasa"],
+    popularRoutes: [
+    ],
+    description: "Srikakulam is known for arasavalli sun temple, srikurmam temple, northernmost ap district. DropTaxi provides one way drop taxi and outstation cab service from Srikakulam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  vizag: {
+    pickupPoints: ["Visakhapatnam Railway Station", "RTC Complex Bus Stand", "Jagadamba Junction", "Gajuwaka", "MVP Colony"],
+    popularRoutes: [
+    ],
+    description: "Visakhapatnam is known for city of destiny, araku valley, submarine museum, rk beach, it hub. DropTaxi provides one way drop taxi and outstation cab service from Visakhapatnam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  vizianagaram: {
+    pickupPoints: ["Vizianagaram Bus Stand", "Vizianagaram Railway Station", "Fort Area", "Nellimarla"],
+    popularRoutes: [
+    ],
+    description: "Vizianagaram is known for vizianagaram fort, bobbili veena, cultural heritage of north andhra. DropTaxi provides one way drop taxi and outstation cab service from Vizianagaram to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "west-godavari": {
+    pickupPoints: ["Eluru Bus Stand", "Bhimavaram Bus Stand", "Tanuku", "Tadepalligudem"],
+    popularRoutes: [
+    ],
+    description: "West Godavari is known for kolleru lake, bhimavaram prawn farming, dwarka tirumala temple. DropTaxi provides one way drop taxi and outstation cab service from West Godavari to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "alluri-sitharama-raju": {
+    pickupPoints: ["Paderu Bus Stand", "Araku Valley", "Lambasingi"],
+    popularRoutes: [
+    ],
+    description: "Alluri Sitharama Raju is known for araku valley coffee, lambasingi (andhra kashmir), tribal heritage. DropTaxi provides one way drop taxi and outstation cab service from Alluri Sitharama Raju to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  anakapalli: {
+    pickupPoints: ["Anakapalli Bus Stand", "Anakapalli Railway Station", "Yellamanchili", "Narsipatnam"],
+    popularRoutes: [
+    ],
+    description: "Anakapalli is known for anakapalli jaggery, bojjannakonda buddhist heritage, coastal town. DropTaxi provides one way drop taxi and outstation cab service from Anakapalli to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  bapatla: {
+    pickupPoints: ["Bapatla Bus Stand", "Bapatla Railway Station", "Chirala", "Addanki"],
+    popularRoutes: [
+    ],
+    description: "Bapatla is known for bapatla agricultural college, chirala handlooms, coastal heritage. DropTaxi provides one way drop taxi and outstation cab service from Bapatla to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  eluru: {
+    pickupPoints: ["Eluru Bus Stand", "Eluru Railway Station", "Dwaraka Tirumala"],
+    popularRoutes: [
+    ],
+    description: "Eluru is known for eluru carpets, dwaraka tirumala temple, kolleru lake. DropTaxi provides one way drop taxi and outstation cab service from Eluru to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kakinada: {
+    pickupPoints: ["Kakinada Bus Stand", "Samalkot Junction", "Kakinada Port", "Hope Island"],
+    popularRoutes: [
+    ],
+    description: "Kakinada is known for port city, hope island, coringa mangroves, natural gas hub. DropTaxi provides one way drop taxi and outstation cab service from Kakinada to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  konaseema: {
+    pickupPoints: ["Amalapuram Bus Stand", "Amalapuram Town", "Razole", "Kothapeta"],
+    popularRoutes: [
+    ],
+    description: "Konaseema is known for godavari delta island, coconut groves, antarvedi temple. DropTaxi provides one way drop taxi and outstation cab service from Konaseema to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  ntr: {
+    pickupPoints: ["Vijayawada Bus Stand", "Jaggayyapeta", "Nandigama", "Tiruvuru"],
+    popularRoutes: [
+    ],
+    description: "NTR District is known for named after nt rama rao, vijayawada adjacent, kondapalli toys. DropTaxi provides one way drop taxi and outstation cab service from NTR District to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  palnadu: {
+    pickupPoints: ["Narasaraopet Bus Stand", "Macherla", "Gurazala", "Piduguralla"],
+    popularRoutes: [
+    ],
+    description: "Palnadu is known for historic palnadu region, kotappakonda temple, limestone quarries. DropTaxi provides one way drop taxi and outstation cab service from Palnadu to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "parvathipuram-manyam": {
+    pickupPoints: ["Parvathipuram Bus Stand", "Palakonda", "Saluru", "Bobbili"],
+    popularRoutes: [
+    ],
+    description: "Parvathipuram Manyam is known for tribal heritage, eastern ghats forests, bobbili fort. DropTaxi provides one way drop taxi and outstation cab service from Parvathipuram Manyam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "sri-sathya-sai": {
+    pickupPoints: ["Puttaparthi Bus Stand", "Puttaparthi Railway Station", "Prasanthi Nilayam"],
+    popularRoutes: [
+    ],
+    description: "Sri Sathya Sai is known for puttaparthi prasanthi nilayam, sathya sai baba ashram, pilgrimage center. DropTaxi provides one way drop taxi and outstation cab service from Sri Sathya Sai to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  nandyal: {
+    pickupPoints: ["Nandyal Bus Stand", "Nandyal Railway Station", "Banaganapalle", "Atmakur"],
+    popularRoutes: [
+    ],
+    description: "Nandyal is known for mahanandi temple, srisailam dam gateway, banaganapalle mangoes. DropTaxi provides one way drop taxi and outstation cab service from Nandyal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  annamayya: {
+    pickupPoints: ["Rajampet Bus Stand", "Rajampet Railway Station", "Kodur", "Railway Kodur"],
+    popularRoutes: [
+    ],
+    description: "Annamayya is known for talakona waterfalls, annamayya birthplace, sri venkateswara wildlife. DropTaxi provides one way drop taxi and outstation cab service from Annamayya to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  vijayawada: {
+    pickupPoints: ["Vijayawada Junction Railway Station", "Pandit Nehru Bus Station", "Benz Circle", "MG Road", "Kanaka Durga Temple"],
+    popularRoutes: [
+      { name: "Vijayawada to Hyderabad", href: "/vijayawada-to-hyderabad-taxi" },
+      { name: "Vijayawada to Chennai", href: "/vijayawada-to-chennai-taxi" },
+      { name: "Vijayawada to Bangalore", href: "/vijayawada-to-bangalore-taxi" },
+      { name: "Vijayawada to Tirupati", href: "/vijayawada-to-tirupati-taxi" }
+    ],
+    description: "Vijayawada is known for kanaka durga temple, prakasam barrage, business hub of ap. DropTaxi provides one way drop taxi and outstation cab service from Vijayawada to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  rajahmundry: {
+    pickupPoints: ["Rajahmundry Railway Station", "RTC Complex", "Godavari Bridge", "Pushkar Ghat"],
+    popularRoutes: [
+    ],
+    description: "Rajahmundry is known for godavari river, pushkaram, papikondalu boat ride, cultural capital. DropTaxi provides one way drop taxi and outstation cab service from Rajahmundry to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  ongole: {
+    pickupPoints: ["Ongole Bus Stand", "Ongole Railway Station", "Kurnool Road", "Addanki Road"],
+    popularRoutes: [
+    ],
+    description: "Ongole is known for ongole bull breed, kothapatnam beach, tobacco trading hub. DropTaxi provides one way drop taxi and outstation cab service from Ongole to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  adilabad: {
+    pickupPoints: ["Adilabad Bus Stand", "Adilabad Railway Station", "Nirmal Road", "Utnoor"],
+    popularRoutes: [
+    ],
+    description: "Adilabad is known for kuntala waterfall, kawal tiger reserve, tribal heritage. DropTaxi provides one way drop taxi and outstation cab service from Adilabad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "bhadradri-kothagudem": {
+    pickupPoints: ["Kothagudem Bus Stand", "Bhadrachalam Bus Stand", "Bhadrachalam Temple", "Manuguru"],
+    popularRoutes: [
+    ],
+    description: "Bhadradri Kothagudem is known for bhadrachalam temple, godavari river, kinnerasani wildlife. DropTaxi provides one way drop taxi and outstation cab service from Bhadradri Kothagudem to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  hanumakonda: {
+    pickupPoints: ["Hanumakonda Bus Stand", "Kazipet Junction Railway Station", "Warangal Fort Area"],
+    popularRoutes: [
+    ],
+    description: "Hanumakonda is known for thousand pillar temple, warangal fort, kakatiya heritage. DropTaxi provides one way drop taxi and outstation cab service from Hanumakonda to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  jagtial: {
+    pickupPoints: ["Jagtial Bus Stand", "Jagtial Town", "Dharmapuri", "Koratla"],
+    popularRoutes: [
+    ],
+    description: "Jagtial is known for jagtial fort, jute industry, dharmapuri laxmi narasimha temple. DropTaxi provides one way drop taxi and outstation cab service from Jagtial to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  jangaon: {
+    pickupPoints: ["Jangaon Bus Stand", "Jangaon Railway Station", "Station Ghanpur"],
+    popularRoutes: [
+    ],
+    description: "Jangaon is known for station ghanpur temple, handloom weaving, kakatiya era heritage. DropTaxi provides one way drop taxi and outstation cab service from Jangaon to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "jayashankar-bhupalpally": {
+    pickupPoints: ["Bhupalpally Bus Stand", "Mahadevpur", "Kataram", "Tekumatla"],
+    popularRoutes: [
+    ],
+    description: "Jayashankar Bhupalpally is known for dense forests, tribal areas, laknavaram lake, scenic eastern ghats. DropTaxi provides one way drop taxi and outstation cab service from Jayashankar Bhupalpally to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "jogulamba-gadwal": {
+    pickupPoints: ["Gadwal Bus Stand", "Gadwal Railway Station", "Alampur", "Ieeja"],
+    popularRoutes: [
+    ],
+    description: "Jogulamba Gadwal is known for jogulamba temple (shakti peetha), alampur navabrahma temples. DropTaxi provides one way drop taxi and outstation cab service from Jogulamba Gadwal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  kamareddy: {
+    pickupPoints: ["Kamareddy Bus Stand", "Kamareddy Railway Station", "Banswada", "Yellareddy"],
+    popularRoutes: [
+    ],
+    description: "Kamareddy is known for turmeric markets, elgandal fort nearby, agricultural town. DropTaxi provides one way drop taxi and outstation cab service from Kamareddy to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  karimnagar: {
+    pickupPoints: ["Karimnagar Bus Stand", "Karimnagar Town", "Elgandal Fort", "Jagtial Road"],
+    popularRoutes: [
+    ],
+    description: "Karimnagar is known for silver filigree work, elgandal fort, granite exports, education hub. DropTaxi provides one way drop taxi and outstation cab service from Karimnagar to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  khammam: {
+    pickupPoints: ["Khammam Bus Stand", "Khammam Railway Station", "Wyra", "Kothagudem Road"],
+    popularRoutes: [
+    ],
+    description: "Khammam is known for khammam fort, paddy granary, tribal areas, kinnerasani dam. DropTaxi provides one way drop taxi and outstation cab service from Khammam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "kumuram-bheem-asifabad": {
+    pickupPoints: ["Asifabad Bus Stand", "Kerameri", "Kaghaznagar", "Wankidi"],
+    popularRoutes: [
+    ],
+    description: "Kumuram Bheem Asifabad is known for tribal heritage, kumuram bheem freedom fighter, jodeghat memorial. DropTaxi provides one way drop taxi and outstation cab service from Kumuram Bheem Asifabad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mahabubabad: {
+    pickupPoints: ["Mahabubabad Bus Stand", "Mahabubabad Town", "Thorrur", "Kesamudram"],
+    popularRoutes: [
+    ],
+    description: "Mahabubabad is known for tribal district, laknavaram lake, tadvai wildlife, bamboo craft. DropTaxi provides one way drop taxi and outstation cab service from Mahabubabad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mahabubnagar: {
+    pickupPoints: ["Mahabubnagar Bus Stand", "Mahabubnagar Railway Station", "Jadcherla", "Narayanpet Road"],
+    popularRoutes: [
+    ],
+    description: "Mahabubnagar is known for pillalamarri banyan tree, somasila project, handloom weaving. DropTaxi provides one way drop taxi and outstation cab service from Mahabubnagar to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mancherial: {
+    pickupPoints: ["Mancherial Bus Stand", "Mancherial Railway Station", "Bellampalli", "Luxettipet"],
+    popularRoutes: [
+    ],
+    description: "Mancherial is known for singareni coal mines, bellampalli collieries, pranahita river. DropTaxi provides one way drop taxi and outstation cab service from Mancherial to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  medak: {
+    pickupPoints: ["Medak Bus Stand", "Medak Town", "Narsapur", "Toopran"],
+    popularRoutes: [
+    ],
+    description: "Medak is known for medak cathedral, largest church in asia, pochampally handlooms. DropTaxi provides one way drop taxi and outstation cab service from Medak to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "medchal-malkajgiri": {
+    pickupPoints: ["Malkajgiri Bus Stand", "Medchal", "Kompally", "Boduppal", "Uppal"],
+    popularRoutes: [
+    ],
+    description: "Medchal Malkajgiri is known for hyderabad suburb, it corridor extension, keesara temple. DropTaxi provides one way drop taxi and outstation cab service from Medchal Malkajgiri to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mulugu: {
+    pickupPoints: ["Mulugu Bus Stand", "Mulugu Town", "Medaram", "Tadvai"],
+    popularRoutes: [
+    ],
+    description: "Mulugu is known for medaram jatara (largest tribal fair), laknavaram lake, forests. DropTaxi provides one way drop taxi and outstation cab service from Mulugu to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  nagarkurnool: {
+    pickupPoints: ["Nagarkurnool Bus Stand", "Nagarkurnool Town", "Achampet", "Kalwakurthy"],
+    popularRoutes: [
+    ],
+    description: "Nagarkurnool is known for srisailam dam gateway, amrabad tiger reserve, farahabad fort. DropTaxi provides one way drop taxi and outstation cab service from Nagarkurnool to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  nalgonda: {
+    pickupPoints: ["Nalgonda Bus Stand", "Nalgonda Town", "Devarakonda", "Miryalguda"],
+    popularRoutes: [
+    ],
+    description: "Nalgonda is known for nagarjuna sagar dam, panagal gardens, fluoride-free water project. DropTaxi provides one way drop taxi and outstation cab service from Nalgonda to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  narayanpet: {
+    pickupPoints: ["Narayanpet Bus Stand", "Narayanpet Town", "Makthal", "Utkoor"],
+    popularRoutes: [
+    ],
+    description: "Narayanpet is known for narayanpet handloom sarees, cotton weaving, makthal temple. DropTaxi provides one way drop taxi and outstation cab service from Narayanpet to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  nirmal: {
+    pickupPoints: ["Nirmal Bus Stand", "Nirmal Town", "Bhainsa", "Khanapur"],
+    popularRoutes: [
+    ],
+    description: "Nirmal is known for nirmal paintings (lacquer art), basara saraswati temple, sahastrakund. DropTaxi provides one way drop taxi and outstation cab service from Nirmal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  nizamabad: {
+    pickupPoints: ["Nizamabad Bus Stand", "Nizamabad Railway Station", "Bodhan", "Armoor"],
+    popularRoutes: [
+    ],
+    description: "Nizamabad is known for turmeric city, nizamabad fort, kanteshwar temple, pochampally. DropTaxi provides one way drop taxi and outstation cab service from Nizamabad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  peddapalli: {
+    pickupPoints: ["Peddapalli Bus Stand", "Peddapalli Railway Station", "Ramagundam", "Sultanabad"],
+    popularRoutes: [
+    ],
+    description: "Peddapalli is known for ramagundam thermal power, godavarikhani coal mines, industrial hub. DropTaxi provides one way drop taxi and outstation cab service from Peddapalli to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "rajanna-sircilla": {
+    pickupPoints: ["Sircilla Bus Stand", "Sircilla Town", "Vemulawada", "Konaraopet"],
+    popularRoutes: [
+    ],
+    description: "Rajanna Sircilla is known for vemulawada rajanna temple, textile town, powerloom capital. DropTaxi provides one way drop taxi and outstation cab service from Rajanna Sircilla to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  rangareddy: {
+    pickupPoints: ["Shamshabad", "Shadnagar", "Ibrahimpatnam", "Chevella", "Rajendranagar"],
+    popularRoutes: [
+    ],
+    description: "Rangareddy is known for hyderabad it corridor, shamshabad airport area, pharma hub. DropTaxi provides one way drop taxi and outstation cab service from Rangareddy to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  sangareddy: {
+    pickupPoints: ["Sangareddy Bus Stand", "Sangareddy Town", "Zaheerabad", "Patancheru"],
+    popularRoutes: [
+    ],
+    description: "Sangareddy is known for patancheru industrial belt, sangareddy fort, ameenpur heritage. DropTaxi provides one way drop taxi and outstation cab service from Sangareddy to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  siddipet: {
+    pickupPoints: ["Siddipet Bus Stand", "Siddipet Town", "Gajwel", "Dubbak", "Husnabad"],
+    popularRoutes: [
+    ],
+    description: "Siddipet is known for komati cheruvu lake, turmeric market, handloom town. DropTaxi provides one way drop taxi and outstation cab service from Siddipet to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  suryapet: {
+    pickupPoints: ["Suryapet Bus Stand", "Suryapet Town", "Kodad", "Huzurnagar"],
+    popularRoutes: [
+    ],
+    description: "Suryapet is known for mattapalli temple, pilgrimage town, rice and cotton trading. DropTaxi provides one way drop taxi and outstation cab service from Suryapet to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  vikarabad: {
+    pickupPoints: ["Vikarabad Bus Stand", "Vikarabad Railway Station", "Tandur", "Pargi", "Kodangal"],
+    popularRoutes: [
+    ],
+    description: "Vikarabad is known for ananthagiri hills, rock climbing, nature retreat near hyderabad. DropTaxi provides one way drop taxi and outstation cab service from Vikarabad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  wanaparthy: {
+    pickupPoints: ["Wanaparthy Bus Stand", "Wanaparthy Town", "Pebbair", "Pangal"],
+    popularRoutes: [
+    ],
+    description: "Wanaparthy is known for wanaparthy palace, priyadarshini jurala project, former princely state. DropTaxi provides one way drop taxi and outstation cab service from Wanaparthy to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  warangal: {
+    pickupPoints: ["Warangal Bus Stand", "Warangal Railway Station", "Warangal Fort", "Bhadrakali"],
+    popularRoutes: [
+    ],
+    description: "Warangal is known for kakatiya dynasty capital, warangal fort, ramappa temple unesco site. DropTaxi provides one way drop taxi and outstation cab service from Warangal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  "yadadri-bhuvanagiri": {
+    pickupPoints: ["Bhongir Bus Stand", "Bhongir Railway Station", "Yadagirigutta", "Alair"],
+    popularRoutes: [
+    ],
+    description: "Yadadri Bhuvanagiri is known for yadadri lakshmi narasimha temple, bhongir fort, pilgrimage center. DropTaxi provides one way drop taxi and outstation cab service from Yadadri Bhuvanagiri to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  secunderabad: {
+    pickupPoints: ["Secunderabad Junction Railway Station", "Patny", "Paradise Circle", "Trimulgherry", "Bowenpally"],
+    popularRoutes: [
+    ],
+    description: "Secunderabad is known for twin city of hyderabad, major railway junction, cantonment area. DropTaxi provides one way drop taxi and outstation cab service from Secunderabad to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  karaikal: {
+    pickupPoints: ["Karaikal Bus Stand", "Karaikal Port", "Karaikal Beach"],
+    popularRoutes: [
+    ],
+    description: "Karaikal is known for french enclave, karaikal beach, karaikal ammaiyar temple. DropTaxi provides one way drop taxi and outstation cab service from Karaikal to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  mahe: {
+    pickupPoints: ["Mahe Bus Stand", "Mahe River Bridge", "Mahe Town"],
+    popularRoutes: [
+    ],
+    description: "Mahe is known for smallest district of pondicherry, french heritage on malabar coast. DropTaxi provides one way drop taxi and outstation cab service from Mahe to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
+  yanam: {
+    pickupPoints: ["Yanam Bus Stand", "Yanam Town", "Yanam River"],
+    popularRoutes: [
+    ],
+    description: "Yanam is known for french enclave in ap, yanam godavari riverfront, smallest ut district. DropTaxi provides one way drop taxi and outstation cab service from Yanam to all major South Indian cities. Sedan from INR 13/km with verified drivers and 24x7 booking via 78100 46010.",
+  },
 };
