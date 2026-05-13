@@ -1,0 +1,92 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: droptaxi
+  namespace: bharat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: droptaxi
+  template:
+    metadata:
+      labels:
+        app: droptaxi
+    spec:
+      # Pod-level securityContext: matches the UID/GID the Dockerfile creates
+      # (addgroup -g 1001 -S nodejs / adduser -u 1001 -G nodejs nextjs).
+      # runAsNonRoot is enforced by the kubelet — pod refuses to start if
+      # the image runs as UID 0.
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1001
+        runAsGroup: 1001
+        fsGroup: 1001
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: droptaxi
+          image: ride-sharing/droptaxi
+          # Container-level securityContext: drops all Linux capabilities
+          # (a Next.js Node HTTP server needs none) and blocks privilege
+          # escalation via setuid/setgid binaries.
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+            readOnlyRootFilesystem: false  # Next.js writes to .next/cache; flip to true + add emptyDir volume mounts if hardening further
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NODE_ENV
+              value: "production"
+            - name: NEXT_PUBLIC_SITE_URL
+              value: "https://droptaxi.ai"
+          # Runtime secrets (e.g., TELEGRAM_BOT_TOKEN, GOOGLE_MAPS_API_KEY
+          # for server-side use) live in this Secret. Create it manually
+          # with `kubectl create secret generic droptaxi-secrets -n bharat
+          # --from-literal=TELEGRAM_BOT_TOKEN=<new-token-after-rotation>`.
+          # Optional: true means deployment starts even if the Secret is
+          # missing — useful for the first-deploy bootstrap.
+          envFrom:
+            - secretRef:
+                name: droptaxi-secrets
+                optional: true
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: 3000
+            initialDelaySeconds: 10
+            periodSeconds: 15
+            timeoutSeconds: 5
+            failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: 3000
+            initialDelaySeconds: 30
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 3
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "10m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: droptaxi
+  namespace: bharat
+spec:
+  selector:
+    app: droptaxi
+  ports:
+    - port: 3005
+      targetPort: 3000
+      name: http
+  type: ClusterIP

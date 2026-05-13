@@ -1,0 +1,49 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: droptaxi-ingress
+  namespace: bharat
+  annotations:
+    # nginx-ingress-controller is installed cluster-wide (see Tiltfile
+    # prerequisites). Both annotations style + spec.ingressClassName for
+    # compatibility across nginx-ingress versions.
+    kubernetes.io/ingress.class: nginx
+    # cert-manager picks up this annotation and issues a Let's Encrypt cert
+    # for every host in spec.tls.hosts. The letsencrypt-prod ClusterIssuer
+    # is created by the existing cluster-issuer.yaml referenced in your
+    # Tiltfile (line 45). Switch to letsencrypt-staging during first deploy
+    # if you want to avoid Let's Encrypt rate limits while debugging.
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    # Force HTTPS - HTTP requests get a 308 to https://
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    # Strict-Transport-Security via ingress (also set in next.config.ts
+    # headers() — duplicate is harmless, browser uses the longest max-age).
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - droptaxi.ai
+        - www.droptaxi.ai
+      secretName: droptaxi-tls
+  rules:
+    - host: droptaxi.ai
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: droptaxi
+                port:
+                  number: 3005
+    - host: www.droptaxi.ai
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: droptaxi
+                port:
+                  number: 3005
